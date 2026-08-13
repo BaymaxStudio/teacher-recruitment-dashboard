@@ -2,6 +2,8 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import {
   jobs,
+  guangzhouCoverage,
+  officialGuangzhouPoolSource,
   officialShenzhenPoolSource,
   shenzhenCoverage,
   sourceLegend,
@@ -23,11 +25,13 @@ const exportData = {
     ],
     sourceLegend,
     officialShenzhenPoolSource,
+    officialGuangzhouPoolSource,
   },
   jobs: jobs.map(({ stages, ...job }) => ({ ...job, selectionStages: stages })),
   shenzhenCoverage,
+  guangzhouCoverage,
 };
 
 await mkdir(outputDirectory, { recursive: true });
 await writeFile(outputFile, `${JSON.stringify(exportData, null, 2)}\n`, "utf8");
-console.log(`已导出 ${jobs.length} 条岗位记录和 ${shenzhenCoverage.length} 条深圳覆盖记录。`);
+console.log(`已导出 ${jobs.length} 条岗位记录、${shenzhenCoverage.length} 条深圳覆盖记录和 ${guangzhouCoverage.length} 条广州覆盖记录。`);

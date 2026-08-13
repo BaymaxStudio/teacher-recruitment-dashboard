@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { jobs, shenzhenCoverage } from "../app/recruitment-data.ts";
+import { jobs, guangzhouCoverage, shenzhenCoverage } from "../app/recruitment-data.ts";
 
 const verifiedDate = new Date("2026-08-14T23:59:59+08:00");
 
@@ -9,8 +9,18 @@ test("covers the complete Shenzhen official pool", () => {
   assert.equal(new Set(shenzhenCoverage.map((item) => item.name)).size, 49);
 });
 
+test("covers the Guangzhou official pool", () => {
+  assert.equal(guangzhouCoverage.length, 43);
+  assert.equal(new Set(guangzhouCoverage.map((item) => item.name)).size, 43);
+  const outcomes = new Set(["发现相关岗位", "发现教师入口", "本轮未发现相关岗位"]);
+  for (const item of guangzhouCoverage) {
+    assert.ok(outcomes.has(item.outcome), `${item.name} 无效 outcome`);
+  }
+});
+
 test("validates job identifiers, salaries, dates and sources", () => {
   assert.equal(new Set(jobs.map((job) => job.id)).size, jobs.length);
+  assert.ok(jobs.length >= 40, `记录数 ${jobs.length} 少于预期`);
 
   for (const job of jobs) {
     assert.ok(job.sources.length > 0, `${job.id} 缺少来源`);

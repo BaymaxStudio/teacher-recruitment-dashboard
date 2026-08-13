@@ -24,6 +24,10 @@ test("renders the recruitment decision site", async () => {
   assert.match(html, /广东民办中学/);
   assert.match(html, /秋招决策台/);
   assert.match(html, /深圳 49 所官方民办普高检索记录/);
+  assert.match(html, /广州 <!-- -->43<!-- --> 所民办普高检索记录/);
+  assert.match(html, /只看收藏/);
+  assert.match(html, /跟进状态/);
+  assert.match(html, /备考参考/);
   assert.doesNotMatch(html, /Starter Project|Your site is taking shape/);
 });
 
