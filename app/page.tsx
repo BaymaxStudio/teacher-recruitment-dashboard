@@ -3,22 +3,48 @@
 import { useEffect, useMemo, useState, type CSSProperties } from "react";
 import {
   jobs,
+  dongguanCoverage,
+  foshanCoverage,
+  guangzhouCoverage,
+  huizhouCoverage,
+  officialFoshanPoolSource,
+  officialDongguanPoolSource,
+  officialGuangzhouPoolSource,
+  officialHuizhouPoolSource,
   officialShenzhenPoolSource,
+  officialZhuhaiPoolSource,
   shenzhenCoverage,
   sourceLegend,
+  zhuhaiCoverage,
   type JobRecord,
   type RiskLevel,
 } from "./recruitment-data";
 
 type SortKey = "fit" | "salary" | "deadline" | "source" | "process";
 type ActionKey = "now" | "ask" | "prepare" | "wait" | "exclude";
+type FollowupStatus = "未开始" | "已投递" | "已联系" | "面试中" | "已放弃";
 
 const cityOptions = ["全部", "广州 + 深圳", ...Array.from(new Set(jobs.map((job) => job.city)))];
 const roleOptions = ["全部", "政治 + 经济", "政治/道法", "经济/商科", "全球视野/社科", "历史/人文", "其他"];
 const statusOptions = ["全部", "27届开放", "常年储备", "等待27届", "26届参考", "已截止"];
 const languageOptions = ["全部", "中文", "双语", "全英文", "未公开"];
+const followupOptions: FollowupStatus[] = ["未开始", "已投递", "已联系", "面试中", "已放弃"];
 const riskRank: Record<RiskLevel, number> = { 低: 1, 中: 2, 高: 3, 待确认: 4 };
 const sourceRank = { A: 4, B: 3, C: 2, D: 1 } as const;
+
+const latestVerified = jobs.map((job) => job.lastVerified).sort().at(-1) ?? "2026-08-14";
+
+function verifiedAgeDays(date: string) {
+  const verified = new Date(`${date}T00:00:00+08:00`).getTime();
+  return Math.max(0, Math.round((Date.now() - verified) / 86400000));
+}
+
+function verifiedAgeClass(date: string) {
+  const days = verifiedAgeDays(date);
+  if (days <= 14) return "verified-fresh";
+  if (days <= 30) return "verified-warn";
+  return "verified-old";
+}
 
 function salaryBand(job: JobRecord, floor: number) {
   if (job.salaryMin == null && job.salaryMax == null) return "unknown";
@@ -87,6 +113,9 @@ export default function Home() {
   const [favorites, setFavorites] = useState<string[]>([]);
   const [compareIds, setCompareIds] = useState<string[]>([]);
   const [notes, setNotes] = useState<Record<string, string>>({});
+  const [followups, setFollowups] = useState<Record<string, FollowupStatus>>({});
+  const [favoritesOnly, setFavoritesOnly] = useState(false);
+  const [followupFilter, setFollowupFilter] = useState<FollowupStatus | "全部">("全部");
   const [showCompare, setShowCompare] = useState(false);
   const [toast, setToast] = useState("");
   const [storageReady, setStorageReady] = useState(false);
@@ -97,9 +126,11 @@ export default function Home() {
       try {
         setFavorites(JSON.parse(localStorage.getItem("teacher-job-favorites") || "[]"));
         setNotes(JSON.parse(localStorage.getItem("teacher-job-notes") || "{}"));
+        setFollowups(JSON.parse(localStorage.getItem("teacher-job-followups") || "{}"));
       } catch {
         setFavorites([]);
         setNotes({});
+        setFollowups({});
       } finally {
         setStorageReady(true);
       }
@@ -116,6 +147,28 @@ export default function Home() {
     if (!storageReady) return;
     localStorage.setItem("teacher-job-notes", JSON.stringify(notes));
   }, [notes, storageReady]);
+
+  useEffect(() => {
+    if (!storageReady) return;
+    localStorage.setItem("teacher-job-followups", JSON.stringify(followups));
+  }, [followups, storageReady]);
+
+  useEffect(() => {
+    if (!selectedId && !showCompare) return;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setSelectedId(null);
+        setShowCompare(false);
+      }
+    };
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    window.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener("keydown", onKeyDown);
+    };
+  }, [selectedId, showCompare]);
 
   useEffect(() => {
     if (!toast) return;
@@ -172,6 +225,8 @@ export default function Home() {
         const haystack = [job.school, job.district, ...job.roles, ...job.curricula, job.summary].join(" ").toLowerCase();
         if (!haystack.includes(normalizedQuery)) return false;
       }
+      if (favoritesOnly && !favorites.includes(job.id)) return false;
+      if (followupFilter !== "全部" && (followups[job.id] ?? "未开始") !== followupFilter) return false;
       return true;
     });
 
@@ -185,7 +240,7 @@ export default function Home() {
       }
       return b.fitScore - a.fitScore;
     });
-  }, [actionQueue, boardingOnly, certificateRiskLimit, city, curriculum, district, experienceFilter, experienceRiskLimit, freshOnly, hasDemo, includePossible, includeUnknown, language, languageRiskLimit, noWritten, onlineOnly, onsiteOnly, orgType, qualification, query, riskLimit, role, salaryFloor, sortKey, status, workloadFilter]);
+  }, [actionQueue, boardingOnly, certificateRiskLimit, city, curriculum, district, experienceFilter, experienceRiskLimit, favorites, favoritesOnly, followupFilter, followups, freshOnly, hasDemo, includePossible, includeUnknown, language, languageRiskLimit, noWritten, onlineOnly, onsiteOnly, orgType, qualification, query, riskLimit, role, salaryFloor, sortKey, status, workloadFilter]);
 
   const districtOptions = useMemo(() => [
     "全部",
@@ -214,6 +269,7 @@ export default function Home() {
     setExperienceFilter("全部"); setWorkloadFilter("全部"); setActionQueue("all");
     setSalaryFloor(15); setIncludePossible(false); setIncludeUnknown(true); setFreshOnly(false); setNoWritten(false);
     setHasDemo(false); setOnlineOnly(false); setOnsiteOnly(false); setBoardingOnly(false); setQuery(""); setSortKey("fit");
+    setFavoritesOnly(false); setFollowupFilter("全部");
   };
 
   const toggleFavorite = (id: string) => {
@@ -232,10 +288,11 @@ export default function Home() {
   };
 
   const exportCsv = () => {
-    const header = ["城市", "学校", "岗位", "状态", "年薪", "应届生", "授课语言", "专业风险", "教师资格风险", "流程", "投递入口"];
+    const header = ["城市", "学校", "岗位", "状态", "年薪", "应届生", "授课语言", "专业风险", "教师资格风险", "经验年限", "截止时间", "最高来源", "邮箱", "跟进状态", "个人备注", "流程", "投递入口"];
     const rows = filteredJobs.map((job) => [
       job.city, job.school, job.roles.join("/"), job.status, salaryText(job), job.freshGraduate, job.languageMode,
-      job.majorRisk, job.certificateRisk, processSummary(job), job.application,
+      job.majorRisk, job.certificateRisk, job.experienceYears ?? "未公开", job.deadline ?? "", job.sources[0]?.level ?? "",
+      job.email ?? "", followups[job.id] ?? "未开始", notes[job.id] ?? "", processSummary(job), job.application,
     ]);
     const content = [header, ...rows].map((row) => row.map(csvEscape).join(",")).join("\n");
     const blob = new Blob(["\ufeff", content], { type: "text/csv;charset=utf-8" });
@@ -249,7 +306,7 @@ export default function Home() {
   };
 
   const copyTodo = async () => {
-    const text = filteredJobs.map((job, index) => `${index + 1}. ${job.city}｜${job.school}｜${job.roles.join("、")}｜${job.status}｜${salaryText(job)}\n   ${job.applicationNote}\n   ${job.application}`).join("\n");
+    const text = filteredJobs.map((job, index) => `${index + 1}. ${job.city}｜${job.school}｜${job.roles.join("、")}｜${job.status}｜跟进：${followups[job.id] ?? "未开始"}｜${salaryText(job)}\n   ${job.applicationNote}\n   ${job.email ? `邮箱：${job.email}\n   ` : ""}${job.application}`).join("\n");
     try {
       await navigator.clipboard.writeText(text);
       setToast(`已复制${filteredJobs.length}条待办`);
@@ -279,7 +336,7 @@ export default function Home() {
           <div className="hero-note">
             <span>核验口径</span>
             <strong>校方入口优先</strong>
-            <p>26届流程只作参考；未公开不等于没有要求。最近核验：2026-08-14。</p>
+            <p>26届流程只作参考；未公开不等于没有要求。最近核验：{latestVerified}。</p>
           </div>
         </div>
         <div className="stat-row" aria-label="招聘数据概览">
@@ -287,14 +344,14 @@ export default function Home() {
           <div><strong>{stats.actionable}</strong><span>可投或可询问</span></div>
           <div><strong>{stats.qualified}</strong><span>保底薪资达标</span></div>
           <div><strong>{stats.unknown}</strong><span>薪资待确认</span></div>
-          <div><strong>49/49</strong><span>深圳官方池已检索</span></div>
+          <div><strong>{shenzhenCoverage.length}/{shenzhenCoverage.length}</strong><span>深圳官方池已检索</span></div>
         </div>
       </header>
 
       <section className="action-strip" aria-label="行动队列">
         <button className={actionQueue === "now" ? "active" : ""} onClick={() => { setStatus("全部"); setActionQueue("now"); setIncludePossible(true); }}><span>现在可投</span><strong>{actionCounts.now}</strong></button>
         <button className={actionQueue === "ask" ? "active" : ""} onClick={() => { setStatus("全部"); setActionQueue("ask"); }}><span>先询问</span><strong>{actionCounts.ask}</strong></button>
-        <button className={actionQueue === "prepare" ? "active" : ""} onClick={() => { setStatus("全部"); setActionQueue("prepare"); setIncludePossible(true); }}><span>准备笔试/试讲</span><strong>{actionCounts.prepare}</strong></button>
+        <button className={actionQueue === "prepare" ? "active" : ""} onClick={() => { setStatus("全部"); setActionQueue("prepare"); setIncludePossible(true); }}><span>备考参考</span><strong>{actionCounts.prepare}</strong></button>
         <button className={actionQueue === "wait" ? "active" : ""} onClick={() => { setStatus("全部"); setActionQueue("wait"); }}><span>等待秋招</span><strong>{actionCounts.wait}</strong></button>
         <button className={actionQueue === "exclude" ? "active" : ""} onClick={() => { setStatus("全部"); setActionQueue("exclude"); }}><span>低于当前底线</span><strong>{actionCounts.exclude}</strong></button>
       </section>
@@ -320,6 +377,7 @@ export default function Home() {
             <label><span>语言/国际资质</span><select value={qualification} onChange={(event) => setQualification(event.target.value)}><option>全部</option><option>CET-6</option><option>IELTS/TOEFL</option><option>PGCE/QTS</option><option>教师资格可后补</option></select></label>
             <label><span>经验年限</span><select value={experienceFilter} onChange={(event) => setExperienceFilter(event.target.value)}><option>全部</option><option>0—2年</option><option>3年以上</option></select></label>
             <label><span>工作安排</span><select value={workloadFilter} onChange={(event) => setWorkloadFilter(event.target.value)}><option>全部</option><option>明确坐班</option><option>班主任要求/偏好</option><option>明确无夜间值班</option><option>晚班或周末</option></select></label>
+            <label><span>跟进状态</span><select value={followupFilter} onChange={(event) => setFollowupFilter(event.target.value as FollowupStatus | "全部")}><option>全部</option>{followupOptions.map((item) => <option key={item}>{item}</option>)}</select></label>
             <label><span>专业风险</span><select value={riskLimit} onChange={(event) => setRiskLimit(event.target.value)}><option>全部</option><option value="低">只看低风险</option><option value="中">不高于中风险</option></select></label>
             <label><span>证书风险</span><select value={certificateRiskLimit} onChange={(event) => setCertificateRiskLimit(event.target.value)}><option>全部</option><option value="低">只看低风险</option><option value="中">不高于中风险</option></select></label>
             <label><span>语言风险</span><select value={languageRiskLimit} onChange={(event) => setLanguageRiskLimit(event.target.value)}><option>全部</option><option value="低">只看低风险</option><option value="中">不高于中风险</option></select></label>
@@ -353,6 +411,7 @@ export default function Home() {
           <div className="results-toolbar">
             <div><span>RESULTS</span><h2>{filteredJobs.length} 个结果</h2></div>
             <div className="toolbar-actions">
+              <button className={favoritesOnly ? "active" : ""} aria-pressed={favoritesOnly} onClick={() => setFavoritesOnly((current) => !current)}>只看收藏（{favorites.length}）</button>
               <select aria-label="排序方式" value={sortKey} onChange={(event) => setSortKey(event.target.value as SortKey)}>
                 <option value="fit">匹配程度</option><option value="salary">薪资下限</option><option value="deadline">截止时间</option><option value="source">来源可靠度</option><option value="process">准备成本</option>
               </select>
@@ -373,12 +432,16 @@ export default function Home() {
                       <div className="location"><span>{job.city}</span><span>{job.district}</span><span>{job.orgType}</span></div>
                       <div className="card-icons">
                         <button aria-label={favorites.includes(job.id) ? "取消收藏" : "收藏"} className={favorites.includes(job.id) ? "active" : ""} onClick={() => toggleFavorite(job.id)}>{favorites.includes(job.id) ? "★" : "☆"}</button>
+                        {(notes[job.id] || "").trim() !== "" && <span className="note-dot" title="有个人备注">●</span>}
                         <label className="compare-check"><input type="checkbox" checked={compareIds.includes(job.id)} onChange={() => toggleCompare(job.id)} />比较</label>
                       </div>
                     </div>
                     <div className="card-title-row">
                       <div><h3>{job.school}</h3><p>{job.schoolType}</p></div>
-                      <span className={`status status-${job.status}`}>{job.status}</span>
+                      <div className="status-pills">
+                        <span className={`status status-${job.status}`}>{job.status}</span>
+                        {(followups[job.id] ?? "未开始") !== "未开始" && <span className={`followup followup-${followups[job.id]}`}>{followups[job.id]}</span>}
+                      </div>
                     </div>
                     <div className="role-row">{job.roles.map((item) => <span key={item}>{item}</span>)}</div>
                     <p className="summary">{job.summary}</p>
@@ -416,6 +479,61 @@ export default function Home() {
               {shenzhenCoverage.map((item) => <div key={item.name} className={`coverage-item coverage-${item.outcome}`}><span>{item.district}</span><strong>{item.name}</strong><small>{item.outcome} · {item.boarding}</small></div>)}
             </div>
           </section>
+
+          <section className="coverage-section">
+            <div className="coverage-heading">
+              <div><span>COVERAGE</span><h2>广州 {guangzhouCoverage.length} 所民办普高检索记录</h2></div>
+              <a href={officialGuangzhouPoolSource} target="_blank" rel="noreferrer">查看报考指南名单 ↗</a>
+            </div>
+            <p>名单取自市教育局《2026年高中阶段学校报考指南》民办普高部分；“发现相关岗位”含历史或平台线索，不代表 27 届当前开放；未发现不代表学校没有招聘。</p>
+            <div className="coverage-grid">
+              {guangzhouCoverage.map((item) => <div key={item.name} className={`coverage-item coverage-${item.outcome}`}><span>{item.district}</span><strong>{item.name}</strong><small>{item.outcome} · {item.boarding}</small></div>)}
+            </div>
+          </section>
+
+          <section className="coverage-section">
+            <div className="coverage-heading">
+              <div><span>COVERAGE</span><h2>东莞 {dongguanCoverage.length} 所民办普高检索记录</h2></div>
+              <a href={officialDongguanPoolSource} target="_blank" rel="noreferrer">查看招生计划名单 ↗</a>
+            </div>
+            <p>名单取自市教育局《2026年高中阶段学校招生计划》民办普高部分；“发现相关岗位”含历史或平台线索，不代表 27 届当前开放。</p>
+            <div className="coverage-grid">
+              {dongguanCoverage.map((item) => <div key={item.name} className={`coverage-item coverage-${item.outcome}`}><span>{item.district}</span><strong>{item.name}</strong><small>{item.outcome} · {item.boarding}</small></div>)}
+            </div>
+          </section>
+
+          <section className="coverage-section">
+            <div className="coverage-heading">
+              <div><span>COVERAGE</span><h2>佛山 {foshanCoverage.length} 所民办普高检索记录</h2></div>
+              <a href={officialFoshanPoolSource} target="_blank" rel="noreferrer">查看招生计划名单 ↗</a>
+            </div>
+            <p>名单取自市教育局《2026年全市高中阶段学校招生计划》民办普高部分，另补主列表已收录的 4 所；“发现相关岗位”含历史或平台线索，不代表 27 届当前开放。</p>
+            <div className="coverage-grid">
+              {foshanCoverage.map((item) => <div key={item.name} className={`coverage-item coverage-${item.outcome}`}><span>{item.district}</span><strong>{item.name}</strong><small>{item.outcome} · {item.boarding}</small></div>)}
+            </div>
+          </section>
+
+          <section className="coverage-section">
+            <div className="coverage-heading">
+              <div><span>COVERAGE</span><h2>惠州 {huizhouCoverage.length} 所民办普高检索记录</h2></div>
+              <a href={officialHuizhouPoolSource} target="_blank" rel="noreferrer">查看招生计划名单 ↗</a>
+            </div>
+            <p>名单取自市教育局《2026年普通高中学校招生计划表》民办部分；“发现相关岗位”含历史或平台线索，不代表 27 届当前开放。</p>
+            <div className="coverage-grid">
+              {huizhouCoverage.map((item) => <div key={item.name} className={`coverage-item coverage-${item.outcome}`}><span>{item.district}</span><strong>{item.name}</strong><small>{item.outcome} · {item.boarding}</small></div>)}
+            </div>
+          </section>
+
+          <section className="coverage-section">
+            <div className="coverage-heading">
+              <div><span>COVERAGE</span><h2>珠海 {zhuhaiCoverage.length} 所民办普高检索记录</h2></div>
+              <a href={officialZhuhaiPoolSource} target="_blank" rel="noreferrer">查看招生计划名单 ↗</a>
+            </div>
+            <p>名单取自市教育局《2026年普通高中招生计划》民办普高部分；“发现相关岗位”含历史或平台线索，不代表 27 届当前开放。</p>
+            <div className="coverage-grid">
+              {zhuhaiCoverage.map((item) => <div key={item.name} className={`coverage-item coverage-${item.outcome}`}><span>{item.district}</span><strong>{item.name}</strong><small>{item.outcome} · {item.boarding}</small></div>)}
+            </div>
+          </section>
         </section>
       </div>
 
@@ -427,7 +545,7 @@ export default function Home() {
         <div className="overlay" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setSelectedId(null); }}>
           <aside className="detail-panel" role="dialog" aria-modal="true" aria-labelledby="detail-title">
             <button className="close-button" aria-label="关闭" onClick={() => setSelectedId(null)}>×</button>
-            <div className="detail-kicker">{selectedJob.city} · {selectedJob.district} · 核验 {selectedJob.lastVerified}</div>
+            <div className="detail-kicker">{selectedJob.city} · {selectedJob.district} · 核验 <span className={verifiedAgeClass(selectedJob.lastVerified)}>{selectedJob.lastVerified}（{verifiedAgeDays(selectedJob.lastVerified)} 天前）</span></div>
             <h2 id="detail-title">{selectedJob.school}</h2>
             <div className="role-row">{selectedJob.roles.map((item) => <span key={item}>{item}</span>)}</div>
 
@@ -444,6 +562,8 @@ export default function Home() {
             <section className="detail-section"><h3>准备材料</h3><div className="material-list">{selectedJob.materials.map((item) => <span key={item}>□ {item}</span>)}</div></section>
             <section className="detail-section"><h3>薪资与工作负担</h3><p className="detail-salary">{salaryText(selectedJob)} <small>{selectedJob.salaryNote}</small></p><div className="tag-cloud">{[...selectedJob.benefits, ...selectedJob.workload].map((item) => <span key={item}>{item}</span>)}</div></section>
             <section className="detail-section"><h3>投递前确认</h3><p>{selectedJob.applicationNote}</p>{selectedJob.email && <p>公开邮箱：<button className="text-button" onClick={() => copyEmail(selectedJob.email || "")}>{selectedJob.email}（复制）</button></p>}</section>
+            <section className="detail-section"><h3>信息来源</h3><div className="source-pills detail-sources">{selectedJob.sources.map((source) => <a href={source.url} target="_blank" rel="noreferrer" key={source.url}><b>{source.level}</b>{source.label}</a>)}</div></section>
+            <section className="detail-section"><h3>跟进状态</h3><div className="followup-picker">{followupOptions.map((item) => <button key={item} className={(followups[selectedJob.id] ?? "未开始") === item ? "active" : ""} aria-pressed={(followups[selectedJob.id] ?? "未开始") === item} onClick={() => setFollowups((current) => ({ ...current, [selectedJob.id]: item }))}>{item}</button>)}</div></section>
             <section className="detail-section"><h3>个人备注</h3><textarea value={notes[selectedJob.id] || ""} onChange={(event) => setNotes((current) => ({ ...current, [selectedJob.id]: event.target.value }))} placeholder="记录联系结果、准备进度或疑问。备注仅保存在当前浏览器。" /></section>
             <div className="detail-actions"><button onClick={() => toggleFavorite(selectedJob.id)}>{favorites.includes(selectedJob.id) ? "取消收藏" : "收藏学校"}</button><a className="primary-link" href={selectedJob.application} target="_blank" rel="noreferrer">打开投递/公告页 ↗</a></div>
           </aside>
@@ -458,8 +578,11 @@ export default function Home() {
             <div className="compare-table" style={{ "--compare-count": comparedJobs.length } as CSSProperties}>
               <div className="compare-label">学校</div>{comparedJobs.map((job) => <strong key={job.id}>{job.school}</strong>)}
               <div className="compare-label">岗位</div>{comparedJobs.map((job) => <span key={job.id}>{job.roles.join("、")}</span>)}
-              <div className="compare-label">年薪</div>{comparedJobs.map((job) => <span key={job.id}>{salaryText(job)}</span>)}
+              <div className="compare-label">年薪</div>{comparedJobs.map((job) => <span key={job.id}>{salaryText(job)}<br /><small>{job.salaryNote}</small></span>)}
               <div className="compare-label">应届生</div>{comparedJobs.map((job) => <span key={job.id}>{job.freshGraduate}</span>)}
+              <div className="compare-label">学历</div>{comparedJobs.map((job) => <span key={job.id}>{job.degree}</span>)}
+              <div className="compare-label">专业</div>{comparedJobs.map((job) => <span key={job.id}>{job.major}</span>)}
+              <div className="compare-label">到岗</div>{comparedJobs.map((job) => <span key={job.id}>{job.start || "未公开"}</span>)}
               <div className="compare-label">语言</div>{comparedJobs.map((job) => <span key={job.id}>{job.languageMode}<br /><small>{job.language}</small></span>)}
               <div className="compare-label">风险</div>{comparedJobs.map((job) => <span key={job.id}>专业 {job.majorRisk}<br />证书 {job.certificateRisk}<br />经验 {job.experienceRisk}</span>)}
               <div className="compare-label">流程</div>{comparedJobs.map((job) => <span key={job.id}>{processSummary(job)}<br /><small>成本 {job.preparationCost}</small></span>)}

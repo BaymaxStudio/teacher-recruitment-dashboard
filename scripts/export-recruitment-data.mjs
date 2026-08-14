@@ -2,9 +2,19 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import {
   jobs,
+  dongguanCoverage,
+  foshanCoverage,
+  guangzhouCoverage,
+  huizhouCoverage,
+  officialFoshanPoolSource,
+  officialDongguanPoolSource,
+  officialGuangzhouPoolSource,
+  officialHuizhouPoolSource,
   officialShenzhenPoolSource,
+  officialZhuhaiPoolSource,
   shenzhenCoverage,
   sourceLegend,
+  zhuhaiCoverage,
 } from "../app/recruitment-data.ts";
 
 const outputDirectory = new URL("../outputs/", import.meta.url);
@@ -23,11 +33,21 @@ const exportData = {
     ],
     sourceLegend,
     officialShenzhenPoolSource,
+    officialGuangzhouPoolSource,
+    officialDongguanPoolSource,
+    officialFoshanPoolSource,
+    officialHuizhouPoolSource,
+    officialZhuhaiPoolSource,
   },
   jobs: jobs.map(({ stages, ...job }) => ({ ...job, selectionStages: stages })),
   shenzhenCoverage,
+  guangzhouCoverage,
+  dongguanCoverage,
+  foshanCoverage,
+  huizhouCoverage,
+  zhuhaiCoverage,
 };
 
 await mkdir(outputDirectory, { recursive: true });
 await writeFile(outputFile, `${JSON.stringify(exportData, null, 2)}\n`, "utf8");
-console.log(`已导出 ${jobs.length} 条岗位记录和 ${shenzhenCoverage.length} 条深圳覆盖记录。`);
+console.log(`已导出 ${jobs.length} 条岗位记录，覆盖：深圳 ${shenzhenCoverage.length}、广州 ${guangzhouCoverage.length}、东莞 ${dongguanCoverage.length}、佛山 ${foshanCoverage.length}、惠州 ${huizhouCoverage.length}、珠海 ${zhuhaiCoverage.length}。`);

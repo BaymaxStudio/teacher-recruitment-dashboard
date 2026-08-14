@@ -275,6 +275,12 @@ a {
   background: var(--ink);
 }
 
+.toolbar-actions button.active {
+  color: #fff;
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+}
+
 .search-field,
 .filter-grid label,
 .salary-filter {
@@ -525,6 +531,44 @@ a {
 
 .status-已截止 {
   background: #7a7c78;
+}
+
+.status-pills {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex: 0 0 auto;
+}
+
+.followup {
+  padding: 6px 10px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.followup-已投递 {
+  background: var(--blue);
+}
+
+.followup-已联系 {
+  background: var(--green);
+}
+
+.followup-面试中 {
+  color: var(--ink);
+  background: #f5cd3d;
+}
+
+.followup-已放弃 {
+  background: #7a7c78;
+}
+
+.note-dot {
+  color: var(--accent);
+  font-size: 14px;
+  line-height: 1;
 }
 
 .role-row,
@@ -805,6 +849,18 @@ a {
   color: var(--accent-dark);
 }
 
+.verified-fresh {
+  color: var(--green);
+}
+
+.verified-warn {
+  color: var(--amber);
+}
+
+.verified-old {
+  color: var(--accent-dark);
+}
+
 .detail-panel > h2,
 .compare-modal > h2 {
   margin: 8px 0 12px;
@@ -969,6 +1025,33 @@ a {
   border: 1px solid var(--line-dark);
   outline: 0;
   background: #fff;
+}
+
+.followup-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.followup-picker button {
+  padding: 7px 13px;
+  border: 1px solid var(--line-dark);
+  background: transparent;
+}
+
+.followup-picker button:hover {
+  color: #fff;
+  background: var(--ink);
+}
+
+.followup-picker button.active {
+  color: #fff;
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+}
+
+.detail-sources {
+  max-width: none;
 }
 
 .detail-actions {

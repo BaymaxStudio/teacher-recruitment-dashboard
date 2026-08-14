@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { jobs, shenzhenCoverage } from "../app/recruitment-data.ts";
+import { jobs, dongguanCoverage, foshanCoverage, guangzhouCoverage, huizhouCoverage, shenzhenCoverage, zhuhaiCoverage } from "../app/recruitment-data.ts";
 
 const verifiedDate = new Date("2026-08-14T23:59:59+08:00");
 
@@ -9,8 +9,21 @@ test("covers the complete Shenzhen official pool", () => {
   assert.equal(new Set(shenzhenCoverage.map((item) => item.name)).size, 49);
 });
 
+test("covers the other city official pools", () => {
+  const pools = { guangzhouCoverage, dongguanCoverage, foshanCoverage, huizhouCoverage, zhuhaiCoverage };
+  const outcomes = new Set(["发现相关岗位", "发现教师入口", "本轮未发现相关岗位"]);
+  for (const [key, pool] of Object.entries(pools)) {
+    assert.equal(new Set(pool.map((item) => item.name)).size, pool.length, `${key} 学校名重复`);
+    assert.ok(pool.length >= 9, `${key} 数量过少：${pool.length}`);
+    for (const item of pool) {
+      assert.ok(outcomes.has(item.outcome), `${key} ${item.name} 无效 outcome`);
+    }
+  }
+});
+
 test("validates job identifiers, salaries, dates and sources", () => {
   assert.equal(new Set(jobs.map((job) => job.id)).size, jobs.length);
+  assert.ok(jobs.length >= 48, `记录数 ${jobs.length} 少于预期`);
 
   for (const job of jobs) {
     assert.ok(job.sources.length > 0, `${job.id} 缺少来源`);
