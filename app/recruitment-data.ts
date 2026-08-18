@@ -63,6 +63,8 @@ export type JobRecord = {
   email?: string;
   applicationNote: string;
   summary: string;
+  // 预计复查月份（YYYY-MM），用于等待/参考/已截止记录的复查提醒
+  reviewHint?: string;
   fitScore: number;
   sources: SourceLink[];
   lastVerified: string;
@@ -131,10 +133,11 @@ export const jobs: JobRecord[] = [
     application: "https://jy.gzhu.edu.cn/index.php/web/Index/jobs-brief-detail?id=SVUXSTN", email: "gzlgsyhr@126.com",
     applicationNote: "旧公告不可直接当作27届入口；建议在2026年11月下旬复查。",
     summary: "上一届明确招政治并接受应届生，薪资达到默认门槛，是广州秋季重点观察对象。",
+    reviewHint: "2026-11",
     sources: [
       { label: "26届高校就业网公告", url: "https://jy.gzhu.edu.cn/index.php/web/Index/jobs-brief-detail?id=SVUXSTN", level: "B" },
       { label: "学校官网", url: "https://www.gzlgsyxx.com/", level: "A" },
-    ], lastVerified: "2026-08-14",
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "gz-tianxing-politics", city: "广州", district: "天河", school: "广州市天省实验学校",
@@ -147,25 +150,29 @@ export const jobs: JobRecord[] = [
     application: "https://www.gdems.cn/list/16.html", email: "txsyzp@126.com",
     applicationNote: "27届公告尚未发布；官方人才页停留在2024版本，2026年12月重点复查。",
     summary: "上一轮全科招聘含初高中政治，长期页接受应届生。",
+    reviewHint: "2026-12",
     sources: [
       { label: "官方人才页", url: "https://www.gdems.cn/list/16.html", level: "A" },
+      { label: "26届参考公告（邮箱hr@gdems.cn）", url: "https://www.hljbys.org.cn/campus/view/id/63422/mark/jmsu", level: "B" },
       { label: "26届参考", url: "https://www.gaoxiaojob.com/company/detail/7173.html", level: "C" },
-    ], lastVerified: "2026-08-14",
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "gz-yuanya-politics", city: "广州", district: "白云", school: "广州市源雅学校",
     schoolType: "民办非营利十二年一贯制学校", roles: ["初中道法"], status: "等待27届",
     freshGraduate: "未公开", degree: "本科及以上", major: "相关专业", certificate: "相应教师资格证",
-    languageMode: "中文", language: "未公开普通话等级", experienceYears: 3, experience: "当前道法岗要求3年以上经验",
-    salaryMin: 20, salaryMax: 40, salaryNote: "第三方道法岗区间（3年经验岗），需校方确认",
-    certificateRisk: "低", majorRisk: "高", languageRisk: "低", experienceRisk: "高", fitScore: 55,
+    languageMode: "中文", language: "未公开普通话等级", experienceYears: 5, experience: "道法岗两帖要求3—5年以上经验（其中一帖须3届广州初三把关）",
+    salaryMin: 20, salaryMax: 40, salaryNote: "第三方道法岗区间（经验岗），需校方确认",
+    certificateRisk: "低", majorRisk: "高", languageRisk: "低", experienceRisk: "高", fitScore: 50,
     application: "https://www.yuanyaedu.com/", email: "gzyyxx2021@163.com",
-    applicationNote: "未发现27届公告；当前在招道法岗为经验岗。",
-    summary: "道法岗当前为3年经验岗（20—40万），应届生口径需校方确认。",
+    applicationNote: "未发现27届公告；当前在招道法岗为经验岗（3—5年以上）。",
+    summary: "道法岗为3—5年以上经验岗（20—40万），应届生口径需校方确认。",
+    reviewHint: "2026-11",
     sources: [
       { label: "学校官网", url: "https://www.yuanyaedu.com/", level: "A" },
       { label: "初中道法教师岗位页", url: "https://m.job910.com/jobs_view_755963.html", level: "C" },
-    ], lastVerified: "2026-08-14",
+      { label: "初中道法教师岗位页（5年以上）", url: "https://m.job910.com/jobs_view_858844.html", level: "C" },
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "gz-experimental-fl-politics", city: "广州", district: "白云", school: "广州市实验外语学校",
@@ -174,7 +181,7 @@ export const jobs: JobRecord[] = [
     certificate: "相关学科教师资格", languageMode: "中文", language: "国际课程另行确认", experience: "旧公告曾接受毕业一年内应届生",
     salaryMin: 19, salaryMax: 40, salaryNote: "第三方初中政治岗区间，不是校方应届生承诺",
     certificateRisk: "中", majorRisk: "高", languageRisk: "低", experienceRisk: "中", fitScore: 55,
-    application: "https://eg.gdufs.edu.cn/index/rczp.htm",
+    application: "https://eg.gdufs.edu.cn/index/rczp.htm", email: "gwfxzp@126.com",
     applicationNote: "最新官方公告（2026-04-28）已不含政治岗，当前证据均为历史线索。",
     summary: "历史政治岗薪资较高，但最新公告已无政治岗，只作观察。",
     sources: [
@@ -182,7 +189,7 @@ export const jobs: JobRecord[] = [
       { label: "最新官方公告（2026-04-28）", url: "https://www.gwdwx.com:9999/job/Headlineshow.aspx?m=137003&i=100005364731156", level: "A" },
       { label: "旧官方政治要求", url: "https://www.gwdwx.com/job/Headlineshow.aspx?i=100004395985283&m=137003", level: "A" },
       { label: "第三方岗位", url: "https://www.lipind.com/position/detail/1014269.html", level: "C" },
-    ], lastVerified: "2026-08-14",
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "gz-weiming-politics", city: "广州", district: "海珠", school: "广州市为明学校",
@@ -194,7 +201,7 @@ export const jobs: JobRecord[] = [
     application: "https://www.job910.com/jobs_view_912794.html",
     applicationNote: "当前入口是2026年到岗成熟教师职位，不是27届校招。",
     summary: "薪资达标但经验门槛高，适合作为市场薪资参考。",
-    sources: [{ label: "当前高中政治岗", url: "https://www.job910.com/jobs_view_912794.html", level: "C" }], lastVerified: "2026-08-14",
+    sources: [{ label: "当前高中政治岗", url: "https://www.job910.com/jobs_view_912794.html", level: "C" }], lastVerified: "2026-08-18",
   }),
   school({
     id: "gz-huamei-reserve", city: "广州", district: "天河", school: "广州华美英语实验学校",
@@ -205,7 +212,7 @@ export const jobs: JobRecord[] = [
     application: "https://www.hm163.com/col134/index", email: "hm123@huamei163.com", fitScore: 55,
     applicationNote: "先邮件询问2027年秋季政治、经济或人文岗位。",
     summary: "官方人才页长期开放，但尚未检出27届相关学科公告。",
-    sources: [{ label: "官方招聘页", url: "https://www.hm163.com/col134/index", level: "A" }], lastVerified: "2026-08-14",
+    sources: [{ label: "官方招聘页", url: "https://www.hm163.com/col134/index", level: "A" }], lastVerified: "2026-08-18",
   }),
   school({
     id: "gz-gis-economics", city: "广州", district: "白云", school: "广外国际学校（广州）",
@@ -218,7 +225,7 @@ export const jobs: JobRecord[] = [
     application: "https://gisen.gdufs.edu.cn/Recruitment.htm", email: "GIS_GZ@163.com",
     applicationNote: "先邮件确认能否接受2027年秋季到岗的应届生（邮件主题需标注Fresh/Previous graduate）。",
     summary: "专业方向匹配度高，但英语授课和经验要求是主要门槛。",
-    sources: [{ label: "官方招聘页", url: "https://gisen.gdufs.edu.cn/Recruitment.htm", level: "A" }], lastVerified: "2026-08-14",
+    sources: [{ label: "官方招聘页", url: "https://gisen.gdufs.edu.cn/Recruitment.htm", level: "A" }], lastVerified: "2026-08-18",
   }),
   school({
     id: "gz-hfi-business", city: "广州", district: "天河", school: "华附国际部 HFI",
@@ -236,10 +243,11 @@ export const jobs: JobRecord[] = [
     ],
     applicationNote: "页面对应2026—2027学年，不是27届入口。",
     summary: "商科方向匹配，但全英文授课与国际课程经验要求较高。",
+    reviewHint: "2026-11",
     sources: [
       { label: "官方公告", url: "https://www.gdhfi.com/news/1455.html", level: "A" },
       { label: "官方职位页", url: "https://www.gdhfi.com/jobs/index.html", level: "A" },
-    ], lastVerified: "2026-08-14",
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "gz-zhonghuang-dse", city: "广州", district: "多校区", school: "中黄教育旗下广州学校",
@@ -252,7 +260,9 @@ export const jobs: JobRecord[] = [
     sources: [
       { label: "集团官方人才页", url: "https://www.czwie.com/zwie/talent", level: "A" },
       { label: "第三方岗位汇总", url: "https://50750.zp.job910.com/?at=1207", level: "C" },
-    ], lastVerified: "2026-08-14",
+      { label: "DSE经济教师(J11720)-前程无忧", url: "https://jobs.51job.com/guangzhou/166874854.html", level: "C" },
+      { label: "DSE历史教师-K12(J11987)-前程无忧", url: "https://msearch.51job.com/jobs/guangzhou/172582038.html", level: "C" },
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "gz-chaohui-politics", city: "广州", district: "南沙", school: "广州南沙朝晖学校",
@@ -263,7 +273,8 @@ export const jobs: JobRecord[] = [
     certificateRisk: "中", majorRisk: "高", languageRisk: "低", experienceRisk: "低", fitScore: 55,
     application: "https://www.nsrcup.com/notice/596", applicationNote: "已过截止日期，仅作春夏季补录参考。",
     summary: "明确接受应届硕士，但薪资下限低于默认门槛且本轮已截止。",
-    sources: [{ label: "南沙人才招聘公告", url: "https://www.nsrcup.com/notice/596", level: "B" }], lastVerified: "2026-08-14",
+    reviewHint: "2027-06",
+    sources: [{ label: "南沙人才招聘公告", url: "https://www.nsrcup.com/notice/596", level: "B" }], lastVerified: "2026-08-18",
   }),
   school({
     id: "fs-bgy-economics", city: "顺德", district: "北滘", school: "广东碧桂园学校",
@@ -286,7 +297,8 @@ export const jobs: JobRecord[] = [
     sources: [
       { label: "集团官方人才页", url: "https://www.cg-schools.com/join_us.html", level: "A" },
       { label: "双语经济教师岗（第三方）", url: "http://hz.jrzp.com/main/job/jobDetails.aspx?pid=2255829", level: "C" },
-    ], lastVerified: "2026-08-14",
+      { label: "高校就业网·通用招聘公告(2025-09-25)", url: "https://www.hljbys.org.cn/campus/view/id/61890/mark/jmsu", level: "B" },
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "fs-desheng-politics-econ", city: "顺德", district: "大良", school: "广东顺德德胜学校",
@@ -294,15 +306,16 @@ export const jobs: JobRecord[] = [
     freshGraduate: "不接受/经验岗", degree: "本科及以上", major: "专业匹配", certificate: "对应学科教师资格",
     languageMode: "双语", language: "经济岗需确认双语/英语要求", experienceYears: 3, experience: "公开岗位约3年经验",
     salaryMin: 23, salaryMax: 46, salaryNote: "政治储备岗总区间；经济岗无活跃来源",
-    certificateRisk: "中", majorRisk: "中", languageRisk: "中", experienceRisk: "高", fitScore: 60,
-    application: "https://www.job910.com/jobs_view_841585.html", email: "deshengschool@desheng-school.com",
-    applicationNote: "政治岗仅存储备岗；官方2026公告高中岗不含政治/经济。",
-    summary: "政治储备岗薪资有吸引力，但官方公告暂无政治/经济岗，三年经验是明确障碍。",
+    certificateRisk: "中", majorRisk: "中", languageRisk: "中", experienceRisk: "高", fitScore: 66,
+    application: "https://www.job910.com/jobs_view_841585.html", email: "503492819@qq.com",
+    applicationNote: "08-16经南京金职人才发布高中政治招聘（3年以上24万+，邮箱503492819@qq.com）；校方官方公告仍无政治岗。",
+    summary: "政治岗从仅储备变为08-16委托招聘在招（3年以上24万+）；经济岗仍无活跃来源。",
     sources: [
       { label: "高中政治储备岗", url: "https://www.job910.com/jobs_view_841585.html", level: "C" },
       { label: "顺德教育信息网官方公告", url: "http://news.sdedu.net/newsFile/newsPage/431778204509140.html", level: "B" },
       { label: "高校人才网转载", url: "https://www.gaoxiaojob.com/announcement/detail/400602.html", level: "C" },
-    ], lastVerified: "2026-08-14",
+      { label: "高校就业网·德胜招聘高中政治、地理(2026-08-16)", url: "http://jycyxxw.bjwlxy.cn/detail/news?id=1814668", level: "B" },
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "fs-meichen-politics", city: "顺德", district: "大良", school: "顺德区美辰学校",
@@ -313,24 +326,28 @@ export const jobs: JobRecord[] = [
     application: "https://www.job910.com/school_view_31817.html", email: "sdmcschool@163.com",
     applicationNote: "页面未写27届和截止时间，先邮件询问；电话0757-22367193（陆老师·初中）。",
     summary: "初中政治证书匹配较好，但非师范或非思政专业存在风险。",
+    reviewHint: "2026-06",
     sources: [
       { label: "学校岗位页", url: "https://www.job910.com/school_view_31817.html", level: "C" },
+      { label: "初中部2026招聘公告原文（公众号）", url: "https://mp.weixin.qq.com/s/aIT1qdjqOYExcFxIXy8M8g", level: "A" },
       { label: "2026初中部招聘公告转载", url: "http://foshan.offcn.com/html/2026/06/70706.html", level: "C" },
-    ], lastVerified: "2026-08-14",
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "fs-dongyiwan-politics", city: "顺德", district: "容桂", school: "广东实验中学顺德学校（东逸湾实验学校）",
-    schoolType: "民办K12", roles: ["初中政治", "高中政治"], status: "等待27届", published: "2026-08-13",
+    schoolType: "民办K12", roles: ["高中政治"], status: "等待27届", published: "2026-08-06",
     freshGraduate: "明确接受", degree: "未公开", major: "未公开", certificate: "按学段核验", languageMode: "中文", language: "未公开",
     experience: "2025/2026届应届毕业生及社会人员", salaryMin: 20, salaryMax: 35, salaryNote: "教师综合年薪区间（2026-08-13公告）",
     certificateRisk: "中", majorRisk: "高", languageRisk: "低", experienceRisk: "低", fitScore: 75,
-    application: "https://www.gaoxiaojob.com/announcement/detail/422920.html", email: "gdsysd@126.com",
-    applicationNote: "新公告2026-08-13发布但转载页已标下线，投递前先邮件确认是否仍接收。",
-    summary: "政治岗2026-08-13重新出现，综合年薪20—35万，27届尚未开放。",
+    application: "https://mp.weixin.qq.com/s/I3p5GSaKQUhfj5dpxTPB_w", email: "gdsysd@126.com",
+    applicationNote: "08-06公告含高中政治（20—35万，2025/2026届）；08-18新版公告已撤政治岗改招地理，投递前先邮件确认。",
+    summary: "高中政治岗08-06在招、08-18公告已撤岗；应届口径为2025/2026届，27届尚未开放。",
+    reviewHint: "2026-11",
     sources: [
-      { label: "学校官方公众号公告", url: "https://mp.weixin.qq.com/s/I3p5GSaKQUhfj5dpxTPB_w", level: "A" },
-      { label: "高校人才网新公告", url: "https://www.gaoxiaojob.com/announcement/detail/422920.html", level: "C" },
-    ], lastVerified: "2026-08-14",
+      { label: "新版高中教师公告(2026-08-18公众号，已无政治岗)", url: "https://mp.weixin.qq.com/s/DRCHUsGYs1_0-jH_s6aRUw", level: "A" },
+      { label: "中公转载·新版高中教师公告", url: "http://foshan.offcn.com/html/2026/08/71441.html", level: "C" },
+      { label: "学校官方公众号公告(08-06，含政治岗)", url: "https://mp.weixin.qq.com/s/I3p5GSaKQUhfj5dpxTPB_w", level: "A" },
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "fs-yangzheng-civics", city: "顺德", district: "北滘", school: "顺德养正学校",
@@ -342,7 +359,11 @@ export const jobs: JobRecord[] = [
     application: "https://www.gaoxiaojob.com/announcement/detail/25007.html", email: "gdsdyzxx@163.com",
     applicationNote: "投递前核实页面是否仍收简历及应届生标准；电话0757-22683281（廖老师）。",
     summary: "证书方向较匹配，但专业与师范背景要求偏严。",
-    sources: [{ label: "招聘参考公告", url: "https://www.gaoxiaojob.com/announcement/detail/25007.html", level: "C" }], lastVerified: "2026-08-14",
+    reviewHint: "2026-07",
+    sources: [
+      { label: "招聘参考公告", url: "https://www.gaoxiaojob.com/announcement/detail/25007.html", level: "C" },
+      { label: "云就业·养正2026高薪礼聘", url: "https://lzpu.bysjy.com.cn/detail/online?id=3534011", level: "B" },
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "fs-asj-economics", city: "佛山", district: "南海", school: "佛山暨大港澳子弟学校 ASJ",
@@ -357,7 +378,7 @@ export const jobs: JobRecord[] = [
       { label: "学校官网", url: "https://asjfoshan.org.cn/sys-index/", level: "A" },
       { label: "官方公众号师资招募", url: "https://mp.weixin.qq.com/s/QfIAtTcMxNQc9nuZtfeosA", level: "A" },
       { label: "第三方岗位页", url: "https://www.job910.com/school_view_131444.html", level: "C" },
-    ], lastVerified: "2026-08-14",
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "fs-zhonghuang-econ", city: "顺德", district: "乐从", school: "中黄星瑜港澳子弟学校",
@@ -370,7 +391,8 @@ export const jobs: JobRecord[] = [
     sources: [
       { label: "学校官方联系页", url: "https://www.fszwss.com/zwss/contact", level: "A" },
       { label: "集团招聘门户", url: "http://job.czwie.com/", level: "A" },
-    ], lastVerified: "2026-08-14",
+      { label: "51job·中黄DSE经济教师（广州校区，线索）", url: "https://jobs.51job.com/guangzhou/166874854.html", level: "D" },
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "dg-hanlin-politics", city: "东莞", district: "南城", school: "东莞市翰林实验学校",
@@ -390,10 +412,11 @@ export const jobs: JobRecord[] = [
     application: "https://comm.ecnu.edu.cn/87/fc/c51755a755708/page.htm", email: "3684240289@qq.com",
     applicationNote: "26届已截止，可按流程提前准备27届材料；校方另有官方网申系统。",
     summary: "应届生友好且流程公开完整，是春招准备样本。",
+    reviewHint: "2026-11",
     sources: [
       { label: "高校就业网公告", url: "https://comm.ecnu.edu.cn/87/fc/c51755a755708/page.htm", level: "B" },
       { label: "学校官方网申系统", url: "https://hl.dgjy.net/", level: "A" },
-    ], lastVerified: "2026-08-14",
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "dg-yuhuayuan-politics", city: "东莞", district: "凤岗", school: "南城御花苑外国语学校高中部",
@@ -405,7 +428,8 @@ export const jobs: JobRecord[] = [
     application: "https://job.gzus.edu.cn/detail/jobfair_apply?apply_id=1676523&company_id=682517", email: "YHYWGYXX@163.com",
     applicationNote: "2026年到岗参考，不是27届入口。",
     summary: "应届生友好，但师范对口专业要求严格，薪资下限低于默认门槛。",
-    sources: [{ label: "高校就业网招聘页", url: "https://job.gzus.edu.cn/detail/jobfair_apply?apply_id=1676523&company_id=682517", level: "B" }], lastVerified: "2026-08-14",
+    reviewHint: "2026-11",
+    sources: [{ label: "高校就业网招聘页", url: "https://job.gzus.edu.cn/detail/jobfair_apply?apply_id=1676523&company_id=682517", level: "B" }], lastVerified: "2026-08-18",
   }),
   school({
     id: "hz-honghua-politics", city: "惠州", district: "仲恺", school: "惠州宏华中学",
@@ -415,13 +439,15 @@ export const jobs: JobRecord[] = [
     benefits: ["教师公寓", "用餐补贴", "五险一金"], workload: ["班主任经验优先"], boarding: true,
     certificateRisk: "中", majorRisk: "高", languageRisk: "低", experienceRisk: "低", fitScore: 70,
     application: "https://career.smbu.edu.cn/detail/jobfair_apply?apply_id=1123680&company_id=528310", email: "zhaopin@hzhonyijy.com",
-    applicationNote: "表单是否仍接收需先确认；联系人19820020183（李老师，微信同号）。",
+    applicationNote: "表单是否仍接收需先确认；联系人19820020183（李老师，微信同号）。平台政治专岗标2年以上经验，与校方简章应届口径有出入，以校方简章为准。",
     summary: "明确考虑优秀应届生，当前简章应届薪资带13—20万，低于旧口径。",
+    reviewHint: "2026-11",
     sources: [
       { label: "高校就业网更新版简章", url: "https://career.smbu.edu.cn/detail/jobfair_apply?apply_id=1123680&company_id=528310", level: "B" },
       { label: "旧版简章", url: "https://www.hip.edu.cn/jyzx/info/1018/2363.htm", level: "B" },
       { label: "青年教师岗位页", url: "https://m.job910.com/jobs_view_867781.html", level: "C" },
-    ], lastVerified: "2026-08-14",
+      { label: "高中政治教师（青年教师）专岗", url: "https://www.job910.com/jobs_view_753543.html", level: "C" },
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "hz-guangzheng-politics", city: "惠州", district: "惠城", school: "惠州市光正实验学校",
@@ -429,12 +455,11 @@ export const jobs: JobRecord[] = [
     freshGraduate: "可能接受", degree: "本科及以上", major: "偏好优秀师范院校", certificate: "初中政治教师资格",
     languageMode: "中文", language: "未公开", experience: "优秀应届生可能接受", salaryMin: 12, salaryMax: 25, salaryNote: "平台初中教师总区间",
     boarding: true, certificateRisk: "低", majorRisk: "高", languageRisk: "低", experienceRisk: "中", fitScore: 58,
-    application: "https://77260.zp.job910.com/", applicationNote: "通过微信hzgzhr向校方确认职位。",
+    application: "https://77260.zp.job910.com/", applicationNote: "官网域名已被劫持（博彩垃圾内容），通过微信hzgzhr向校方确认职位。",
     summary: "证书方向较匹配，但薪资下限和专业要求需确认。",
     sources: [
-      { label: "学校官网", url: "https://www.hzgzps.com/", level: "A" },
       { label: "教师招聘平台学校页", url: "https://77260.zp.job910.com/", level: "C" },
-    ], lastVerified: "2026-08-14",
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "zh-yifu-politics", city: "珠海", district: "香洲", school: "珠海一附实验中学",
@@ -444,10 +469,12 @@ export const jobs: JobRecord[] = [
     application: "https://job.x3cn.com/notice/2848", email: "zhyzfssy@163.com",
     applicationNote: "2026年夏季公告，常年接收各科简历；高中部邮箱zhyzfssy@163.com。",
     summary: "政治岗与薪资、官方邮箱均可核验，来源为高校就业网与地方招聘平台。",
+    reviewHint: "2026-12",
     sources: [
       { label: "高校就业网公告", url: "https://www.hljbys.org.cn/campus/view/id/59498/mark/jmsu", level: "B" },
       { label: "香山直聘2026夏季公告", url: "https://job.x3cn.com/notice/2848", level: "C" },
-    ], lastVerified: "2026-08-14",
+      { label: "师途·高中政治教师岗", url: "https://www.szdt821.com/wap/index.php?c=job&a=comapply&id=55185", level: "C" },
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "sz-scie-social-science", city: "深圳", district: "福田", school: "深圳国际交流书院 SCIE",
@@ -456,7 +483,7 @@ export const jobs: JobRecord[] = [
     certificate: "PGCE、QTS或同等教学资质", languageMode: "全英文", language: "全英文工作与授课；未公布IELTS分数",
     experienceYears: 2, experience: "至少2年A-Level/IGCSE/AP相关经验", salaryNote: "固定薪级但未公开数值",
     benefits: ["校方住宿", "国际医疗", "机票津贴"], workload: ["周一至周五", "约50%课表", "每周1小时课外活动", "多数教师承担约20人导师组", "无宿舍夜间值班"], boarding: true,
-    writtenTest: null, demoLesson: null, onlinePossible: null, certificateRisk: "高", majorRisk: "低", languageRisk: "高", experienceRisk: "高", preparationCost: "高", fitScore: 72,
+    writtenTest: null, demoLesson: null, onlinePossible: null, certificateRisk: "高", majorRisk: "低", languageRisk: "高", experienceRisk: "高", preparationCost: "高", fitScore: 64,
     stages: [
       { name: "邮件申请", detail: "求职信与CV发送至jobs@scie.com.cn", certainty: "已明确", cycle: "2026—2027学年" },
       { name: "面试", detail: "2轮：系主任/学科组长 → 校长团队；试讲形式未公开", certainty: "部分公开", cycle: "2026—2027学年" },
@@ -464,12 +491,14 @@ export const jobs: JobRecord[] = [
     ],
     materials: ["英文求职信", "英文CV", "推荐人信息", "国际课程教学证明"],
     application: "https://www.scie.com.cn/vacancies/", email: "jobs@scie.com.cn",
-    applicationNote: "职位为2026年8月到岗，保留作27届国际课程门槛参考；暂无2027—2028学年新一轮招聘。",
-    summary: "课程方向高度匹配，但国际教师资质、全英文和两年课程经验门槛高。",
+    applicationNote: "Economics与Global Perspectives教师岗已从官方Vacancies列表移除，暂无27届新一轮招聘；保留作门槛参考。",
+    summary: "课程方向高度匹配，但岗位已不在当前官方列表，且资质、全英文与经验门槛高。",
+    reviewHint: "2026-11",
     sources: [
       { label: "官方Economics职位", url: "https://www.scie.com.cn/jobs-economics/", level: "A" },
       { label: "官方Global Perspectives职位", url: "https://www.scie.com.cn/jobs-global-perspectives/", level: "A" },
-    ], lastVerified: "2026-08-14",
+      { label: "官方Vacancies当前页", url: "https://www.scie.com.cn/vacancies/", level: "A" },
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "sz-vma-economics", city: "深圳", district: "盐田", school: "万科梅沙书院",
@@ -484,7 +513,7 @@ export const jobs: JobRecord[] = [
     sources: [
       { label: "官方加入我们", url: "https://www.vma.edu.cn/job/", level: "A" },
       { label: "前程无忧AP Economics岗", url: "https://msearch.51job.com/jobs/shenzhen-ytq/170187607.html", level: "C" },
-    ], lastVerified: "2026-08-14",
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "sz-sendelta-econ", city: "深圳", district: "宝安", school: "深圳新哲文院",
@@ -498,7 +527,7 @@ export const jobs: JobRecord[] = [
     sources: [
       { label: "官方全球招聘", url: "https://www.siasz.cn/zhaopin", level: "A" },
       { label: "应届生求职网经济学老师岗", url: "https://m.yingjiesheng.com/jobdetail/156869774", level: "C" },
-    ], lastVerified: "2026-08-14",
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "sz-taoyuan-politics", city: "深圳", district: "宝安", school: "桃源居中澳实验学校",
@@ -507,9 +536,10 @@ export const jobs: JobRecord[] = [
     languageMode: "中文", language: "未公开", experienceYears: 3, experience: "同岗位工作经验三年以上", salaryNote: "高薪面议，无公开数值", boarding: true,
     certificateRisk: "中", majorRisk: "高", languageRisk: "低", experienceRisk: "高", fitScore: 55,
     application: "https://www.baoan.gov.cn/jyj/zwgk/rsxx/ryzp/content/post_12635476.html",
-    applicationNote: "政府页2026年2月招高中政治，为3年经验岗；27届尚未开放。",
+    applicationNote: "政府页2026年2月招高中政治（3年经验岗），电话0755-26849933（黄老师）；27届尚未开放。",
     summary: "深圳官方渠道可验证的高中政治样本，但同岗位3年以上经验是硬门槛。",
-    sources: [{ label: "宝安区教育局招聘页", url: "https://www.baoan.gov.cn/jyj/zwgk/rsxx/ryzp/content/post_12635476.html", level: "B" }], lastVerified: "2026-08-14",
+    reviewHint: "2027-02",
+    sources: [{ label: "宝安区教育局招聘页", url: "https://www.baoan.gov.cn/jyj/zwgk/rsxx/ryzp/content/post_12635476.html", level: "B" }], lastVerified: "2026-08-18",
   }),
   school({
     id: "sz-songgang-politics", city: "深圳", district: "宝安", school: "松岗中英文实验学校",
@@ -528,11 +558,12 @@ export const jobs: JobRecord[] = [
     materials: ["Word简历", "近期全身彩照", "身份证", "学历学位证", "职称证", "教师资格证", "普通话证", "荣誉证书", "试讲教案"],
     application: "https://www.shenzhenjiaoshi.com/zhaopin/175446.html", email: "sgzywsyxx_gzb@baoan.gov.cn",
     applicationNote: "最新公告（2026-07-30）高中已无政治岗，初中招道法；旧公告流程仍可作参考。",
+    reviewHint: "2026-12",
     summary: "流程信息最完整；当前政治方向岗位为初中道法，高中岗已不招政治。",
     sources: [
       { label: "最新招聘公告（2026-07-30）", url: "https://www.shenzhenjiaoshi.com/zhaopin/175446.html", level: "C" },
       { label: "宝安区教育局旧公告", url: "https://www.baoan.gov.cn/jyj/zwgk/rsxx/ryzp/content/post_11931122.html", level: "B" },
-    ], lastVerified: "2026-08-14",
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "sz-jianwen-politics", city: "深圳", district: "龙岗", school: "深圳市建文外国语学校",
@@ -546,26 +577,29 @@ export const jobs: JobRecord[] = [
       { name: "面试", detail: "具体是否笔试或试讲未公开", certainty: "部分公开", cycle: "26届参考" },
     ],
     materials: ["个人简历", "全身照片"], application: "https://www.fenbi.com/page/fenxiaozhaokaodetail/2/0/463792638281728", email: "szsjwwgyxx@163.com",
+    reviewHint: "2026-10",
     applicationNote: "第三方转载显示2026年春季高中政治招聘；需向学校确认27届。",
     summary: "高中政治薪资28—35万/年，但要求专业对口，应届生政策未披露。",
     sources: [
       { label: "2026招聘转载", url: "https://www.fenbi.com/page/fenxiaozhaokaodetail/2/0/463792638281728", level: "C" },
       { label: "龙岗招聘索引", url: "https://www.shenzhenjiaoshi.com/zhaopin/longgangqu/", level: "C" },
-    ], lastVerified: "2026-08-14",
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "sz-hualang-politics", city: "深圳", district: "坪山", school: "深圳市华朗学校",
     schoolType: "民办非营利十二年一贯制寄宿学校", roles: ["高中政治"], status: "26届参考",
     freshGraduate: "明确接受", degree: "本科及以上", major: "师范或相关专业优先", certificate: "按校方期限取得教师资格",
-    languageMode: "中文", language: "未公开", experience: "2026届春招管培生", salaryMin: 17, salaryMax: 30, salaryNote: "旧公告参考区间",
+    languageMode: "中文", language: "未公开", experience: "2026届春招管培生；当前储备岗青年教师约20万", salaryMin: 20, salaryMax: 40, salaryNote: "当前储备岗分档：青年教师约20万/成熟20—30万/骨干30—40万",
     benefits: ["坪山区民办教师从教津贴"], boarding: true, certificateRisk: "中", majorRisk: "高", languageRisk: "低", experienceRisk: "低", fitScore: 78,
-    application: "https://scdc.jnu.edu.cn/campus/view/id/1034250",
-    applicationNote: "2026届春招参考（公告已于2026-06过期），27届尚未发现；zhaopin链接反爬无法机核。",
-    summary: "深圳应届生政治岗的重要参考，薪资下限达到默认门槛。",
+    application: "https://m.job910.com/jobs_view_594740.html", email: "hr@hualangschool.com",
+    applicationNote: "2026届春招公告已过期；当前储备岗以job910高中政治(骨干)页为准，27届尚未开放。",
+    summary: "深圳应届生政治岗的重要参考；当前储备岗分档明确，青年教师约20万。",
+    reviewHint: "2026-10",
     sources: [
+      { label: "高中政治教师储备岗", url: "https://m.job910.com/jobs_view_594740.html", level: "C" },
       { label: "高校就业网公告", url: "https://scdc.jnu.edu.cn/campus/view/id/1034250", level: "B" },
       { label: "第三方岗位页", url: "https://www.zhaopin.com/jobdetail/CCL1431222830J40753731406.htm", level: "C" },
-    ], lastVerified: "2026-08-14",
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "sz-maple-all", city: "深圳", district: "龙岗", school: "深圳市枫叶学校",
@@ -575,8 +609,12 @@ export const jobs: JobRecord[] = [
     benefits: ["子女入学优惠", "继续教育培训"], boarding: true, certificateRisk: "中", majorRisk: "高", languageRisk: "待确认", experienceRisk: "待确认", fitScore: 59,
     application: "https://shenzhen.mapleleaf.cn/Content/index/catid/501.html",
     applicationNote: "官方快速申请长期存在，先确认政治/人文岗位与薪资。",
-    summary: "官方入口和薪资下限明确，但当前相关学科岗位未单列。",
-    sources: [{ label: "学校官方招聘页", url: "https://shenzhen.mapleleaf.cn/Content/index/catid/501.html", level: "A" }], lastVerified: "2026-08-14",
+    summary: "官方入口和薪资下限明确，但当前相关学科岗位未单列；历史有过政治/思政岗。",
+    sources: [
+      { label: "学校官方招聘页", url: "https://shenzhen.mapleleaf.cn/Content/index/catid/501.html", level: "A" },
+      { label: "小学道法/思政老师岗", url: "https://www.shenzhenjiaoshi.com/zhaopin/144256.html", level: "C" },
+      { label: "集团高中政治教师线索", url: "https://www.quanzhi.com/job/66581ff0aa127597fc9645f6", level: "D" },
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "sz-grit-history", city: "深圳", district: "龙华", school: "深圳市格睿特高级中学",
@@ -592,7 +630,7 @@ export const jobs: JobRecord[] = [
     sources: [
       { label: "高中政治岗位页", url: "https://www.job910.com/jobs_view_334620.html", level: "C" },
       { label: "高中历史岗位页", url: "https://www.job910.com/jobs_view_334621.html", level: "C" },
-    ], lastVerified: "2026-08-14",
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "edu-xdf-27", city: "多城市", district: "广州/佛山/东莞/珠海/深圳", school: "新东方",
@@ -612,7 +650,8 @@ export const jobs: JobRecord[] = [
     sources: [
       { label: "27届联合校招", url: "https://www.91wllm.cn/campusUnion/view/id/1000612", level: "B" },
       { label: "27届高潜教师", url: "https://www.zhaopin.com/jobdetail/CC120002360J40995579002.htm", level: "C" },
-    ], lastVerified: "2026-08-14",
+      { label: "2027π计划校招（数理化/语文，无目标学科）", url: "https://www.91wllm.cn/campusUnion/view/id/1001138", level: "B" },
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "edu-zhuoyue-27", city: "广州", district: "各校区", school: "卓越教育",
@@ -623,7 +662,7 @@ export const jobs: JobRecord[] = [
     certificateRisk: "待确认", majorRisk: "高", languageRisk: "低", experienceRisk: "低", fitScore: 28,
     application: "https://career.xtu.edu.cn/campus/view/id/936100", applicationNote: "薪资上限低于默认门槛且无相关学科，默认隐藏。",
     summary: "27届仍开放，但岗位和薪资均不符合当前优先条件。",
-    sources: [{ label: "27届提前批公告", url: "https://career.xtu.edu.cn/campus/view/id/936100", level: "B" }], lastVerified: "2026-08-14",
+    sources: [{ label: "27届提前批公告", url: "https://career.xtu.edu.cn/campus/view/id/936100", level: "B" }], lastVerified: "2026-08-18",
   }),
   school({
     id: "edu-skled-27", city: "多城市", district: "深圳/广州/东莞/佛山", school: "思考乐教育",
@@ -640,11 +679,12 @@ export const jobs: JobRecord[] = [
     materials: ["个人简历", "线上笔试准备", "试讲内容"],
     application: "https://www.fenbi.com/page/exam-information-detail/467845654270977", email: "recruiting@skledu.com",
     applicationNote: "首轮已截止；聚合页显示窗口延续至9-19，关注公众号\"思考乐选聘\"。",
+    reviewHint: "2026-09",
     summary: "流程公开但无相关学科，首轮也已截止。",
     sources: [
       { label: "27届秋招公告", url: "https://www.fenbi.com/page/exam-information-detail/467845654270977", level: "C" },
       { label: "27届秋招聚合页", url: "https://campus.niuqizp.com/schedule-7U8Y5M5CL.html", level: "D" },
-    ], lastVerified: "2026-08-14",
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "sz-sifc-social-business", city: "深圳", district: "宝安", school: "深圳国际预科书院（SIFC）",
@@ -664,7 +704,7 @@ export const jobs: JobRecord[] = [
     materials: ["个人简历"], application: "https://www.sifc.net.cn/page/740628/", email: "hr@sifc.net.cn",
     applicationNote: "邮件标题「深国预＋岗位/学科＋姓名」；建议邮件同时注明27届到岗意向。",
     summary: "官方单列双语社科/商科教师岗，青苗计划面向应届生，专业方向高度匹配；薪资未公开。",
-    sources: [{ label: "官方人才招聘页", url: "https://www.sifc.net.cn/page/740628/", level: "A" }], lastVerified: "2026-08-14",
+    sources: [{ label: "官方人才招聘页", url: "https://www.sifc.net.cn/page/740628/", level: "A" }], lastVerified: "2026-08-18",
   }),
   school({
     id: "sz-hankai-econ", city: "深圳", district: "龙华", school: "深圳市汉开数理高中（国际部）",
@@ -680,7 +720,8 @@ export const jobs: JobRecord[] = [
     sources: [
       { label: "国际部A-Level经济学教师", url: "https://www.job910.com/jobs_view_625443.html", level: "C" },
       { label: "国际部DSE经济学老师", url: "https://www.job910.com/jobs_view_830948.html", level: "C" },
-    ], lastVerified: "2026-08-14",
+      { label: "官方招聘公告", url: "https://www.hankaischool.com/tzgg/", level: "A" },
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "sz-weiming-baoan-econ", city: "深圳", district: "宝安", school: "深圳市宝安区为明双语实验学校",
@@ -696,7 +737,7 @@ export const jobs: JobRecord[] = [
     sources: [
       { label: "万行教师岗位页", url: "https://www.job910.com/jobs_view_915315.html", level: "C" },
       { label: "学校官网", url: "https://www.wmjyszba.com", level: "A" },
-    ], lastVerified: "2026-08-14",
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "gz-basis-reserve", city: "广州", district: "黄埔", school: "广州贝赛思国际学校",
@@ -711,13 +752,13 @@ export const jobs: JobRecord[] = [
       { name: "正式面试", detail: "岗位确认后约在2026年秋初开始面试，2027年秋到岗", certainty: "已明确" },
     ],
     materials: ["英文简历", "求职信"],
-    application: "https://jobs.basisinternationalschools.com/global/en/job/P-102071/Future-Teaching-Opportunities-with-BASIS-International-Bilingual-Schools-China",
-    applicationNote: "外籍人员子女学校，英文授课且要求教学经验，中国籍应届生更现实入口是贝赛思双语/外国语学校。",
-    summary: "官方人才库面向2027年8月起岗位，但经验与全英文门槛高，作高门槛参考。",
+    application: "https://jobs.basisinternationalschools.com/global/en/search-results", email: "careers@basisinternationalschools.com",
+    applicationNote: "原人才库职位已招满关闭；27届入口需在官方门户重新确认新人才库职位。",
+    summary: "官方人才库面向2027年8月起岗位，但当前职位已招满，需等新一轮开放；门槛高。",
     sources: [
-      { label: "官方人才库职位", url: "https://jobs.basisinternationalschools.com/global/en/job/P-102071/Future-Teaching-Opportunities-with-BASIS-International-Bilingual-Schools-China", level: "A" },
       { label: "官方招聘门户", url: "https://jobs.basisinternationalschools.com/global/en/search-results", level: "A" },
-    ], lastVerified: "2026-08-14",
+      { label: "官方人才库职位（已招满）", url: "https://jobs.basisinternationalschools.com/global/en/job/P-102071/Future-Teaching-Opportunities-with-BASIS-International-Bilingual-Schools-China", level: "A" },
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "sz-basis-reserve", city: "深圳", district: "南山", school: "深圳贝赛思国际学校",
@@ -732,25 +773,26 @@ export const jobs: JobRecord[] = [
       { name: "正式面试", detail: "岗位确认后约在2026年秋初开始面试，2027年秋到岗", certainty: "已明确" },
     ],
     materials: ["英文简历", "求职信"],
-    application: "https://jobs.basisinternationalschools.com/global/en/job/P-102071/Future-Teaching-Opportunities-with-BASIS-International-Bilingual-Schools-China",
-    applicationNote: "南山校区为外籍人员子女学校，与光明区贝赛思外国语学校（双语）不同；27届入口统一走官方人才库。",
-    summary: "官方人才库面向2027年8月起岗位，但经验与全英文门槛高，作高门槛参考。",
+    application: "https://jobs.basisinternationalschools.com/global/en/search-results", email: "careers@basisinternationalschools.com",
+    applicationNote: "原人才库职位已招满关闭；27届入口需在官方门户重新确认新人才库职位。",
+    summary: "官方人才库面向2027年8月起岗位，但当前职位已招满，需等新一轮开放；门槛高。",
     sources: [
-      { label: "官方人才库职位", url: "https://jobs.basisinternationalschools.com/global/en/job/P-102071/Future-Teaching-Opportunities-with-BASIS-International-Bilingual-Schools-China", level: "A" },
       { label: "官方招聘门户", url: "https://jobs.basisinternationalschools.com/global/en/search-results", level: "A" },
-    ], lastVerified: "2026-08-14",
+      { label: "官方人才库职位（已招满）", url: "https://jobs.basisinternationalschools.com/global/en/job/P-102071/Future-Teaching-Opportunities-with-BASIS-International-Bilingual-Schools-China", level: "A" },
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "gz-yinghao-politics", city: "广州", district: "从化", school: "广州英豪学校",
     schoolType: "民办K12（广附集团托管）", curricula: ["国家课程"], roles: ["初中政治", "高中政治"], roleTags: ["政治/道法"], status: "26届参考",
     freshGraduate: "明确接受", degree: "本科及以上", major: "政治学、马克思主义理论等对口专业", certificate: "未公开",
-    languageMode: "中文", language: "未公开", experience: "优秀毕业生可报",
+    languageMode: "中文", language: "未公开", experience: "优秀毕业生可报", published: "2025-11",
     salaryNote: "公告称待遇优厚，未公开数值",
     certificateRisk: "中", majorRisk: "高", languageRisk: "低", experienceRisk: "低", preparationCost: "待确认", fitScore: 62,
     application: "https://m.gaoxiaojob.com/announcement/detail/283929.html",
     applicationNote: "2026届公告（2025-11发布），站内投递；27届需在2026年11月前后复查。",
     summary: "初高中政治岗并接受应届生，但专业要求政治学/马理论、薪资未公开，作26届参考。",
-    sources: [{ label: "高才网2026招聘公告", url: "https://m.gaoxiaojob.com/announcement/detail/283929.html", level: "C" }], lastVerified: "2026-08-14",
+    reviewHint: "2026-11",
+    sources: [{ label: "高才网2026招聘公告", url: "https://m.gaoxiaojob.com/announcement/detail/283929.html", level: "C" }], lastVerified: "2026-08-18",
   }),
   school({
     id: "zh-xinhui-daofa", city: "珠海", district: "斗门", school: "珠海市斗门区井岸西埔新徽实验学校",
@@ -759,36 +801,38 @@ export const jobs: JobRecord[] = [
     languageMode: "中文", language: "未公开", experience: "平台标注应届毕业生；描述要求有一定高中教学经验",
     salaryMin: 9.6, salaryMax: 14.4, salaryNote: "月薪8000—12000元折算（2026-08-11发布）",
     certificateRisk: "中", majorRisk: "高", languageRisk: "低", experienceRisk: "待确认", preparationCost: "待确认", fitScore: 52,
-    application: "http://www.cdqyrc.com/job28181745.shtml",
-    applicationNote: "平台标注信息待核验；投递前确认是否仍接收简历及应届生口径。",
+    application: "http://www.cdqyrc.com/job28181745.shtml", published: "2026-08-11",
+    applicationNote: "平台标注信息待核验；描述要求有一定高中教学经验，与应届标签并存，投递前确认应届口径。",
     summary: "珠海当前少数面向应届的道法/政治方向岗位，高中道法证书是硬门槛，薪资未达默认门槛。",
-    sources: [{ label: "高中道法老师(青年教师)岗位页", url: "http://www.cdqyrc.com/job28181745.shtml", level: "C" }], lastVerified: "2026-08-14",
+    reviewHint: "2026-12",
+    sources: [{ label: "高中道法老师(青年教师)岗位页", url: "http://www.cdqyrc.com/job28181745.shtml", level: "C" }], lastVerified: "2026-08-18",
   }),
 
   school({
     id: "zh-bszf-zhengzhi", city: "珠海", district: "香洲", school: "北京师范大学珠海分校附属外国语学校",
     schoolType: "民办外国语学校（含高中部）", roles: ["初中政治"], roleTags: ["政治/道法"], status: "26届参考",
     freshGraduate: "未公开", degree: "本科及以上", major: "任教学科相关专业", certificate: "中学教师资格证",
-    languageMode: "中文", language: "未公开", experience: "青年教师岗，未写明经验年限",
-    salaryMin: 10.8, salaryMax: 13.2, salaryNote: "月薪9K—11K折算（2026-08-13更新）",
+    languageMode: "中文", language: "未公开", experienceYears: 1, experience: "1年以上（两年以上教学经历或班主任优先）", published: "2026-08-17",
+    salaryMin: 10.8, salaryMax: 13.2, salaryNote: "月薪9K—11K折算",
     certificateRisk: "中", majorRisk: "高", languageRisk: "低", experienceRisk: "待确认", preparationCost: "待确认", fitScore: 46,
     application: "https://www.job910.com/jobs_view_388324.html",
-    applicationNote: "未写应届口径；任教学科相关专业对经济/社科背景需校方确认。",
+    applicationNote: "结构化字段标1年以上经验；任教学科相关专业对经济/社科背景需校方确认。",
+    reviewHint: "2026-12",
     summary: "初中政治青年教师岗，无师范硬性要求，但专业对口与应届口径需确认，薪资未达默认门槛。",
-    sources: [{ label: "初中政治老师(青年教师)岗位页", url: "https://www.job910.com/jobs_view_388324.html", level: "C" }], lastVerified: "2026-08-14",
+    sources: [{ label: "初中政治老师(青年教师)岗位页", url: "https://www.job910.com/jobs_view_388324.html", level: "C" }], lastVerified: "2026-08-18",
   }),
 
   school({
     id: "hz-taiya-politics", city: "惠州", district: "惠阳", school: "惠州市惠阳区泰雅实验高中",
     schoolType: "民办高中", roles: ["高中政治"], roleTags: ["政治/道法"], status: "常年储备",
     freshGraduate: "明确接受", degree: "本科及以上", major: "符合高中教师资格条件（对应学科）", certificate: "符合高中教师资格条件",
-    languageMode: "中文", language: "未公开", experience: "应届或往届均可，在职或退休教师均可",
-    salaryNote: "该岗位页未公开薪资（同校另有骨干/实习生/应届生分级岗位）",
+    languageMode: "中文", language: "未公开", experience: "应届或往届均可，在职或退休教师均可", published: "2026-08-11",
+    salaryMin: 18, salaryMax: 36, salaryNote: "15—30K/月（约18—36万/年）；结构化字段标1年以上经验，但描述写明应届往届均可",
     certificateRisk: "中", majorRisk: "高", languageRisk: "低", experienceRisk: "低", preparationCost: "待确认", fitScore: 68,
     application: "https://www.job910.com/jobs_view_734912.html",
     applicationNote: "万行教师网投递，更新于2026-08-11，招聘2人；应届往届均可报。",
     summary: "当前在招且明确应届可报，本科及以上、符合高中教师资格即可，是惠州高中政治方向最值得跟进的公开岗位。",
-    sources: [{ label: "万行教师网高中政治岗位", url: "https://www.job910.com/jobs_view_734912.html", level: "C" }], lastVerified: "2026-08-14",
+    sources: [{ label: "万行教师网高中政治岗位", url: "https://www.job910.com/jobs_view_734912.html", level: "C" }], lastVerified: "2026-08-18",
   }),
 
   school({
@@ -799,9 +843,10 @@ export const jobs: JobRecord[] = [
     salaryMin: 7, salaryMax: 15, salaryNote: "初级教师年薪7万-15万；中级（研究生学历）8万-20万；高级10万-30万",
     certificateRisk: "中", majorRisk: "高", languageRisk: "低", experienceRisk: "待确认", preparationCost: "待确认", fitScore: 62,
     application: "https://www.job910.com/jobs_view_346948.html",
-    applicationNote: "万行教师网，更新于2026-02-02，标签为应届生岗；27届需在2026年秋复查新批次。",
+    applicationNote: "万行教师网，更新于2026-02-02，标签为应届生岗；页面结构化字段标3年以上与描述矛盾，投递前确认应届口径。",
     summary: "明确的应届生政治岗，初中学段，初级教师年薪7-15万（研究生中级8-20万），专业与薪资下限需留意。",
-    sources: [{ label: "万行教师网初中政治岗位", url: "https://www.job910.com/jobs_view_346948.html", level: "C" }], lastVerified: "2026-08-14",
+    reviewHint: "2026-11",
+    sources: [{ label: "万行教师网初中政治岗位", url: "https://www.job910.com/jobs_view_346948.html", level: "C" }], lastVerified: "2026-08-18",
   }),
 
   school({
@@ -814,7 +859,8 @@ export const jobs: JobRecord[] = [
     application: "https://m.gaoxiaojob.com/announcement/detail/389161.html",
     applicationNote: "高校人才网站内投递；2026-05-25发布，政治招2人、历史招2人",
     summary: "政治岗年薪30—65万、硕士应届可报，学校高考特控率近100%；但需求专业为政治学/中国史等，社科硕士需校方确认专业对口",
-    sources: [{ label: "2026诚聘优秀教师公告（高校人才网）", url: "https://m.gaoxiaojob.com/announcement/detail/389161.html", level: "C" }, { label: "历史教师职位详情（高校人才网）", url: "https://m.gaoxiaojob.com/job/detail/2094973.html", level: "C" }], lastVerified: "2026-08-14",
+    reviewHint: "2026-05",
+    sources: [{ label: "2026诚聘优秀教师公告（高校人才网）", url: "https://m.gaoxiaojob.com/announcement/detail/389161.html", level: "C" }, { label: "国华政治教师职位(30-65万/年)", url: "https://m.gaoxiaojob.com/job/detail/2094972.html", level: "C" }, { label: "历史教师职位详情（高校人才网）", url: "https://m.gaoxiaojob.com/job/detail/2094973.html", level: "C" }], lastVerified: "2026-08-18",
   }),
 
   school({
@@ -827,7 +873,10 @@ export const jobs: JobRecord[] = [
     application: "https://www.szdt821.com/wap/index.php?c=job&a=comapply&id=62735",
     applicationNote: "师途平台投递；招2人，2026-05-27更新，招聘负责人邱老师17302658610",
     summary: "高中政治经验不限、应届可报，薪资上限高；但专业是否限政治学需向校方确认，且为26届储备岗、未标27届",
-    sources: [{ label: "高中政治教师（师途-教师人才服务网）", url: "https://www.szdt821.com/wap/index.php?c=job&a=comapply&id=62735", level: "C" }], lastVerified: "2026-08-14",
+    sources: [
+      { label: "高中政治教师（师途-教师人才服务网）", url: "https://www.szdt821.com/wap/index.php?c=job&a=comapply&id=62735", level: "C" },
+      { label: "金桂实验高中骨干教师公告(2025-12-27)", url: "https://www.sohu.com/a/969872806_121124619", level: "D" },
+    ], lastVerified: "2026-08-18",
   }),
   school({
     id: "dg-qinglanshan-humanities-econ", city: "东莞", district: "松山湖", school: "东莞市松山湖清澜山学校",
@@ -836,10 +885,11 @@ export const jobs: JobRecord[] = [
     languageMode: "全英文", language: "英文授课 9-12 年级人文课程", experience: "青年教师岗，经验不限",
     salaryMin: 18, salaryMax: 30, salaryNote: "月薪15000-25000元（约18-30万/年），另有住房补贴、三餐、子女学费减免等",
     certificateRisk: "中", majorRisk: "低", languageRisk: "高", experienceRisk: "低", preparationCost: "待确认", fitScore: 88,
-    application: "http://jxnyjob.jdzj.com/job3684983.shtml",
-    applicationNote: "招聘平台投递（职位2026-08-06发布）；清澜山官网 tsinglan.cn 招聘页08-12仅列3个非教学岗，本岗以平台为准，投递前建议向校方确认27届到岗时间。",
+    application: "http://jxnyjob.jdzj.com/job3684983.shtml", email: "hr@tsinglan.org",
+    applicationNote: "招聘平台投递（职位2026-08-06发布）；官方招聘页未单列该岗，且职位描述Geography字样疑似模板串写，投递前向校方确认方向与27届到岗时间。",
     summary: "经济/社科方向与国贸+港科大社科背景高度匹配，应届本科可报，是东莞少有的『人文（经济方向）』青年教师岗。",
-    sources: [{ label: "高中人文教师（历史/经济方向）青年教师", url: "http://jxnyjob.jdzj.com/job3684983.shtml", level: "D" }, { label: "清澜山官方招聘页", url: "https://www.tsinglan.cn/contact/list/8", level: "A" }], lastVerified: "2026-08-14",
+    reviewHint: "2026-12",
+    sources: [{ label: "高中人文教师（历史/经济方向）青年教师", url: "http://jxnyjob.jdzj.com/job3684983.shtml", level: "D" }, { label: "清澜山官方招聘页", url: "https://www.tsinglan.cn/contact/list/8", level: "A" }], lastVerified: "2026-08-18",
   }),
 
   school({
@@ -851,8 +901,12 @@ export const jobs: JobRecord[] = [
     certificateRisk: "中", majorRisk: "高", languageRisk: "低", experienceRisk: "低", preparationCost: "待确认", fitScore: 85,
     application: "https://m.job910.com/jobs_view_748310.html",
     applicationNote: "到岗2026-08-20；万行在线投递或联系张老师；投递前确认27届到岗与教资取得期限。",
+    reviewHint: "2026-12",
     summary: "初中道法岗明确欢迎应届毕业生，海外留学经历者优先（契合港科大社科背景），18-23万/年。",
-    sources: [{ label: "万行教师人才网·初中道德与法治教师（青年教师）", url: "https://m.job910.com/jobs_view_748310.html", level: "C" }], lastVerified: "2026-08-14",
+    sources: [
+      { label: "万行教师人才网·初中道德与法治教师（青年教师）", url: "https://m.job910.com/jobs_view_748310.html", level: "C" },
+      { label: "万行·高中政治教师（青年教师）", url: "https://www.job910.com/jobs_view_748320.html", level: "C" },
+    ], lastVerified: "2026-08-18",
   }),
 
 

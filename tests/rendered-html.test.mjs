@@ -32,6 +32,14 @@ test("renders the recruitment decision site", async () => {
   assert.match(html, /只看收藏/);
   assert.match(html, /跟进状态/);
   assert.match(html, /备考参考/);
+  assert.match(html, /时间线/);
+  assert.match(html, /备份数据/);
+  assert.match(html, /导入备份/);
+  assert.match(html, /只看临近复查/);
+  assert.match(html, /核验新旧/);
+  assert.match(html, /2026年11月复查/);
+  assert.match(html, /核验 <!-- -->2026-08-18/);
+  assert.match(html, /review-badge/);
   assert.doesNotMatch(html, /Starter Project|Your site is taking shape/);
 });
 

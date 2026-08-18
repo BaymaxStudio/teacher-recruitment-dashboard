@@ -1363,3 +1363,155 @@ a {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ---- 本轮新增：视图切换 / 核验时效 / 复查提醒 / 时间线 / 备份 / 移动端折叠 ---- */
+.view-switch {
+  display: flex;
+  border: 1px solid var(--line-dark);
+}
+
+.view-switch button {
+  padding: 8px 12px;
+  border: 0;
+  background: transparent;
+}
+
+.view-switch button + button {
+  border-left: 1px solid var(--line-dark);
+}
+
+.view-switch button.active {
+  color: #fff;
+  background: var(--ink);
+}
+
+.verified-inline {
+  padding-right: 0;
+  border-right: 0;
+}
+
+.verified-inline.verified-fresh {
+  color: var(--green);
+}
+
+.verified-inline.verified-warn {
+  color: var(--amber);
+}
+
+.verified-inline.verified-old {
+  color: var(--accent-dark);
+}
+
+.review-badge {
+  padding: 4px 9px;
+  color: var(--amber);
+  border: 1px solid var(--amber);
+  background: var(--amber-light);
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.review-badge.review-near {
+  color: var(--accent-dark);
+  border-color: var(--accent);
+  background: var(--red-light);
+}
+
+.timeline {
+  margin-top: 24px;
+}
+
+.timeline-group {
+  margin-bottom: 26px;
+  padding-left: 18px;
+  border-left: 3px solid var(--line-dark);
+}
+
+.timeline-month {
+  margin-bottom: 10px;
+  color: var(--muted);
+  font-family: "Courier New", monospace;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.timeline-items {
+  display: grid;
+  gap: 8px;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--line-dark);
+  background: var(--paper-light);
+  text-align: left;
+}
+
+.timeline-item:hover {
+  border-color: var(--accent);
+}
+
+.timeline-date {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.timeline-school {
+  flex: 1 1 auto;
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.timeline-roles {
+  flex: 0 1 auto;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.filter-toggle {
+  display: none;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 15px;
+  color: #fff;
+  border: 1px solid var(--line-dark);
+  background: var(--ink);
+  font-weight: 700;
+}
+
+@media (max-width: 1050px) {
+  .filter-toggle {
+    display: flex;
+  }
+
+  .filters {
+    padding: 12px;
+  }
+
+  .filters-body {
+    display: none;
+  }
+
+  .filters-body.open {
+    display: block;
+    padding-top: 16px;
+  }
+}
+
+@media (max-width: 760px) {
+  .timeline-item {
+    flex-wrap: wrap;
+  }
+
+  .timeline-school {
+    flex-basis: 100%;
+  }
+}

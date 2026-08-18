@@ -37,5 +37,8 @@ test("validates job identifiers, salaries, dates and sources", () => {
     for (const stage of job.stages) {
       assert.ok(stage.certainty, `${job.id} 流程缺少公开程度`);
     }
+    if (job.reviewHint) {
+      assert.match(job.reviewHint, /^\d{4}-\d{2}$/, `${job.id} reviewHint 格式应为 YYYY-MM`);
+    }
   }
 });

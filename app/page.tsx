@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState, type CSSProperties } from "react";
+import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import {
   jobs,
   dongguanCoverage,
@@ -20,9 +20,10 @@ import {
   type RiskLevel,
 } from "./recruitment-data";
 
-type SortKey = "fit" | "salary" | "deadline" | "source" | "process";
+type SortKey = "fit" | "salary" | "deadline" | "source" | "process" | "verified";
 type ActionKey = "now" | "ask" | "prepare" | "wait" | "exclude";
 type FollowupStatus = "未开始" | "已投递" | "已联系" | "面试中" | "已放弃";
+type ViewMode = "list" | "timeline";
 
 const cityOptions = ["全部", "广州 + 深圳", ...Array.from(new Set(jobs.map((job) => job.city)))];
 const roleOptions = ["全部", "政治 + 经济", "政治/道法", "经济/商科", "全球视野/社科", "历史/人文", "其他"];
@@ -44,6 +45,20 @@ function verifiedAgeClass(date: string) {
   if (days <= 14) return "verified-fresh";
   if (days <= 30) return "verified-warn";
   return "verified-old";
+}
+
+// 复查提醒：reviewHint 为 "YYYY-MM"；当月或下月到期视为临近
+function reviewHintText(hint: string | undefined) {
+  if (!hint) return "";
+  return `${hint.slice(0, 4)}年${Number(hint.slice(5, 7))}月复查`;
+}
+
+function reviewHintNear(hint: string | undefined) {
+  if (!hint) return false;
+  const now = new Date();
+  const target = new Date(Number(hint.slice(0, 4)), Number(hint.slice(5, 7)) - 1, 1);
+  const nextMonth = new Date(now.getFullYear(), now.getMonth() + 1, 1);
+  return target <= nextMonth;
 }
 
 function salaryBand(job: JobRecord, floor: number) {
@@ -120,6 +135,10 @@ export default function Home() {
   const [toast, setToast] = useState("");
   const [storageReady, setStorageReady] = useState(false);
   const [actionQueue, setActionQueue] = useState<ActionKey | "all">("all");
+  const [viewMode, setViewMode] = useState<ViewMode>("list");
+  const [reviewNearOnly, setReviewNearOnly] = useState(false);
+  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(() => typeof window === "undefined" || window.innerWidth > 1050);
+  const backupInputRef = useRef<HTMLInputElement | null>(null);
 
   useEffect(() => {
     const timer = window.setTimeout(() => {
@@ -227,6 +246,7 @@ export default function Home() {
       }
       if (favoritesOnly && !favorites.includes(job.id)) return false;
       if (followupFilter !== "全部" && (followups[job.id] ?? "未开始") !== followupFilter) return false;
+      if (reviewNearOnly && !reviewHintNear(job.reviewHint)) return false;
       return true;
     });
 
@@ -238,9 +258,10 @@ export default function Home() {
         const cost = { 低: 1, 中: 2, 高: 3, 待确认: 4 };
         return cost[a.preparationCost] - cost[b.preparationCost];
       }
+      if (sortKey === "verified") return b.lastVerified.localeCompare(a.lastVerified);
       return b.fitScore - a.fitScore;
     });
-  }, [actionQueue, boardingOnly, certificateRiskLimit, city, curriculum, district, experienceFilter, experienceRiskLimit, favorites, favoritesOnly, followupFilter, followups, freshOnly, hasDemo, includePossible, includeUnknown, language, languageRiskLimit, noWritten, onlineOnly, onsiteOnly, orgType, qualification, query, riskLimit, role, salaryFloor, sortKey, status, workloadFilter]);
+  }, [actionQueue, boardingOnly, certificateRiskLimit, city, curriculum, district, experienceFilter, experienceRiskLimit, favorites, favoritesOnly, followupFilter, followups, freshOnly, hasDemo, includePossible, includeUnknown, language, languageRiskLimit, noWritten, onlineOnly, onsiteOnly, orgType, qualification, query, reviewNearOnly, riskLimit, role, salaryFloor, sortKey, status, workloadFilter]);
 
   const districtOptions = useMemo(() => [
     "全部",
@@ -249,6 +270,52 @@ export default function Home() {
 
   const selectedJob = jobs.find((job) => job.id === selectedId) ?? null;
   const comparedJobs = compareIds.map((id) => jobs.find((job) => job.id === id)).filter(Boolean) as JobRecord[];
+
+  const timelineGroups = useMemo(() => {
+    const groups = new Map<string, JobRecord[]>();
+    for (const job of filteredJobs) {
+      const key = job.published ? job.published.slice(0, 7) : "未标注";
+      const list = groups.get(key) ?? [];
+      list.push(job);
+      groups.set(key, list);
+    }
+    return [...groups.entries()]
+      .sort((a, b) => (a[0] === "未标注" ? 1 : b[0] === "未标注" ? -1 : b[0].localeCompare(a[0])))
+      .map(([month, list]) => ({ month, jobs: list }));
+  }, [filteredJobs]);
+
+  const activeFilterCount = useMemo(() => {
+    let count = 0;
+    if (city !== "全部") count += 1;
+    if (district !== "全部") count += 1;
+    if (orgType !== "全部") count += 1;
+    if (curriculum !== "全部") count += 1;
+    if (role !== "全部") count += 1;
+    if (status !== "全部") count += 1;
+    if (language !== "全部") count += 1;
+    if (qualification !== "全部") count += 1;
+    if (experienceFilter !== "全部") count += 1;
+    if (workloadFilter !== "全部") count += 1;
+    if (followupFilter !== "全部") count += 1;
+    if (riskLimit !== "全部") count += 1;
+    if (certificateRiskLimit !== "全部") count += 1;
+    if (languageRiskLimit !== "全部") count += 1;
+    if (experienceRiskLimit !== "全部") count += 1;
+    if (salaryFloor !== 15) count += 1;
+    if (includePossible) count += 1;
+    if (!includeUnknown) count += 1;
+    if (freshOnly) count += 1;
+    if (noWritten) count += 1;
+    if (hasDemo) count += 1;
+    if (onlineOnly) count += 1;
+    if (onsiteOnly) count += 1;
+    if (boardingOnly) count += 1;
+    if (favoritesOnly) count += 1;
+    if (reviewNearOnly) count += 1;
+    if (actionQueue !== "all") count += 1;
+    if (query.trim()) count += 1;
+    return count;
+  }, [actionQueue, boardingOnly, certificateRiskLimit, city, curriculum, district, experienceFilter, experienceRiskLimit, favoritesOnly, followupFilter, freshOnly, hasDemo, includePossible, includeUnknown, language, languageRiskLimit, noWritten, onlineOnly, onsiteOnly, orgType, qualification, query, reviewNearOnly, riskLimit, role, salaryFloor, status, workloadFilter]);
   const stats = useMemo(() => ({
     open27: jobs.filter((job) => job.status === "27届开放").length,
     actionable: jobs.filter((job) => ["27届开放", "常年储备"].includes(job.status)).length,
@@ -269,7 +336,7 @@ export default function Home() {
     setExperienceFilter("全部"); setWorkloadFilter("全部"); setActionQueue("all");
     setSalaryFloor(15); setIncludePossible(false); setIncludeUnknown(true); setFreshOnly(false); setNoWritten(false);
     setHasDemo(false); setOnlineOnly(false); setOnsiteOnly(false); setBoardingOnly(false); setQuery(""); setSortKey("fit");
-    setFavoritesOnly(false); setFollowupFilter("全部");
+    setFavoritesOnly(false); setFollowupFilter("全部"); setReviewNearOnly(false); setViewMode("list");
   };
 
   const toggleFavorite = (id: string) => {
@@ -324,6 +391,39 @@ export default function Home() {
     }
   };
 
+  const exportBackup = () => {
+    const payload = {
+      app: "guangdong-teacher-jobs-tracker",
+      exportedAt: new Date().toISOString(),
+      favorites,
+      followups,
+      notes,
+    };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `广东教师招聘_本地数据备份_${new Date().toISOString().slice(0, 10)}.json`;
+    link.click();
+    URL.revokeObjectURL(url);
+    setToast(`已备份 ${favorites.length} 条收藏、${Object.keys(notes).length} 条备注`);
+  };
+
+  const importBackup = async (file: File) => {
+    try {
+      const parsed = JSON.parse(await file.text());
+      const favs = Array.isArray(parsed.favorites) ? parsed.favorites.filter((item: unknown) => typeof item === "string") : [];
+      const follow = parsed.followups && typeof parsed.followups === "object" ? parsed.followups : {};
+      const noteMap = parsed.notes && typeof parsed.notes === "object" ? parsed.notes : {};
+      setFavorites(favs);
+      setFollowups(follow);
+      setNotes(noteMap);
+      setToast(`已恢复备份：${favs.length} 条收藏、${Object.keys(noteMap).length} 条备注`);
+    } catch {
+      setToast("备份文件无效，未做任何更改");
+    }
+  };
+
   return (
     <main>
       <header className="hero">
@@ -358,6 +458,8 @@ export default function Home() {
 
       <div className="workspace">
         <aside className="filters" aria-label="筛选条件">
+          <button className="filter-toggle" aria-expanded={mobileFiltersOpen} onClick={() => setMobileFiltersOpen((current) => !current)}>筛选条件（已选 {activeFilterCount} 项）{mobileFiltersOpen ? "▲" : "▼"}</button>
+          <div className={mobileFiltersOpen ? "filters-body open" : "filters-body"}>
           <div className="filter-heading">
             <div><span>FILTER</span><h2>筛选条件</h2></div>
             <button onClick={resetFilters}>重置</button>
@@ -399,11 +501,13 @@ export default function Home() {
             <label><input type="checkbox" checked={onlineOnly} onChange={(event) => setOnlineOnly(event.target.checked)} />支持线上环节</label>
             <label><input type="checkbox" checked={onsiteOnly} onChange={(event) => setOnsiteOnly(event.target.checked)} />明确必须到校</label>
             <label><input type="checkbox" checked={boardingOnly} onChange={(event) => setBoardingOnly(event.target.checked)} />寄宿学校</label>
+            <label><input type="checkbox" checked={reviewNearOnly} onChange={(event) => setReviewNearOnly(event.target.checked)} />只看临近复查</label>
           </div>
 
           <div className="legend">
             <h3>来源等级</h3>
             {Object.entries(sourceLegend).map(([level, text]) => <p key={level}><b>{level}</b>{text}</p>)}
+          </div>
           </div>
         </aside>
 
@@ -411,25 +515,32 @@ export default function Home() {
           <div className="results-toolbar">
             <div><span>RESULTS</span><h2>{filteredJobs.length} 个结果</h2></div>
             <div className="toolbar-actions">
+              <div className="view-switch" role="group" aria-label="视图切换">
+                <button className={viewMode === "list" ? "active" : ""} aria-pressed={viewMode === "list"} onClick={() => setViewMode("list")}>列表</button>
+                <button className={viewMode === "timeline" ? "active" : ""} aria-pressed={viewMode === "timeline"} onClick={() => setViewMode("timeline")}>时间线</button>
+              </div>
               <button className={favoritesOnly ? "active" : ""} aria-pressed={favoritesOnly} onClick={() => setFavoritesOnly((current) => !current)}>只看收藏（{favorites.length}）</button>
               <select aria-label="排序方式" value={sortKey} onChange={(event) => setSortKey(event.target.value as SortKey)}>
-                <option value="fit">匹配程度</option><option value="salary">薪资下限</option><option value="deadline">截止时间</option><option value="source">来源可靠度</option><option value="process">准备成本</option>
+                <option value="fit">匹配程度</option><option value="salary">薪资下限</option><option value="deadline">截止时间</option><option value="source">来源可靠度</option><option value="process">准备成本</option><option value="verified">核验新旧</option>
               </select>
               <button onClick={copyTodo}>复制待办</button>
               <button onClick={exportCsv}>导出 CSV</button>
+              <button onClick={exportBackup}>备份数据</button>
+              <button onClick={() => backupInputRef.current?.click()}>导入备份</button>
+              <input ref={backupInputRef} type="file" accept="application/json" hidden aria-label="选择备份文件" onChange={(event) => { const file = event.target.files?.[0]; if (file) importBackup(file); event.target.value = ""; }} />
             </div>
           </div>
 
           {filteredJobs.length === 0 ? (
             <div className="empty-state"><strong>没有符合全部条件的岗位</strong><p>可降低薪资线，或打开“区间可能达到”“显示薪资未知”。</p><button onClick={resetFilters}>恢复默认筛选</button></div>
-          ) : (
+          ) : viewMode === "list" ? (
             <div className="job-list">
               {filteredJobs.map((job) => {
                 const band = salaryBand(job, salaryFloor);
                 return (
                   <article className="job-card" key={job.id}>
                     <div className="card-topline">
-                      <div className="location"><span>{job.city}</span><span>{job.district}</span><span>{job.orgType}</span></div>
+                      <div className="location"><span>{job.city}</span><span>{job.district}</span><span>{job.orgType}</span><span className={`verified-inline ${verifiedAgeClass(job.lastVerified)}`} title={`${verifiedAgeDays(job.lastVerified)} 天前核验`}>核验 {job.lastVerified}</span></div>
                       <div className="card-icons">
                         <button aria-label={favorites.includes(job.id) ? "取消收藏" : "收藏"} className={favorites.includes(job.id) ? "active" : ""} onClick={() => toggleFavorite(job.id)}>{favorites.includes(job.id) ? "★" : "☆"}</button>
                         {(notes[job.id] || "").trim() !== "" && <span className="note-dot" title="有个人备注">●</span>}
@@ -441,6 +552,7 @@ export default function Home() {
                       <div className="status-pills">
                         <span className={`status status-${job.status}`}>{job.status}</span>
                         {(followups[job.id] ?? "未开始") !== "未开始" && <span className={`followup followup-${followups[job.id]}`}>{followups[job.id]}</span>}
+                        {job.reviewHint && <span className={`review-badge${reviewHintNear(job.reviewHint) ? " review-near" : ""}`}>{reviewHintText(job.reviewHint)}</span>}
                       </div>
                     </div>
                     <div className="role-row">{job.roles.map((item) => <span key={item}>{item}</span>)}</div>
@@ -466,6 +578,24 @@ export default function Home() {
                   </article>
                 );
               })}
+            </div>
+          ) : (
+            <div className="timeline">
+              {timelineGroups.map((group) => (
+                <div className="timeline-group" key={group.month}>
+                  <div className="timeline-month">{group.month === "未标注" ? "时间未公开" : group.month}</div>
+                  <div className="timeline-items">
+                    {group.jobs.map((job) => (
+                      <button className="timeline-item" key={job.id} onClick={() => setSelectedId(job.id)}>
+                        <span className="timeline-date">{job.published ?? ""}</span>
+                        <span className="timeline-school">{job.school}</span>
+                        <span className="timeline-roles">{job.roles.join("、")}</span>
+                        <span className={`status status-${job.status}`}>{job.status}</span>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              ))}
             </div>
           )}
 
