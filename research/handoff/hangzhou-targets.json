@@ -1,0 +1,1196 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-21",
+  "province": "浙江",
+  "city": "杭州",
+  "targetCount": 41,
+  "privateSchoolCount": 35,
+  "publicTargetCount": 6,
+  "source": "正式 V2 数据自动生成；只作 DSH 招聘试采目标，不表示学校排名或当前存在招聘。",
+  "schools": [
+    {
+      "schoolId": "school-hz-fuyang-huanggongwang",
+      "officialName": "富阳黄公望高级中学",
+      "ownership": "民办",
+      "district": "富阳区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-outside-private-high-school",
+          "title": "2026年杭州市区外民办普通高中招生学校介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_62965ac6fc18462e9640ff1456e1f0f2.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-fuyang-laoying",
+      "officialName": "富阳老鹰高级中学",
+      "ownership": "民办",
+      "district": "富阳区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-outside-private-high-school",
+          "title": "2026年杭州市区外民办普通高中招生学校介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_62965ac6fc18462e9640ff1456e1f0f2.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-fuyang-jiangnan",
+      "officialName": "富阳区江南中学",
+      "ownership": "民办",
+      "district": "富阳区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-outside-private-high-school",
+          "title": "2026年杭州市区外民办普通高中招生学校介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_62965ac6fc18462e9640ff1456e1f0f2.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-dingwen-xuexiao",
+      "officialName": "杭州鼎文学校",
+      "ownership": "民办",
+      "district": "钱塘区",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-dongfang-zhongxue",
+      "officialName": "杭州东方中学",
+      "ownership": "民办",
+      "district": "西湖区",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-erzhong-tianyuan-huilan",
+      "officialName": "杭州二中教育集团天元蕙兰学校",
+      "ownership": "民办",
+      "district": "余杭区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-outside-private-high-school",
+          "title": "2026年杭州市区外民办普通高中招生学校介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_62965ac6fc18462e9640ff1456e1f0f2.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-guotai-waiyu-yishu",
+      "officialName": "杭州国泰外语艺术学校",
+      "ownership": "民办",
+      "district": "上城区",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-lvcheng-yuhua",
+      "officialName": "杭州绿城育华学校",
+      "ownership": "民办",
+      "district": "西湖区",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-xihu-2026-junior-private",
+          "title": "2026年西湖区民办初中（含民转公）网上报名情况公布",
+          "url": "https://www.hzxhjy.cn/xhjyw/xjrd/202606/t20260618_760406.shtml",
+          "publisher": "西湖区教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2026-06-18",
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-qizheng-zhongxue",
+      "officialName": "杭州启正中学",
+      "ownership": "民办",
+      "district": "拱墅区",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-gongshu-2026-junior-private",
+          "title": "2026年拱墅区民办初中网上报名情况公布",
+          "url": "https://www.gongshu.gov.cn/col/col1229549346/art/2026/art_c5c4a16910d548a4ab655250de1a4ec8.html",
+          "publisher": "拱墅区教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2026-06-18",
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-qiushi-gaozhong",
+      "officialName": "杭州求是高级中学",
+      "ownership": "民办",
+      "district": "待确认",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-renhe-shiyan",
+      "officialName": "杭州仁和实验学校",
+      "ownership": "民办",
+      "district": "西湖区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-shanghai-shiwai-zhongxue",
+      "officialName": "杭州上海世外中学",
+      "ownership": "民办",
+      "district": "拱墅区",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-gongshu-2026-junior-private",
+          "title": "2026年拱墅区民办初中网上报名情况公布",
+          "url": "https://www.gongshu.gov.cn/col/col1229549346/art/2026/art_c5c4a16910d548a4ab655250de1a4ec8.html",
+          "publisher": "拱墅区教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2026-06-18",
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-fuyang-shangwai-fushu",
+      "officialName": "杭州上外附属外国语高级中学",
+      "ownership": "民办",
+      "district": "富阳区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-outside-private-high-school",
+          "title": "2026年杭州市区外民办普通高中招生学校介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_62965ac6fc18462e9640ff1456e1f0f2.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-binlan-shiyan",
+      "officialName": "杭州市滨江区滨兰实验学校",
+      "ownership": "民办",
+      "district": "滨江区",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-binjiang-2026-junior-private",
+          "title": "2026年滨江区民办初中（含公参民转公学校）网上报名情况公布",
+          "url": "https://www.hhtz.gov.cn/col/col1229506924/art/2026/art_d3d8b74da0814f31a0bc8487fb150335.html",
+          "publisher": "滨江区教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2026-06-18",
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-jinxiu-zhongxue",
+      "officialName": "杭州市锦绣中学",
+      "ownership": "民办",
+      "district": "拱墅区",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-gongshu-2026-junior-private",
+          "title": "2026年拱墅区民办初中网上报名情况公布",
+          "url": "https://www.gongshu.gov.cn/col/col1229549346/art/2026/art_c5c4a16910d548a4ab655250de1a4ec8.html",
+          "publisher": "拱墅区教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2026-06-18",
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-shiyan-waiguoyu",
+      "officialName": "杭州市实验外国语学校",
+      "ownership": "民办",
+      "district": "钱塘区",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-qiantang-2026-junior-private",
+          "title": "2026年钱塘区民办初中（含公参民转公学校）招生电脑派位录取名单公布",
+          "url": "https://www.qiantang.gov.cn/col/col1229663061/art/2026/art_03eaa4ea55fb493d81a3f35eace2dfb3.html",
+          "publisher": "钱塘区教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2026-06-23",
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-yuhang-xinlixiang",
+      "officialName": "杭州市余杭区新理想高级中学",
+      "ownership": "民办",
+      "district": "余杭区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-outside-private-high-school",
+          "title": "2026年杭州市区外民办普通高中招生学校介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_62965ac6fc18462e9640ff1456e1f0f2.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-shulan-zhongxue",
+      "officialName": "杭州树兰中学",
+      "ownership": "民办",
+      "district": "拱墅区",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-gongshu-2026-junior-private",
+          "title": "2026年拱墅区民办初中网上报名情况公布",
+          "url": "https://www.gongshu.gov.cn/col/col1229549346/art/2026/art_c5c4a16910d548a4ab655250de1a4ec8.html",
+          "publisher": "拱墅区教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2026-06-18",
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-tianmu-waiguoyu",
+      "officialName": "杭州天目外国语学校",
+      "ownership": "民办",
+      "district": "临安区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-outside-private-high-school",
+          "title": "2026年杭州市区外民办普通高中招生学校介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_62965ac6fc18462e9640ff1456e1f0f2.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-wahaha-shuangyu",
+      "officialName": "杭州娃哈哈双语学校",
+      "ownership": "民办",
+      "district": "上城区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-xizi-shiyan",
+      "officialName": "杭州西子实验学校",
+      "ownership": "民办",
+      "district": "西湖区",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-yingcai-gaozhong",
+      "officialName": "杭州英才高级中学",
+      "ownership": "民办",
+      "district": "钱塘区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-yingte-waiguoyu",
+      "officialName": "杭州英特外国语学校",
+      "ownership": "民办",
+      "district": "萧山区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-outside-private-high-school",
+          "title": "2026年杭州市区外民办普通高中招生学校介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_62965ac6fc18462e9640ff1456e1f0f2.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-yucai-zhongxue",
+      "officialName": "杭州育才中学",
+      "ownership": "民办",
+      "district": "拱墅区",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-gongshu-2026-junior-private",
+          "title": "2026年拱墅区民办初中网上报名情况公布",
+          "url": "https://www.gongshu.gov.cn/col/col1229549346/art/2026/art_c5c4a16910d548a4ab655250de1a4ec8.html",
+          "publisher": "拱墅区教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2026-06-18",
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-yuxin-gaozhong",
+      "officialName": "杭州育新高级中学",
+      "ownership": "民办",
+      "district": "拱墅区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-yungu-xuexiao",
+      "officialName": "杭州云谷学校",
+      "ownership": "民办",
+      "district": "西湖区",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-xihu-2026-junior-private",
+          "title": "2026年西湖区民办初中（含民转公）网上报名情况公布",
+          "url": "https://www.hzxhjy.cn/xhjyw/xjrd/202606/t20260618_760406.shtml",
+          "publisher": "西湖区教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2026-06-18",
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-zhijiang-gaozhong",
+      "officialName": "杭州之江高级中学",
+      "ownership": "民办",
+      "district": "西湖区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-jiande-yucai",
+      "officialName": "建德市育才高级中学",
+      "ownership": "民办",
+      "district": "建德市",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-outside-private-high-school",
+          "title": "2026年杭州市区外民办普通高中招生学校介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_62965ac6fc18462e9640ff1456e1f0f2.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-erzhong-shulan-gaozhong",
+      "officialName": "临平区杭州二中树兰高级中学",
+      "ownership": "民办",
+      "district": "临平区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-outside-private-high-school",
+          "title": "2026年杭州市区外民办普通高中招生学校介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_62965ac6fc18462e9640ff1456e1f0f2.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-xinda-waiguoyu",
+      "officialName": "临平区信达外国语学校",
+      "ownership": "民办",
+      "district": "临平区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-outside-private-high-school",
+          "title": "2026年杭州市区外民办普通高中招生学校介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_62965ac6fc18462e9640ff1456e1f0f2.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-tonglu-hangchuan",
+      "officialName": "桐庐杭传高级中学",
+      "ownership": "民办",
+      "district": "桐庐县",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-outside-private-high-school",
+          "title": "2026年杭州市区外民办普通高中招生学校介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_62965ac6fc18462e9640ff1456e1f0f2.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-xiaoshan-shiyan",
+      "officialName": "萧山区实验中学",
+      "ownership": "民办",
+      "district": "萧山区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-outside-private-high-school",
+          "title": "2026年杭州市区外民办普通高中招生学校介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_62965ac6fc18462e9640ff1456e1f0f2.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-xiaoshan-yushan",
+      "officialName": "萧山区玉山中学",
+      "ownership": "民办",
+      "district": "萧山区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-outside-private-high-school",
+          "title": "2026年杭州市区外民办普通高中招生学校介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_62965ac6fc18462e9640ff1456e1f0f2.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-xuejun-wenyuan",
+      "officialName": "学军中学教育集团文渊中学",
+      "ownership": "民办",
+      "district": "萧山区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-outside-private-high-school",
+          "title": "2026年杭州市区外民办普通高中招生学校介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_62965ac6fc18462e9640ff1456e1f0f2.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "school-hz-yuhang-donglan",
+      "officialName": "余杭区东澜外国语学校",
+      "ownership": "民办",
+      "district": "余杭区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-outside-private-high-school",
+          "title": "2026年杭州市区外民办普通高中招生学校介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_62965ac6fc18462e9640ff1456e1f0f2.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-hz-2nd-high-school",
+      "officialName": "杭州第二中学",
+      "ownership": "公办",
+      "district": "滨江区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-hzgov-2-zhong",
+          "title": "杭州第二中学（含滨江校区、东河校区、钱江学校、富春学校、高新学校）",
+          "url": "http://www.hz2hs.cn/",
+          "publisher": "杭州第二中学",
+          "sourceLevel": "A2_school_official",
+          "sourceType": "学校主页",
+          "publishedAt": null,
+          "accessedAt": "2026-08-21",
+          "accessState": "blocked"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-hz-14th-high-school",
+      "officialName": "杭州第十四中学",
+      "ownership": "公办",
+      "district": "拱墅区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-hzgov-h14",
+          "title": "杭州第十四中学官网（凤起校区、康桥校区）",
+          "url": "http://www.h14z.cn/",
+          "publisher": "杭州第十四中学",
+          "sourceLevel": "A2_school_official",
+          "sourceType": "学校主页",
+          "publishedAt": null,
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-hz-4th-high-school",
+      "officialName": "杭州第四中学",
+      "ownership": "公办",
+      "district": "上城区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-hzgov-h4",
+          "title": "杭州第四中学官方主页（吴山校区、下沙校区）",
+          "url": "http://www.hz4z.cn/",
+          "publisher": "杭州第四中学",
+          "sourceLevel": "A2_school_official",
+          "sourceType": "学校主页",
+          "publishedAt": null,
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-hz-xuejun-high-school",
+      "officialName": "杭州学军中学",
+      "ownership": "公办",
+      "district": "西湖区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-hzgov-xuejun",
+          "title": "杭州学军中学官网",
+          "url": "http://www.hzxjhs.com/",
+          "publisher": "杭州学军中学",
+          "sourceLevel": "A2_school_official",
+          "sourceType": "学校主页",
+          "publishedAt": null,
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-hz-senior-high-school",
+      "officialName": "浙江省杭州高级中学",
+      "ownership": "公办",
+      "district": "拱墅区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-hzgov-hanggao",
+          "title": "浙江省杭州高级中学官网（含贡院、钱江、钱塘、夏衍校区与启正、启成初中）",
+          "url": "http://www.hanggao1899.cn/",
+          "publisher": "浙江省杭州高级中学",
+          "sourceLevel": "A2_school_official",
+          "sourceType": "学校主页",
+          "publishedAt": null,
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-hz-xiaoshan-high-school",
+      "officialName": "浙江省萧山中学",
+      "ownership": "公办",
+      "district": "萧山区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-hzedu-2026-city-high-school",
+          "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+          "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+          "publisher": "杭州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-xiaoshan-gov-xiaozhong",
+          "title": "浙江省萧山中学（萧山区政府转载）",
+          "url": "https://www.xiaoshan.gov.cn/art/2023/10/19/art_1229749004_33638.html",
+          "publisher": "萧山区人民政府",
+          "sourceLevel": "A1_government",
+          "sourceType": "教育部门说明",
+          "publishedAt": "2023-10-19",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    }
+  ]
+}

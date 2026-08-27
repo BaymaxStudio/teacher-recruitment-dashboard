@@ -11,7 +11,12 @@
     "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
     "test": "npm run build && node --experimental-strip-types --test tests/*.test.mjs",
     "export:data": "node --experimental-strip-types scripts/export-recruitment-data.mjs",
+    "reports:v2": "node --experimental-strip-types scripts/generate-v2-reports.mjs",
+    "handoff:targets": "node --experimental-strip-types scripts/generate-research-targets.mjs",
     "check:links": "node --experimental-strip-types scripts/check-links.mjs",
+    "validate:intake": "node scripts/validate-research-intake.mjs",
+    "validate:scan": "node scripts/validate-recruitment-scan.mjs",
+    "typecheck": "tsc --noEmit --pretty false",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate"
   },

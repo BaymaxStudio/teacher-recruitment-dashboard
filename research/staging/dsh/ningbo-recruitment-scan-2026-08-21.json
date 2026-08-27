@@ -1,0 +1,1918 @@
+{
+  "schemaVersion": 1,
+  "isTemplate": false,
+  "batchId": "ningbo-dsh-b1",
+  "province": "浙江",
+  "city": "宁波",
+  "researchedAt": "2026-08-21",
+  "researcher": "DeepSeek Harness + DeepSeek-V4-Flash",
+  "sources": [
+    {
+      "id": "src-nb-huamao-site",
+      "title": "宁波华茂高级中学官网首页",
+      "url": "http://hmgz.hmedu.com/",
+      "publisher": "宁波华茂高级中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页，含学校全称与浙江省一级重点中学等办学信息，页面可正常访问"
+    },
+    {
+      "id": "src-nb-huamao-join",
+      "title": "加入我们-华茂教育集团（集团招聘页）",
+      "url": "http://www.hmedu.com/join.html",
+      "publisher": "华茂教育集团",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校招聘页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "常年招聘页（岗位常年更新，当前含高中各学科实习生等岗位）",
+      "note": "华茂高级中学隶属华茂教育；集团招聘页刊载在招岗位、投递邮箱与联系电话"
+    },
+    {
+      "id": "src-nb-huamao-admission",
+      "title": "招生公告-宁波华茂高级中学（含2026年招生计划与咨询热线）",
+      "url": "http://hmgz.hmedu.com/join.html",
+      "publisher": "宁波华茂高级中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "联系方式页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年招生（非招聘）",
+      "note": "学校官网招生公告页，含2026年招生计划与咨询热线；官网无独立招聘栏目"
+    },
+    {
+      "id": "src-nb-nottingham-site",
+      "title": "宁波诺丁汉大学附属中学校园门户",
+      "url": "http://www.unncahs.net/",
+      "publisher": "宁波诺丁汉大学附属中学（甬上云校）",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "甬上云校平台校园门户；浙江省万里教育集团官网明示学校网站为 www.unncahs.net"
+    },
+    {
+      "id": "src-nb-nottingham-wanli",
+      "title": "宁波诺丁汉大学附属中学地址和联系方式（浙江省万里教育集团）",
+      "url": "http://www.wanli.org/Show.aspx?C=ZSRK&Id=2361&SC=ZSWD",
+      "publisher": "浙江省万里教育集团",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "联系方式页",
+      "publishedAt": "2017-06-14",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "集团官网刊载学校地址、联系电话与学校网站域名"
+    },
+    {
+      "id": "src-nb-nottingham-jiaoshi",
+      "title": "高中历史教师|宁波诺丁汉大学附属中学（教师人才网公告）",
+      "url": "https://jiaoshi.com.cn/jobs/cmpuw5ld1004501pfxujxv0gc",
+      "publisher": "教师人才网（jiaoshi.com.cn）",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "届次未标注（平台公告无发布日期）",
+      "note": "公告含普通高中教师（英语、历史、政治、物理、化学等）与国际部双语教师（物理、数学）岗位及报名条件；投递邮箱未在页面文本中恢复，疑为图片或附件"
+    },
+    {
+      "id": "src-nb-nottingham-gxj",
+      "title": "宁波诺丁汉大学附属中学2026年普通高中教师-英语（高校人才网）",
+      "url": "https://m.gaoxiaojob.com/job/detail/2102714.html",
+      "publisher": "高校人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（2026年岗位）",
+      "note": "2026年英语教师岗位，页面注明25-35万/年；英语不在本次调查学科范围，仅作往届招聘渠道证据"
+    },
+    {
+      "id": "src-nb-rongan-gov",
+      "title": "宁波荣安实验中学（宁波市教育局直属学校名录页）",
+      "url": "http://jyj.ningbo.gov.cn/art/2025/7/7/art_1229884677_58921806.html",
+      "publisher": "宁波市教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "联系方式页",
+      "publishedAt": "2025-07-07",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "政府直属学校名录页，含学校基本信息；未列出学校网址"
+    },
+    {
+      "id": "src-nb-rongan-zhaopin-zz",
+      "title": "高中政治教师（智联招聘-宁波荣安实验中学有限公司）",
+      "url": "https://www.zhaopin.com/jobdetail/CCL1488668820J40678062512.htm",
+      "publisher": "智联招聘",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位，无发布日期",
+      "note": "平台在招岗位页，含薪资与任职条件原文；页面可访问"
+    },
+    {
+      "id": "src-nb-rongan-zhaopin-ls",
+      "title": "高中历史教师（智联招聘-宁波荣安实验中学有限公司）",
+      "url": "https://www.zhaopin.com/jobdetail/CCL1488668820J40678063512.htm",
+      "publisher": "智联招聘",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "dead",
+      "recruitmentCycle": "平台岗位，无发布日期",
+      "note": "页面显示岗位已下线标记，同文案曾与政治岗位并行发布"
+    },
+    {
+      "id": "src-nb-rongan-wx",
+      "title": "2022招生简章|宁波荣安实验中学（微信公众号文章）",
+      "url": "https://mp.weixin.qq.com/s/hS04tpW9v7CdlbkfQKwWTw",
+      "publisher": "宁波荣安实验中学（微信公众号）",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "官方公众号",
+      "publishedAt": "2022-06-01",
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "",
+      "note": "微信反爬验证（环境异常）拦截，无法读取正文"
+    },
+    {
+      "id": "src-nb-rongan-jxnu",
+      "title": "江西师范大学就业网：宁波荣安实验中学招聘高中各科教师（转发）",
+      "url": "https://ygb.jxnu.edu.cn/2025/0506/c6112a272086/page.htm",
+      "publisher": "江西师范大学就业网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": "2025-05-06",
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "2025届（2025-05发布）",
+      "note": "域名当前无法解析，页面未能打开"
+    },
+    {
+      "id": "src-nb-shenzhou-site",
+      "title": "宁波神舟学校（甬上云校校园门户）",
+      "url": "http://www.nbsedu.com.cn/index.php?r=space/school/theme/index&sid=3433000158",
+      "publisher": "宁波神舟学校（甬上云校）",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "甬上云校平台校园门户，页面标题含学校全称；原独立域名 nbszxx.nbsedu.com 已无法解析"
+    },
+    {
+      "id": "src-nb-shenzhou-gov",
+      "title": "宁波神舟学校（宁波市教育局直属学校名录页）",
+      "url": "http://jyj.ningbo.gov.cn/art/2025/7/7/art_1229884677_58921799.html",
+      "publisher": "宁波市教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "联系方式页",
+      "publishedAt": "2025-07-07",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "政府名录页，含学校地址等信息；未列出学校网址"
+    },
+    {
+      "id": "src-nb-shenzhou-job910",
+      "title": "宁波神舟学校招聘主页（万行教师人才网）",
+      "url": "https://www.job910.com/school_view_87367.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "学校招聘页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "往届启事（2021-2023年间刊载，当前在招职位0个）",
+      "note": "招聘主页含教师招聘启事（政治、历史等岗位）与联系方式；启事附件日期2021-04-06"
+    },
+    {
+      "id": "src-nb-shenzhou-huznu",
+      "title": "宁波神舟学校招聘启事（湖州师范学院人文学院转发）",
+      "url": "https://rwxy.huznu.edu.cn/2023/0504/c537a195816/page.htm",
+      "publisher": "湖州师范学院人文学院就业信息",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": "2023-05-04",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2023届（2023-05发布）",
+      "note": "2023年转发版启事（语文、数学、通用技术岗位，年薪10-22万元），往届参考"
+    },
+    {
+      "id": "src-nb-chengnan-site",
+      "title": "宁波市城南中学官网首页",
+      "url": "http://www.nbcnzx.cn/",
+      "publisher": "宁波市城南中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页，含学校全称与校训，页面可正常访问"
+    },
+    {
+      "id": "src-nb-chengnan-zp",
+      "title": "宁波市城南中学官网-招生招聘栏目",
+      "url": "http://www.nbcnzx.cn/index.php/news/news/25.html",
+      "publisher": "宁波市城南中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校招聘页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网招生招聘栏目，最新内容为2020年招生简章，未见招聘公告"
+    },
+    {
+      "id": "src-nb-chengnan-jiaoshi",
+      "title": "宁波市城南中学（教师人才网学校页）",
+      "url": "https://jiaoshi.com.cn/school/cmmz7hfyn0ye0gs8s31nfbfdp",
+      "publisher": "教师人才网（jiaoshi.com.cn）",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台学校页，无发布日期，在招职位0个",
+      "note": "平台学校页含招聘岗位（政治、历史等）、条件、流程与联系方式；页面地址栏信息（余姚）与学校简介（鄞州姜山）不一致，待复核"
+    },
+    {
+      "id": "src-nb-chengnan-wx",
+      "title": "【招聘】宁波市城南中学四月招聘启事（微信公众号文章）",
+      "url": "https://mp.weixin.qq.com/s/Ug7z9zlj0a205TLFAq4Y7Q",
+      "publisher": "宁波市城南中学（微信公众号）",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "官方公众号",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "届次未知（四月招聘启事）",
+      "note": "微信反爬验证（环境异常）拦截，无法读取正文"
+    },
+    {
+      "id": "src-nb-huaguang-job910-1",
+      "title": "华光学校高中政治教师（万行教师人才网）",
+      "url": "https://guangdong.job910.com/jobs_view_916362.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "dead",
+      "recruitmentCycle": "平台岗位，无发布日期",
+      "note": "页面显示该职位已下线"
+    },
+    {
+      "id": "src-nb-huaguang-job910-2",
+      "title": "华光学校高中政治教师（万行教师人才网）",
+      "url": "https://huzhou.job910.com/jobs_view_918461.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "dead",
+      "recruitmentCycle": "平台岗位，无发布日期",
+      "note": "页面显示该职位已下线"
+    },
+    {
+      "id": "src-nb-huaguang-nbhsrc",
+      "title": "海曙鄞江中学高中数学、英语、历史、化学教师各1名（海曙人才网，宁波市华光学校发布）",
+      "url": "http://www.nbhsrc.com/job2613160193.shtml",
+      "publisher": "海曙人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位，无发布日期",
+      "note": "页面元数据含岗位条件原文（含历史岗位，注明为华光学校招聘、工作地点鄞江中学）；页面发布日期未显示"
+    },
+    {
+      "id": "src-nb-keji-gov",
+      "title": "宁波市科技高级中学（宁波市教育局直属学校名录页）",
+      "url": "http://jyj.ningbo.gov.cn/art/2025/7/7/art_1229884677_58921802.html",
+      "publisher": "宁波市教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "联系方式页",
+      "publishedAt": "2025-07-07",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "政府名录页含学校地址与值班电话；未列出学校网址"
+    },
+    {
+      "id": "src-nb-keji-ecnu",
+      "title": "【招聘信息】宁波市科技高级中学招聘高中语文、数学、英语、物理、化学、政治、心理老师（华东师范大学就业网）",
+      "url": "https://comm.ecnu.edu.cn/94/f1/c51755a759025/page.htm",
+      "publisher": "华东师范大学就业网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "长期招聘（公告未限定毕业届次，截止2027-01-01）",
+      "note": "公告载明需求11-20人、截止日期2027-01-01、长期有效，含政治岗位、待遇与联系方式；截止年份不作为毕业届次依据"
+    },
+    {
+      "id": "src-nb-keji-jlu",
+      "title": "宁波市科技高级中学面向全国诚聘优秀教师（吉林大学就业网）",
+      "url": "https://jdjyw.jlu.edu.cn/portal/jyzp/recruit/details?id=fcc31eb3d8ac478ca714d2e642a0e4df",
+      "publisher": "吉林大学就业网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-05-04",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "长期招聘（公告未限定毕业届次，截止2027-01-01）",
+      "note": "招聘计划含马克思主义理论、马克思主义基本原理等专业岗位；与华东师大就业网公告内容一致；未说明2027届毕业条件"
+    },
+    {
+      "id": "src-nb-xingning-wzu",
+      "title": "教师招聘|浙江宁波市兴宁中学招聘初中、高中老师（温州大学就业网）",
+      "url": "https://job.wzu.edu.cn/news/view/aid/158422/tag/news/index/tag/fdhd",
+      "publisher": "温州大学就业网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": "2025-12-25",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（2025-12-25发布）",
+      "note": "公告含高中政治、初中社会等岗位、待遇与联系方式"
+    },
+    {
+      "id": "src-nb-xingning-51job",
+      "title": "初中社会教师（前程无忧）",
+      "url": "https://jobs.51job.com/ningbo-yzq/165637809.html",
+      "publisher": "前程无忧",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "平台岗位，无发布日期",
+      "note": "51job反爬验证拦截，无法读取正文"
+    },
+    {
+      "id": "src-nb-yongtong-zjnu",
+      "title": "浙江师范大学就业信息网-招聘会参会企业页（甬同书院参会记录）",
+      "url": "https://career.zjnu.edu.cn/largefairs/company/id/4268/sid/81/stype/1?PageSpeed=noscript",
+      "publisher": "浙江师范大学就业信息网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "招聘会参会企业页可访问；甬同书院公司信息经脚本渲染，静态文本未提取到"
+    },
+    {
+      "id": "src-nb-ningbo-col",
+      "title": "宁波市教育局直属学校名录（政务公开栏目页）",
+      "url": "http://jyj.ningbo.gov.cn/col/col1229884677/index.html",
+      "publisher": "宁波市教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "联系方式页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "政务公开直属学校栏目页，可访问；用于核对目标学校是否在列"
+    },
+    {
+      "id": "src-nb-lanqing-gxj",
+      "title": "宁波鄞州蓝青高级中学2026年招聘教师公告（高校人才网）",
+      "url": "https://www.gaoxiaojob.com/announcement/detail/373596.html",
+      "publisher": "高校人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-01-19",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（2026-01-19发布，3个岗位招5人）",
+      "note": "公告载明岗位表、条件、薪资（年薪20-25万）与报名办法（扫码）；岗位表仅恢复高中数学一项，其余未恢复"
+    },
+    {
+      "id": "src-nb-lanqing-job910",
+      "title": "宁波鄞州蓝青高级中学招聘主页（万行教师人才网）",
+      "url": "https://xuzhou.job910.com/school_view_105157.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "学校招聘页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台招聘主页，当前在招职位0个",
+      "note": "招聘主页可访问，含学校简介"
+    },
+    {
+      "id": "src-nb-zhicheng-job910",
+      "title": "宁波至诚学校（幼、小、初、高）招聘主页（万行教师人才网）",
+      "url": "https://neimenggu.job910.com/school_view_34337.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "学校招聘页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台招聘主页（在招职位16个，更新于2026-07-31）",
+      "note": "招聘主页含招聘启事（邮箱、办公室电话）与在招职位列表"
+    },
+    {
+      "id": "src-nb-zhicheng-ls",
+      "title": "高中历史教师（青年教师）（万行教师人才网-宁波至诚学校）",
+      "url": "https://www.job910.com/jobs_view_813602.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（更新于2026-07-31，储备状态）",
+      "note": "岗位载明12-24W/年、招聘2人、任职条件与福利原文"
+    },
+    {
+      "id": "src-nb-hd-site",
+      "title": "宁波鄞州赫德实验学校官网（宁波站首页）",
+      "url": "https://www.hdschools.org/zh_cn/ningbo",
+      "publisher": "宁波鄞州赫德实验学校",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页，页脚声明网站内容归宁波鄞州赫德实验学校版权所有"
+    },
+    {
+      "id": "src-nb-hd-join",
+      "title": "招贤纳士-宁波鄞州赫德实验学校（官网招聘页）",
+      "url": "https://www.hdschools.org/zh_cn/ningbo/about/join",
+      "publisher": "宁波鄞州赫德实验学校",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校招聘页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "官网招聘页常年开放（页面含当前岗位列表）",
+      "note": "官网招聘页含当前岗位列表与投递邮箱、联系电话"
+    },
+    {
+      "id": "src-nb-hd-contact",
+      "title": "联系方式-宁波鄞州赫德实验学校",
+      "url": "https://www.hdschools.org/zh_cn/ningbo/about/contact",
+      "publisher": "宁波鄞州赫德实验学校",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "联系方式页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网联系方式页，含各学部电话与地址"
+    },
+    {
+      "id": "src-nb-hd-job910",
+      "title": "宁波鄞州赫德实验学校招聘主页（万行教师人才网）",
+      "url": "https://guangdong.job910.com/school_view_82171.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "学校招聘页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台招聘主页（学校网站与招聘热线）",
+      "note": "招聘主页刊载学校简介、学校网站域名与招聘热线"
+    },
+    {
+      "id": "src-nb-xiaoshi-gov",
+      "title": "宁波市效实中学公开招聘事业编制教师公告（宁波市教育局）",
+      "url": "http://jyj.ningbo.gov.cn/col/col1229166692/art/2026/art_e43b0da9dd484e3cb4dbcf14f127537b.html",
+      "publisher": "宁波市教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-07-09",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（2026-07-09发布，报名2026-07-15截止）",
+      "note": "公告含岗位（语文1、数学2、化学1）、报名方式与流程；无本次范围学科岗位"
+    },
+    {
+      "id": "src-nb-yinzhou-site",
+      "title": "宁波市鄞州中学（甬上云校校园门户）",
+      "url": "https://yzzx.nbsedu.com.cn/index.php?r=space/school/theme/index&sid=3433000412",
+      "publisher": "宁波市鄞州中学（甬上云校）",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "甬上云校平台校园门户，页面标题含学校全称；蓝青高级中学招生信息亦发布于该门户栏目"
+    },
+    {
+      "id": "src-nb-yinzhou-gov",
+      "title": "宁波市鄞州中学公开招聘事业编制教师的公告（宁波市教育局）",
+      "url": "http://jyj.ningbo.gov.cn/col/col1229166692/art/2026/art_715bc4d74b994e59ab0c174a985858c5.html",
+      "publisher": "宁波市教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-07-09",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（2026-07-09发布，报名2026-07-15截止）",
+      "note": "公告载明通过学校网站报名（链接为报名系统地址）与考试流程；岗位表为附件未恢复"
+    },
+    {
+      "id": "src-nb-yinzhou-sys",
+      "title": "宁波市鄞州中学网上报名系统（公告刊载地址）",
+      "url": "http://47.114.85.142:8003/indexbm.html",
+      "publisher": "宁波市鄞州中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "招聘系统",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "dead",
+      "recruitmentCycle": "2026届（2026-07公告刊载）",
+      "note": "公告刊载的网上报名系统地址，访问无响应"
+    },
+    {
+      "id": "src-nb-ningbo-gov",
+      "title": "宁波中学公开招聘事业编制教师及工作人员公告（宁波市教育局）",
+      "url": "http://jyj.ningbo.gov.cn/col/col1229166692/art/2026/art_aca89c4fa3ab4ab7a538870791d2e717.html",
+      "publisher": "宁波市教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-07-09",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（2026-07-09发布，报名2026-07-15截止）",
+      "note": "公告含报名方式（问卷链接与邮箱）与考试流程；岗位表为附件未恢复"
+    },
+    {
+      "id": "src-nb-yuyao-zjnu",
+      "title": "教师招聘|2026年宁波余姚市公开招聘中小学教师（第二批）公告（浙江师范大学就业网转发）",
+      "url": "https://career.zjnu.edu.cn/news/view/aid/431206/tag/?PageSpeed=noscript",
+      "publisher": "浙江师范大学就业信息网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-04-22",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（2026-04-22发布，第二批102名）",
+      "note": "转发余姚市统一招聘公告；余姚中学为余姚市属公办学校，其教师招聘纳入本市统一招聘；公告正文与岗位表未在本页文本中恢复"
+    },
+    {
+      "id": "src-nb-yuyao-yynews",
+      "title": "即日起报名！余姚市公开招聘中小学教师102名（余姚新闻网）",
+      "url": "https://www.yynews.com.cn/yy/202604/t20260422_7280633.shtml",
+      "publisher": "余姚新闻网（姚界客户端）",
+      "sourceLevel": "D_aggregator",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-04-22",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（第二批，2026-04-22发布）",
+      "note": "媒体报道转载公告，含报名概述；岗位表未恢复"
+    },
+    {
+      "id": "src-nb-zhenhai-wzu",
+      "title": "教师招聘|宁波市镇海中学（含甬江校区）公开招聘2026年事业编制教师公告（温州大学就业网）",
+      "url": "https://job.wzu.edu.cn/news/view/aid/157551/tag/news/index/tag/",
+      "publisher": "温州大学就业网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": "2025-09-10",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（2025-09-10发布，报名2025-10-06截止，46名）",
+      "note": "公告含招聘计划46名、报名方式（邮箱）与流程；岗位表为图片未恢复"
+    }
+  ],
+  "schoolScans": [
+    {
+      "schoolId": "private-nb-huamao",
+      "officialName": "宁波华茂高级中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://hmgz.hmedu.com/",
+        "evidenceId": "src-nb-huamao-site",
+        "note": "官网首页确认归属（含校名全称与办学信息）；官网无独立招聘栏目，join栏目为招生公告"
+      },
+      "recruitmentOutcome": "evergreen_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nb-huamao-join"
+      ],
+      "contacts": [
+        {
+          "id": "contact-nb-huamao-hr-mail",
+          "channel": "email",
+          "value": "hr@hmedu.com",
+          "purpose": "简历投递",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "常年招聘（华茂教育集团招聘页）",
+          "validity": "常年",
+          "evidenceId": "src-nb-huamao-join",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-huamao-hr-tel",
+          "channel": "phone",
+          "value": "0574-88213616",
+          "purpose": "招聘咨询",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "常年招聘（华茂教育集团招聘页）",
+          "validity": "常年",
+          "evidenceId": "src-nb-huamao-join",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-huamao-zx-tel",
+          "channel": "phone",
+          "value": "18268667126",
+          "purpose": "招生咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026年招生（学校官网招生公告页）",
+          "validity": "时效待确认",
+          "evidenceId": "src-nb-huamao-admission",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [
+        {
+          "id": "lead-nb-huamao-intern",
+          "title": "高中各学科实习生（华茂教育集团招聘页）",
+          "subjectTags": [
+            "其他"
+          ],
+          "recruitmentCycle": "集团常年招聘（页面当前在招）",
+          "status": "常年入口",
+          "publishedAt": null,
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "80-100元/天（实习生岗位原文）",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "2024届本科或研究生毕业，专业对口",
+            "至少能实习一个学期者优先"
+          ],
+          "selectionProcessRaw": [
+            "简历发送至集团招聘邮箱，邮件主题按指定格式"
+          ],
+          "applicationMethod": "email",
+          "applicationUrl": null,
+          "sourceEvidenceIds": [
+            "src-nb-huamao-join"
+          ],
+          "note": "集团招聘页的教师相关岗位为高中各学科实习生，是否含政治、历史方向需确认；未检索到华茂高级中学本校单独的教师招聘公告"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-nb-huamao-site",
+        "src-nb-huamao-join",
+        "src-nb-huamao-admission"
+      ],
+      "searchQueries": [
+        "宁波华茂高级中学 官网",
+        "宁波华茂高级中学 教师招聘",
+        "宁波华茂高级中学 2026 招聘教师 公告",
+        "宁波华茂高级中学 招聘 邮箱 简历"
+      ],
+      "unresolved": [
+        "未检索到华茂高级中学本校（非集团）的教师招聘公告",
+        "集团招聘页岗位以职能岗与实习生为主，政治/历史学科教师岗位未单独列示"
+      ]
+    },
+    {
+      "schoolId": "private-nb-nottingham",
+      "officialName": "宁波诺丁汉大学附属中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.unncahs.net/",
+        "evidenceId": "src-nb-nottingham-site",
+        "note": "甬上云校校园门户；万里教育集团官网明示学校网站域名"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nb-nottingham-jiaoshi",
+        "src-nb-nottingham-gxj"
+      ],
+      "contacts": [
+        {
+          "id": "contact-nb-nottingham-tel1",
+          "channel": "phone",
+          "value": "83887711",
+          "purpose": "未明确",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "集团官网刊载（2017年页，用途未标注）",
+          "validity": "时效待确认",
+          "evidenceId": "src-nb-nottingham-wanli",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-nottingham-tel2",
+          "channel": "phone",
+          "value": "83887722",
+          "purpose": "未明确",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "集团官网刊载（2017年页，用途未标注）",
+          "validity": "时效待确认",
+          "evidenceId": "src-nb-nottingham-wanli",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [
+        {
+          "id": "lead-nb-nottingham-teacher",
+          "title": "普通高中教师（历史、政治等学科）——宁波诺丁汉大学附属中学",
+          "subjectTags": [
+            "政治/道法",
+            "历史/人文"
+          ],
+          "recruitmentCycle": "届次未标注（平台公告无发布日期）",
+          "status": "状态待确认",
+          "publishedAt": null,
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "年龄40周岁以下，相关专业研究生及以上学历学位",
+            "高级及以上职称可适当放宽年龄及学历学位条件",
+            "博士学历、市级以上名师、骨干教师、学科带头人、优秀班主任或有教育教学管理经验者优先",
+            "国际课程教师需具有流利的英语口语表达能力"
+          ],
+          "selectionProcessRaw": [
+            "简历及佐证材料压缩包发送至邮箱报名（投递邮箱未在页面文本中恢复）",
+            "材料含应聘教师登记表；虚假材料取消面试及聘用资格"
+          ],
+          "applicationMethod": "email",
+          "applicationUrl": null,
+          "sourceEvidenceIds": [
+            "src-nb-nottingham-jiaoshi"
+          ],
+          "note": "公告岗位含普通高中教师（英语、历史、政治、物理、化学等）与国际部双语教师（物理、数学）；另见2026年英语教师岗位（高校人才网）"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-nb-nottingham-site",
+        "src-nb-nottingham-wanli",
+        "src-nb-nottingham-jiaoshi",
+        "src-nb-nottingham-gxj"
+      ],
+      "searchQueries": [
+        "宁波诺丁汉大学附属中学 官网",
+        "宁波诺丁汉大学附属中学 招聘"
+      ],
+      "unresolved": [
+        "教师人才网公告中的投递邮箱未能在页面文本中恢复（疑为图片或附件）",
+        "公告发布日期未显示，届次待确认",
+        "甬上云校门户学校简介页显示平台维护中（2025-06-06）"
+      ]
+    },
+    {
+      "schoolId": "private-nb-rongan",
+      "officialName": "宁波荣安实验中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "多次检索未见独立官网；荣安集团官网仅作集团产业介绍，未链接学校网站"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nb-rongan-zhaopin-zz",
+        "src-nb-rongan-zhaopin-ls",
+        "src-nb-rongan-wx"
+      ],
+      "contacts": [],
+      "jobLeads": [
+        {
+          "id": "lead-nb-rongan-zz",
+          "title": "高中政治教师——宁波荣安实验中学",
+          "subjectTags": [
+            "政治/道法"
+          ],
+          "recruitmentCycle": "平台岗位，无发布日期",
+          "status": "状态待确认",
+          "publishedAt": null,
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "教师岗位17~36万/年（含五险一金及奖金）不等；特别优秀人才薪酬面议；应届生面议",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "相关专业本科及本科以上学历学位，具有相应学科的教师资格证书",
+            "高级及以上职称可适当放宽年龄及学历学位条件",
+            "市级以上名师、骨干教师、学科带头人、优秀班主任或有教育教学管理经验者优先"
+          ],
+          "selectionProcessRaw": [],
+          "applicationMethod": "platform",
+          "applicationUrl": "https://www.zhaopin.com/jobdetail/CCL1488668820J40678062512.htm",
+          "sourceEvidenceIds": [
+            "src-nb-rongan-zhaopin-zz",
+            "src-nb-rongan-zhaopin-ls"
+          ],
+          "note": "岗位页面标注招1人、经验要求5-10年；历史教师岗位同文案但页面显示已下线"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-nb-rongan-gov",
+        "src-nb-rongan-zhaopin-zz",
+        "src-nb-rongan-zhaopin-ls",
+        "src-nb-rongan-wx",
+        "src-nb-rongan-jxnu"
+      ],
+      "searchQueries": [
+        "宁波荣安实验中学 官网",
+        "宁波荣安实验中学 学校官网",
+        "宁波荣安实验中学 教师招聘",
+        "宁波荣安实验中学 招聘 政治 历史 教师"
+      ],
+      "unresolved": [
+        "未检索到公开招聘公告正文（江西师大转发页域名无法解析；2024年聚合页正文未恢复）",
+        "智联政治岗位无发布日期，时效待确认"
+      ]
+    },
+    {
+      "schoolId": "private-nb-shenzhou",
+      "officialName": "宁波神舟学校",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.nbsedu.com.cn/index.php?r=space/school/theme/index&sid=3433000158",
+        "evidenceId": "src-nb-shenzhou-site",
+        "note": "甬上云校校园门户，页面标题含学校全称；原独立域名已无法解析"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nb-shenzhou-job910",
+        "src-nb-shenzhou-huznu"
+      ],
+      "contacts": [
+        {
+          "id": "contact-nb-shenzhou-mail",
+          "channel": "email",
+          "value": "nbszxx@163.com",
+          "purpose": "简历投递",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "招聘启事刊载（2021-2023年多版）",
+          "validity": "往届",
+          "evidenceId": "src-nb-shenzhou-job910",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-shenzhou-tel1",
+          "channel": "phone",
+          "value": "0574-55337268",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "招聘启事刊载（2021-2023年多版）",
+          "validity": "往届",
+          "evidenceId": "src-nb-shenzhou-job910",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-shenzhou-tel2",
+          "channel": "phone",
+          "value": "0574-55337259",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "招聘启事刊载（2021-2023年多版）",
+          "validity": "往届",
+          "evidenceId": "src-nb-shenzhou-job910",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-shenzhou-mobile",
+          "channel": "phone",
+          "value": "13989311125",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "招聘启事刊载（2021-2023年多版）",
+          "validity": "往届",
+          "evidenceId": "src-nb-shenzhou-job910",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [
+        {
+          "id": "lead-nb-shenzhou-teacher",
+          "title": "高中政治、历史等学科教师（宁波神舟学校招聘启事）",
+          "subjectTags": [
+            "政治/道法",
+            "历史/人文"
+          ],
+          "recruitmentCycle": "往届启事（2021-2023年间刊载，当前在招职位0个）",
+          "status": "往届参考",
+          "publishedAt": null,
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "年薪10—18万元，具体薪资以面谈为准（2023年版启事为10-22万元）",
+          "housingRaw": "提供教师宿舍公寓",
+          "mealsRaw": "午餐补贴（2023年版启事同，另含节日慰问金等）",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "全日制本科或研究生学历，学科相关专业毕业",
+            "有丰富的班主任工作经验者优先"
+          ],
+          "selectionProcessRaw": [
+            "应聘简历及相关材料发送到学校邮箱",
+            "人事部门审阅后通知面试、笔试、反馈，录用者通知签约入职"
+          ],
+          "applicationMethod": "email",
+          "applicationUrl": null,
+          "sourceEvidenceIds": [
+            "src-nb-shenzhou-job910",
+            "src-nb-shenzhou-huznu"
+          ],
+          "note": "万行招聘主页启事含政治、历史岗位；湖师院2023版启事岗位为语文、数学、通用技术"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-nb-shenzhou-site",
+        "src-nb-shenzhou-gov",
+        "src-nb-shenzhou-job910",
+        "src-nb-shenzhou-huznu"
+      ],
+      "searchQueries": [
+        "宁波神舟学校 官网",
+        "宁波神舟学校 招聘",
+        "宁波神舟学校 教师招聘 2025"
+      ],
+      "unresolved": [
+        "招聘主页当前在招职位0个，启事届次为往届"
+      ]
+    },
+    {
+      "schoolId": "private-nb-chengnan",
+      "officialName": "宁波市城南中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.nbcnzx.cn/",
+        "evidenceId": "src-nb-chengnan-site",
+        "note": "官网首页确认归属（含校名全称与校训）"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nb-chengnan-zp",
+        "src-nb-chengnan-jiaoshi",
+        "src-nb-chengnan-wx"
+      ],
+      "contacts": [
+        {
+          "id": "contact-nb-chengnan-mail",
+          "channel": "email",
+          "value": "120047862@qq.com",
+          "purpose": "简历投递",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "平台学校页刊载（无日期）",
+          "validity": "时效待确认",
+          "evidenceId": "src-nb-chengnan-jiaoshi",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-chengnan-tel",
+          "channel": "phone",
+          "value": "13989371862",
+          "purpose": "招聘咨询",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "平台学校页刊载（无日期）",
+          "validity": "时效待确认",
+          "evidenceId": "src-nb-chengnan-jiaoshi",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [
+        {
+          "id": "lead-nb-chengnan-teacher",
+          "title": "政治、历史等学科教师——宁波市城南中学（平台学校页）",
+          "subjectTags": [
+            "政治/道法",
+            "历史/人文"
+          ],
+          "recruitmentCycle": "平台学校页，无发布日期，在招职位0个",
+          "status": "状态待确认",
+          "publishedAt": null,
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "",
+          "housingRaw": "教师公寓、住房补贴（福利标签）",
+          "mealsRaw": "",
+          "workloadRaw": [
+            "班主任津贴（福利标签）"
+          ],
+          "requirementsRaw": [
+            "全日制本科毕业",
+            "具备高中教师资格证书（如无教师资格证，录用一年内必须获得）",
+            "所学专业与实际应聘岗位一致",
+            "全日制师范类毕业生优先考虑"
+          ],
+          "selectionProcessRaw": [
+            "网上投简历",
+            "材料初审通过后电话通知来校考试（笔试+面试）",
+            "考试后择优录用，签订劳动合同"
+          ],
+          "applicationMethod": "email",
+          "applicationUrl": null,
+          "sourceEvidenceIds": [
+            "src-nb-chengnan-jiaoshi"
+          ],
+          "note": "官网招生招聘栏目仅见2020年招生简章；微信招聘启事被验证码拦截；平台页地址信息与简介矛盾，待复核"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-nb-chengnan-site",
+        "src-nb-chengnan-zp",
+        "src-nb-chengnan-jiaoshi",
+        "src-nb-chengnan-wx"
+      ],
+      "searchQueries": [
+        "宁波市城南中学 官网",
+        "宁波市城南中学 招聘",
+        "宁波市城南中学 招聘 2026"
+      ],
+      "unresolved": [
+        "官网招生招聘栏目最新内容为2020年招生简章",
+        "微信四月招聘启事被验证码拦截",
+        "平台学校页地址信息（余姚）与学校简介（鄞州姜山）不一致，待复核"
+      ]
+    },
+    {
+      "schoolId": "private-nb-huaguang",
+      "officialName": "宁波市华光学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "候选域名 yzhgxx.com 无法连接且未能验证归属；nbghxx.net 为宁波光华学校（慈溪），非目标学校"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nb-huaguang-nbhsrc",
+        "src-nb-huaguang-job910-1",
+        "src-nb-huaguang-job910-2"
+      ],
+      "contacts": [],
+      "jobLeads": [
+        {
+          "id": "lead-nb-huaguang-ls",
+          "title": "鄞江中学历史教师（宁波市华光学校发布）",
+          "subjectTags": [
+            "历史/人文"
+          ],
+          "recruitmentCycle": "平台岗位，无发布日期",
+          "status": "状态待确认",
+          "publishedAt": null,
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "10000-13000元（平台页面标注，计价单位未注明）",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "全日制本科及以上学历",
+            "具备高中教师资格证书",
+            "40周岁以下",
+            "所学专业与实际应聘岗位一致",
+            "普通话等级：二级乙等及以上",
+            "具备一线高中教学、毕业班带班经验者优先"
+          ],
+          "selectionProcessRaw": [
+            "不接受线上面试，需统一参加线下面试（面试地点：鄞江中学，时间待定）"
+          ],
+          "applicationMethod": "platform",
+          "applicationUrl": "http://www.nbhsrc.com/job2613160193.shtml",
+          "sourceEvidenceIds": [
+            "src-nb-huaguang-nbhsrc",
+            "src-nb-huaguang-job910-1",
+            "src-nb-huaguang-job910-2"
+          ],
+          "note": "同批另招高中数学、英语、化学教师各1名；岗位为华光学校发布、工作地点鄞江中学，代课/派驻性质待复核；另两条政治教师岗位均已下线"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-nb-huaguang-nbhsrc",
+        "src-nb-huaguang-job910-1",
+        "src-nb-huaguang-job910-2"
+      ],
+      "searchQueries": [
+        "宁波市华光学校 官网",
+        "宁波市华光学校 学校 简介 官网 网站",
+        "宁波市华光学校 招聘"
+      ],
+      "unresolved": [
+        "未发现独立官网",
+        "政治教师岗位（万行）均已下线",
+        "海曙人才网岗位发布日期未显示"
+      ]
+    },
+    {
+      "schoolId": "private-nb-keji",
+      "officialName": "宁波市科技高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "2024年建校；市教育局名录页无学校网址字段，吉林大学就业网单位信息栏学校网址为空"
+      },
+      "recruitmentOutcome": "evergreen_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nb-keji-ecnu",
+        "src-nb-keji-jlu"
+      ],
+      "contacts": [
+        {
+          "id": "contact-nb-keji-mail",
+          "channel": "email",
+          "value": "nbskjgjzx@sina.com",
+          "purpose": "简历投递",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "长期招聘（公告未限定毕业届次）",
+          "validity": "常年",
+          "evidenceId": "src-nb-keji-ecnu",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-keji-tel1",
+          "channel": "phone",
+          "value": "0574-56186677",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "长期招聘（公告未限定毕业届次）",
+          "validity": "常年",
+          "evidenceId": "src-nb-keji-ecnu",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-keji-tel2",
+          "channel": "phone",
+          "value": "18312978118",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "长期招聘（公告未限定毕业届次）",
+          "validity": "常年",
+          "evidenceId": "src-nb-keji-ecnu",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-keji-tel3",
+          "channel": "phone",
+          "value": "13588803665",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "长期招聘（公告未限定毕业届次）",
+          "validity": "常年",
+          "evidenceId": "src-nb-keji-ecnu",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [
+        {
+          "id": "lead-nb-keji-zz",
+          "title": "高中政治教师——宁波市科技高级中学",
+          "subjectTags": [
+            "政治/道法"
+          ],
+          "recruitmentCycle": "长期招聘（公告未限定毕业届次，截止2027-01-01）",
+          "status": "常年入口",
+          "publishedAt": "2026-05-04",
+          "deadline": "2027-01-01",
+          "expectedStart": "",
+          "salaryRaw": "教师待遇高于同类公办学校同职级事业编制教师的待遇（满工作量前提下）；名特优教师一师一策，具体面议",
+          "housingRaw": "",
+          "mealsRaw": "餐补（疗休养、体检、餐补、节日津贴等福利待遇）",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "本科及以上学历学位",
+            "具有招聘岗位所需的专业要求和相应学科的高中教师资格证（如无教师资格证，需在入职一年内取得）",
+            "吉大就业网招聘计划中政治类岗位对应专业为马克思主义理论、马克思主义基本原理（研究生）"
+          ],
+          "selectionProcessRaw": [
+            "报名简历以PDF格式发送至指定邮箱，邮件主题及PDF文件名按指定格式",
+            "初次筛选后以电话或短信通知入围者初试、复试时间",
+            "按初试、复试综合成绩择优拟录用",
+            "对拟录用人员组织实施体检，体检合格者正式录用"
+          ],
+          "applicationMethod": "email",
+          "applicationUrl": null,
+          "sourceEvidenceIds": [
+            "src-nb-keji-ecnu",
+            "src-nb-keji-jlu"
+          ],
+          "note": "公告同时招聘语文、数学、英语、物理、化学、心理等学科，需求11-20人；2027届接受度待确认"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-nb-keji-gov",
+        "src-nb-keji-ecnu",
+        "src-nb-keji-jlu"
+      ],
+      "searchQueries": [
+        "宁波市科技高级中学 官网",
+        "宁波市科技高级中学 招聘 学校 地址 官网",
+        "宁波市科技高级中学 甬上云校 OR 学校网站 OR jyj.ningbo.gov.cn"
+      ],
+      "unresolved": []
+    },
+    {
+      "schoolId": "private-nb-xingning",
+      "officialName": "宁波市兴宁中学",
+      "website": {
+        "outcome": "blocked",
+        "url": null,
+        "evidenceId": null,
+        "note": "候选域名 www.xnzx.org 返回403，未能验证归属；未见其他官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nb-xingning-wzu",
+        "src-nb-xingning-51job"
+      ],
+      "contacts": [
+        {
+          "id": "contact-nb-xingning-mail",
+          "channel": "email",
+          "value": "nbzxzp@126.com",
+          "purpose": "简历投递",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026届（2025-12-25发布）",
+          "validity": "往届",
+          "evidenceId": "src-nb-xingning-wzu",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-xingning-tel",
+          "channel": "phone",
+          "value": "0574-88126621",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026届（2025-12-25发布）",
+          "validity": "往届",
+          "evidenceId": "src-nb-xingning-wzu",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [
+        {
+          "id": "lead-nb-xingning-teacher",
+          "title": "高中政治、初中社会等学科教师——宁波市兴宁中学",
+          "subjectTags": [
+            "政治/道法",
+            "历史/人文"
+          ],
+          "recruitmentCycle": "2026届（2025-12-25发布）",
+          "status": "往届参考",
+          "publishedAt": "2025-12-25",
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "参照宁波市同等职称、教龄的事业编制教师待遇标准执行；地市级以上骨干教师、名师、特级教师或正高级职称者待遇从优，具体面议",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "全日制本科及以上学历，且所学专业与应聘学科一致",
+            "在职优秀教师年龄原则上不超过35周岁（业绩特别突出者可适当放宽）"
+          ],
+          "selectionProcessRaw": [],
+          "applicationMethod": "email",
+          "applicationUrl": null,
+          "sourceEvidenceIds": [
+            "src-nb-xingning-wzu"
+          ],
+          "note": "岗位含初中社会、美术、信息技术及高中物理、化学、政治、地理；前程无忧初中社会教师岗位页被验证码拦截"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-nb-xingning-wzu",
+        "src-nb-xingning-51job"
+      ],
+      "searchQueries": [
+        "宁波市兴宁中学 官网",
+        "宁波市兴宁中学 招聘 教师",
+        "宁波市兴宁中学 学校网站 甬上云校"
+      ],
+      "unresolved": [
+        "前程无忧初中社会教师岗位页被验证码拦截",
+        "官网候选域名被拒（403）"
+      ]
+    },
+    {
+      "schoolId": "private-nb-yongtong",
+      "officialName": "宁波市甬同书院",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未检索到任何官网候选"
+      },
+      "recruitmentOutcome": "not_found",
+      "recruitmentChannelEvidenceIds": [],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nb-yongtong-zjnu",
+        "src-nb-ningbo-col"
+      ],
+      "searchQueries": [
+        "宁波市甬同书院 官网",
+        "宁波市甬同书院 招聘",
+        "甬同书院 高中 招生 宁波",
+        "\"甬同书院\""
+      ],
+      "unresolved": [
+        "未检索到官网、招聘公告正文或公开联系方式",
+        "仅搜索发现浙师大招聘会参会记录；杭师大'普高学科教师'岗位经核实为宁波市协同书院发布，非甬同书院"
+      ]
+    },
+    {
+      "schoolId": "private-nb-lanqing",
+      "officialName": "宁波鄞州蓝青高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "蓝青高中招生信息发布在鄞州中学甬上云校门户栏目下，无独立官网"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nb-lanqing-gxj",
+        "src-nb-lanqing-job910"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nb-lanqing-gxj",
+        "src-nb-lanqing-job910"
+      ],
+      "searchQueries": [
+        "宁波鄞州蓝青高级中学 官网",
+        "蓝青高级中学 招聘 教师",
+        "蓝青高级中学 OR 蓝青学校 甬上云校 nbsedu"
+      ],
+      "unresolved": [
+        "2026年公告岗位表仅恢复高中数学一项，其余岗位学科未恢复",
+        "公告报名方式为扫码（按规则不扫码，未执行）"
+      ]
+    },
+    {
+      "schoolId": "private-nb-zhicheng",
+      "officialName": "宁波至诚高级中学",
+      "website": {
+        "outcome": "blocked",
+        "url": null,
+        "evidenceId": null,
+        "note": "官网域名 www.zcedu.com.cn 返回403（WAF拦截）；移动端UA会被重定向至第三方域名，可疑，未采用"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nb-zhicheng-job910",
+        "src-nb-zhicheng-ls"
+      ],
+      "contacts": [
+        {
+          "id": "contact-nb-zhicheng-mail",
+          "channel": "email",
+          "value": "513734026@qq.com",
+          "purpose": "简历投递",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "招聘启事与在招岗位页刊载（更新2026-07-31）",
+          "validity": "时效待确认",
+          "evidenceId": "src-nb-zhicheng-job910",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-zhicheng-tel",
+          "channel": "phone",
+          "value": "0574-87564002",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "招聘启事与在招岗位页刊载（更新2026-07-31）",
+          "validity": "时效待确认",
+          "evidenceId": "src-nb-zhicheng-job910",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [
+        {
+          "id": "lead-nb-zhicheng-ls",
+          "title": "高中历史教师（青年教师）——宁波至诚学校",
+          "subjectTags": [
+            "历史/人文"
+          ],
+          "recruitmentCycle": "平台岗位（更新于2026-07-31，储备状态）",
+          "status": "状态待确认",
+          "publishedAt": null,
+          "deadline": null,
+          "expectedStart": "该职位为储备状态（到岗时间未定）",
+          "salaryRaw": "12-24W/年",
+          "housingRaw": "",
+          "mealsRaw": "包含丰富自助午餐，带薪寒暑假，国家法定节假日等福利",
+          "workloadRaw": [
+            "周末双休"
+          ],
+          "requirementsRaw": [
+            "本科相应专业及以上学历",
+            "师范类毕业生、有工作经验的老师优先录用",
+            "拥有相应专业的高中教师资格证"
+          ],
+          "selectionProcessRaw": [],
+          "applicationMethod": "platform",
+          "applicationUrl": "https://www.job910.com/jobs_view_813602.html",
+          "sourceEvidenceIds": [
+            "src-nb-zhicheng-ls",
+            "src-nb-zhicheng-job910"
+          ],
+          "note": "招聘2人；学校为十五年制民办学校（幼小初高）；官网域名返回403无法核实"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-nb-zhicheng-job910",
+        "src-nb-zhicheng-ls"
+      ],
+      "searchQueries": [
+        "宁波至诚高级中学 官网",
+        "宁波至诚学校 官网 网站 zhicheng",
+        "宁波至诚学校 招聘"
+      ],
+      "unresolved": [
+        "官网无法访问，仅平台招聘页可核实",
+        "在招岗位中仅历史教师属本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "private-nb-hd",
+      "officialName": "鄞州赫德实验学校",
+      "website": {
+        "outcome": "found",
+        "url": "https://www.hdschools.org/zh_cn/ningbo",
+        "evidenceId": "src-nb-hd-site",
+        "note": "官网首页确认归属（页脚版权声明）"
+      },
+      "recruitmentOutcome": "evergreen_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nb-hd-join",
+        "src-nb-hd-job910"
+      ],
+      "contacts": [
+        {
+          "id": "contact-nb-hd-mail",
+          "channel": "email",
+          "value": "Xu.Kathy@hdschools.org",
+          "purpose": "简历投递",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "官网招聘页（常年开放投递）",
+          "validity": "常年",
+          "evidenceId": "src-nb-hd-join",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-hd-tel1",
+          "channel": "phone",
+          "value": "0574-56118325",
+          "purpose": "招聘咨询",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "官网招聘页（常年开放投递）",
+          "validity": "常年",
+          "evidenceId": "src-nb-hd-join",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-hd-tel2",
+          "channel": "phone",
+          "value": "0574-56118323",
+          "purpose": "招聘咨询",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "平台招聘主页刊载（无日期）",
+          "validity": "时效待确认",
+          "evidenceId": "src-nb-hd-job910",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-hd-switch",
+          "channel": "phone",
+          "value": "0574-55228887",
+          "purpose": "学校总机",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "官网联系方式页（前台总机）",
+          "validity": "时效待确认",
+          "evidenceId": "src-nb-hd-contact",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-hd-gaozhong",
+          "channel": "phone",
+          "value": "0574-55843115",
+          "purpose": "未明确",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "官网联系方式页（高中校办）",
+          "validity": "时效待确认",
+          "evidenceId": "src-nb-hd-contact",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-hd-zs1",
+          "channel": "phone",
+          "value": "18358426436",
+          "purpose": "招生咨询",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "官网联系方式页（小学部招生）",
+          "validity": "时效待确认",
+          "evidenceId": "src-nb-hd-contact",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-hd-zs2",
+          "channel": "phone",
+          "value": "18358426432",
+          "purpose": "招生咨询",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "官网联系方式页（初中部招生）",
+          "validity": "时效待确认",
+          "evidenceId": "src-nb-hd-contact",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-hd-zs3",
+          "channel": "phone",
+          "value": "15257446143",
+          "purpose": "招生咨询",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "官网联系方式页（美国升学+A-Level中心招生）",
+          "validity": "时效待确认",
+          "evidenceId": "src-nb-hd-contact",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nb-hd-site",
+        "src-nb-hd-join",
+        "src-nb-hd-contact",
+        "src-nb-hd-job910"
+      ],
+      "searchQueries": [
+        "鄞州赫德实验学校 官网",
+        "hdschools.org 赫德 招聘 careers 加入"
+      ],
+      "unresolved": [
+        "官网当前岗位列表（高中中文、双语物理/生物/数学、设计思维等）无经济/商科/社科方向，无本次范围学科线索"
+      ]
+    },
+    {
+      "schoolId": "public-nb-xiaoshi",
+      "officialName": "宁波市效实中学",
+      "website": {
+        "outcome": "blocked",
+        "url": null,
+        "evidenceId": null,
+        "note": "官网 www.nbxiaoshi.net 无法建立连接（连接失败）；市教育局公告提及效实中学官网"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nb-xiaoshi-gov"
+      ],
+      "contacts": [
+        {
+          "id": "contact-nb-xiaoshi-tel1",
+          "channel": "phone",
+          "value": "0574-83065387",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026届（2026-07-09发布，报名已截止）",
+          "validity": "往届",
+          "evidenceId": "src-nb-xiaoshi-gov",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-xiaoshi-tel2",
+          "channel": "phone",
+          "value": "0574-87159605",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026届（2026-07-09发布，报名已截止）",
+          "validity": "往届",
+          "evidenceId": "src-nb-xiaoshi-gov",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nb-xiaoshi-gov"
+      ],
+      "searchQueries": [
+        "宁波市效实中学 官网 招聘",
+        "宁波市效实中学 学校网站 www",
+        "效实中学 甬上云校 nbsedu"
+      ],
+      "unresolved": [
+        "2026-07公告岗位为语文、数学、化学，无本次范围学科",
+        "官网无法访问"
+      ]
+    },
+    {
+      "schoolId": "public-nb-yinzhou",
+      "officialName": "宁波市鄞州中学",
+      "website": {
+        "outcome": "found",
+        "url": "https://yzzx.nbsedu.com.cn/index.php?r=space/school/theme/index&sid=3433000412",
+        "evidenceId": "src-nb-yinzhou-site",
+        "note": "甬上云校校园门户，页面标题含学校全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nb-yinzhou-gov",
+        "src-nb-yinzhou-sys"
+      ],
+      "contacts": [
+        {
+          "id": "contact-nb-yinzhou-tel",
+          "channel": "phone",
+          "value": "0574-83039580",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026届（2026-07-09发布，报名已截止）",
+          "validity": "往届",
+          "evidenceId": "src-nb-yinzhou-gov",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nb-yinzhou-site",
+        "src-nb-yinzhou-gov",
+        "src-nb-yinzhou-sys"
+      ],
+      "searchQueries": [
+        "宁波市鄞州中学 官网 招聘",
+        "宁波市鄞州中学 学校网站 www"
+      ],
+      "unresolved": [
+        "2026-07公告岗位表为附件（xlsx）未恢复，无法确认是否含政治/历史岗位",
+        "公告刊载的报名系统地址访问无响应"
+      ]
+    },
+    {
+      "schoolId": "public-nb-ningbo",
+      "officialName": "宁波中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未检索到独立官网；官方公告经宁波市教育局网站与微信公众号发布"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nb-ningbo-gov"
+      ],
+      "contacts": [
+        {
+          "id": "contact-nb-ningbo-mail",
+          "channel": "email",
+          "value": "nbzxzp@126.com",
+          "purpose": "简历投递",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026届（2026-07-09发布，报名已截止）",
+          "validity": "往届",
+          "evidenceId": "src-nb-ningbo-gov",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nb-ningbo-tel",
+          "channel": "phone",
+          "value": "0574-88126621",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026届（2026-07-09发布，报名已截止）",
+          "validity": "往届",
+          "evidenceId": "src-nb-ningbo-gov",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nb-ningbo-gov"
+      ],
+      "searchQueries": [
+        "宁波中学 官网 招聘",
+        "宁波中学 学校网站 www 官网",
+        "浙江省宁波中学 学校网站 官网 nbzx",
+        "宁波中学 nbzx.net.cn OR nbzx.com.cn 网站"
+      ],
+      "unresolved": [
+        "2026-07公告岗位表为附件未恢复",
+        "未发现独立官网域名"
+      ]
+    },
+    {
+      "schoolId": "public-nb-yuyao",
+      "officialName": "浙江省余姚中学",
+      "website": {
+        "outcome": "blocked",
+        "url": null,
+        "evidenceId": null,
+        "note": "官网 www.yyhs.net.cn 无法建立连接（连接失败）"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nb-yuyao-zjnu",
+        "src-nb-yuyao-yynews"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nb-yuyao-zjnu",
+        "src-nb-yuyao-yynews"
+      ],
+      "searchQueries": [
+        "浙江省余姚中学 官网 招聘",
+        "余姚中学 学校网站 www",
+        "余姚市2026年公开招聘中小学教师 公告",
+        "余姚市 2026年 公开招聘 中小学教师 教育局 公告"
+      ],
+      "unresolved": [
+        "余姚中学岗位未在2026年第二批公告中恢复（岗位表未获取）",
+        "官网无法访问"
+      ]
+    },
+    {
+      "schoolId": "public-nb-zhenhai",
+      "officialName": "镇海中学",
+      "website": {
+        "outcome": "blocked",
+        "url": null,
+        "evidenceId": null,
+        "note": "官网 www.zhzx.net.cn 无法建立连接（连接失败）；站长工具显示该域名曾为镇海中学网站"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nb-zhenhai-wzu"
+      ],
+      "contacts": [
+        {
+          "id": "contact-nb-zhenhai-mail",
+          "channel": "email",
+          "value": "zhzxjszp@163.com",
+          "purpose": "简历投递",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026届（2025-09-10发布，报名2025-10-06截止）",
+          "validity": "往届",
+          "evidenceId": "src-nb-zhenhai-wzu",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nb-zhenhai-wzu"
+      ],
+      "searchQueries": [
+        "镇海中学 官网 招聘",
+        "镇海中学 学校网站 官网"
+      ],
+      "unresolved": [
+        "2026届公告岗位表为图片未恢复，无法确认是否含政治/历史岗位",
+        "官网无法访问"
+      ]
+    }
+  ],
+  "coverageGaps": [
+    {
+      "schoolId": "private-nb-yongtong",
+      "description": "未检索到甬同书院官网与公开招聘公告正文；仅搜索发现浙师大招聘会参会记录；杭师大普高学科教师岗位经核实为宁波市协同书院发布，非甬同书院",
+      "evidenceIds": [
+        "src-nb-yongtong-zjnu",
+        "src-nb-ningbo-col"
+      ],
+      "nextAction": "通过微信公众号或宁波市教育局民办学校名单核实办学主体与招聘渠道"
+    },
+    {
+      "schoolId": "private-nb-nottingham",
+      "description": "教师人才网公告的投递邮箱未恢复（疑在图片或附件）；公告发布日期未显示",
+      "evidenceIds": [
+        "src-nb-nottingham-jiaoshi"
+      ],
+      "nextAction": "检索学校公众号或官网招聘栏目恢复邮箱与发布日期"
+    },
+    {
+      "schoolId": "private-nb-rongan",
+      "description": "江西师大就业网转发版招聘公告域名无法解析；2024年聚合页正文未恢复；智联岗位无发布日期",
+      "evidenceIds": [
+        "src-nb-rongan-zhaopin-zz",
+        "src-nb-rongan-jxnu"
+      ],
+      "nextAction": "通过学校公众号或教育局渠道核实荣安当前招聘与联系方式"
+    },
+    {
+      "schoolId": "private-nb-chengnan",
+      "description": "微信四月招聘启事被验证码拦截；平台学校页地址与简介矛盾",
+      "evidenceIds": [
+        "src-nb-chengnan-wx",
+        "src-nb-chengnan-jiaoshi"
+      ],
+      "nextAction": "通过微信文章快照或学校公众号恢复启事正文"
+    },
+    {
+      "schoolId": "private-nb-huaguang",
+      "description": "官网候选域名无法连接；政治岗位均已下线，仅剩海曙人才网历史岗（发布方为华光学校、工作地点鄞江中学，性质待复核）",
+      "evidenceIds": [
+        "src-nb-huaguang-nbhsrc",
+        "src-nb-huaguang-job910-1"
+      ],
+      "nextAction": "核实华光学校办学主体与常设招聘渠道（公众号）"
+    },
+    {
+      "schoolId": "private-nb-lanqing",
+      "description": "2026年公告岗位表仅恢复高中数学一项，其余岗位学科未恢复；报名方式为扫码（按规则不扫码）",
+      "evidenceIds": [
+        "src-nb-lanqing-gxj"
+      ],
+      "nextAction": "通过公告职位列表页恢复全部岗位"
+    },
+    {
+      "schoolId": "private-nb-zhicheng",
+      "description": "官网 zcedu.com.cn 返回403无法核实；平台岗位届次与时效待确认",
+      "evidenceIds": [
+        "src-nb-zhicheng-ls"
+      ],
+      "nextAction": "通过学校公众号或公开电话核实（电话已收录于contacts）"
+    },
+    {
+      "schoolId": "private-nb-xingning",
+      "description": "官网候选域名403；51job岗位页被验证码拦截",
+      "evidenceIds": [
+        "src-nb-xingning-51job"
+      ],
+      "nextAction": "通过公众号或学校渠道确认官网与岗位详情"
+    },
+    {
+      "schoolId": "private-nb-huamao",
+      "description": "未检索到华茂高级中学本校教师招聘公告（仅集团招聘页，岗位以职能岗与实习生为主）",
+      "evidenceIds": [
+        "src-nb-huamao-join"
+      ],
+      "nextAction": "关注集团招聘页与学校公众号更新"
+    },
+    {
+      "schoolId": "public-nb-yinzhou",
+      "description": "2026-07公告岗位表附件未恢复；公告报名系统地址失效",
+      "evidenceIds": [
+        "src-nb-yinzhou-gov",
+        "src-nb-yinzhou-sys"
+      ],
+      "nextAction": "通过学校门户或公众号恢复岗位表"
+    },
+    {
+      "schoolId": "public-nb-ningbo",
+      "description": "2026-07公告岗位表附件未恢复；未发现独立官网",
+      "evidenceIds": [
+        "src-nb-ningbo-gov"
+      ],
+      "nextAction": "通过公众号或市教育局公告恢复岗位表"
+    },
+    {
+      "schoolId": "public-nb-yuyao",
+      "description": "余姚中学岗位未在2026年第二批公告中恢复（岗位表未获取）；官网无法访问",
+      "evidenceIds": [
+        "src-nb-yuyao-zjnu"
+      ],
+      "nextAction": "恢复第二批岗位表（附件）确认余姚中学岗位"
+    },
+    {
+      "schoolId": "public-nb-zhenhai",
+      "description": "2026届公告岗位表为图片未恢复；官网无法访问",
+      "evidenceIds": [
+        "src-nb-zhenhai-wzu"
+      ],
+      "nextAction": "恢复岗位表图片文本确认范围学科岗位"
+    }
+  ],
+  "notes": [
+    "本批次为待 Codex 审核的暂存资料，不导入正式数据，不发布，不 commit。",
+    "官网判定说明：甬上云校（nbsedu.com.cn）为宁波市教育服务平台的学校官方校园门户，神舟学校、鄞州中学采用该门户作为官网；诺丁汉附中官网 unncas.net 亦为该门户，且万里教育集团官网明示学校网站域名。",
+    "联系方式规则：招生电话用途标为招生咨询；往届公告中的联系方式标为往届或时效待确认；具名联系人统一记录为公告中的招聘联系人，不保存姓名。",
+    "岗位线索仅摘录公告原文；未公开的待遇、住宿等字段留空，不推算年薪，不把未公开改写为没有要求。",
+    "华光学校鄞江中学教师岗位为宁波市华光学校发布的岗位（工作地点鄞江中学），代课/派驻性质与届次待 Codex 复核。",
+    "荣安、神舟、城南、科技等学校部分联系方式含公开刊载的移动号码，是否收录由 Codex 复核决定。"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "isTemplate": true,
+  "batchId": "replace-with-batch-id",
+  "province": "浙江",
+  "city": "杭州",
+  "researchedAt": "2026-08-20",
+  "researcher": "CodeBuddy",
+  "sources": [],
+  "privateSchools": [],
+  "publicTargets": [],
+  "coverageGaps": [],
+  "unresolvedAliases": [],
+  "notes": [
+    "复制到 research/intake/<province>/<city>.json 后，把 isTemplate 改为 false。",
+    "不得把示例、猜测或未打开的搜索摘要写成已确认记录。"
+  ]
+}

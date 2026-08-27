@@ -1,0 +1,1251 @@
+{
+  "schemaVersion": 1,
+  "isTemplate": false,
+  "batchId": "wuxi-dsh-b1",
+  "province": "江苏",
+  "city": "无锡",
+  "researchedAt": "2026-08-21",
+  "researcher": "DeepSeek Harness + DeepSeek-V4-Flash",
+  "sources": [
+    {
+      "id": "src-wx-direct-154",
+      "title": "2026年无锡市教育局直属学校公开招聘教师公告（一）（154名）",
+      "url": "https://www.wuxi.gov.cn/doc/2026/01/19/4720188.shtml",
+      "publisher": "无锡市人民政府",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-01-19",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（市直属事业编制154名，报名已截止）",
+      "note": "应届本科及以上（本科需奖学金/师范生大赛等条件之一）；2026届教资可后补（2026-08-31前）；适岗能力评价加面试；岗位表为附件未恢复；报名平台zhaopin.wxeic.cn"
+    },
+    {
+      "id": "src-wx-huishan-41",
+      "title": "2026年无锡市惠山区教育局公开招聘教师公告（41名）",
+      "url": "https://www.wuxi.gov.cn/doc/2026/04/09/4757286.shtml",
+      "publisher": "无锡市人民政府（惠山区教育局）",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-04-09",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（惠山区事业编制41名，报名2026-04-14至18，已截止）",
+      "note": "应届生岗位须2026-07-31前取得教资；社会人员岗位须在职且有教资；岗位表为附件未恢复"
+    },
+    {
+      "id": "src-wx-xishan-120",
+      "title": "2026年无锡市锡山区教育系统公开招聘事业编制教师公告（120名）",
+      "url": "https://hrss.wuxi.gov.cn/doc/2026/04/03/4755371.shtml",
+      "publisher": "无锡市人力资源和社会保障局",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-04-03",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（锡山区事业编制120名，报名已截止）",
+      "note": "应届本科需奖学金或学科竞赛奖等条件；2026届教资可后补（2026-08-31前）；英语岗需专八或雅思7或托福95；岗位表为附件未恢复"
+    },
+    {
+      "id": "src-wx-binhu-17",
+      "title": "2026年无锡市滨湖区教育系统公开招聘教师公告（17名）",
+      "url": "https://hrss.wuxi.gov.cn/doc/2026/03/10/4743396.shtml",
+      "publisher": "无锡市人力资源和社会保障局",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-03-10",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（滨湖区事业编制17名，招聘对象为2026届应届研究生，报名2026-03-12至18，已截止）",
+      "note": "未取得教资者可承诺2027-07-31前取得；报名平台bhjszp.wxtoo.cn；岗位表为附件未恢复"
+    },
+    {
+      "id": "src-wx-wxfls-2026",
+      "title": "2026年无锡外国语学校教师招聘公告（官网）",
+      "url": "https://www.wxfls.net/instructions2/15398",
+      "publisher": "无锡外国语学校",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-03-30",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "常年（人才库模式：每年秋春季招聘，测评合格入人才库3年有效）",
+      "note": "高中教师含语文、数学、物理、化学、政治、历史、地理、生物；应届本科及以上+教资（高中教师原则上硕士及以上）；中学骨干年收入15-18万，名特优不低于25万或面议"
+    },
+    {
+      "id": "src-wx-wxfls-site",
+      "title": "无锡外国语学校官方门户网站首页",
+      "url": "https://www.wxfls.net/",
+      "publisher": "无锡外国语学校",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称"
+    },
+    {
+      "id": "src-wx-yunhe-zz",
+      "title": "高中政治教师（青年教师）-无锡运河实验中学（万行）",
+      "url": "https://m.job910.com/jobs_view_625831.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": "2026-08-14",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（更新2026-08-14，储备状态，招3人）",
+      "note": "8-10K/月；基本工资+绩效工资+课时量10万/年；五险一金、加班补助、过节补贴；本科及以上相关专业，1年以上经验；周末双休"
+    },
+    {
+      "id": "src-wx-xiehe-df",
+      "title": "初中部道德与法治教师-无锡市协和双语学校（万行）",
+      "url": "https://yiwu.job910.com/jobs_view_902537.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "dead",
+      "recruitmentCycle": "平台岗位（已下线）",
+      "note": "页面显示该职位已下线"
+    },
+    {
+      "id": "src-wx-huarui-ls",
+      "title": "初中历史教师（五险一金 包吃住）-无锡市惠山区华锐实验学校（无锡人才网）",
+      "url": "http://www.jswxrc.com/job2265905.shtml",
+      "publisher": "无锡人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "dead",
+      "recruitmentCycle": "平台岗位（已失效）",
+      "note": "页面返回404"
+    },
+    {
+      "id": "src-wx-lingxia-df",
+      "title": "初中道德与法治教师（应届生）-宜兴市凌霞实验中学（无锡人才网）",
+      "url": "http://jswxrc.com/job2560878.shtml",
+      "publisher": "无锡人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "平台岗位（应届生）",
+      "note": "页面抓取超时，正文未取得"
+    },
+    {
+      "id": "src-wx-xinan-gg",
+      "title": "高中各学科骨干教师-无锡市锡南实验中学（万行）",
+      "url": "https://www.suzhou.job910.com/jobs_view_784054.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "平台岗位（各学科骨干）",
+      "note": "页面TLS证书异常，正文未取得"
+    },
+    {
+      "id": "src-wx-daqiao-2026",
+      "title": "无锡市大桥实验学校2026年招聘教师（高校人才网）",
+      "url": "https://www.gaoxiaojob.com/announcement/detail/394846.html",
+      "publisher": "高校人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（大桥实验学校招聘教师）",
+      "note": "公告页面可访问；具体岗位学科未在页面文本中恢复"
+    },
+    {
+      "id": "src-wx-huatian-2026",
+      "title": "无锡市华天双语学校2026年教师招聘简章（学校网站）",
+      "url": "https://huatian.wxeic.cn/contents/324/952.html",
+      "publisher": "无锡市华天双语学校",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "2026年（华天双语学校招聘简章）",
+      "note": "页面被安全防护系统拦截（403）"
+    },
+    {
+      "id": "src-wx-jinqiao-2026",
+      "title": "2026年无锡市金桥教育集团教师招聘简章（无锡滨湖人才网）",
+      "url": "http://www.wxbhrc.com/sydwzpDetails_2DA7591836A1D23F.shtml",
+      "publisher": "无锡滨湖人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "2026年（金桥教育集团招聘简章）",
+      "note": "页面未实际访问，链接来自搜索结果"
+    },
+    {
+      "id": "src-wx-ty-site",
+      "title": "江苏省天一中学官网首页",
+      "url": "https://www.tyzx.com.cn/",
+      "publisher": "江苏省天一中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称；官网设招师栏目"
+    },
+    {
+      "id": "src-wx-jxshs-site",
+      "title": "江苏省锡山高级中学官网首页",
+      "url": "http://www.jxshs.cn/",
+      "publisher": "江苏省锡山高级中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称"
+    },
+    {
+      "id": "src-wx-jssthgz-site",
+      "title": "江苏省太湖高级中学官网首页",
+      "url": "https://www.jssthgz.cn/",
+      "publisher": "江苏省太湖高级中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称"
+    }
+  ],
+  "schoolScans": [
+    {
+      "schoolId": "private-wx-jiangyin-linkang",
+      "officialName": "江阴临港科创实验学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "searchQueries": [
+        "江阴临港科创实验学校 招聘"
+      ],
+      "unresolved": [
+        "媒体报道年薪不低于20万、骨干30-50万（自媒体，未作正式来源）；学校招聘正文未恢复"
+      ]
+    },
+    {
+      "schoolId": "private-wx-jiangyin-qingyang-jinqiao",
+      "officialName": "江阴青阳金桥实验学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-jinqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-jinqiao-2026"
+      ],
+      "searchQueries": [
+        "江阴青阳金桥实验学校 招聘"
+      ],
+      "unresolved": [
+        "金桥教育集团2026招聘简章未实际访问"
+      ]
+    },
+    {
+      "schoolId": "private-wx-jiangyin-taibo",
+      "officialName": "江阴市泰博实验学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-jinqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-jinqiao-2026"
+      ],
+      "searchQueries": [
+        "江阴市泰博实验学校 招聘"
+      ],
+      "unresolved": [
+        "万行学校页可见（泰博实验学校筹），在招岗位未确认"
+      ]
+    },
+    {
+      "schoolId": "private-wx-jiangyin-tianhua",
+      "officialName": "江阴市天华艺术学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "searchQueries": [
+        "江阴市天华艺术学校 招聘"
+      ],
+      "unresolved": [
+        "曾见艺术教师招聘（山东艺术学院就业网），非本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "private-wx-jiangyin-foreign",
+      "officialName": "江阴外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "searchQueries": [
+        "江阴外国语学校 招聘 教师"
+      ],
+      "unresolved": [
+        "2026年招聘教师公告（若干人）经平台转载，岗位细节未恢复"
+      ]
+    },
+    {
+      "schoolId": "private-wx-dipont",
+      "officialName": "无锡狄邦文理学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "searchQueries": [
+        "无锡狄邦文理学校 招聘 教师"
+      ],
+      "unresolved": [
+        "狄邦教育集团招聘经猎聘/万行发布，在招岗位未确认"
+      ]
+    },
+    {
+      "schoolId": "private-wx-dipont-huishan",
+      "officialName": "无锡狄邦文理学校（惠山校区）",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "searchQueries": [
+        "无锡狄邦文理学校（惠山校区） 招聘"
+      ],
+      "unresolved": [
+        "万行学校页可见，在招岗位未确认"
+      ]
+    },
+    {
+      "schoolId": "private-wx-xinwu-jinqiao",
+      "officialName": "无锡高新区金桥外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-jinqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-jinqiao-2026"
+      ],
+      "searchQueries": [
+        "无锡高新区金桥外国语学校 招聘"
+      ],
+      "unresolved": [
+        "金桥教育集团招聘简章未实际访问"
+      ]
+    },
+    {
+      "schoolId": "private-wx-guanghua",
+      "officialName": "无锡光华学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "searchQueries": [
+        "无锡光华学校 招聘 教师"
+      ],
+      "unresolved": [
+        "2026年教师招聘公告经高校就业网转载，岗位细节未恢复"
+      ]
+    },
+    {
+      "schoolId": "private-wx-jinbang",
+      "officialName": "无锡金榜高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "searchQueries": [
+        "无锡金榜高级中学 招聘"
+      ],
+      "unresolved": [
+        "平台在招岗位为副校长、播音主持、体育等，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "private-wx-jingkai-jinqiao",
+      "officialName": "无锡金桥双语实验学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-jinqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-jinqiao-2026"
+      ],
+      "searchQueries": [
+        "无锡金桥双语实验学校 招聘 教师"
+      ],
+      "unresolved": [
+        "金桥教育集团招聘简章未实际访问"
+      ]
+    },
+    {
+      "schoolId": "private-wx-daqiao",
+      "officialName": "无锡市大桥实验学校",
+      "website": {
+        "outcome": "blocked",
+        "url": null,
+        "evidenceId": null,
+        "note": "官网候选域名 daqiao.org.cn 无法打开，未能验证归属"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "searchQueries": [
+        "无锡市大桥实验学校 招聘 教师"
+      ],
+      "unresolved": [
+        "2026年招聘教师公告具体学科未在页面文本中恢复"
+      ]
+    },
+    {
+      "schoolId": "private-wx-fucheng",
+      "officialName": "无锡市辅成实验学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "searchQueries": [
+        "无锡市辅成实验学校 招聘"
+      ],
+      "unresolved": [
+        "2026年招聘初中数学教师启事，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "private-wx-huatian",
+      "officialName": "无锡市华天双语学校",
+      "website": {
+        "outcome": "blocked",
+        "url": null,
+        "evidenceId": null,
+        "note": "学校网站 huatian.wxeic.cn 返回403（安全防护拦截），未能验证归属"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-huatian-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-huatian-2026"
+      ],
+      "searchQueries": [
+        "无锡市华天双语学校 招聘"
+      ],
+      "unresolved": [
+        "2026年招聘简章被防护系统拦截"
+      ]
+    },
+    {
+      "schoolId": "private-wx-huishan-jinqiao",
+      "officialName": "无锡市惠山金桥实验学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-jinqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-jinqiao-2026"
+      ],
+      "searchQueries": [
+        "无锡市惠山金桥实验学校 招聘"
+      ],
+      "unresolved": [
+        "平台曾见小学科学教师、保健医生等岗位，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "private-wx-huishan-huarui",
+      "officialName": "无锡市惠山区华锐实验学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-huarui-ls"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-huarui-ls"
+      ],
+      "searchQueries": [
+        "无锡市惠山区华锐实验学校 招聘"
+      ],
+      "unresolved": [
+        "初中历史教师岗位（五险一金包吃住）页面已失效（404）"
+      ]
+    },
+    {
+      "schoolId": "private-wx-huishan-xinkaihe",
+      "officialName": "无锡市惠山区洛社新开河实验学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-jinqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-jinqiao-2026"
+      ],
+      "searchQueries": [
+        "无锡市惠山区洛社新开河实验学校 招聘"
+      ],
+      "unresolved": [
+        "平台公司页可见，在招岗位未确认"
+      ]
+    },
+    {
+      "schoolId": "private-wx-kuangyuan",
+      "officialName": "无锡市匡园双语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "searchQueries": [
+        "无锡市匡园双语学校 招聘"
+      ],
+      "unresolved": [
+        "2026年招聘公告（若干人）岗位为初高中语数外物化，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "private-wx-liangxi-jinqiao",
+      "officialName": "无锡市梁溪区金桥双语实验学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-jinqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-jinqiao-2026"
+      ],
+      "searchQueries": [
+        "无锡市梁溪区金桥双语实验学校 招聘"
+      ],
+      "unresolved": [
+        "金桥教育集团招聘简章未实际访问"
+      ]
+    },
+    {
+      "schoolId": "private-wx-liangxi-lianyuanyinghe",
+      "officialName": "无锡市梁溪区连元英禾双语学校分校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "searchQueries": [
+        "无锡市梁溪区连元英禾双语学校 招聘"
+      ],
+      "unresolved": [
+        "教师人才网/万行学校页可见，在招岗位未确认"
+      ]
+    },
+    {
+      "schoolId": "private-wx-wufeng",
+      "officialName": "无锡市吴风实验学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "searchQueries": [
+        "无锡市吴风实验学校 招聘"
+      ],
+      "unresolved": [
+        "平台在招岗位为物理、化学、英语等，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "private-wx-xinan",
+      "officialName": "无锡市锡南实验中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-xinan-gg"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-xinan-gg"
+      ],
+      "searchQueries": [
+        "无锡市锡南实验中学 招聘"
+      ],
+      "unresolved": [
+        "高中各学科骨干教师岗位页TLS异常未恢复；岗位覆盖各学科（含政治历史可能性），需复核"
+      ]
+    },
+    {
+      "schoolId": "private-wx-xishan-chunlei",
+      "officialName": "无锡市锡山区春蕾学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-jinqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-jinqiao-2026"
+      ],
+      "searchQueries": [
+        "无锡市锡山区春蕾学校 招聘"
+      ],
+      "unresolved": [
+        "平台学校页可见，在招岗位未确认"
+      ]
+    },
+    {
+      "schoolId": "private-wx-xieshuang",
+      "officialName": "无锡市协和双语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-xiehe-df"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-xiehe-df"
+      ],
+      "searchQueries": [
+        "无锡市协和双语学校 招聘"
+      ],
+      "unresolved": [
+        "初中部道德与法治教师岗位已下线"
+      ]
+    },
+    {
+      "schoolId": "private-wx-yunhe",
+      "officialName": "无锡市运河实验中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-yunhe-zz"
+      ],
+      "contacts": [],
+      "jobLeads": [
+        {
+          "id": "lead-wx-yunhe-zz",
+          "title": "高中政治教师（青年教师）——无锡运河实验中学",
+          "subjectTags": [
+            "政治/道法"
+          ],
+          "recruitmentCycle": "平台岗位（更新2026-08-14，储备状态，招3人）",
+          "status": "状态待确认",
+          "publishedAt": null,
+          "deadline": null,
+          "expectedStart": "该职位为储备状态（到岗时间未定）",
+          "salaryRaw": "8-10K/月；基本工资+绩效工资+课时量10万/年；学校按规定缴纳五险一金；发放加班补助、过节补贴",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [
+            "周末双休"
+          ],
+          "requirementsRaw": [
+            "本科及以上学历相关专业毕业",
+            "具有丰富的教学经验和一定的教学研究工作经验",
+            "普通话标准"
+          ],
+          "selectionProcessRaw": [],
+          "applicationMethod": "platform",
+          "applicationUrl": "https://m.job910.com/jobs_view_625831.html",
+          "sourceEvidenceIds": [
+            "src-wx-yunhe-zz"
+          ],
+          "note": "平台在招岗位；岗位职责含备课、教研、学情调查等"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-wx-yunhe-zz"
+      ],
+      "searchQueries": [
+        "无锡市运河实验中学 招聘"
+      ],
+      "unresolved": []
+    },
+    {
+      "schoolId": "private-wx-foreign",
+      "officialName": "无锡外国语学校",
+      "website": {
+        "outcome": "found",
+        "url": "https://www.wxfls.net/",
+        "evidenceId": "src-wx-wxfls-site",
+        "note": "官网首页含校名全称"
+      },
+      "recruitmentOutcome": "evergreen_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-wxfls-2026"
+      ],
+      "contacts": [
+        {
+          "id": "contact-wx-wxfls-mail",
+          "channel": "email",
+          "value": "hr@wxfls.net",
+          "purpose": "简历投递",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "常年（2026年公告，人才库模式）",
+          "validity": "常年",
+          "evidenceId": "src-wx-wxfls-2026",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-wx-wxfls-tel",
+          "channel": "phone",
+          "value": "0510-85617561",
+          "purpose": "招聘咨询",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "常年（2026年公告，人才库模式）",
+          "validity": "常年",
+          "evidenceId": "src-wx-wxfls-2026",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [
+        {
+          "id": "lead-wx-wxfls-politics-history",
+          "title": "高中政治、历史教师（无锡外国语学校人才库常年招聘）",
+          "subjectTags": [
+            "政治/道法",
+            "历史/人文"
+          ],
+          "recruitmentCycle": "常年（每年秋春季招聘，测评合格入人才库3年有效）",
+          "status": "常年入口",
+          "publishedAt": "2026-03-30",
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "中学骨干教师年收入15-18万元；名特优教师和基础（国际）教研专家年收入原则上不低于25万元或面议（含五险一金）",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "全日制普通高等院校本科及以上学历相关专业应届毕业生，取得相应学位和教师资格证；高中教师学历原则上要求硕士及以上",
+            "优秀在职教师：全日制本科及以上、相应教师资格证、年龄不超过45周岁",
+            "国家级综合奖学金获得者、三好学生、优秀学生干部、优秀毕业生、海归毕业生、党员优先"
+          ],
+          "selectionProcessRaw": [
+            "应聘材料发送至学校电子邮箱（邮件名称按指定格式）",
+            "资格审核通过后电话通知面试"
+          ],
+          "applicationMethod": "email",
+          "applicationUrl": null,
+          "sourceEvidenceIds": [
+            "src-wx-wxfls-2026"
+          ],
+          "note": "招聘对象高中教师含语文、数学、物理、化学、政治、历史、地理、生物；初中教师为语文、数学骨干；福利含五险一金、带薪寒暑假、定期免费体检"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-wx-wxfls-site",
+        "src-wx-wxfls-2026"
+      ],
+      "searchQueries": [
+        "无锡外国语学校 招聘 教师"
+      ],
+      "unresolved": []
+    },
+    {
+      "schoolId": "private-wx-xianfeng",
+      "officialName": "无锡先锋高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "searchQueries": [
+        "无锡先锋高级中学 招聘"
+      ],
+      "unresolved": [
+        "平台在招岗位为物理、英语等，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "private-wx-yucai",
+      "officialName": "无锡育才中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "searchQueries": [
+        "无锡育才中学 招聘 教师"
+      ],
+      "unresolved": [
+        "教师人才网学校页可见，在招岗位未确认"
+      ]
+    },
+    {
+      "schoolId": "private-wx-yixing-changqing",
+      "officialName": "宜兴市常青外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-daqiao-2026"
+      ],
+      "searchQueries": [
+        "宜兴市常青外国语学校 招聘"
+      ],
+      "unresolved": [
+        "平台在招岗位为语文等，无本次范围学科确认"
+      ]
+    },
+    {
+      "schoolId": "private-wx-yixing-lingxia",
+      "officialName": "宜兴市凌霞实验中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-lingxia-df"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-lingxia-df"
+      ],
+      "searchQueries": [
+        "宜兴市凌霞实验中学 招聘"
+      ],
+      "unresolved": [
+        "初中道德与法治教师（应届生）岗位页抓取超时未恢复"
+      ]
+    },
+    {
+      "schoolId": "public-wx-tianyi",
+      "officialName": "江苏省天一中学",
+      "website": {
+        "outcome": "found",
+        "url": "https://www.tyzx.com.cn/",
+        "evidenceId": "src-wx-ty-site",
+        "note": "官网首页含校名全称，设招师栏目"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-xishan-120"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-ty-site",
+        "src-wx-xishan-120"
+      ],
+      "searchQueries": [
+        "江苏省天一中学 2026 教师招聘",
+        "江苏省天一中学 官网 网站"
+      ],
+      "unresolved": [
+        "天一中学招聘2026年青年人才18名公告（官网）正文未恢复；锡山区120名公告岗位表未恢复"
+      ]
+    },
+    {
+      "schoolId": "public-wx-xishan",
+      "officialName": "江苏省锡山高级中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.jxshs.cn/",
+        "evidenceId": "src-wx-jxshs-site",
+        "note": "官网首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-huishan-41"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-jxshs-site",
+        "src-wx-huishan-41"
+      ],
+      "searchQueries": [
+        "江苏省锡山高级中学 官网 网站"
+      ],
+      "unresolved": [
+        "惠山区41名公告岗位表未恢复"
+      ]
+    },
+    {
+      "schoolId": "public-wx-no1",
+      "officialName": "无锡市第一中学",
+      "website": {
+        "outcome": "blocked",
+        "url": null,
+        "evidenceId": null,
+        "note": "官网候选域名 www.wxyzedu.net 无法打开，未能验证归属"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-direct-154"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-direct-154"
+      ],
+      "searchQueries": [
+        "无锡市第一中学 官网 网站"
+      ],
+      "unresolved": [
+        "市直属154名公告岗位表未恢复"
+      ]
+    },
+    {
+      "schoolId": "public-wx-furen",
+      "officialName": "无锡市辅仁高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-direct-154"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-direct-154"
+      ],
+      "searchQueries": [
+        "无锡市辅仁高级中学 官网 网站"
+      ],
+      "unresolved": [
+        "未发现可访问官网；市直属154名公告岗位表未恢复"
+      ]
+    },
+    {
+      "schoolId": "public-wx-meicun",
+      "officialName": "江苏省梅村高级中学",
+      "website": {
+        "outcome": "blocked",
+        "url": null,
+        "evidenceId": null,
+        "note": "学校网站 meicun.wxeic.cn 显示维护中，未能验证归属"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-direct-154"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-direct-154"
+      ],
+      "searchQueries": [
+        "江苏省梅村高级中学 官网 网站"
+      ],
+      "unresolved": [
+        "市直属154名公告岗位表未恢复"
+      ]
+    },
+    {
+      "schoolId": "public-wx-taihu",
+      "officialName": "江苏省太湖高级中学",
+      "website": {
+        "outcome": "found",
+        "url": "https://www.jssthgz.cn/",
+        "evidenceId": "src-wx-jssthgz-site",
+        "note": "官网首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wx-binhu-17"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wx-jssthgz-site",
+        "src-wx-binhu-17"
+      ],
+      "searchQueries": [
+        "江苏省太湖高级中学 官网 网站"
+      ],
+      "unresolved": [
+        "滨湖区17名公告岗位表未恢复（招聘对象为2026届应届研究生）"
+      ]
+    }
+  ],
+  "coverageGaps": [
+    {
+      "schoolId": null,
+      "description": "无锡市直属、惠山、锡山、滨湖区2026届公告的岗位表均为附件未恢复，无法逐校确认政治/历史岗位",
+      "evidenceIds": [
+        "src-wx-direct-154",
+        "src-wx-huishan-41",
+        "src-wx-xishan-120",
+        "src-wx-binhu-17"
+      ],
+      "nextAction": "下载各公告岗位简介表逐校确认"
+    },
+    {
+      "schoolId": null,
+      "description": "无锡多数民办目标校未发现可访问官网或以平台招聘页为主；华锐历史岗、协和道法岗已失效",
+      "evidenceIds": [
+        "src-wx-yunhe-zz",
+        "src-wx-huarui-ls",
+        "src-wx-xiehe-df"
+      ],
+      "nextAction": "通过各校微信公众号核实常设招聘渠道"
+    }
+  ],
+  "notes": [
+    "本批次为待 Codex 审核的暂存资料，不导入正式数据。",
+    "无锡外国语学校为常年人才库招聘（高中含政治、历史岗位），中学骨干年收入15-18万、名特优不低于25万或面议。",
+    "运河实验中学高中政治教师为平台在招岗位（2026-08-14更新，8-10K/月、10万/年）。",
+    "滨湖区公告面向2026届应届研究生，未取得教资者可承诺2027-07-31前取得。"
+  ]
+}

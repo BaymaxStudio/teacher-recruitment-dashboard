@@ -1,0 +1,454 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-21",
+  "province": "浙江",
+  "city": "宁波",
+  "targetCount": 17,
+  "privateSchoolCount": 12,
+  "publicTargetCount": 5,
+  "source": "正式 V2 数据自动生成；只作 DSH 招聘试采目标，不表示学校排名或当前存在招聘。",
+  "schools": [
+    {
+      "schoolId": "private-nb-huamao",
+      "officialName": "宁波华茂高级中学",
+      "ownership": "民办",
+      "district": "待确认",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-ningbo-2025-urban-private-high-school-plan",
+          "title": "2025年宁波市普通高中城区招生计划表（民办普高分区）",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3505/site/attach/0/2506251359476520.pdf",
+          "publisher": "宁波市教育局《宁波教育》",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-06-25",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现常年入口",
+      "currentOfficialWebsite": "http://hmgz.hmedu.com/",
+      "currentRecruitmentChannelCount": 1,
+      "currentContactCount": 3
+    },
+    {
+      "schoolId": "private-nb-nottingham",
+      "officialName": "宁波诺丁汉大学附属中学",
+      "ownership": "民办",
+      "district": "待确认",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-ningbo-2025-urban-private-high-school-plan",
+          "title": "2025年宁波市普通高中城区招生计划表（民办普高分区）",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3505/site/attach/0/2506251359476520.pdf",
+          "publisher": "宁波市教育局《宁波教育》",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-06-25",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现往届参考",
+      "currentOfficialWebsite": "http://www.unncahs.net/",
+      "currentRecruitmentChannelCount": 2,
+      "currentContactCount": 2
+    },
+    {
+      "schoolId": "private-nb-rongan",
+      "officialName": "宁波荣安实验中学",
+      "ownership": "民办",
+      "district": "待确认",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-ningbo-2025-urban-private-high-school-plan",
+          "title": "2025年宁波市普通高中城区招生计划表（民办普高分区）",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3505/site/attach/0/2506251359476520.pdf",
+          "publisher": "宁波市教育局《宁波教育》",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-06-25",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现往届参考",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 3,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-nb-shenzhou",
+      "officialName": "宁波神舟学校",
+      "ownership": "民办",
+      "district": "待确认",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-ningbo-2025-urban-private-high-school-plan",
+          "title": "2025年宁波市普通高中城区招生计划表（民办普高分区）",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3505/site/attach/0/2506251359476520.pdf",
+          "publisher": "宁波市教育局《宁波教育》",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-06-25",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现往届参考",
+      "currentOfficialWebsite": "http://www.nbsedu.com.cn/index.php?r=space/school/theme/index&sid=3433000158",
+      "currentRecruitmentChannelCount": 2,
+      "currentContactCount": 4
+    },
+    {
+      "schoolId": "private-nb-chengnan",
+      "officialName": "宁波市城南中学",
+      "ownership": "民办",
+      "district": "待确认",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-ningbo-2025-urban-private-high-school-plan",
+          "title": "2025年宁波市普通高中城区招生计划表（民办普高分区）",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3505/site/attach/0/2506251359476520.pdf",
+          "publisher": "宁波市教育局《宁波教育》",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-06-25",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现往届参考",
+      "currentOfficialWebsite": "http://www.nbcnzx.cn/",
+      "currentRecruitmentChannelCount": 3,
+      "currentContactCount": 2
+    },
+    {
+      "schoolId": "private-nb-huaguang",
+      "officialName": "宁波市华光学校",
+      "ownership": "民办",
+      "district": "待确认",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-ningbo-2025-urban-private-high-school-plan",
+          "title": "2025年宁波市普通高中城区招生计划表（民办普高分区）",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3505/site/attach/0/2506251359476520.pdf",
+          "publisher": "宁波市教育局《宁波教育》",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-06-25",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现往届参考",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 3,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-nb-keji",
+      "officialName": "宁波市科技高级中学",
+      "ownership": "民办",
+      "district": "待确认",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-ningbo-2025-urban-private-high-school-plan",
+          "title": "2025年宁波市普通高中城区招生计划表（民办普高分区）",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3505/site/attach/0/2506251359476520.pdf",
+          "publisher": "宁波市教育局《宁波教育》",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-06-25",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现招聘入口",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 2,
+      "currentContactCount": 4
+    },
+    {
+      "schoolId": "private-nb-xingning",
+      "officialName": "宁波市兴宁中学",
+      "ownership": "民办",
+      "district": "待确认",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-ningbo-2025-urban-private-high-school-plan",
+          "title": "2025年宁波市普通高中城区招生计划表（民办普高分区）",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3505/site/attach/0/2506251359476520.pdf",
+          "publisher": "宁波市教育局《宁波教育》",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-06-25",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现往届参考",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 2,
+      "currentContactCount": 2
+    },
+    {
+      "schoolId": "private-nb-yongtong",
+      "officialName": "宁波市甬同书院",
+      "ownership": "民办",
+      "district": "待确认",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-ningbo-2025-urban-private-high-school-plan",
+          "title": "2025年宁波市普通高中城区招生计划表（民办普高分区）",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3505/site/attach/0/2506251359476520.pdf",
+          "publisher": "宁波市教育局《宁波教育》",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-06-25",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "本轮未发现",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-nb-lanqing",
+      "officialName": "宁波鄞州蓝青高级中学",
+      "ownership": "民办",
+      "district": "鄞州区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-ningbo-2025-urban-private-high-school-plan",
+          "title": "2025年宁波市普通高中城区招生计划表（民办普高分区）",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3505/site/attach/0/2506251359476520.pdf",
+          "publisher": "宁波市教育局《宁波教育》",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-06-25",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现往届参考",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 2,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-nb-zhicheng",
+      "officialName": "宁波至诚高级中学",
+      "ownership": "民办",
+      "district": "待确认",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-ningbo-2025-urban-private-high-school-plan",
+          "title": "2025年宁波市普通高中城区招生计划表（民办普高分区）",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3505/site/attach/0/2506251359476520.pdf",
+          "publisher": "宁波市教育局《宁波教育》",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-06-25",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现往届参考",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 2,
+      "currentContactCount": 2
+    },
+    {
+      "schoolId": "private-nb-hd",
+      "officialName": "鄞州赫德实验学校",
+      "ownership": "民办",
+      "district": "鄞州区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-ningbo-2025-urban-private-high-school-plan",
+          "title": "2025年宁波市普通高中城区招生计划表（民办普高分区）",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3505/site/attach/0/2506251359476520.pdf",
+          "publisher": "宁波市教育局《宁波教育》",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-06-25",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现常年入口",
+      "currentOfficialWebsite": "https://www.hdschools.org/zh_cn/ningbo",
+      "currentRecruitmentChannelCount": 2,
+      "currentContactCount": 8
+    },
+    {
+      "schoolId": "public-nb-xiaoshi",
+      "officialName": "宁波市效实中学",
+      "ownership": "公办",
+      "district": "多校区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-ningbo-2025-high-school-plan",
+          "title": "《宁波教育》2025年第5期：2025年宁波市普通高中城区招生计划表",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3505/site/attach/0/2506251359476520.pdf",
+          "publisher": "宁波市教育局《宁波教育》",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2025-06-25",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现往届参考",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 1,
+      "currentContactCount": 2
+    },
+    {
+      "schoolId": "public-nb-yinzhou",
+      "officialName": "宁波市鄞州中学",
+      "ownership": "公办",
+      "district": "鄞州区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-ningbo-2025-high-school-plan",
+          "title": "《宁波教育》2025年第5期：2025年宁波市普通高中城区招生计划表",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3505/site/attach/0/2506251359476520.pdf",
+          "publisher": "宁波市教育局《宁波教育》",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2025-06-25",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现往届参考",
+      "currentOfficialWebsite": "https://yzzx.nbsedu.com.cn/index.php?r=space/school/theme/index&sid=3433000412",
+      "currentRecruitmentChannelCount": 2,
+      "currentContactCount": 1
+    },
+    {
+      "schoolId": "public-nb-ningbo",
+      "officialName": "宁波中学",
+      "ownership": "公办",
+      "district": "待确认",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-ningbo-2025-high-school-plan",
+          "title": "《宁波教育》2025年第5期：2025年宁波市普通高中城区招生计划表",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3505/site/attach/0/2506251359476520.pdf",
+          "publisher": "宁波市教育局《宁波教育》",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2025-06-25",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现往届参考",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 1,
+      "currentContactCount": 2
+    },
+    {
+      "schoolId": "public-nb-yuyao",
+      "officialName": "浙江省余姚中学",
+      "ownership": "公办",
+      "district": "余姚市",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-ningbo-yuyao-2021-school-budget",
+          "title": "浙江省余姚中学2021年度部门（单位）决算",
+          "url": "https://www.yy.gov.cn/art/2022/9/16/art_1229563171_4076471.html",
+          "publisher": "余姚市人民政府",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2022-09-16",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现往届参考",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 2,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-nb-zhenhai",
+      "officialName": "镇海中学",
+      "ownership": "公办",
+      "district": "待确认",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-ningbo-2025-high-school-plan",
+          "title": "《宁波教育》2025年第5期：2025年宁波市普通高中城区招生计划表",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3505/site/attach/0/2506251359476520.pdf",
+          "publisher": "宁波市教育局《宁波教育》",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2025-06-25",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现往届参考",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 1,
+      "currentContactCount": 1
+    }
+  ]
+}

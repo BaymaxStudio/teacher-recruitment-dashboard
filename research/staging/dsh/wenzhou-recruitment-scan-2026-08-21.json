@@ -1,0 +1,550 @@
+{
+  "schemaVersion": 1,
+  "isTemplate": false,
+  "batchId": "wenzhou-dsh-b1",
+  "province": "浙江",
+  "city": "温州",
+  "researchedAt": "2026-08-21",
+  "researcher": "DeepSeek Harness + DeepSeek-V4-Flash",
+  "sources": [
+    {
+      "id": "src-wz-70-selection",
+      "title": "温州市教育局直属公办学校2026年公开选聘优秀高校毕业生公告（温州专场）",
+      "url": "https://rczp.wzer.net/View.aspx?id=517",
+      "publisher": "温州市教育局（温州教育人才网）",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2025-10-26",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（2025-10温州专场公开选聘事业编制70名）",
+      "note": "选聘对象为硕博研究生或特定条件本科毕业生；非师范硕博教师资格证最迟2027-08-15取得；报名2025-10-28至11-05；岗位表为附件未恢复"
+    },
+    {
+      "id": "src-wz-14-social",
+      "title": "2026年温州市教育局直属公办学校面向社会公开招聘教师和工作人员公告",
+      "url": "https://hrss.wenzhou.gov.cn/col/col1369917/art/2026/art_e69d59f8d04b24d36f9b1a1f46d1d6a0.html",
+      "publisher": "温州市人力资源和社会保障局",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-07-01",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（2026-07面向社会公开招聘事业编制14名，报名已截止）",
+      "note": "报名2026-07-04至07-10；第一轮笔试40%加第二轮模拟课堂与面试60%；咨询电话为市教育局人事处；岗位表为附件未恢复"
+    },
+    {
+      "id": "src-wz-22-selection",
+      "title": "北京专场｜温州市第二十二中学公开选聘2026年优秀教育人才公告",
+      "url": "http://wz22.wzer.net/art/2025/10/10/art_7552_498766.html",
+      "publisher": "温州市第二十二中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "招聘公告",
+      "publishedAt": "2025-10-10",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（2025-10北京专场公开选聘）",
+      "note": "选聘对象为双一流硕士、重点高校本科、师范类硕士等；报名2025-10-13至10-18；岗位表为图片未恢复"
+    },
+    {
+      "id": "src-wz-ms-sibo",
+      "title": "2026年浙江省温州中学公开招引优秀硕博人才考核组织方案公告",
+      "url": "https://rczp.wzer.net/View.aspx?id=539",
+      "publisher": "温州市教育局（温州教育人才网）",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（市级事业单位公开招引优秀硕博人才，温州中学招引英语、物理、地理各1名）",
+      "note": "考核方案含资格复审、初试（面试与专业知识笔试各占50%）、模拟课堂教学考核（备课60分钟、授课15分钟）；发布于2026年5月"
+    },
+    {
+      "id": "src-wz-ouhai-zjnu",
+      "title": "教师招聘｜温州市瓯海区教育系统2026年公办中小学教师招聘公告（浙江师范大学就业网转载）",
+      "url": "https://career.zjnu.edu.cn/news/view/aid/431833/tag/jszp",
+      "publisher": "浙江师范大学就业信息网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "2026届（瓯海区2026年公开招聘公办中小学教师21人）",
+      "note": "页面提示网站暂不开放，正文未取得"
+    },
+    {
+      "id": "src-wz-ouhai-offcn",
+      "title": "2026浙江温州市瓯海区教育局招聘公办中小学教师21人公告（中公转载）",
+      "url": "http://m.offcn.com/jiaoshi/2026/0608/799317.html",
+      "publisher": "中公教师网（offcn）",
+      "sourceLevel": "D_aggregator",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-06-08",
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "2026届（瓯海区2026年公开招聘公办中小学教师21人转载）",
+      "note": "页面返回403，正文未取得"
+    },
+    {
+      "id": "src-wz-wzhs-site",
+      "title": "浙江省温州中学官网首页",
+      "url": "http://www.wzhs.net/",
+      "publisher": "浙江省温州中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称与导航栏目"
+    },
+    {
+      "id": "src-wz-2gao-site",
+      "title": "温州第二高级中学校园门户首页",
+      "url": "http://wzeg.wzer.net/index.html",
+      "publisher": "温州第二高级中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "校园门户首页含校名全称"
+    },
+    {
+      "id": "src-wz-22-site",
+      "title": "温州市第二十二中学校园门户首页",
+      "url": "http://wz22.wzer.net/",
+      "publisher": "温州市第二十二中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "校园门户首页含校名全称"
+    },
+    {
+      "id": "src-wz-2wgy-site",
+      "title": "温州市第二外国语学校官网首页",
+      "url": "http://www.wzew.cn/",
+      "publisher": "温州市第二外国语学校",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称"
+    },
+    {
+      "id": "src-wz-14g-site",
+      "title": "温州市第十四高级中学校园门户首页",
+      "url": "http://wz14g.wzer.net/",
+      "publisher": "温州市第十四高级中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "校园门户首页含校名全称"
+    },
+    {
+      "id": "src-wz-ohzx-site",
+      "title": "浙江省瓯海中学校园门户首页",
+      "url": "http://zjohzx.wzer.net/",
+      "publisher": "浙江省瓯海中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "校园门户首页含校名全称"
+    },
+    {
+      "id": "src-wz-fenbi-2gao-zz",
+      "title": "温州第二高级中学高中政治（粉笔职位库-温州市教育局公开选聘岗位详情）",
+      "url": "https://fenbi.com/page/position-detail/6752205",
+      "publisher": "粉笔职位库",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（温州市教育局公开选聘优秀高校毕业生）",
+      "note": "页面标题确认温州二高高中政治选聘岗位；详情经脚本渲染，岗位表需复核"
+    },
+    {
+      "id": "src-wz-gkl-wzms-zz",
+      "title": "2026温州中学招聘高中政治1人（公考雷达职位页）",
+      "url": "https://www.gongkaoleida.com/exam/job/35174865",
+      "publisher": "公考雷达",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（温州中学高中政治1人）",
+      "note": "页面标题确认岗位；详情经脚本渲染，所关联官方公告需复核"
+    }
+  ],
+  "schoolScans": [
+    {
+      "schoolId": "public-wz-wenzhou",
+      "officialName": "浙江省温州中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.wzhs.net/",
+        "evidenceId": "src-wz-wzhs-site",
+        "note": "官网首页含校名全称与导航栏目"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wz-70-selection",
+        "src-wz-ms-sibo",
+        "src-wz-gkl-wzms-zz"
+      ],
+      "contacts": [
+        {
+          "id": "contact-wz-jyj-tel",
+          "channel": "phone",
+          "value": "0577-88639160",
+          "purpose": "招聘咨询",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026届（市教育局直属学校公开招聘公告刊载）",
+          "validity": "往届",
+          "evidenceId": "src-wz-14-social",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [
+        {
+          "id": "lead-wz-wzms-zz",
+          "title": "高中政治教师（2026届选聘）——浙江省温州中学",
+          "subjectTags": [
+            "政治/道法"
+          ],
+          "recruitmentCycle": "2026届（2025-10公开选聘，报名已截止）",
+          "status": "往届参考",
+          "publishedAt": "2025-10-26",
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "选聘对象：博士研究生；2024-2026届硕士研究生；或双一流高校本科、浙江省内师范实验班本科、综合考评前40%师范本科、获国家级或省政府奖学金本科等",
+            "本科、硕士研究生要求1987年1月1日及以后出生（博士1982年及以后）",
+            "非师范类本科和硕士、博士研究生须在2027年8月15日前取得教师资格证书；高中教师岗位须取得本学科高中教师资格证书"
+          ],
+          "selectionProcessRaw": [
+            "网上报名与资格初审（温州教育人才网，2025-10-28至11-05）",
+            "现场确认（温州大学大学生活动中心）",
+            "初试（面试，合格线75分）",
+            "考核（模拟课堂教学考核和面试）"
+          ],
+          "applicationMethod": "web",
+          "applicationUrl": "https://rczp.wzer.net",
+          "sourceEvidenceIds": [
+            "src-wz-70-selection",
+            "src-wz-gkl-wzms-zz"
+          ],
+          "note": "70人选聘岗位表为附件未恢复；本岗位学科信息来自平台职位页（公考雷达），需复核岗位表；温州中学另招引英语、物理、地理硕博人才（不在本次范围）"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-wz-wzhs-site",
+        "src-wz-70-selection",
+        "src-wz-14-social",
+        "src-wz-ms-sibo",
+        "src-wz-gkl-wzms-zz"
+      ],
+      "searchQueries": [
+        "浙江省温州中学 官网",
+        "浙江省温州中学 招聘 教师 官网",
+        "2026温州中学高中政治招聘1人"
+      ],
+      "unresolved": [
+        "70人选聘岗位表为附件未恢复，温州中学高中政治岗位学科依据平台职位页（公考雷达）",
+        "硕博引才岗位为英语、物理、地理，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "public-wz-no2",
+      "officialName": "温州第二高级中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://wzeg.wzer.net/index.html",
+        "evidenceId": "src-wz-2gao-site",
+        "note": "校园门户首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wz-70-selection",
+        "src-wz-fenbi-2gao-zz"
+      ],
+      "contacts": [
+        {
+          "id": "contact-wz-jyj-tel",
+          "channel": "phone",
+          "value": "0577-88639160",
+          "purpose": "招聘咨询",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026届（市教育局直属学校公开招聘公告刊载）",
+          "validity": "往届",
+          "evidenceId": "src-wz-14-social",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [
+        {
+          "id": "lead-wz-2gao-zz",
+          "title": "高中政治教师（2026届选聘）——温州第二高级中学",
+          "subjectTags": [
+            "政治/道法"
+          ],
+          "recruitmentCycle": "2026届（2025-10公开选聘，报名已截止）",
+          "status": "往届参考",
+          "publishedAt": "2025-10-26",
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "选聘对象：博士研究生；2024-2026届硕士研究生；或双一流高校本科、浙江省内师范实验班本科、综合考评前40%师范本科、获国家级或省政府奖学金本科等",
+            "本科、硕士研究生要求1987年1月1日及以后出生（博士1982年及以后）",
+            "非师范类本科和硕士、博士研究生须在2027年8月15日前取得教师资格证书；高中教师岗位须取得本学科高中教师资格证书"
+          ],
+          "selectionProcessRaw": [
+            "网上报名与资格初审（温州教育人才网，2025-10-28至11-05）",
+            "现场确认（温州大学大学生活动中心）",
+            "初试（面试，合格线75分）",
+            "考核（模拟课堂教学考核和面试）"
+          ],
+          "applicationMethod": "web",
+          "applicationUrl": "https://rczp.wzer.net",
+          "sourceEvidenceIds": [
+            "src-wz-70-selection",
+            "src-wz-fenbi-2gao-zz"
+          ],
+          "note": "70人选聘岗位表为附件未恢复；本岗位学科信息来自平台职位页（粉笔），需复核岗位表"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-wz-2gao-site",
+        "src-wz-70-selection",
+        "src-wz-14-social",
+        "src-wz-fenbi-2gao-zz"
+      ],
+      "searchQueries": [
+        "温州第二高级中学 官网 招聘",
+        "温州第二高级中学 学校网站 官网"
+      ],
+      "unresolved": [
+        "70人选聘岗位表为附件未恢复，政治岗位学科依据平台职位页（粉笔）"
+      ]
+    },
+    {
+      "schoolId": "public-wz-no22",
+      "officialName": "温州市第二十二中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://wz22.wzer.net/",
+        "evidenceId": "src-wz-22-site",
+        "note": "校园门户首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wz-22-selection"
+      ],
+      "contacts": [
+        {
+          "id": "contact-wz-jyj-tel",
+          "channel": "phone",
+          "value": "0577-88639160",
+          "purpose": "招聘咨询",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026届（市教育局直属学校公开招聘公告刊载）",
+          "validity": "往届",
+          "evidenceId": "src-wz-14-social",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-wz-22-tel",
+          "channel": "phone",
+          "value": "0577-88133697",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026届（2025-10北京专场选聘公告）",
+          "validity": "往届",
+          "evidenceId": "src-wz-22-selection",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-wz-22-mail",
+          "channel": "email",
+          "value": "366420751@qq.com",
+          "purpose": "简历投递",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026届（2025-10北京专场选聘公告）",
+          "validity": "往届",
+          "evidenceId": "src-wz-22-selection",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wz-22-site",
+        "src-wz-22-selection",
+        "src-wz-14-social"
+      ],
+      "searchQueries": [
+        "温州市第二十二中学 官网 招聘"
+      ],
+      "unresolved": [
+        "北京专场选聘岗位表为图片未恢复",
+        "选聘对象限硕博或特定条件本科毕业生（2024-2026届）"
+      ]
+    },
+    {
+      "schoolId": "public-wz-no2-foreign",
+      "officialName": "温州市第二外国语学校",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.wzew.cn/",
+        "evidenceId": "src-wz-2wgy-site",
+        "note": "官网首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wz-70-selection"
+      ],
+      "contacts": [
+        {
+          "id": "contact-wz-jyj-tel",
+          "channel": "phone",
+          "value": "0577-88639160",
+          "purpose": "招聘咨询",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026届（市教育局直属学校公开招聘公告刊载）",
+          "validity": "往届",
+          "evidenceId": "src-wz-14-social",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wz-2wgy-site",
+        "src-wz-70-selection",
+        "src-wz-14-social"
+      ],
+      "searchQueries": [
+        "温州市第二外国语学校 招聘 教师",
+        "温州市第二外国语学校 学校网站 官网"
+      ],
+      "unresolved": [
+        "70人选聘岗位表未恢复，无法确认该校岗位学科"
+      ]
+    },
+    {
+      "schoolId": "public-wz-no14",
+      "officialName": "温州市第十四高级中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://wz14g.wzer.net/",
+        "evidenceId": "src-wz-14g-site",
+        "note": "校园门户首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wz-70-selection"
+      ],
+      "contacts": [
+        {
+          "id": "contact-wz-jyj-tel",
+          "channel": "phone",
+          "value": "0577-88639160",
+          "purpose": "招聘咨询",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026届（市教育局直属学校公开招聘公告刊载）",
+          "validity": "往届",
+          "evidenceId": "src-wz-14-social",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wz-14g-site",
+        "src-wz-70-selection",
+        "src-wz-14-social"
+      ],
+      "searchQueries": [
+        "温州市第十四高级中学 招聘",
+        "温州市第十四高级中学 学校网站 官网"
+      ],
+      "unresolved": [
+        "2026年拟招物理教师1名（媒体报道），无本次范围学科；选聘岗位表未恢复"
+      ]
+    },
+    {
+      "schoolId": "public-wz-ouhai",
+      "officialName": "浙江省瓯海中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://zjohzx.wzer.net/",
+        "evidenceId": "src-wz-ohzx-site",
+        "note": "校园门户首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-wz-ouhai-zjnu",
+        "src-wz-ouhai-offcn"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-wz-ohzx-site",
+        "src-wz-ouhai-zjnu",
+        "src-wz-ouhai-offcn"
+      ],
+      "searchQueries": [
+        "浙江省瓯海中学 招聘 教师",
+        "瓯海区教育系统2026年公办中小学教师招聘公告 瓯海区教育局",
+        "浙江省瓯海中学 学校网站 官网"
+      ],
+      "unresolved": [
+        "瓯海区2026年公开招聘公办中小学教师21人公告正文受阻（浙师大页面暂不开放、中公转载403），岗位表未恢复"
+      ]
+    }
+  ],
+  "coverageGaps": [
+    {
+      "schoolId": null,
+      "description": "温州70人选聘与14人社会公开招聘公告的岗位表（附件）未恢复，无法逐校确认岗位学科",
+      "evidenceIds": [
+        "src-wz-70-selection",
+        "src-wz-14-social"
+      ],
+      "nextAction": "从温州教育人才网公告附件下载岗位一览表"
+    },
+    {
+      "schoolId": "public-wz-ouhai",
+      "description": "瓯海区2026年公开招聘公办中小学教师21人公告正文受阻，岗位表未恢复",
+      "evidenceIds": [
+        "src-wz-ouhai-zjnu",
+        "src-wz-ouhai-offcn"
+      ],
+      "nextAction": "通过瓯海区人民政府网或教育部门官方渠道恢复公告与岗位表"
+    }
+  ],
+  "notes": [
+    "本批次为待 Codex 审核的暂存资料，不导入正式数据。",
+    "温州公办学校官网多为温州教育人才网（wzer.net）校园门户；温州中学为独立域名 wzhs.net，二外为独立域名 wzew.cn。",
+    "选聘公告中非师范类硕博教师资格证最迟2027-08-15取得，对用户（社科硕士）为有利条件；岗位学科依据平台职位页，需岗位表复核。"
+  ]
+}

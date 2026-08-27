@@ -1,0 +1,744 @@
+{
+  "schemaVersion": 1,
+  "isTemplate": false,
+  "batchId": "b1-2-hangzhou-2026-08-21",
+  "province": "浙江",
+  "city": "杭州",
+  "researchedAt": "2026-08-21",
+  "researcher": "CodeBuddy",
+  "sources": [
+    {
+      "id": "src-hzedu-2026-city-high-school",
+      "title": "2026年杭州市区普通高中招生学校（校区）介绍",
+      "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_fe5de72905204e9088f149d5fd6061ba.html",
+      "publisher": "杭州市教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "学校名单",
+      "publishedAt": null,
+      "accessedAt": "2026-08-20",
+      "accessState": "ok",
+      "note": "列出14所市区民办普通高中、市教育局直属公办普通高中（含杭州二中、学军中学、杭州高级中学、杭州第十四中学、杭州第四中学）、五区面向市区等额招生的公办普通高中（含萧山中学）。未直接列出学校所在区县。"
+    },
+    {
+      "id": "src-hzedu-2026-outside-private-high-school",
+      "title": "2026年杭州市区外民办普通高中招生学校介绍",
+      "url": "https://edu.hangzhou.gov.cn/col/col1228921941/art/2026/art_62965ac6fc18462e9640ff1456e1f0f2.html",
+      "publisher": "杭州市教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "学校名单",
+      "publishedAt": null,
+      "accessedAt": "2026-08-20",
+      "accessState": "ok",
+      "note": "列出16所市区外民办普通高中，按区县分组（萧山区4所、余杭区3所、临平区2所、富阳区4所、临安区1所、桐庐县1所、建德市1所）。"
+    },
+    {
+      "id": "src-gongshu-2026-junior-private",
+      "title": "2026年拱墅区民办初中网上报名情况公布",
+      "url": "https://www.gongshu.gov.cn/col/col1229549346/art/2026/art_c5c4a16910d548a4ab655250de1a4ec8.html",
+      "publisher": "拱墅区教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "学校名单",
+      "publishedAt": "2026-06-18",
+      "accessedAt": "2026-08-20",
+      "accessState": "ok",
+      "note": "列出5所拱墅区民办初中：杭州市锦绣中学、杭州启正中学、杭州育才中学、杭州上海世外中学、杭州树兰中学。"
+    },
+    {
+      "id": "src-shangcheng-2026-junior-private",
+      "title": "2026年上城区民办初中（含民转公）网上报名情况公布",
+      "url": "https://www.hzsc.gov.cn/col/col1229798387/art/2026/art_f8c23a5b2d4d46468ba17a95fc7425ec.html",
+      "publisher": "上城区教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "学校名单",
+      "publishedAt": "2026-06-18",
+      "accessedAt": "2026-08-20",
+      "accessState": "ok",
+      "note": "列出3所学校，标题标注含民转公：杭州国泰外语艺术学校（初中部）、杭州市建兰中学、杭州市采荷实验学校（初中部）。"
+    },
+    {
+      "id": "src-xihu-2026-junior-private",
+      "title": "2026年西湖区民办初中（含民转公）网上报名情况公布",
+      "url": "https://www.hzxhjy.cn/xhjyw/xjrd/202606/t20260618_760406.shtml",
+      "publisher": "西湖区教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "学校名单",
+      "publishedAt": "2026-06-18",
+      "accessedAt": "2026-08-20",
+      "accessState": "ok",
+      "note": "列出3所学校，标题标注含民转公：杭州市公益中学、杭州绿城育华学校（初中部）、杭州云谷学校（初中部）。"
+    },
+    {
+      "id": "src-binjiang-2026-junior-private",
+      "title": "2026年滨江区民办初中（含公参民转公学校）网上报名情况公布",
+      "url": "https://www.hhtz.gov.cn/col/col1229506924/art/2026/art_d3d8b74da0814f31a0bc8487fb150335.html",
+      "publisher": "滨江区教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "学校名单",
+      "publishedAt": "2026-06-18",
+      "accessedAt": "2026-08-20",
+      "accessState": "ok",
+      "note": "列出2所学校：杭州市滨江区滨兰实验学校（民办）、杭州二中白马湖学校（公参民转公，已转公，不纳入民办学校池）。"
+    },
+    {
+      "id": "src-qiantang-2026-junior-private",
+      "title": "2026年钱塘区民办初中（含公参民转公学校）招生电脑派位录取名单公布",
+      "url": "https://www.qiantang.gov.cn/col/col1229663061/art/2026/art_03eaa4ea55fb493d81a3f35eace2dfb3.html",
+      "publisher": "钱塘区教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "学校名单",
+      "publishedAt": "2026-06-23",
+      "accessedAt": "2026-08-20",
+      "accessState": "ok",
+      "note": "列出3所学校：杭州养正学校（公参民转公）、杭州启成学校（公参民转公）、杭州市实验外国语学校（民办）。"
+    },
+    {
+      "id": "src-hzedu-dongfang-international",
+      "title": "杭州东方中学与澳大利亚教育昆士兰国际合作举办高中课程教育项目",
+      "url": "https://edu.hangzhou.gov.cn/art/2024/8/17/art_1228921923_58941615.html",
+      "publisher": "杭州市教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "教育部门说明",
+      "publishedAt": "2024-08-17",
+      "accessedAt": "2026-08-20",
+      "accessState": "ok",
+      "note": "确认杭州东方中学校址为杭州市西湖区西溪路655-1号。民办完全中学（初中加高中）。"
+    },
+    {
+      "id": "src-hzxhjy-xizi-profile",
+      "title": "杭州西子实验学校学校简介",
+      "url": "https://www.hzxhjy.cn/hzxzsyxx/xxgk/xxjj/",
+      "publisher": "西湖教育网",
+      "sourceLevel": "A1_government",
+      "sourceType": "教育部门说明",
+      "publishedAt": "2021-03-15",
+      "accessedAt": "2026-08-20",
+      "accessState": "ok",
+      "note": "确认杭州西子实验学校为集小学、初中、高中十二年为一体的寄宿型民办学校，位于西湖区。"
+    },
+    {
+      "id": "src-hzgsedu-yuxin-guide",
+      "title": "杭州育新高级中学2025级新生入学指南",
+      "url": "https://www.hzgsedu.cn/app/article/warp/detail/id829462131975269184844.htm",
+      "publisher": "拱墅教育网",
+      "sourceLevel": "A1_government",
+      "sourceType": "教育部门说明",
+      "publishedAt": null,
+      "accessedAt": "2026-08-20",
+      "accessState": "ok",
+      "note": "确认杭州育新高级中学校址为拱墅区塘河路116号。"
+    },
+    {
+      "id": "src-hzxhjy-renhe-openday",
+      "title": "杭州仁和实验学校2025校园开放日",
+      "url": "https://www.hzxhjy.cn/rhsy/xydt/xykx/202505/t20250505_735405.shtml",
+      "publisher": "西湖教育网",
+      "sourceLevel": "A1_government",
+      "sourceType": "教育部门说明",
+      "publishedAt": "2025-05-05",
+      "accessedAt": "2026-08-20",
+      "accessState": "ok",
+      "note": "确认杭州仁和实验学校为寄宿制民办普通高中，学校代码510，位于西湖区。B1.1 补正：原 aliasNames 中写入的'杭州仁和外国语学校'（旧名）在本批次未取得官方更名证据，已移至 unresolvedAliases 暂存。"
+    },
+    {
+      "id": "src-hzycgjzx-official",
+      "title": "杭州英才高级中学学校简介",
+      "url": "https://www.hzycgjzx.com/page3",
+      "publisher": "杭州英才高级中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-20",
+      "accessState": "ok",
+      "note": "确认杭州英才高级中学为经杭州市教育局批准设立的民办寄宿制普通高中，坐落于钱塘区河庄街道江东三路。"
+    },
+    {
+      "id": "src-dingwen-official",
+      "title": "杭州鼎文学校2026-2027学年招生简章",
+      "url": "https://www.dingwenacademy.com/enrollment-activities/2581.html",
+      "publisher": "杭州鼎文学校",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-20",
+      "accessState": "ok",
+      "note": "确认杭州鼎文学校位于钱塘区，涵盖幼儿园、小学、初中和高中的一贯制双语国际化寄宿学校。"
+    },
+    {
+      "id": "src-hzgov-2-zhong",
+      "title": "杭州第二中学（含滨江校区、东河校区、钱江学校、富春学校、高新学校）",
+      "url": "http://www.hz2hs.cn/",
+      "publisher": "杭州第二中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "note": "学校官网在2026-08-21多轮检查中时通时断，最终复检连接失败。目标校仍由杭州市教育局A1名单入池，官网只作校区互证。"
+    },
+    {
+      "id": "src-hzgov-xuejun",
+      "title": "杭州学军中学官网",
+      "url": "http://www.hzxjhs.com/",
+      "publisher": "杭州学军中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "note": "学校官网原文列出'西溪校区、紫金港校区、海创园学校、文渊中学、桐庐学校'。校址浙江省杭州市文三路188号。本条作为A2互证。"
+    },
+    {
+      "id": "src-hzgov-hanggao",
+      "title": "浙江省杭州高级中学官网（含贡院、钱江、钱塘、夏衍校区与启正、启成初中）",
+      "url": "http://www.hanggao1899.cn/",
+      "publisher": "浙江省杭州高级中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "note": "B1.1 补正：学校官网确认'贡院校区在拱墅区凤起路238号'（原资料包误标为上城区）。钱江校区、钱塘校区、夏衍校区为高中校区；启正、启成为两所初中学校。本条作为A2互证。"
+    },
+    {
+      "id": "src-hzgov-h14",
+      "title": "杭州第十四中学官网（凤起校区、康桥校区）",
+      "url": "http://www.h14z.cn/",
+      "publisher": "杭州第十四中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "note": "学校官网与市政府转载页面确认凤起校区凤起路580号（拱墅区），康桥校区龙腾街500号（拱墅区）。本条作为A2互证。"
+    },
+    {
+      "id": "src-hzgov-h4",
+      "title": "杭州第四中学官方主页（吴山校区、下沙校区）",
+      "url": "http://www.hz4z.cn/",
+      "publisher": "杭州第四中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "note": "学校官网确认吴山校区和下沙校区。本条作为A2互证。"
+    },
+    {
+      "id": "src-xiaoshan-gov-xiaozhong",
+      "title": "浙江省萧山中学（萧山区政府转载）",
+      "url": "https://www.xiaoshan.gov.cn/art/2023/10/19/art_1229749004_33638.html",
+      "publisher": "萧山区人民政府",
+      "sourceLevel": "A1_government",
+      "sourceType": "教育部门说明",
+      "publishedAt": "2023-10-19",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "note": "原文：'浙江省萧山中学创建于1938年春，为首批浙江省一级重点中学、省一级普通高中特……面向萧山区及杭州主城区招生。'本条作为A1互证萧山中学公办性质。"
+    }
+  ],
+  "privateSchools": [
+    {
+      "id": "school-hz-lvcheng-yuhua",
+      "officialName": "杭州绿城育华学校",
+      "district": "西湖区",
+      "schoolStages": ["初中", "高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-city-high-school", "src-xihu-2026-junior-private"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "出现在市教育局市区民办高中名单和西湖区民办初中名单中。西湖区名单标题含民转公但该校同时出现在明确标注民办的高中名单中，确认仍为民办。"
+    },
+    {
+      "id": "school-hz-yuxin-gaozhong",
+      "officialName": "杭州育新高级中学",
+      "district": "拱墅区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-city-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "区县由拱墅教育网入学指南确认（校址拱墅区塘河路116号）。"
+    },
+    {
+      "id": "school-hz-qiushi-gaozhong",
+      "officialName": "杭州求是高级中学",
+      "district": "待确认",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-city-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "B1.2：市教育局名单确认学校和高中学段，但没有直接列区县；原第三方地址不进入确定字段，区县保留待确认。"
+    },
+    {
+      "id": "school-hz-guotai-waiyu-yishu",
+      "officialName": "杭州国泰外语艺术学校",
+      "district": "上城区",
+      "schoolStages": ["初中", "高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-city-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "出现在市教育局市区民办高中名单和上城区民办初中（含民转公）名单中。"
+    },
+    {
+      "id": "school-hz-xizi-shiyan",
+      "officialName": "杭州西子实验学校",
+      "district": "西湖区",
+      "schoolStages": ["初中", "高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-city-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "十二年一贯制（含小学/初中/高中）。"
+    },
+    {
+      "id": "school-hz-dongfang-zhongxue",
+      "officialName": "杭州东方中学",
+      "district": "西湖区",
+      "schoolStages": ["初中", "高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-city-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "民办完全中学。区县和完全中学性质由市教育局国际部页面确认。"
+    },
+    {
+      "id": "school-hz-shiyan-waiguoyu",
+      "officialName": "杭州市实验外国语学校",
+      "district": "钱塘区",
+      "schoolStages": ["初中", "高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-city-high-school", "src-qiantang-2026-junior-private"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "钱塘区名单中该校未标注公参民转公，确认仍为民办。"
+    },
+    {
+      "id": "school-hz-yingcai-gaozhong",
+      "officialName": "杭州英才高级中学",
+      "district": "钱塘区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-city-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "区县由学校官网确认（校址钱塘区河庄街道江东三路）。"
+    },
+    {
+      "id": "school-hz-renhe-shiyan",
+      "officialName": "杭州仁和实验学校",
+      "district": "西湖区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-city-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "B1.1 补正：从 aliasNames 中删除'杭州仁和外国语学校'，暂存至 unresolvedAliases 等待官方更名证据。区县由西湖教育网确认。"
+    },
+    {
+      "id": "school-hz-zhijiang-gaozhong",
+      "officialName": "杭州之江高级中学",
+      "district": "西湖区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-city-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "区县由学校公开信息确认（校址西湖区留和路533号，小和山高教园区）。"
+    },
+    {
+      "id": "school-hz-yungu-xuexiao",
+      "officialName": "杭州云谷学校",
+      "district": "西湖区",
+      "schoolStages": ["初中", "高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-city-high-school", "src-xihu-2026-junior-private"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "西湖区名单标题含民转公但该校同时出现在明确标注民办的高中名单中，确认仍为民办。"
+    },
+    {
+      "id": "school-hz-wahaha-shuangyu",
+      "officialName": "杭州娃哈哈双语学校",
+      "district": "上城区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-city-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "区县由上城区民办初中报名页面确认（页面提到该校应先在上城区范围内招生）。可能含初中部但未在任何区级民办初中招生名单中出现，暂仅列高中。"
+    },
+    {
+      "id": "school-hz-dingwen-xuexiao",
+      "officialName": "杭州鼎文学校",
+      "district": "钱塘区",
+      "schoolStages": ["初中", "高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-city-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "高中阶段由市教育局名单确认，一贯制含初中和高中由学校招生简章确认（校址钱塘区秀水街1号）。"
+    },
+    {
+      "id": "school-hz-yucai-zhongxue",
+      "officialName": "杭州育才中学",
+      "district": "拱墅区",
+      "schoolStages": ["初中", "高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-city-high-school", "src-gongshu-2026-junior-private"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "出现在市教育局市区民办高中名单和拱墅区民办初中名单中。"
+    },
+    {
+      "id": "school-hz-xiaoshan-shiyan",
+      "officialName": "萧山区实验中学",
+      "district": "萧山区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-outside-private-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "校名按市教育局市区外民办高中名单原文保存。"
+    },
+    {
+      "id": "school-hz-xuejun-wenyuan",
+      "officialName": "学军中学教育集团文渊中学",
+      "district": "萧山区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-outside-private-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "校名按市教育局名单原文保存。学军中学教育集团附属学校。"
+    },
+    {
+      "id": "school-hz-xiaoshan-yushan",
+      "officialName": "萧山区玉山中学",
+      "district": "萧山区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-outside-private-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": ""
+    },
+    {
+      "id": "school-hz-yingte-waiguoyu",
+      "officialName": "杭州英特外国语学校",
+      "district": "萧山区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-outside-private-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "可能含初中部但市教育局名单仅列出高中阶段，暂仅列高中。"
+    },
+    {
+      "id": "school-hz-yuhang-donglan",
+      "officialName": "余杭区东澜外国语学校",
+      "district": "余杭区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-outside-private-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": ""
+    },
+    {
+      "id": "school-hz-yuhang-xinlixiang",
+      "officialName": "杭州市余杭区新理想高级中学",
+      "district": "余杭区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-outside-private-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": ""
+    },
+    {
+      "id": "school-hz-erzhong-tianyuan-huilan",
+      "officialName": "杭州二中教育集团天元蕙兰学校",
+      "district": "余杭区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-outside-private-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "可能含初中部但市教育局名单仅列出高中阶段。"
+    },
+    {
+      "id": "school-hz-erzhong-shulan-gaozhong",
+      "officialName": "临平区杭州二中树兰高级中学",
+      "district": "临平区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-outside-private-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "校名按市教育局名单原文保存。与拱墅区杭州树兰中学可能有关联，见unresolvedAliases。"
+    },
+    {
+      "id": "school-hz-xinda-waiguoyu",
+      "officialName": "临平区信达外国语学校",
+      "district": "临平区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-outside-private-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "可能含初中部但市教育局名单仅列出高中阶段。"
+    },
+    {
+      "id": "school-hz-fuyang-jiangnan",
+      "officialName": "富阳区江南中学",
+      "district": "富阳区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-outside-private-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": ""
+    },
+    {
+      "id": "school-hz-fuyang-huanggongwang",
+      "officialName": "富阳黄公望高级中学",
+      "district": "富阳区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-outside-private-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": ""
+    },
+    {
+      "id": "school-hz-fuyang-shangwai-fushu",
+      "officialName": "杭州上外附属外国语高级中学",
+      "district": "富阳区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-outside-private-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": ""
+    },
+    {
+      "id": "school-hz-fuyang-laoying",
+      "officialName": "富阳老鹰高级中学",
+      "district": "富阳区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-outside-private-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": ""
+    },
+    {
+      "id": "school-hz-tianmu-waiguoyu",
+      "officialName": "杭州天目外国语学校",
+      "district": "临安区",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-outside-private-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": ""
+    },
+    {
+      "id": "school-hz-tonglu-hangchuan",
+      "officialName": "桐庐杭传高级中学",
+      "district": "桐庐县",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-outside-private-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": ""
+    },
+    {
+      "id": "school-hz-jiande-yucai",
+      "officialName": "建德市育才高级中学",
+      "district": "建德市",
+      "schoolStages": ["高中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-hzedu-2026-outside-private-high-school"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": ""
+    },
+    {
+      "id": "school-hz-jinxiu-zhongxue",
+      "officialName": "杭州市锦绣中学",
+      "district": "拱墅区",
+      "schoolStages": ["初中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-gongshu-2026-junior-private"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": ""
+    },
+    {
+      "id": "school-hz-qizheng-zhongxue",
+      "officialName": "杭州启正中学",
+      "district": "拱墅区",
+      "schoolStages": ["初中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-gongshu-2026-junior-private"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": ""
+    },
+    {
+      "id": "school-hz-shanghai-shiwai-zhongxue",
+      "officialName": "杭州上海世外中学",
+      "district": "拱墅区",
+      "schoolStages": ["初中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-gongshu-2026-junior-private"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": ""
+    },
+    {
+      "id": "school-hz-shulan-zhongxue",
+      "officialName": "杭州树兰中学",
+      "district": "拱墅区",
+      "schoolStages": ["初中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-gongshu-2026-junior-private"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "与临平区杭州二中树兰高级中学可能有关联（同为树兰品牌），但分处不同区县，见unresolvedAliases。"
+    },
+    {
+      "id": "school-hz-binlan-shiyan",
+      "officialName": "杭州市滨江区滨兰实验学校",
+      "district": "滨江区",
+      "schoolStages": ["初中"],
+      "ownership": "民办",
+      "officialPoolEvidenceIds": ["src-binjiang-2026-junior-private"],
+      "aliasNames": [],
+      "activeState": "正常办学",
+      "note": "滨江区名单中该校未标注公参民转公，确认仍为民办。"
+    }
+  ],
+  "publicTargets": [
+    {
+      "id": "public-hz-2nd-high-school",
+      "officialName": "杭州第二中学",
+      "district": "滨江区",
+      "schoolStages": ["高中"],
+      "targetTier": "核心",
+      "targetReason": "杭州市教育局直属公办普通高中；学校官网（hz2hs.cn）确认含滨江校区、东河校区、钱江学校、富春学校、高新学校",
+      "evidenceIds": ["src-hzedu-2026-city-high-school", "src-hzgov-2-zhong"],
+      "note": "滨江校区在滨江区，东河校区在上城区。"
+    },
+    {
+      "id": "public-hz-xuejun-high-school",
+      "officialName": "杭州学军中学",
+      "district": "西湖区",
+      "schoolStages": ["高中"],
+      "targetTier": "核心",
+      "targetReason": "杭州市教育局直属公办普通高中；学校官网（hzxjhs.com）确认含西溪校区、紫金港校区、海创园学校、文渊中学、桐庐学校",
+      "evidenceIds": ["src-hzedu-2026-city-high-school", "src-hzgov-xuejun"],
+      "note": "主校区在西溪校区（西湖区）。校址浙江省杭州市文三路188号。"
+    },
+    {
+      "id": "public-hz-senior-high-school",
+      "officialName": "浙江省杭州高级中学",
+      "district": "拱墅区",
+      "schoolStages": ["高中"],
+      "targetTier": "核心",
+      "targetReason": "杭州市教育局直属公办普通高中；学校官网（hanggao1899.cn）确认含贡院、钱江、钱塘、夏衍等高中校区",
+      "evidenceIds": ["src-hzedu-2026-city-high-school", "src-hzgov-hanggao"],
+      "note": "B1.1 补正：区县由'上城区'改为'拱墅区'，依据学校官网原文'贡院校区在拱墅区凤起路238号'。主校区（贡院校区）在拱墅区。"
+    },
+    {
+      "id": "public-hz-14th-high-school",
+      "officialName": "杭州第十四中学",
+      "district": "拱墅区",
+      "schoolStages": ["高中"],
+      "targetTier": "核心",
+      "targetReason": "杭州市教育局直属公办普通高中；学校官网（h14z.cn）与市政府转载页面确认凤起校区与康桥校区",
+      "evidenceIds": ["src-hzedu-2026-city-high-school", "src-hzgov-h14"],
+      "note": "凤起校区凤起路580号（拱墅区），康桥校区龙腾街500号（拱墅区）。"
+    },
+    {
+      "id": "public-hz-4th-high-school",
+      "officialName": "杭州第四中学",
+      "district": "上城区",
+      "schoolStages": ["高中"],
+      "targetTier": "核心",
+      "targetReason": "杭州市教育局直属公办普通高中；学校官网（hz4z.cn）确认含吴山校区和下沙校区",
+      "evidenceIds": ["src-hzedu-2026-city-high-school", "src-hzgov-h4"],
+      "note": "吴山校区在上城区（主校区），下沙校区在钱塘区。区县按主校区写入上城区。"
+    },
+    {
+      "id": "public-hz-xiaoshan-high-school",
+      "officialName": "浙江省萧山中学",
+      "district": "萧山区",
+      "schoolStages": ["高中"],
+      "targetTier": "核心",
+      "targetReason": "萧山区人民政府官网确认该校为'首批浙江省一级重点中学、省一级普通高中'，面向萧山区及杭州主城区招生",
+      "evidenceIds": ["src-hzedu-2026-city-high-school", "src-xiaoshan-gov-xiaozhong"],
+      "note": "B1.1 补正：原校名'萧山中学'改为'浙江省萧山中学'（萧山区政府A1来源使用的正式名称）。校址萧山区城厢街道拱秀路538号。"
+    }
+  ],
+  "coverageGaps": [
+    {
+      "scope": "district",
+      "description": "萧山区、余杭区、临平区、富阳区、临安区、桐庐县、建德市、淳安县缺少区级民办初中招生名单。市教育局市区外民办高中名单仅覆盖高中阶段，无法确认这些区县是否还有未纳入的民办初中。",
+      "evidenceIds": ["src-hzedu-2026-outside-private-high-school"],
+      "nextAction": "在阶段B后续批次检索上述区县教育局官网的民办初中招生信息，或检索浙江省教育厅民办学校办学许可证名单。"
+    },
+    {
+      "scope": "private_school_pool",
+      "description": "上城区和西湖区的民办初中名单标题标注含民转公，正文未逐校标注哪些学校已转公。杭州市建兰中学、杭州市采荷实验学校（上城区）和杭州市公益中学（西湖区）未出现在任何明确标注民办的名单中，无法确认是否仍为民办，暂不纳入民办学校池。",
+      "evidenceIds": ["src-shangcheng-2026-junior-private", "src-xihu-2026-junior-private"],
+      "nextAction": "检索上城区和西湖区教育局关于民转公学校名单的正式公告，或直接向区教育局核实上述三校当前办学性质。"
+    },
+    {
+      "scope": "private_school_pool",
+      "description": "市区民办高中名单中部分学校的区县信息来自学校官网或第三方资料（杭州娃哈哈双语学校可能含初中部但未出现在任何区级民办初中招生名单中）。",
+      "evidenceIds": ["src-hzedu-2026-city-high-school"],
+      "nextAction": "在阶段B后续批次逐一访问学校官网或检索学校办学许可证确认完整学段。"
+    },
+    {
+      "scope": "district",
+      "description": "市教育局名单未直接列出市区学校的所在区县，区县信息通过校区名称推断（如滨江校区推断为滨江区）或通过学校官网补充。凤起校区所在的原下城区已于2021年并入拱墅区。",
+      "evidenceIds": ["src-hzedu-2026-city-high-school"],
+      "nextAction": "逐一访问公办目标校和市区民办高中官网核实校区精确地址和所属区县。"
+    },
+    {
+      "scope": "private_school_pool",
+      "description": "杭州仁和实验学校原名'杭州仁和外国语学校'的官方更名证据未取得；B1.1 补正已将旧名从 aliasNames 删除并暂存至 unresolvedAliases。",
+      "evidenceIds": ["src-hzxhjy-renhe-openday"],
+      "nextAction": "在阶段B后续批次检索浙江省民政厅事业单位法人证书或杭州市教育局办学许可证历史变更记录。"
+    }
+  ],
+  "unresolvedAliases": [
+    {
+      "nameA": "杭州树兰中学",
+      "nameB": "临平区杭州二中树兰高级中学",
+      "reasonUnresolved": "两校均含树兰品牌，分处拱墅区和临平区。可能为同一教育集团的不同校区或独立办学主体，但缺乏官方文件确认关系，不自行合并。",
+      "evidenceIds": ["src-gongshu-2026-junior-private", "src-hzedu-2026-outside-private-high-school"]
+    },
+    {
+      "nameA": "杭州仁和外国语学校",
+      "nameB": "杭州仁和实验学校",
+      "reasonUnresolved": "杭州仁和实验学校据称原名杭州仁和外国语学校，2020年更名，但官方更名文件（浙江省民政厅或杭州市教育局记录）未取得。B1.1 补正已从 aliasNames 移出，暂存于此。",
+      "evidenceIds": ["src-hzxhjy-renhe-openday"]
+    }
+  ],
+  "notes": [
+    "B1.1 补正：杭州求是高级中学原浙江师范大学就业网来源已删除（不属于A2学校官方）。区县由第三方资料补充，下一步需用A1或A2来源确认。",
+    "B1.1 补正：杭州仁和实验学校原 aliasNames 中'杭州仁和外国语学校'已删除，移至 unresolvedAliases 等待官方更名证据。",
+    "B1.1 补正：杭州高级中学区县由'上城区'改为'拱墅区'，依据学校官网原文'贡院校区在拱墅区凤起路238号'。",
+    "B1.1 补正：萧山中学正式名称由'萧山中学'改为'浙江省萧山中学'，依据萧山区政府A1来源。",
+    "B1.1 补正：6所公办目标校均补充A2学校官网或A1政府公告作为正式名称与公办性质的互证。",
+    "B1.1 补正：覆盖缺口补齐淳安县（之前7地缺1地）。",
+    "杭州市教育局2026年市区普通高中招生学校介绍页面是本批最核心的A1_government来源。",
+    "本批未采集任何招聘岗位、薪资、考试流程、录用结果或个人信息。"
+  ]
+}

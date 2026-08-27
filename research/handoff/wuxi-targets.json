@@ -1,0 +1,1080 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-21",
+  "province": "江苏",
+  "city": "无锡",
+  "targetCount": 36,
+  "privateSchoolCount": 30,
+  "publicTargetCount": 6,
+  "source": "正式 V2 数据自动生成；只作 DSH 招聘试采目标，不表示学校排名或当前存在招聘。",
+  "schools": [
+    {
+      "schoolId": "private-wx-jiangyin-linkang",
+      "officialName": "江阴临港科创实验学校",
+      "ownership": "民办",
+      "district": "江阴市",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-wuxi-2025-high-school-directory",
+          "title": "无锡市普通高中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411143673821960.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-jiangyin-qingyang-jinqiao",
+      "officialName": "江阴青阳金桥实验学校",
+      "ownership": "民办",
+      "district": "江阴市",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-jiangyin-taibo",
+      "officialName": "江阴市泰博实验学校",
+      "ownership": "民办",
+      "district": "江阴市",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-jiangyin-tianhua",
+      "officialName": "江阴市天华艺术学校",
+      "ownership": "民办",
+      "district": "江阴市",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-wuxi-2025-high-school-directory",
+          "title": "无锡市普通高中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411143673821960.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-jiangyin-foreign",
+      "officialName": "江阴外国语学校",
+      "ownership": "民办",
+      "district": "江阴市",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-wuxi-2025-high-school-directory",
+          "title": "无锡市普通高中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411143673821960.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-dipont",
+      "officialName": "无锡狄邦文理学校",
+      "ownership": "民办",
+      "district": "滨湖区",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-wuxi-2025-high-school-directory",
+          "title": "无锡市普通高中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411143673821960.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-dipont-huishan",
+      "officialName": "无锡狄邦文理学校（惠山校区）",
+      "ownership": "民办",
+      "district": "惠山区",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-wuxi-2025-high-school-directory",
+          "title": "无锡市普通高中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411143673821960.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-xinwu-jinqiao",
+      "officialName": "无锡高新区金桥外国语学校",
+      "ownership": "民办",
+      "district": "新吴区",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-guanghua",
+      "officialName": "无锡光华学校",
+      "ownership": "民办",
+      "district": "滨湖区",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-wuxi-2025-high-school-directory",
+          "title": "无锡市普通高中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411143673821960.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-jinbang",
+      "officialName": "无锡金榜高级中学",
+      "ownership": "民办",
+      "district": "新吴区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-high-school-directory",
+          "title": "无锡市普通高中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411143673821960.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-jingkai-jinqiao",
+      "officialName": "无锡金桥双语实验学校",
+      "ownership": "民办",
+      "district": "经开区",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-daqiao",
+      "officialName": "无锡市大桥实验学校",
+      "ownership": "民办",
+      "district": "多校区",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-wuxi-2025-high-school-directory",
+          "title": "无锡市普通高中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411143673821960.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-fucheng",
+      "officialName": "无锡市辅成实验学校",
+      "ownership": "民办",
+      "district": "梁溪区",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-huatian",
+      "officialName": "无锡市华天双语学校",
+      "ownership": "民办",
+      "district": "锡山区",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-wuxi-2025-high-school-directory",
+          "title": "无锡市普通高中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411143673821960.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-huishan-jinqiao",
+      "officialName": "无锡市惠山金桥实验学校",
+      "ownership": "民办",
+      "district": "惠山区",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-huishan-huarui",
+      "officialName": "无锡市惠山区华锐实验学校",
+      "ownership": "民办",
+      "district": "惠山区",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-huishan-xinkaihe",
+      "officialName": "无锡市惠山区洛社新开河实验学校",
+      "ownership": "民办",
+      "district": "惠山区",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-kuangyuan",
+      "officialName": "无锡市匡园双语学校",
+      "ownership": "民办",
+      "district": "惠山区",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-wuxi-2025-high-school-directory",
+          "title": "无锡市普通高中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411143673821960.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-liangxi-jinqiao",
+      "officialName": "无锡市梁溪区金桥双语实验学校",
+      "ownership": "民办",
+      "district": "梁溪区",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-liangxi-lianyuanyinghe",
+      "officialName": "无锡市梁溪区连元英禾双语学校分校",
+      "ownership": "民办",
+      "district": "梁溪区",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-wufeng",
+      "officialName": "无锡市吴风实验学校",
+      "ownership": "民办",
+      "district": "新吴区",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-xinan",
+      "officialName": "无锡市锡南实验中学",
+      "ownership": "民办",
+      "district": "惠山区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-high-school-directory",
+          "title": "无锡市普通高中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411143673821960.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-xishan-chunlei",
+      "officialName": "无锡市锡山区春蕾学校",
+      "ownership": "民办",
+      "district": "锡山区",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-xieshuang",
+      "officialName": "无锡市协和双语学校",
+      "ownership": "民办",
+      "district": "锡山区",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-yunhe",
+      "officialName": "无锡市运河实验中学",
+      "ownership": "民办",
+      "district": "梁溪区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-high-school-directory",
+          "title": "无锡市普通高中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411143673821960.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-foreign",
+      "officialName": "无锡外国语学校",
+      "ownership": "民办",
+      "district": "多校区",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-wuxi-2025-high-school-directory",
+          "title": "无锡市普通高中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411143673821960.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-xianfeng",
+      "officialName": "无锡先锋高级中学",
+      "ownership": "民办",
+      "district": "新吴区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-high-school-directory",
+          "title": "无锡市普通高中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411143673821960.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-yucai",
+      "officialName": "无锡育才中学",
+      "ownership": "民办",
+      "district": "梁溪区",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-yixing-changqing",
+      "officialName": "宜兴市常青外国语学校",
+      "ownership": "民办",
+      "district": "宜兴市",
+      "schoolStages": [
+        "初中",
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-wuxi-2025-high-school-directory",
+          "title": "无锡市普通高中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411143673821960.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-wx-yixing-lingxia",
+      "officialName": "宜兴市凌霞实验中学",
+      "ownership": "民办",
+      "district": "宜兴市",
+      "schoolStages": [
+        "初中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2025-junior-directory",
+          "title": "无锡市初中一览表（2025年）",
+          "url": "https://jy.wuxi.gov.cn/uploadfiles/202508/14/2025081411142441054575.xlsx",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "学校名单",
+          "publishedAt": "2025-08-14",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-wx-meicun",
+      "officialName": "江苏省梅村高级中学",
+      "ownership": "公办",
+      "district": "新吴区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2026-high-school-admission",
+          "title": "无锡市教育局关于做好2026年市区高级中等学校招生工作的意见",
+          "url": "https://jy.wuxi.gov.cn/doc/2026/05/08/4772335.shtml",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2026-05-08",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-wx-taihu",
+      "officialName": "江苏省太湖高级中学",
+      "ownership": "公办",
+      "district": "滨湖区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2026-high-school-admission",
+          "title": "无锡市教育局关于做好2026年市区高级中等学校招生工作的意见",
+          "url": "https://jy.wuxi.gov.cn/doc/2026/05/08/4772335.shtml",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2026-05-08",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-wx-tianyi",
+      "officialName": "江苏省天一中学",
+      "ownership": "公办",
+      "district": "锡山区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2026-high-school-admission",
+          "title": "无锡市教育局关于做好2026年市区高级中等学校招生工作的意见",
+          "url": "https://jy.wuxi.gov.cn/doc/2026/05/08/4772335.shtml",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2026-05-08",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-wx-xishan",
+      "officialName": "江苏省锡山高级中学",
+      "ownership": "公办",
+      "district": "惠山区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2026-high-school-admission",
+          "title": "无锡市教育局关于做好2026年市区高级中等学校招生工作的意见",
+          "url": "https://jy.wuxi.gov.cn/doc/2026/05/08/4772335.shtml",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2026-05-08",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-wx-no1",
+      "officialName": "无锡市第一中学",
+      "ownership": "公办",
+      "district": "梁溪区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2026-high-school-admission",
+          "title": "无锡市教育局关于做好2026年市区高级中等学校招生工作的意见",
+          "url": "https://jy.wuxi.gov.cn/doc/2026/05/08/4772335.shtml",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2026-05-08",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-wx-furen",
+      "officialName": "无锡市辅仁高级中学",
+      "ownership": "公办",
+      "district": "滨湖区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wuxi-2026-high-school-admission",
+          "title": "无锡市教育局关于做好2026年市区高级中等学校招生工作的意见",
+          "url": "https://jy.wuxi.gov.cn/doc/2026/05/08/4772335.shtml",
+          "publisher": "无锡市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2026-05-08",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    }
+  ]
+}

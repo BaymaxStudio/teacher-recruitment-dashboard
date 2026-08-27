@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-21",
+  "province": "浙江",
+  "city": "温州",
+  "targetCount": 6,
+  "privateSchoolCount": 0,
+  "publicTargetCount": 6,
+  "source": "正式 V2 数据自动生成；只作 DSH 招聘试采目标，不表示学校排名或当前存在招聘。",
+  "schools": [
+    {
+      "schoolId": "public-wz-no2",
+      "officialName": "温州第二高级中学",
+      "ownership": "公办",
+      "district": "鹿城区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wenzhou-2025-direct-school-budget",
+          "title": "温州市教育局直属学校单位预算范围",
+          "url": "https://edu.wenzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=1d682737d57c480b850b72b3db8ea141.pdf",
+          "publisher": "温州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2025-03-01",
+          "accessedAt": "2026-08-21",
+          "accessState": "blocked"
+        }
+      ],
+      "currentCoverageOutcome": "页面受阻",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 1,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-wz-no22",
+      "officialName": "温州市第二十二中学",
+      "ownership": "公办",
+      "district": "龙湾区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wenzhou-2025-direct-school-budget",
+          "title": "温州市教育局直属学校单位预算范围",
+          "url": "https://edu.wenzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=1d682737d57c480b850b72b3db8ea141.pdf",
+          "publisher": "温州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2025-03-01",
+          "accessedAt": "2026-08-21",
+          "accessState": "blocked"
+        }
+      ],
+      "currentCoverageOutcome": "页面受阻",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 1,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-wz-no2-foreign",
+      "officialName": "温州市第二外国语学校",
+      "ownership": "公办",
+      "district": "瓯海区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wenzhou-2025-direct-school-budget",
+          "title": "温州市教育局直属学校单位预算范围",
+          "url": "https://edu.wenzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=1d682737d57c480b850b72b3db8ea141.pdf",
+          "publisher": "温州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2025-03-01",
+          "accessedAt": "2026-08-21",
+          "accessState": "blocked"
+        }
+      ],
+      "currentCoverageOutcome": "页面受阻",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 1,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-wz-no14",
+      "officialName": "温州市第十四高级中学",
+      "ownership": "公办",
+      "district": "鹿城区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wenzhou-2025-direct-school-budget",
+          "title": "温州市教育局直属学校单位预算范围",
+          "url": "https://edu.wenzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=1d682737d57c480b850b72b3db8ea141.pdf",
+          "publisher": "温州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2025-03-01",
+          "accessedAt": "2026-08-21",
+          "accessState": "blocked"
+        }
+      ],
+      "currentCoverageOutcome": "页面受阻",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 1,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-wz-ouhai",
+      "officialName": "浙江省瓯海中学",
+      "ownership": "公办",
+      "district": "瓯海区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wenzhou-2025-direct-school-budget",
+          "title": "温州市教育局直属学校单位预算范围",
+          "url": "https://edu.wenzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=1d682737d57c480b850b72b3db8ea141.pdf",
+          "publisher": "温州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2025-03-01",
+          "accessedAt": "2026-08-21",
+          "accessState": "blocked"
+        }
+      ],
+      "currentCoverageOutcome": "页面受阻",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 1,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-wz-wenzhou",
+      "officialName": "浙江省温州中学",
+      "ownership": "公办",
+      "district": "瓯海区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-wenzhou-2025-direct-school-budget",
+          "title": "温州市教育局直属学校单位预算范围",
+          "url": "https://edu.wenzhou.gov.cn/module/download/downfile.jsp?classid=0&filename=1d682737d57c480b850b72b3db8ea141.pdf",
+          "publisher": "温州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2025-03-01",
+          "accessedAt": "2026-08-21",
+          "accessState": "blocked"
+        }
+      ],
+      "currentCoverageOutcome": "页面受阻",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 1,
+      "currentContactCount": 0
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-21",
+  "province": "浙江",
+  "city": "嘉兴",
+  "targetCount": 4,
+  "privateSchoolCount": 0,
+  "publicTargetCount": 4,
+  "source": "正式 V2 数据自动生成；只作 DSH 招聘试采目标，不表示学校排名或当前存在招聘。",
+  "schools": [
+    {
+      "schoolId": "public-jx-jiashan",
+      "officialName": "嘉善高级中学",
+      "ownership": "公办",
+      "district": "嘉善县",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-jiaxing-jiashan-2025-school",
+          "title": "嘉善高级中学柳洲书院启用",
+          "url": "https://www.jiashan.gov.cn/art/2025/3/19/art_1229250583_59056024.html",
+          "publisher": "嘉善县人民政府",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2025-03-19",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-jx-no1",
+      "officialName": "嘉兴市第一中学",
+      "ownership": "公办",
+      "district": "南湖区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-jiaxing-no1-2025-budget",
+          "title": "嘉兴市教育局2025年市本级部门预算",
+          "url": "https://jyj.jiaxing.gov.cn/module/download/downfile.jsp?classid=0&filename=6ad2e53bb47a42cf8d914866f97e0a7e.pdf",
+          "publisher": "嘉兴市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2025-03-01",
+          "accessedAt": "2026-08-21",
+          "accessState": "blocked"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-jx-pinghu",
+      "officialName": "浙江省平湖中学",
+      "ownership": "公办",
+      "district": "平湖市",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-jiaxing-pinghu-2025-public-unit",
+          "title": "平湖市教育局校园招聘2025学年教师公告（第三批）",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3087/site/attach/0/6dd90353a8214246b8d8c8185ac0ef11.pdf",
+          "publisher": "平湖市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "招聘公告",
+          "publishedAt": "2024-10-24",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现往届参考",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 1,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-jx-tongxiang",
+      "officialName": "浙江省桐乡市高级中学",
+      "ownership": "公办",
+      "district": "桐乡市",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-jiaxing-tongxiang-2024-budget",
+          "title": "浙江省桐乡市高级中学2024年单位预算",
+          "url": "https://www.tx.gov.cn/module/download/downfile.jsp?classid=0&filename=41043c9fc4014c7e8b6671652ebe8abf.pdf",
+          "publisher": "桐乡市人民政府",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2024-03-01",
+          "accessedAt": "2026-08-21",
+          "accessState": "blocked"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    }
+  ]
+}

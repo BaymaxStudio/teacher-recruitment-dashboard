@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "isTemplate": false,
+  "batchId": "b1-2-suzhou-2026-08-21",
+  "province": "江苏",
+  "city": "苏州",
+  "researchedAt": "2026-08-21",
+  "researcher": "CodeBuddy",
+  "sources": [
+    {
+      "id": "src-sz-gov-2026-shiqu-zhao",
+      "title": "关于做好2026年苏州市区各类高级中等学校招生工作的通知",
+      "url": "https://www.suzhou.gov.cn/szsrmzf/bmwj/202605/4a9271ac8d7049f8ac0e6f310e79bc57.shtml",
+      "publisher": "苏州市教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "公办目标依据",
+      "publishedAt": "2026-05-15",
+      "accessedAt": "2026-08-20",
+      "accessState": "ok",
+      "note": "列出提前录取和特长生招生涉及的公办高中，含江苏省苏州中学（本部、金阊校区）、苏州工业园区星海实验高级中学（沈浒路校区）、江苏省木渎高级中学、苏州大学附属中学（东振路校区）。姑苏区、工业园区、高新区为同一招生区域。"
+    },
+    {
+      "id": "src-zjg-gov-2026-zhao",
+      "title": "市教育局关于印发《2026年张家港市各类高级中等学校招生工作意见》的通知",
+      "url": "https://www.zjg.gov.cn/zjgszwz/fgw01kpcpuegmqtmtd/202606/6b7330f715d143e4ae381ad51dc24a02.shtml",
+      "publisher": "张家港市教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "公办目标依据",
+      "publishedAt": "2026-06-01",
+      "accessedAt": "2026-08-20",
+      "accessState": "ok",
+      "note": "列出张家港市公办普通高中名单，含梁丰高级中学（四星级、省高品质高中）。"
+    },
+    {
+      "id": "src-sz-gov-2026-yiwu-zhao",
+      "title": "关于印发《2026年苏州市义务教育阶段学校招生入学工作意见》的通知",
+      "url": "https://www.suzhou.gov.cn/szsrmzf/bmwj/202605/27e3ba482e8d408e91d465d4480916ba.shtml",
+      "publisher": "苏州市教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "教育部门说明",
+      "publishedAt": "2026-05-15",
+      "accessedAt": "2026-08-20",
+      "accessState": "ok",
+      "note": "政策指导性文件，未列出具体民办初中学校名单。"
+    },
+    {
+      "id": "src-sz-gov-2026-pugao-zhao",
+      "title": "关于印发《2026年苏州市普通高中招生工作意见》的通知",
+      "url": "https://www.suzhou.gov.cn/szsrmzf/bmwj/202605/0ea5b9ae2fac47ac8432c3cfff85f355.shtml",
+      "publisher": "苏州市教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "教育部门说明",
+      "publishedAt": "2026-05-15",
+      "accessedAt": "2026-08-20",
+      "accessState": "ok",
+      "note": "政策指导性文件，未列出具体学校名单。"
+    },
+    {
+      "id": "src-sz-shiyan-official",
+      "title": "江苏省苏州实验中学学校简介",
+      "url": "https://szsyzx.jssnd.edu.cn/xxgk",
+      "publisher": "江苏省苏州实验中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-20",
+      "accessState": "ok",
+      "note": "确认江苏省苏州实验中学位于苏州高新技术开发区核心区域，四星级普通高中、江苏省重点中学、国家级示范高中。由苏州市高新区（虎丘区）教育局主管的全日制高级中学。"
+    },
+    {
+      "id": "src-sz-suda-fushu-caigou",
+      "title": "苏州大学附属中学物业管理服务采购公告（江苏政府采购网）",
+      "url": "http://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=htgg&ggid=0b61bf8df24f4995ba89b36f8f47f6f1",
+      "publisher": "江苏省政府采购中心",
+      "sourceLevel": "A1_government",
+      "sourceType": "教育部门说明",
+      "publishedAt": "2024-01-07",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "note": "采购人信息原文：'采购人(甲方):苏州大学附属中学 地址:苏州工业园区东振路29号'。公告明确'苏州大学附属中学是苏州工业园区直属公办学校'。本条既确认校址（工业园区东振路29号），也确认公办性质。"
+    },
+    {
+      "id": "src-sz-zhongxue-website",
+      "title": "江苏省苏州中学官网",
+      "url": "http://szzx1000.cn/",
+      "publisher": "江苏省苏州中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "note": "学校官网确认江苏省苏州中学名称、姑苏区本部与金阊校区（姑苏区）、面向四星级高中自主招生。"
+    },
+    {
+      "id": "src-sz-sipac-news",
+      "title": "星海高中牵手三所知名高校（苏州工业园区管委会转载）",
+      "url": "http://www.sipac.gov.cn/szgyyq/mtjj/202601/47bf820a8c9a4f8fae874856d337b9ee.shtml",
+      "publisher": "苏州工业园区管理委员会",
+      "sourceLevel": "A1_government",
+      "sourceType": "教育部门说明",
+      "publishedAt": "2026-01-06",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "note": "原文：'苏州工业园区星海实验高级中学与中国科学技术大学、南京航空航天大学、苏州大学三所高校签署首批双高合作推进科学高中建设框架协议'。本条作为A1政府来源互证学校归属工业园区。"
+    },
+    {
+      "id": "src-sz-muduhs-website",
+      "title": "江苏省木渎高级中学学校介绍",
+      "url": "http://www.muduhs.com/xxgk/xxjs",
+      "publisher": "江苏省木渎高级中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": "2021-03-16",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "note": "学校官网确认江苏省木渎高级中学位于吴中区，公办全日制高级中学。"
+    },
+    {
+      "id": "src-zjg-edu-liangfeng",
+      "title": "江苏省梁丰高级中学2024年特长生招生简章（张家港教育网）",
+      "url": "https://www.zjgedu.cn/xxgk/gsgg/content_204355",
+      "publisher": "张家港教育网（张家港市教育局主办）",
+      "sourceLevel": "A1_government",
+      "sourceType": "教育部门说明",
+      "publishedAt": "2024-06-12",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "note": "原文：'江苏省梁丰高级中学是省首批四星级普通高中、省首批高品质示范高中建设立项学校'。本条作为A1来源确认正式名称'江苏省梁丰高级中学'，与2024年揭牌的'南京大学附属梁丰高级中学'存在名称变体，记入unresolvedAliases。"
+    }
+  ],
+  "privateSchools": [],
+  "publicTargets": [
+    {
+      "id": "public-sz-suzhou-zhongxue",
+      "officialName": "江苏省苏州中学",
+      "district": "姑苏区",
+      "schoolStages": ["高中"],
+      "targetTier": "核心",
+      "targetReason": "苏州市教育局2026年市区招生通知提前录取第一阶段列出（本部与金阊校区）；学校官网（szzx1000.cn）确认公办四星级高中",
+      "evidenceIds": ["src-sz-gov-2026-shiqu-zhao", "src-sz-zhongxue-website"],
+      "note": "本部在姑苏区，金阊校区在姑苏区。"
+    },
+    {
+      "id": "public-sz-xinghai-shiyan",
+      "officialName": "苏州工业园区星海实验高级中学",
+      "district": "工业园区",
+      "schoolStages": ["高中"],
+      "targetTier": "核心",
+      "targetReason": "苏州市教育局2026年市区招生通知列出（沈浒路校区）；苏州工业园区管委会转载新闻确认学校隶属于苏州工业园区",
+      "evidenceIds": ["src-sz-gov-2026-shiqu-zhao", "src-sz-sipac-news"],
+      "note": "沈浒路校区在工业园区西沈浒路168号。"
+    },
+    {
+      "id": "public-sz-shiyan-zhongxue",
+      "officialName": "江苏省苏州实验中学",
+      "district": "高新区",
+      "schoolStages": ["高中"],
+      "targetTier": "核心",
+      "targetReason": "学校官方简介确认为四星级公办普通高中，由高新区教育局主管",
+      "evidenceIds": ["src-sz-shiyan-official"],
+      "note": "位于苏州高新技术开发区（虎丘区），创办于1994年。"
+    },
+    {
+      "id": "public-sz-mudu-gaoji",
+      "officialName": "江苏省木渎高级中学",
+      "district": "吴中区",
+      "schoolStages": ["高中"],
+      "targetTier": "核心",
+      "targetReason": "苏州市教育局2026年市区招生通知提前录取第一阶段列出（吴中区）；学校官网（muduhs.com）确认吴中区公办全日制高级中学",
+      "evidenceIds": ["src-sz-gov-2026-shiqu-zhao", "src-sz-muduhs-website"],
+      "note": "创办于1937年。"
+    },
+    {
+      "id": "public-sz-suda-fushu",
+      "officialName": "苏州大学附属中学",
+      "district": "工业园区",
+      "schoolStages": ["高中"],
+      "targetTier": "核心",
+      "targetReason": "苏州市教育局2026年市区招生通知列出（东振路校区）；江苏政府采购网采购公告明确'苏州大学附属中学是苏州工业园区直属公办学校'，地址为'苏州工业园区东振路29号'",
+      "evidenceIds": ["src-sz-gov-2026-shiqu-zhao", "src-sz-suda-fushu-caigou"],
+      "note": "B1.1 补正：区县由'姑苏区'改为'工业园区'，依据A1政府来源（江苏政府采购网采购公告）。校址苏州工业园区东振路29号。"
+    },
+    {
+      "id": "public-sz-liangfeng",
+      "officialName": "梁丰高级中学",
+      "district": "张家港市",
+      "schoolStages": ["高中"],
+      "targetTier": "核心",
+      "targetReason": "张家港市教育局2026年招生工作意见列出；张家港教育网招生简章使用'江苏省梁丰高级中学'作为正式名称；2024年揭牌'南京大学附属梁丰高级中学'",
+      "evidenceIds": ["src-zjg-gov-2026-zhao", "src-zjg-edu-liangfeng"],
+      "note": "B1.1 补正：原资料包校名变体（'江苏省梁丰高级中学'与'南京大学附属梁丰高级中学'）记入unresolvedAliases。本资料包正式名称按A1来源保留为'梁丰高级中学'（招生工作意见原文）。当前法人正式名称以何种为准待张家港市教育局确认。"
+    }
+  ],
+  "coverageGaps": [
+    {
+      "scope": "private_school_pool",
+      "description": "苏州市区民办普通高中完整名单未找到。市教育局招生通知仅在特长生招生附件中提及苏州枫华学校和苏州市吴江区青云实验中学，并非完整名单。",
+      "evidenceIds": ["src-sz-gov-2026-shiqu-zhao"],
+      "nextAction": "查找苏州市教育考试院统一公布的招生计划表，或在市教育局官网高中招生栏目检索民办高中招生计划页面。"
+    },
+    {
+      "scope": "private_school_pool",
+      "description": "苏州市各区民办初中学校名单未找到。市教育局义务教育招生通知为政策指导文件，未列出具体学校名单。",
+      "evidenceIds": ["src-sz-gov-2026-yiwu-zhao"],
+      "nextAction": "逐一访问各区教育行政部门官网检索2026年义务教育民办学校招生实施细则和电脑派位学校名单。"
+    },
+    {
+      "scope": "private_school_pool",
+      "description": "张家港市民办普通高中名单未明确列出。张家港市教育局招生通知的民办高中招生一节未逐校列举校名。",
+      "evidenceIds": ["src-zjg-gov-2026-zhao"],
+      "nextAction": "联系张家港市教育局获取民办高中招生计划表，或在张家港市教育考试机构网站检索。"
+    },
+    {
+      "scope": "private_school_pool",
+      "description": "苏州下辖其他县级市（常熟市、太仓市、昆山市）的民办高中和民办初中名单未检索。",
+      "evidenceIds": ["src-sz-gov-2026-pugao-zhao"],
+      "nextAction": "在阶段B后续批次检索常熟市、太仓市、昆山市教育局官网的民办学校招生信息。"
+    },
+    {
+      "scope": "public_target_pool",
+      "description": "梁丰高级中学的当前法人正式名称存在变体：招生工作意见原文'梁丰高级中学'、张家港教育网招生简章'江苏省梁丰高级中学'、2024年揭牌'南京大学附属梁丰高级中学'。当前法人使用何种名称待张家港市教育局确认。",
+      "evidenceIds": ["src-zjg-gov-2026-zhao", "src-zjg-edu-liangfeng"],
+      "nextAction": "联系张家港市教育局或查询学校章程与事业单位法人证书确认当前正式名称。"
+    }
+  ],
+  "unresolvedAliases": [
+    {
+      "nameA": "江苏省梁丰高级中学",
+      "nameB": "南京大学附属梁丰高级中学",
+      "reasonUnresolved": "张家港市教育局2026年招生工作意见原文使用'梁丰高级中学'；张家港教育网2024年特长生招生简章使用'江苏省梁丰高级中学'；2024年10月'南京大学附属梁丰高级中学'正式揭牌。当前法人正式名称以张家港市教育局确认为准。",
+      "evidenceIds": ["src-zjg-gov-2026-zhao", "src-zjg-edu-liangfeng"]
+    }
+  ],
+  "notes": [
+    "B1.1 补正：苏州大学附属中学区县由'姑苏区'改为'工业园区'，依据江苏政府采购网采购公告（A1政府来源）。",
+    "B1.1 补正：梁丰高级中学名称变体记入unresolvedAliases，当前法人正式名称待张家港市教育局确认。",
+    "B1.1 补正：6所公办目标校均补充A2学校官网或A1政府公告作为正式名称与公办性质的互证。",
+    "苏州市区招生通知是确认公办目标校的核心A1来源，列出了参与提前录取和特长生招生的学校，但并非完整的学校名单。",
+    "江苏省苏州实验中学未在市区招生通知中直接提及，但学校官网确认为高新区公办四星级高中，作为A2来源使用。",
+    "苏州市民办学校名单是本批的重大缺口：市教育局招生通知为政策指导文件，未列出具体民办学校名单。",
+    "张家港市招生通知的民办高中招生一节未逐校列举校名。",
+    "本批未采集任何招聘岗位、薪资、考试流程、录用结果或个人信息。"
+  ]
+}

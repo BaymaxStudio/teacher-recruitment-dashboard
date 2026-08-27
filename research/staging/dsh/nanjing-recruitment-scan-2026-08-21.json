@@ -1,0 +1,1522 @@
+{
+  "schemaVersion": 1,
+  "isTemplate": false,
+  "batchId": "nanjing-dsh-b1",
+  "province": "江苏",
+  "city": "南京",
+  "researchedAt": "2026-08-21",
+  "researcher": "DeepSeek Harness + DeepSeek-V4-Flash",
+  "sources": [
+    {
+      "id": "src-nj-direct-jan",
+      "title": "南京市教育局直属学校2026年1月公开招聘教师公告（103名）",
+      "url": "https://edu.nanjing.gov.cn/bsfw/zpzk/202601/t20260108_5759566.html",
+      "publisher": "南京市教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-01-08",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（市直属12所学校编制内教师103名，报名2026-01-16至20，已截止）",
+      "note": "2026年普通高校毕业生暂未取得教资的须2026-08-01前取得；年龄38周岁以下；报名平台为南京市教育局网教师招聘模块；岗位信息表为附件未恢复"
+    },
+    {
+      "id": "src-nj-direct-july",
+      "title": "南京市教育局部分直属学校2026年7月公开招聘高层次人才、紧缺人才公告（49名）",
+      "url": "https://edu.nanjing.gov.cn/bsfw/zpzk/202607/t20260701_5869258.html",
+      "publisher": "南京市教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-07-01",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（高层次人才、紧缺人才49名，邮件报名至2026-07-10，已截止）",
+      "note": "报名材料以电子邮件发送至各校邮箱；一中、金陵中学、南外、南师附中、附中科学高中邮箱见公告"
+    },
+    {
+      "id": "src-nj-gulou-jan",
+      "title": "南京市鼓楼区教育局所属学校2026年1月公开招聘新教师公告（38名）",
+      "url": "http://www.njgl.gov.cn/glqrmzf/202601/t20260109_5761148.html",
+      "publisher": "南京市鼓楼区人民政府",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-01-09",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（鼓楼区编制内新教师38名，报名2026-01-16至20，已截止）",
+      "note": "招聘对象为2026届应届师范类本科、硕士及以上研究生等；教资2026-08-01前取得；岗位信息表为附件未恢复"
+    },
+    {
+      "id": "src-nj-xuanwu-jan",
+      "title": "南京市玄武区教育局所属学校2026年公开招聘教师公告（52名）",
+      "url": "http://www.xwzf.gov.cn/xwqrmzf/202601/t20260109_5761614.html",
+      "publisher": "南京市玄武区人民政府",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-01-09",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（玄武区编制内教师52名，报名2026-01-16至20，已截止）",
+      "note": "高中及信息表2岗位直接报名到学校；2026届教资2026-08-01前取得；岗位信息表为附件未恢复"
+    },
+    {
+      "id": "src-nj-yy2w-2026",
+      "title": "南京育英第二外国语学校2026教师招聘启事（深圳北理莫斯科大学就业网转载）",
+      "url": "https://career.smbu.edu.cn/detail/online?id=3522600",
+      "publisher": "深圳北理莫斯科大学就业信息网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（育英第二外国语学校教师招聘，九年一贯制民办）",
+      "note": "学校为九年一贯制民办学校；具体岗位与报名方式未在页面文本中完整恢复"
+    },
+    {
+      "id": "src-nj-yywgy-politics",
+      "title": "初中政治教师-南京民办育英外国语学校（万行）",
+      "url": "https://langfang.job910.com/jobs_view_683897.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": "2026-06-30",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（更新2026-06-30，储备状态，招3人）",
+      "note": "满工作量一线教师年收入30万+，骨干35万+；五险一金、企业年金；报名2026-04-01起，材料发指定邮箱"
+    },
+    {
+      "id": "src-nj-bjwy-politics",
+      "title": "高中政治教师（骨干教师）-南京江宁滨江外国语学校（今日招聘网）",
+      "url": "https://ledong.jrzp.com/job2331658.shtml",
+      "publisher": "今日招聘网（jrzp）",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": "2026-08-19",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（更新2026-08-19）",
+      "note": "面议；平台标注应届毕业生、本科"
+    },
+    {
+      "id": "src-nj-jd-politics",
+      "title": "普高政治教师-南京金地未来学校（万行）",
+      "url": "https://hubei.job910.com/jobs_view_673759.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "dead",
+      "recruitmentCycle": "平台岗位（已下线）",
+      "note": "页面显示该职位已下线"
+    },
+    {
+      "id": "src-nj-zhls-society",
+      "title": "初中语文、数学、英语、道德与法制、物理、化学-南京郑和外国语学校（师资招聘网）",
+      "url": "http://nj91.com/page/jobs_detail/1220.html",
+      "publisher": "师资招聘网（nj91）",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": "2026-05-27",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（2026-05-27发布，招6人）",
+      "note": "12K-25K/月；年终奖、五险一金、房贴、定期体检、寒暑假；要求师范类本科或985/211本科、初中及以上教资、35周岁以下"
+    },
+    {
+      "id": "src-nj-yt-history",
+      "title": "高中历史教师（青年教师）-南京宇通实验学校（万行）",
+      "url": "https://www.job910.com/jobs_view_919853.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（在招状态待确认）",
+      "note": "岗位页面可访问，详情未在静态文本中提取"
+    },
+    {
+      "id": "src-nj-wy-economics",
+      "title": "江宁双语经济学老师（英语流利A Level）-南京汤山威雅实验学校（建邺人才网）",
+      "url": "http://www.njjyrc.com/job35985186.shtml",
+      "publisher": "建邺人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "平台岗位（双语经济学A Level）",
+      "note": "页面返回403（IP白名单限制），正文未取得"
+    },
+    {
+      "id": "src-nj-dn-2026",
+      "title": "南京东南实验学校2026年招聘教师公告（南京林业大学就业网转载）",
+      "url": "https://gsnfu.njfu.edu.cn/jyw/jyxx/zpgg/20260625/i360495.html",
+      "publisher": "南京林业大学研究生就业网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-06-25",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（东南实验学校招聘教师，原南师附中江宁分校）",
+      "note": "岗位表为图片未恢复；专业、教资、应聘学科三者一致；年龄原则上不高于35周岁；待遇不低于南京市公办，含企业年金与用餐补助"
+    },
+    {
+      "id": "src-nj-md-2026",
+      "title": "南京明道学校2026年教师招聘公告（EduJobs）",
+      "url": "http://www.edujobs.com.cn/nd.jsp?id=4961&groupId=73",
+      "publisher": "EduJobs（国际教育人才平台）",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-06-24",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（明道学校中学教师岗位：语文、数学、英语、物理）",
+      "note": "一般教师年薪高于同城同类20%；提供教师公寓；五险一金；本期岗位无本次范围学科"
+    },
+    {
+      "id": "src-nj-jlhs-2026",
+      "title": "2026年江苏南京市金陵河西学校教师招聘启事（山香教育转载）",
+      "url": "https://www.shanxiangjiaoyu.com/zixun/20260810/97526.html",
+      "publisher": "山香教育",
+      "sourceLevel": "D_aggregator",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-08-10",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（金陵河西学校教师招聘启事）",
+      "note": "聚合页可访问；启事正文未在静态文本中恢复"
+    },
+    {
+      "id": "src-nj-hk-2026",
+      "title": "南京汉开书院学校招聘信息（南京信息工程大学就业网）",
+      "url": "https://ste.nuist.edu.cn/2026/0609/c5510a298910/page.htm",
+      "publisher": "南京信息工程大学就业网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-06-09",
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "届次未知",
+      "note": "页面连接失败"
+    },
+    {
+      "id": "src-nj-ansheng-job910",
+      "title": "AP/A-level双语物理教师-南京安生学校（万行）",
+      "url": "https://m.job910.com/jobs_view_590892.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（双语物理，非本次范围）",
+      "note": "页面可访问"
+    },
+    {
+      "id": "src-nj-glzy-2025",
+      "title": "鼓实招聘｜南京市鼓楼实验中学招聘启事（2025）（91job转载）",
+      "url": "https://zjzx.91job.org.cn/index.php?m=home&c=article&a=show&site=1&id=8500",
+      "publisher": "江苏省高校招生就业指导服务中心",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": "2025-06-01",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2025年（鼓楼实验中学招聘启事）",
+      "note": "页面可访问，2025届往届参考"
+    },
+    {
+      "id": "src-nj-sr-job910",
+      "title": "小学科学教师（青年教师）-南京书人实验学校（万行）",
+      "url": "https://m.job910.com/jobs_view_643302.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（小学科学，非本次范围）",
+      "note": "页面可访问"
+    },
+    {
+      "id": "src-nj-yg-job910",
+      "title": "南京新书院悠谷学校招聘主页（万行）",
+      "url": "https://m.job910.com/school_view_118467.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "学校招聘页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台招聘主页",
+      "note": "页面可访问，在招岗位未在静态文本中确认"
+    },
+    {
+      "id": "src-nj-xw-gxj",
+      "title": "英语教师招聘-南京玄武外国语学校（高校人才网）",
+      "url": "https://www.gaoxiaojob.com/job/detail/1980015.html",
+      "publisher": "高校人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "平台岗位（英语，非本次范围）",
+      "note": "页面返回403"
+    },
+    {
+      "id": "src-nj-yj-job910",
+      "title": "高中数学教师（骨干教师）-南京远景实验中学（万行）",
+      "url": "https://m.job910.com/jobs_view_715689.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（数学，非本次范围）",
+      "note": "页面可访问"
+    },
+    {
+      "id": "src-nj-xl-offcn",
+      "title": "2026南京仙林外国语学校初中语数英物教师招聘公告（中公转载）",
+      "url": "http://nanjing.offcn.com/html/2026/05/101543.html",
+      "publisher": "中公教师网（offcn）",
+      "sourceLevel": "D_aggregator",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-05-13",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（仙林外国语学校初中语数英物教师招聘）",
+      "note": "页面可访问；本期岗位无本次范围学科"
+    },
+    {
+      "id": "src-nj-fs-jrzp",
+      "title": "南京方山外国语学校2026年招聘3名教师启事（今日招聘网）",
+      "url": "https://www.hz.jrzp.com/nView_8FB415B773DB141F.shtml",
+      "publisher": "今日招聘网（jrzp）",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（方山外国语学校招聘3名教师）",
+      "note": "页面可访问；岗位学科未在静态文本中确认"
+    },
+    {
+      "id": "src-nj-ds-sohu",
+      "title": "公告｜南京东山外国语学校2026年教师招聘启事（搜狐转载）",
+      "url": "https://www.sohu.com/a/998595679_693911",
+      "publisher": "搜狐（学校公众号内容转载）",
+      "sourceLevel": "D_aggregator",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（东山外国语学校教师招聘启事）",
+      "note": "聚合页可访问；岗位细节未在静态文本中提取"
+    },
+    {
+      "id": "src-nj-gc-jiaoshi",
+      "title": "南京高淳外国语学校（教师人才网学校页）",
+      "url": "https://jiaoshi.com.cn/school/cmmz71vlo0icvgs8spboe6m44",
+      "publisher": "教师人才网（jiaoshi.com.cn）",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "学校招聘页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台学校页",
+      "note": "页面可访问；曾见校医等岗位，教师岗位未确认"
+    },
+    {
+      "id": "src-nj-lz-jiaoshi",
+      "title": "南京市励志高级中学（教师人才网学校页）",
+      "url": "https://jiaoshi.com.cn/school/cmmz7kj1t11pggs8sx09og1hv",
+      "publisher": "教师人才网（jiaoshi.com.cn）",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "学校招聘页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台学校页",
+      "note": "页面可访问；平台岗位为地理、物理、化学、心理等，无本次范围学科"
+    },
+    {
+      "id": "src-nj-xz-blocked",
+      "title": "南京晓庄实验学校2026年招聘公告（南京教育系统站点）",
+      "url": "http://njeis.njnaedu.cn/zjxy/zszp/zpxx/content_426187",
+      "publisher": "南京教育信息网",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "2026年（晓庄实验学校招聘公告）",
+      "note": "页面连接被拒，正文未取得"
+    },
+    {
+      "id": "src-nj-nsfz-site",
+      "title": "南京师范大学附属中学官网首页",
+      "url": "https://www.nsfz.net/",
+      "publisher": "南京师范大学附属中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页可访问（含会话脚本）"
+    },
+    {
+      "id": "src-nj-jlhs-site",
+      "title": "金陵中学官网首页",
+      "url": "http://www.jlhs.net/",
+      "publisher": "金陵中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页可访问"
+    },
+    {
+      "id": "src-nj-nj29-site",
+      "title": "南京市第二十九中学校园门户首页",
+      "url": "http://nj29jt.njgljy.com/",
+      "publisher": "南京市第二十九中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "校园门户首页含校名全称"
+    },
+    {
+      "id": "src-nj-nj13-site",
+      "title": "南京市第十三中学校园网站首页",
+      "url": "https://nj13z.net/",
+      "publisher": "南京市第十三中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "校园网站首页可访问（前端脚本渲染）"
+    },
+    {
+      "id": "src-nj-njyz-site",
+      "title": "南京市第一中学官网首页",
+      "url": "https://www.njyz.net/",
+      "publisher": "南京市第一中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称"
+    },
+    {
+      "id": "src-nj-njzhzx-site",
+      "title": "中华中学官网首页",
+      "url": "http://www.njzhzx.net/",
+      "publisher": "中华中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称"
+    },
+    {
+      "id": "src-nj-xl-site",
+      "title": "南京仙林外国语学校官网首页",
+      "url": "http://www.nflsxl.com/",
+      "publisher": "南京仙林外国语学校",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称；官网设招聘信息栏目"
+    }
+  ],
+  "schoolScans": [
+    {
+      "schoolId": "school-nj-yuying-di-er-waiguoyu",
+      "officialName": "南京（大厂）民办育英第二外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-yy2w-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-yy2w-2026"
+      ],
+      "searchQueries": [
+        "南京育英第二外国语学校 招聘 教师"
+      ],
+      "unresolved": [
+        "2026招聘启事具体岗位与报名方式未在页面文本中完整恢复"
+      ]
+    },
+    {
+      "schoolId": "school-nj-ansheng-xuexiao",
+      "officialName": "南京安生学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-ansheng-job910"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-ansheng-job910"
+      ],
+      "searchQueries": [
+        "南京安生学校 招聘 教师"
+      ],
+      "unresolved": [
+        "平台在招岗位为AP/A-level双语物理、英语等，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "school-nj-dongnan-shiyan",
+      "officialName": "南京东南实验学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-dn-2026"
+      ],
+      "contacts": [
+        {
+          "id": "contact-nj-dn-mail",
+          "channel": "email",
+          "value": "nsfz_zp@163.com",
+          "purpose": "简历投递",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026年（东南实验学校招聘公告）",
+          "validity": "时效待确认",
+          "evidenceId": "src-nj-dn-2026",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-nj-dn-tel",
+          "channel": "phone",
+          "value": "025-52724613",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026年（东南实验学校招聘公告）",
+          "validity": "时效待确认",
+          "evidenceId": "src-nj-dn-2026",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-dn-2026"
+      ],
+      "searchQueries": [
+        "南京东南实验学校 招聘"
+      ],
+      "unresolved": [
+        "2026年招聘岗位表为图片未恢复；待遇原文：不低于南京市公办，含五险一金、企业年金、用餐补助"
+      ]
+    },
+    {
+      "schoolId": "school-nj-dongshan-waiguoyu",
+      "officialName": "南京东山外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-ds-sohu"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-ds-sohu"
+      ],
+      "searchQueries": [
+        "南京东山外国语学校 招聘 教师"
+      ],
+      "unresolved": [
+        "2026年招聘启事（公众号内容转载）岗位细节未提取"
+      ]
+    },
+    {
+      "schoolId": "school-nj-fangshan-waiguoyu",
+      "officialName": "南京方山外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-fs-jrzp"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-fs-jrzp"
+      ],
+      "searchQueries": [
+        "南京方山外国语学校 招聘"
+      ],
+      "unresolved": [
+        "2026年招聘3名教师启事岗位学科未确认"
+      ]
+    },
+    {
+      "schoolId": "school-nj-gaochun-waiguoyu",
+      "officialName": "南京高淳外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-gc-jiaoshi"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-gc-jiaoshi"
+      ],
+      "searchQueries": [
+        "南京高淳外国语学校 招聘"
+      ],
+      "unresolved": [
+        "平台曾见校医等岗位，教师岗位未确认"
+      ]
+    },
+    {
+      "schoolId": "school-nj-hankai-shuyuan",
+      "officialName": "南京汉开书院学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-hk-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-hk-2026"
+      ],
+      "searchQueries": [
+        "南京汉开书院学校 招聘 教师"
+      ],
+      "unresolved": [
+        "招聘信息页面连接失败"
+      ]
+    },
+    {
+      "schoolId": "school-nj-hehai-waiguoyu",
+      "officialName": "南京河海外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-yy2w-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-yy2w-2026"
+      ],
+      "searchQueries": [
+        "南京河海外国语学校 招聘"
+      ],
+      "unresolved": [
+        "未检索到任何公开招聘信息或官网痕迹"
+      ]
+    },
+    {
+      "schoolId": "school-nj-binjiang-waiguoyu",
+      "officialName": "南京江宁滨江外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-bjwy-politics"
+      ],
+      "contacts": [],
+      "jobLeads": [
+        {
+          "id": "lead-nj-bjwy-politics",
+          "title": "高中政治教师（骨干教师）——南京江宁滨江外国语学校",
+          "subjectTags": [
+            "政治/道法"
+          ],
+          "recruitmentCycle": "平台岗位（更新2026-08-19）",
+          "status": "状态待确认",
+          "publishedAt": null,
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "面议（未公开）",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "平台标注应届毕业生、本科（岗位名称为骨干教师）"
+          ],
+          "selectionProcessRaw": [],
+          "applicationMethod": "platform",
+          "applicationUrl": "https://ledong.jrzp.com/job2331658.shtml",
+          "sourceEvidenceIds": [
+            "src-nj-bjwy-politics"
+          ],
+          "note": "平台在招岗位；骨干教师岗位与应届生标签并存，需向学校核实"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-nj-bjwy-politics"
+      ],
+      "searchQueries": [
+        "南京江宁滨江外国语学校 招聘"
+      ],
+      "unresolved": []
+    },
+    {
+      "schoolId": "school-nj-jindi-weilai",
+      "officialName": "南京金地未来学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-jd-politics"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-jd-politics"
+      ],
+      "searchQueries": [
+        "南京金地未来学校 招聘"
+      ],
+      "unresolved": [
+        "普高政治教师岗位已下线；平台另见普高物理、语文等岗位"
+      ]
+    },
+    {
+      "schoolId": "school-nj-qiuzhen-zhongxue",
+      "officialName": "南京民办求真中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-glzy-2025"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-glzy-2025"
+      ],
+      "searchQueries": [
+        "南京民办求真中学 招聘 教师"
+      ],
+      "unresolved": [
+        "2025年招聘启事（往届参考），2026届公告未恢复"
+      ]
+    },
+    {
+      "schoolId": "school-nj-yuying-waiguoyu",
+      "officialName": "南京民办育英外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-yywgy-politics"
+      ],
+      "contacts": [
+        {
+          "id": "contact-nj-yywgy-mail",
+          "channel": "email",
+          "value": "3809961056@qq.com",
+          "purpose": "简历投递",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026年（育英外国语学校，2026-04-01起报名）",
+          "validity": "时效待确认",
+          "evidenceId": "src-nj-yywgy-politics",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [
+        {
+          "id": "lead-nj-yywgy-politics",
+          "title": "初中政治教师——南京民办育英外国语学校",
+          "subjectTags": [
+            "政治/道法"
+          ],
+          "recruitmentCycle": "平台岗位（更新2026-06-30，储备状态，招3人）",
+          "status": "状态待确认",
+          "publishedAt": null,
+          "deadline": null,
+          "expectedStart": "该职位为储备状态（到岗时间未定）",
+          "salaryRaw": "满工作量的一线教师年收入30万+，骨干教师年收入35万+，对学校有特殊贡献者薪资一岗一议；享受年中及年终绩效奖励；五险一金，符合条件后办理企业年金",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "年龄不超过40周岁（1986年4月1日后出生）",
+            "优秀应届毕业生：国家重点师范类大学应届毕业生优先，具有教师资格证书，年龄不超过30周岁（1996年4月1日后出生）",
+            "名特优骨干教师年龄不限"
+          ],
+          "selectionProcessRaw": [
+            "下载应聘信息登记表，报名材料压缩包发送至指定邮箱（邮件按指定格式命名）",
+            "招聘小组初审后择优安排试讲、面试并打分，两者相加排序，位次高者录用",
+            "报名时间2026年4月1日起"
+          ],
+          "applicationMethod": "email",
+          "applicationUrl": null,
+          "sourceEvidenceIds": [
+            "src-nj-yywgy-politics"
+          ],
+          "note": "平台标注30-50W/年；另招初中历史教师同待遇；职称评定、评优评先与公办同等；教师子女入学享受减免"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-nj-yywgy-politics"
+      ],
+      "searchQueries": [
+        "南京民办育英外国语学校 招聘"
+      ],
+      "unresolved": []
+    },
+    {
+      "schoolId": "school-nj-mingdao-xuexiao",
+      "officialName": "南京明道学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-md-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-md-2026"
+      ],
+      "searchQueries": [
+        "南京明道学校 招聘 教师"
+      ],
+      "unresolved": [
+        "2026年中学教师岗位为语文、数学、英语、物理，无本次范围学科；提供教师公寓（待遇原文）"
+      ]
+    },
+    {
+      "schoolId": "school-nj-qinhuai-waiguoyu",
+      "officialName": "南京秦淮外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-xw-gxj"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-xw-gxj"
+      ],
+      "searchQueries": [
+        "南京秦淮外国语学校 招聘 教师"
+      ],
+      "unresolved": [
+        "平台在招岗位为心理等，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "school-nj-gulou-shiyan-zhongxue",
+      "officialName": "南京市鼓楼实验中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-glzy-2025"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-glzy-2025"
+      ],
+      "searchQueries": [
+        "南京市鼓楼实验中学 招聘 教师"
+      ],
+      "unresolved": [
+        "2025年招聘启事（往届参考）"
+      ]
+    },
+    {
+      "schoolId": "school-nj-jinling-hexi",
+      "officialName": "南京市金陵河西学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-jlhs-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-jlhs-2026"
+      ],
+      "searchQueries": [
+        "南京市金陵河西学校 招聘"
+      ],
+      "unresolved": [
+        "2026年招聘启事（2026-08-10）正文未在聚合页恢复"
+      ]
+    },
+    {
+      "schoolId": "school-nj-liuzhi-gaozhong",
+      "officialName": "南京市励志高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-lz-jiaoshi"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-lz-jiaoshi"
+      ],
+      "searchQueries": [
+        "南京市励志高级中学 招聘"
+      ],
+      "unresolved": [
+        "平台岗位为地理、物理、化学、心理等，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "school-nj-shuren-shiyan",
+      "officialName": "南京书人实验学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-sr-job910"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-sr-job910"
+      ],
+      "searchQueries": [
+        "南京书人实验学校 招聘"
+      ],
+      "unresolved": [
+        "平台在招岗位为小学科学等，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "school-nj-tangshan-weiyi",
+      "officialName": "南京汤山威雅实验学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-wy-economics"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-wy-economics"
+      ],
+      "searchQueries": [
+        "南京汤山威雅实验学校 招聘"
+      ],
+      "unresolved": [
+        "江宁双语经济学老师（英语流利A Level）岗位页被IP白名单拦截（403），正文未恢复"
+      ]
+    },
+    {
+      "schoolId": "school-nj-xianlin-waiguoyu",
+      "officialName": "南京仙林外国语学校",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.nflsxl.com/",
+        "evidenceId": "src-nj-xl-site",
+        "note": "官网首页含校名全称，设招聘信息栏目"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-xl-offcn"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-xl-site",
+        "src-nj-xl-offcn"
+      ],
+      "searchQueries": [
+        "南京仙林外国语学校 招聘 教师"
+      ],
+      "unresolved": [
+        "2026年第一批招聘（微信）内容未恢复；2026年5月批次为初中语数英物，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "school-nj-xianlin-yanziji",
+      "officialName": "南京仙林外国语学校燕子矶校区",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-xl-offcn"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-xl-offcn"
+      ],
+      "searchQueries": [
+        "南京仙林外国语学校燕子矶校区 招聘"
+      ],
+      "unresolved": [
+        "与仙林外国语学校同集团；2026年5月批次岗位无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "school-nj-xiaozhuang-shiyan",
+      "officialName": "南京晓庄实验学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-xz-blocked"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-xz-blocked"
+      ],
+      "searchQueries": [
+        "南京晓庄实验学校 招聘 教师"
+      ],
+      "unresolved": [
+        "2026年招聘公告页面连接被拒"
+      ]
+    },
+    {
+      "schoolId": "school-nj-malan-yi",
+      "officialName": "南京新书院悠谷学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-yg-job910"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-yg-job910"
+      ],
+      "searchQueries": [
+        "南京新书院悠谷学校 招聘"
+      ],
+      "unresolved": [
+        "平台招聘主页在招岗位未确认"
+      ]
+    },
+    {
+      "schoolId": "school-nj-xuanwu-waiguoyu",
+      "officialName": "南京玄武外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-xw-gxj"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-xw-gxj"
+      ],
+      "searchQueries": [
+        "南京玄武外国语学校 招聘 教师"
+      ],
+      "unresolved": [
+        "2026年招聘启事（2026-01，中公转载）未抓取正文；平台英语岗位页403"
+      ]
+    },
+    {
+      "schoolId": "school-nj-ninghai-shiyan",
+      "officialName": "南京宇通实验学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-yt-history"
+      ],
+      "contacts": [],
+      "jobLeads": [
+        {
+          "id": "lead-nj-yt-history",
+          "title": "高中历史教师（青年教师）——南京宇通实验学校",
+          "subjectTags": [
+            "历史/人文"
+          ],
+          "recruitmentCycle": "平台岗位（在招状态待确认）",
+          "status": "状态待确认",
+          "publishedAt": null,
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [],
+          "selectionProcessRaw": [],
+          "applicationMethod": "platform",
+          "applicationUrl": "https://www.job910.com/jobs_view_919853.html",
+          "sourceEvidenceIds": [
+            "src-nj-yt-history"
+          ],
+          "note": "岗位页面可访问，完整条件未在静态文本中提取，需向学校核实"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-nj-yt-history"
+      ],
+      "searchQueries": [
+        "南京宇通实验学校 招聘 教师"
+      ],
+      "unresolved": []
+    },
+    {
+      "schoolId": "school-nj-yuhua-waiguoyu",
+      "officialName": "南京雨花外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-xw-gxj"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-xw-gxj"
+      ],
+      "searchQueries": [
+        "南京雨花外国语学校 招聘"
+      ],
+      "unresolved": [
+        "平台岗位为初中物理等，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "school-nj-yuanjing-shiyan",
+      "officialName": "南京远景实验中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-yj-job910"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-yj-job910"
+      ],
+      "searchQueries": [
+        "南京远景实验中学 招聘"
+      ],
+      "unresolved": [
+        "平台在招岗位为数学、实习教师等，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "school-nj-zhenghe-waiguoyu",
+      "officialName": "南京郑和外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-zhls-society"
+      ],
+      "contacts": [],
+      "jobLeads": [
+        {
+          "id": "lead-nj-zhls-society",
+          "title": "初中道德与法治教师——南京郑和外国语学校",
+          "subjectTags": [
+            "政治/道法"
+          ],
+          "recruitmentCycle": "平台岗位（2026-05-27发布，招6人）",
+          "status": "状态待确认",
+          "publishedAt": "2026-05-27",
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "12K-25K/月（含年终奖、五险一金、房贴、定期体检、寒暑假、有补助）",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "全日制师范类本科及以上学历，或非师范类985、211院校本科及以上学历",
+            "具有相应学科国家初级中学及以上教师资格",
+            "年龄35周岁及以下",
+            "教学经验丰富、教学业绩优秀"
+          ],
+          "selectionProcessRaw": [],
+          "applicationMethod": "platform",
+          "applicationUrl": "http://nj91.com/page/jobs_detail/1220.html",
+          "sourceEvidenceIds": [
+            "src-nj-zhls-society"
+          ],
+          "note": "岗位为初中各科教师（语文、数学、英语、道德与法制、物理、化学）共6人"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-nj-zhls-society"
+      ],
+      "searchQueries": [
+        "南京郑和外国语学校 招聘 教师"
+      ],
+      "unresolved": []
+    },
+    {
+      "schoolId": "public-nj-shida-fushu",
+      "officialName": "南京师范大学附属中学",
+      "website": {
+        "outcome": "found",
+        "url": "https://www.nsfz.net/",
+        "evidenceId": "src-nj-nsfz-site",
+        "note": "官网首页可访问"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-direct-jan",
+        "src-nj-direct-july"
+      ],
+      "contacts": [
+        {
+          "id": "contact-nj-nsfz-mail",
+          "channel": "email",
+          "value": "nsfzrs@vip.126.com",
+          "purpose": "简历投递",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026年7月（市直属高层次/紧缺人才批次，已截止）",
+          "validity": "往届",
+          "evidenceId": "src-nj-direct-july",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-nsfz-site",
+        "src-nj-direct-jan",
+        "src-nj-direct-july"
+      ],
+      "searchQueries": [
+        "南京师范大学附属中学 2026 教师招聘"
+      ],
+      "unresolved": [
+        "市直属1月岗位信息表未恢复；7月高层次/紧缺批次已截止"
+      ]
+    },
+    {
+      "schoolId": "public-nj-jinling",
+      "officialName": "金陵中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.jlhs.net/",
+        "evidenceId": "src-nj-jlhs-site",
+        "note": "官网首页可访问"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-direct-jan",
+        "src-nj-direct-july"
+      ],
+      "contacts": [
+        {
+          "id": "contact-nj-jlhs-mail",
+          "channel": "email",
+          "value": "jlhsxb@126.com",
+          "purpose": "简历投递",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026年7月（市直属高层次/紧缺人才批次，已截止）",
+          "validity": "往届",
+          "evidenceId": "src-nj-direct-july",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-jlhs-site",
+        "src-nj-direct-jan",
+        "src-nj-direct-july"
+      ],
+      "searchQueries": [
+        "南京市金陵中学 2026 教师招聘"
+      ],
+      "unresolved": [
+        "市直属1月岗位信息表未恢复；7月高层次/紧缺批次已截止"
+      ]
+    },
+    {
+      "schoolId": "public-nj-diyi-zhongxue",
+      "officialName": "南京市第一中学",
+      "website": {
+        "outcome": "found",
+        "url": "https://www.njyz.net/",
+        "evidenceId": "src-nj-njyz-site",
+        "note": "官网首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-direct-jan",
+        "src-nj-direct-july"
+      ],
+      "contacts": [
+        {
+          "id": "contact-nj-njyz-mail",
+          "channel": "email",
+          "value": "zhaopin@njyz.net",
+          "purpose": "简历投递",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026年7月（市直属高层次/紧缺人才批次，已截止）",
+          "validity": "往届",
+          "evidenceId": "src-nj-direct-july",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-njyz-site",
+        "src-nj-direct-jan",
+        "src-nj-direct-july"
+      ],
+      "searchQueries": [
+        "南京市第一中学 官网 网站"
+      ],
+      "unresolved": [
+        "市直属1月岗位信息表未恢复；7月高层次/紧缺批次已截止"
+      ]
+    },
+    {
+      "schoolId": "public-nj-zhonghua-zhongxue",
+      "officialName": "南京市中华中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.njzhzx.net/",
+        "evidenceId": "src-nj-njzhzx-site",
+        "note": "官网首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-direct-jan"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-njzhzx-site",
+        "src-nj-direct-jan"
+      ],
+      "searchQueries": [
+        "南京市中华中学 官网"
+      ],
+      "unresolved": [
+        "市直属1月岗位信息表未恢复"
+      ]
+    },
+    {
+      "schoolId": "public-nj-di-29-zhongxue",
+      "officialName": "南京市第二十九中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://nj29jt.njgljy.com/",
+        "evidenceId": "src-nj-nj29-site",
+        "note": "校园门户首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-gulou-jan"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-nj29-site",
+        "src-nj-gulou-jan"
+      ],
+      "searchQueries": [
+        "南京市第二十九中学 官网"
+      ],
+      "unresolved": [
+        "鼓楼区38名公告岗位信息表未恢复"
+      ]
+    },
+    {
+      "schoolId": "public-nj-di-13-zhongxue",
+      "officialName": "南京市第十三中学",
+      "website": {
+        "outcome": "found",
+        "url": "https://nj13z.net/",
+        "evidenceId": "src-nj-nj13-site",
+        "note": "校园网站首页可访问（脚本渲染）"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-nj-xuanwu-jan"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-nj-nj13-site",
+        "src-nj-xuanwu-jan"
+      ],
+      "searchQueries": [
+        "南京市第十三中学 官网"
+      ],
+      "unresolved": [
+        "玄武区52名公告岗位信息表未恢复"
+      ]
+    }
+  ],
+  "coverageGaps": [
+    {
+      "schoolId": null,
+      "description": "南京市直属、鼓楼、玄武区2026年公告的岗位信息表均为附件未恢复，无法逐校确认政治/历史岗位",
+      "evidenceIds": [
+        "src-nj-direct-jan",
+        "src-nj-gulou-jan",
+        "src-nj-xuanwu-jan"
+      ],
+      "nextAction": "下载各公告岗位信息表逐校确认"
+    },
+    {
+      "schoolId": null,
+      "description": "南京多数民办目标校未发现可访问官网；汤山威雅双语经济学岗位、玄武外国语岗位页受阻",
+      "evidenceIds": [
+        "src-nj-wy-economics",
+        "src-nj-xw-gxj"
+      ],
+      "nextAction": "通过各校微信公众号核实常设招聘渠道"
+    }
+  ],
+  "notes": [
+    "本批次为待 Codex 审核的暂存资料，不导入正式数据。",
+    "南京公办批次均要求2026届毕业生教资2026-08-01前取得（较浙苏其他城市更紧），对用户2027届属性需特别复核。",
+    "本次范围学科内的线索：民办育英外国语初中政治（30万+，储备）、江宁滨江外国语高中政治（2026-08-19更新）、郑和外国语初中道德与法治（12K-25K/月，2026-05-27）、宇通实验高中历史（平台在招）。"
+  ]
+}

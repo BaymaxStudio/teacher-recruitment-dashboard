@@ -2,8 +2,16 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "广东民办中学 2027 秋招决策台",
-  description: "广州、顺德、深圳及广东湾区民办中学教师招聘检索、筛选与比较。",
+  metadataBase: new URL("https://guangdong-teacher-jobs-2027.baymax1001.chatgpt.site"),
+  title: "十四城中学教师招聘决策台",
+  description: "广东、浙江、江苏十四城民办初高中与重点公办高中教师招聘检索、筛选和证据追踪。",
+  openGraph: {
+    title: "十四城中学教师招聘决策台",
+    description: "广东、浙江、江苏十四城民办初高中与重点公办高中教师招聘证据台。",
+    type: "website",
+    locale: "zh_CN",
+    images: [{ url: "/social-preview.png", width: 1536, height: 1024, alt: "十四城中学教师招聘决策台界面预览" }],
+  },
 };
 
 export default function RootLayout({

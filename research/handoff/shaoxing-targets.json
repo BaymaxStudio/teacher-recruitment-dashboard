@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-21",
+  "province": "浙江",
+  "city": "绍兴",
+  "targetCount": 13,
+  "privateSchoolCount": 6,
+  "publicTargetCount": 7,
+  "source": "正式 V2 数据自动生成；只作 DSH 招聘试采目标，不表示学校排名或当前存在招聘。",
+  "schools": [
+    {
+      "schoolId": "private-sx-jishan",
+      "officialName": "绍兴蕺山外国语学校",
+      "ownership": "民办",
+      "district": "越城区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-shaoxing-2025-high-school-admission",
+          "title": "绍兴市教育局关于做好2025年普通高中招生工作的通知",
+          "url": "https://jyj.sx.gov.cn/art/2025/6/24/art_1229558610_1910007.html",
+          "publisher": "绍兴市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "教育部门说明",
+          "publishedAt": "2025-06-24",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-sx-longshan",
+      "officialName": "绍兴龙山书院",
+      "ownership": "民办",
+      "district": "越城区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-shaoxing-2025-high-school-admission",
+          "title": "绍兴市教育局关于做好2025年普通高中招生工作的通知",
+          "url": "https://jyj.sx.gov.cn/art/2025/6/24/art_1229558610_1910007.html",
+          "publisher": "绍兴市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "教育部门说明",
+          "publishedAt": "2025-06-24",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-sx-boya",
+      "officialName": "绍兴市博雅学校",
+      "ownership": "民办",
+      "district": "越城区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-shaoxing-2025-high-school-admission",
+          "title": "绍兴市教育局关于做好2025年普通高中招生工作的通知",
+          "url": "https://jyj.sx.gov.cn/art/2025/6/24/art_1229558610_1910007.html",
+          "publisher": "绍兴市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "教育部门说明",
+          "publishedAt": "2025-06-24",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-sx-guojie",
+      "officialName": "绍兴市柯桥区国杰高级中学",
+      "ownership": "民办",
+      "district": "柯桥区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-shaoxing-2025-high-school-admission",
+          "title": "绍兴市教育局关于做好2025年普通高中招生工作的通知",
+          "url": "https://jyj.sx.gov.cn/art/2025/6/24/art_1229558610_1910007.html",
+          "publisher": "绍兴市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "教育部门说明",
+          "publishedAt": "2025-06-24",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-sx-financial-street",
+      "officialName": "绍兴市上虞区金融街杭州湾高级中学",
+      "ownership": "民办",
+      "district": "上虞区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-shaoxing-2025-high-school-admission",
+          "title": "绍兴市教育局关于做好2025年普通高中招生工作的通知",
+          "url": "https://jyj.sx.gov.cn/art/2025/6/24/art_1229558610_1910007.html",
+          "publisher": "绍兴市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "教育部门说明",
+          "publishedAt": "2025-06-24",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "private-sx-yonghe",
+      "officialName": "绍兴市永和高级中学",
+      "ownership": "民办",
+      "district": "越城区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-shaoxing-2025-high-school-admission",
+          "title": "绍兴市教育局关于做好2025年普通高中招生工作的通知",
+          "url": "https://jyj.sx.gov.cn/art/2025/6/24/art_1229558610_1910007.html",
+          "publisher": "绍兴市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "教育部门说明",
+          "publishedAt": "2025-06-24",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-sx-chunhui",
+      "officialName": "春晖中学",
+      "ownership": "公办",
+      "district": "上虞区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-shaoxing-2025-high-school-admission",
+          "title": "绍兴市教育局关于做好2025年普通高中招生工作的通知",
+          "url": "https://jyj.sx.gov.cn/art/2025/6/24/art_1229558610_1910007.html",
+          "publisher": "绍兴市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "教育部门说明",
+          "publishedAt": "2025-06-24",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-sx-keqiao",
+      "officialName": "柯桥中学",
+      "ownership": "公办",
+      "district": "柯桥区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-shaoxing-2025-high-school-admission",
+          "title": "绍兴市教育局关于做好2025年普通高中招生工作的通知",
+          "url": "https://jyj.sx.gov.cn/art/2025/6/24/art_1229558610_1910007.html",
+          "publisher": "绍兴市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "教育部门说明",
+          "publishedAt": "2025-06-24",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-sx-luxun",
+      "officialName": "鲁迅中学",
+      "ownership": "公办",
+      "district": "柯桥区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-shaoxing-2025-high-school-admission",
+          "title": "绍兴市教育局关于做好2025年普通高中招生工作的通知",
+          "url": "https://jyj.sx.gov.cn/art/2025/6/24/art_1229558610_1910007.html",
+          "publisher": "绍兴市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "教育部门说明",
+          "publishedAt": "2025-06-24",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-sx-senior",
+      "officialName": "绍兴市高级中学",
+      "ownership": "公办",
+      "district": "越城区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-shaoxing-2025-high-school-admission",
+          "title": "绍兴市教育局关于做好2025年普通高中招生工作的通知",
+          "url": "https://jyj.sx.gov.cn/art/2025/6/24/art_1229558610_1910007.html",
+          "publisher": "绍兴市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "教育部门说明",
+          "publishedAt": "2025-06-24",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-sx-no1",
+      "officialName": "绍兴一中",
+      "ownership": "公办",
+      "district": "越城区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-shaoxing-2025-high-school-admission",
+          "title": "绍兴市教育局关于做好2025年普通高中招生工作的通知",
+          "url": "https://jyj.sx.gov.cn/art/2025/6/24/art_1229558610_1910007.html",
+          "publisher": "绍兴市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "教育部门说明",
+          "publishedAt": "2025-06-24",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-sx-yangming",
+      "officialName": "阳明中学",
+      "ownership": "公办",
+      "district": "越城区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-shaoxing-2025-high-school-admission",
+          "title": "绍兴市教育局关于做好2025年普通高中招生工作的通知",
+          "url": "https://jyj.sx.gov.cn/art/2025/6/24/art_1229558610_1910007.html",
+          "publisher": "绍兴市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "教育部门说明",
+          "publishedAt": "2025-06-24",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-sx-yuezhou",
+      "officialName": "越州中学",
+      "ownership": "公办",
+      "district": "越城区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-shaoxing-2025-high-school-admission",
+          "title": "绍兴市教育局关于做好2025年普通高中招生工作的通知",
+          "url": "https://jyj.sx.gov.cn/art/2025/6/24/art_1229558610_1910007.html",
+          "publisher": "绍兴市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "教育部门说明",
+          "publishedAt": "2025-06-24",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    }
+  ]
+}

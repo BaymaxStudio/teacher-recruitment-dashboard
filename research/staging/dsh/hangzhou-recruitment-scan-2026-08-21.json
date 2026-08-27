@@ -1,0 +1,1821 @@
+{
+  "schemaVersion": 1,
+  "isTemplate": false,
+  "batchId": "hangzhou-dsh-b1",
+  "province": "浙江",
+  "city": "杭州",
+  "researchedAt": "2026-08-21",
+  "researcher": "DeepSeek Harness + DeepSeek-V4-Flash",
+  "sources": [
+    {
+      "id": "src-hz-jan-batch",
+      "title": "杭州市教育局所属事业单位2026年1月批次公开招聘公告（542名）",
+      "url": "https://hrss.hangzhou.gov.cn/col/col1229782005/art/2026/art_2f80be7b1146469ea537d1eac08602f3.html",
+      "publisher": "杭州市人力资源和社会保障局（杭州市教育局）",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-01-19",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（1月批次事业编制542名，报名2026-01-27至02-02，已截止）",
+      "note": "招聘对象为硕士研究生及以上、公费师范生、中学高级职称在职教师等；2026届毕业研究生报考教师岗位暂不要求教资与普通话证书（2027-08-31前取得）；岗位表为附件未恢复"
+    },
+    {
+      "id": "src-hz-apr-batch",
+      "title": "杭州市教育局所属事业单位2026年4月批次公开招聘公告（171名）",
+      "url": "https://www.hangzhou.gov.cn/col/col1228974648/art/2026/art_09e9e2e0ce7c3b341935e177970ed22d.html",
+      "publisher": "杭州市人民政府（杭州市教育局）",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-04-28",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（4月批次事业编制171名，报名2026-05-06至11，已截止）",
+      "note": "招聘对象为在职教师、2026届应届毕业生、社会人员（硕士）；2026届毕业研究生教资与普通话可后补（2027-08-31前）；笔试面试各占50%；岗位表为附件未恢复"
+    },
+    {
+      "id": "src-hz-xiaoshan-171",
+      "title": "杭州市萧山区2026年面向社会招聘教师公告（171名）",
+      "url": "https://qgsydw.com/qgsydw/recruit/insrecruit/20260331/197551.html",
+      "publisher": "全国事业单位招聘网（转载萧山区公告）",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-03-31",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（萧山区面向社会招聘171名）",
+      "note": "页面可访问；岗位表需复核；萧山中学为萧山区属高中"
+    },
+    {
+      "id": "src-hz-yuhang-2",
+      "title": "杭州市余杭区2026年第二批公开招聘中小学事业编制教师公告（26名）",
+      "url": "http://www.yuhang.gov.cn/col/col1229511766/art/2026/art_f1dfafffc8434370804177d1dfd94df5.html",
+      "publisher": "杭州市余杭区人民政府",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-05-13",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（第二批事业编制26名，普高14名，报名2026-05-18至23，已截止）",
+      "note": "报考高中岗位须按本硕阶段所学专业报考；一流大学建设高校、一流学科建设学科、部属师范、海外认证等2026届毕业生教资可后补（2027-08-31前）；岗位表为附件未恢复"
+    },
+    {
+      "id": "src-hz-yongxing-2026",
+      "title": "杭州富阳永兴教育集团所属民办学校面向2026年优秀应届毕业生招聘教师的公告",
+      "url": "https://www.fuyang.gov.cn/col/col1228923041/art/2026/art_b9938e0d86c0453ebbee47ae3e3fa319.html",
+      "publisher": "杭州市富阳区人民政府（区教育局）",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（永兴教育集团提前批招聘25名：普高6名、初中19名；政治1人、历史与社会（历史方向）2人）",
+      "note": "2026届硕士及以上按所学专业报考且教资可后补（2027-08-31前）；2024、2025届须持适用教资；现场招聘会（2026-01-24）现场报名、面谈、面试、当天签约"
+    },
+    {
+      "id": "src-hz-lcyh-may",
+      "title": "杭州绿城育华学校（高中部）2026年5月招聘公告",
+      "url": "https://www.hangzhou.gov.cn/col/col1228974648/art/2026/art_fe3d1058ea1342cef806ebc9e49c02fc.html",
+      "publisher": "杭州市教育局（代发学校公告）",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-05-19",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（5月公告：语文3、数学2、德语2、日语2、物理1、化学1、地理1、信息技术1、通用技术1）",
+      "note": "研究生及以上学历；有三年以上教学经验可适当放宽；官网教师应聘报名；本期岗位无本次范围学科"
+    },
+    {
+      "id": "src-hz-lcyh-july",
+      "title": "杭州绿城育华学校高中部2026年7月招聘公告",
+      "url": "http://www.hzlcyh.cn/frontv3/articleReadAction!read?article.id=153644",
+      "publisher": "杭州绿城育华学校",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-07-02",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（7月公告：日语1、德语1、信息技术1）",
+      "note": "年薪25-40万左右，与岗位、工作量相关；官网教师应聘报名；本期岗位无本次范围学科"
+    },
+    {
+      "id": "src-hz-lcyh-site",
+      "title": "杭州绿城育华学校官网首页",
+      "url": "http://www.hzlcyh.cn/",
+      "publisher": "杭州绿城育华学校",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称与教师招聘栏目"
+    },
+    {
+      "id": "src-hz-dongfang",
+      "title": "杭州东方中学诚聘学科教师公告（西湖区教育局发布）",
+      "url": "http://www.hzxh.gov.cn/col/col1228967836/art/2026/art_fcaf2026b8e849b782f3d25b0b2d4c7d.html",
+      "publisher": "杭州市西湖区人民政府（区教育局）",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（招聘物理、英语、语文教师各1名）",
+      "note": "有高中教师资格证、普通话、计算机证书；本科及以上；简历发学校邮箱；本期岗位无本次范围学科"
+    },
+    {
+      "id": "src-hz-yucai-history",
+      "title": "杭州育才中学（高中部）语文、历史老师招聘（清华大学就业网）",
+      "url": "https://career.cic.tsinghua.edu.cn/xsglxt/f/jyxt/anony/showZwxx?zpxxid=455972095",
+      "publisher": "清华大学学生职业发展指导中心",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（高中部创校招聘，截止2026-07-01，已截止）",
+      "note": "高中语文、历史教师各1名；年收入30~50W；子女可安排就读育才系列学校；简历投递邮箱公开"
+    },
+    {
+      "id": "src-hz-hgw-politics",
+      "title": "杭州高中政治教师招聘-杭州市富阳黄公望高级中学（今日招聘网）",
+      "url": "http://dengtashi.jrzp.com/job2565107.shtml",
+      "publisher": "今日招聘网（jrzp）",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": "2026-08-21",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（更新2026-08-21）",
+      "note": "高中政治教师，标注应届毕业生、本科、面议"
+    },
+    {
+      "id": "src-hz-xinda-2",
+      "title": "杭州市临平区信达外国语学校高中部2026年招聘2名教师公告",
+      "url": "https://www.gaoxiaojob.com/announcement/detail/406338.html",
+      "publisher": "高校人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（高中部招聘2名教师）",
+      "note": "公告页面可访问；具体学科未在页面文本中恢复"
+    },
+    {
+      "id": "src-hz-yingte-2026",
+      "title": "杭州英特外国语学校2026年招聘启事（11个岗位）",
+      "url": "https://www.gaoxiaojob.com/announcement/detail/8851.html",
+      "publisher": "高校人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-08-17",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（2026-08-17发布，2026年秋季学期，到岗2026年8-9月）",
+      "note": "双语部岗位含EJU文综教师（政治/经济/历史）与IGCSE/A-level升学指导助理等；五险一金、节日福利、定期免费体检"
+    },
+    {
+      "id": "src-hz-jrzhufu-qz",
+      "title": "浙江省杭州启正中学2026年教师招聘公告（聚合转载）",
+      "url": "http://jrzhufu.com/article/94895.html",
+      "publisher": "杭州教师招聘网（jrzhufu）",
+      "sourceLevel": "D_aggregator",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-01-04",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（启正中学教师招聘）",
+      "note": "聚合页可访问；岗位细节未在静态文本中提取"
+    },
+    {
+      "id": "src-hz-jrzhufu-bl",
+      "title": "2026年浙江省杭州市滨江区滨兰实验学校教师招聘公告（聚合转载）",
+      "url": "http://jrzhufu.com/article/101321.html",
+      "publisher": "杭州教师招聘网（jrzhufu）",
+      "sourceLevel": "D_aggregator",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（滨兰实验学校教师招聘）",
+      "note": "聚合页可访问；岗位细节未在静态文本中提取"
+    },
+    {
+      "id": "src-hz-jrzhufu-xjwy",
+      "title": "2026年浙江省杭州学军文渊中学教师招聘公告（聚合转载）",
+      "url": "http://www.jrzhufu.com/article/100108.html",
+      "publisher": "杭州教师招聘网（jrzhufu）",
+      "sourceLevel": "D_aggregator",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（学军文渊中学教师招聘）",
+      "note": "聚合页可访问；岗位细节未在静态文本中提取"
+    },
+    {
+      "id": "src-hz-laoying-job910",
+      "title": "高中地理教师（骨干教师）-富阳老鹰高级中学（万行教师人才网）",
+      "url": "https://www.job910.com/jobs_view_882057.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（地理，非本次范围）",
+      "note": "页面可访问"
+    },
+    {
+      "id": "src-hz-dingwen-zjnu",
+      "title": "杭州鼎文学校招聘信息（浙江师范大学就业网）",
+      "url": "https://career.zjnu.edu.cn/news/view/aid/430865/tag/?PageSpeed=noscript",
+      "publisher": "浙江师范大学就业信息网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "届次未知",
+      "note": "页面提示网站暂不开放"
+    },
+    {
+      "id": "src-hz-tyhl-zjnu",
+      "title": "天元公学教师招聘公告（浙江师范大学就业网）",
+      "url": "https://career.zjnu.edu.cn/news/view/aid/432345/tag/jszp?PageSpeed=noscript",
+      "publisher": "浙江师范大学就业信息网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "届次未知（天元公学含二中教育集团背景）",
+      "note": "页面提示网站暂不开放"
+    },
+    {
+      "id": "src-hz-gtjy-qrdws",
+      "title": "老师招聘-杭州国泰外语艺术学校（千读网招聘页）",
+      "url": "http://www.qrdws.cn/b/hzgtwyysxxkdfyws/issue_35055.html",
+      "publisher": "千读网（qrdws）",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台招聘页",
+      "note": "页面可访问"
+    },
+    {
+      "id": "src-hz-qiushi-job910",
+      "title": "高中生物教师（青年教师）-杭州求是高级中学（万行）",
+      "url": "https://m.job910.com/jobs_view_918660.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（生物，非本次范围）",
+      "note": "页面可访问"
+    },
+    {
+      "id": "src-hz-renhe-job910",
+      "title": "高中物理教师（青年教师）-杭州仁和实验学校（万行）",
+      "url": "https://www.job910.com/jobs_view_915931.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（物理，非本次范围）",
+      "note": "页面可访问"
+    },
+    {
+      "id": "src-hz-shangwai-job910",
+      "title": "高中日语教师（骨干教师）-杭州市上附外国语学校（万行）",
+      "url": "https://m.job910.com/jobs_view_807360.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（日语，非本次范围）",
+      "note": "页面可访问"
+    },
+    {
+      "id": "src-hz-jinxiu-job910",
+      "title": "杭州育才中学教育集团招聘主页（万行）",
+      "url": "https://m.job910.com/school_view_84291.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "学校招聘页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "集团招聘主页（含锦绣中学等）",
+      "note": "页面可访问"
+    },
+    {
+      "id": "src-hz-shiyanwgy-zjnu",
+      "title": "杭州市实验外国语学校招聘信息（浙江师范大学就业网）",
+      "url": "https://career.zjnu.edu.cn/news/view/aid/431660/tag/jszp",
+      "publisher": "浙江师范大学就业信息网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "届次未知",
+      "note": "页面提示网站暂不开放"
+    },
+    {
+      "id": "src-hz-xinlixiang-job910",
+      "title": "高中数学教师（应届生）-杭州市余杭区新理想高级中学（万行）",
+      "url": "https://m.job910.com/jobs_view_394934.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（数学，非本次范围）",
+      "note": "页面可访问"
+    },
+    {
+      "id": "src-hz-shulan-smbu",
+      "title": "杭州市临平区树兰实验学校2026年招聘简章（深圳北理莫斯科大学就业网转载）",
+      "url": "https://career.smbu.edu.cn/detail/online?id=3516055",
+      "publisher": "深圳北理莫斯科大学就业信息网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（树兰实验学校招聘简章）",
+      "note": "页面可访问；树兰中学为集团成员校，具体岗位需复核"
+    },
+    {
+      "id": "src-hz-tianmu-offcn",
+      "title": "2026浙江杭州天目双语实验学校招小学、初中教师9人公告（中公转载）",
+      "url": "http://m.offcn.com/jiaoshi/2026/0521/794557.html",
+      "publisher": "中公教师网（offcn）",
+      "sourceLevel": "D_aggregator",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-05-21",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（天目双语实验学校小学、初中教师9人）",
+      "note": "页面可访问；天目外国语学校与天目双语实验学校关系待复核；岗位为小学初中"
+    },
+    {
+      "id": "src-hz-xizi-hainnu",
+      "title": "中学教师-杭州西子实验学校（海南师范大学就业网岗位）",
+      "url": "http://jy.hainnu.edu.cn/index.php/web/Index/job-detail?id=1021",
+      "publisher": "海南师范大学就业网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "届次未知",
+      "note": "页面连接失败"
+    },
+    {
+      "id": "src-hz-yingcai-job910",
+      "title": "高中美术教师（青年教师）-杭州英才高级中学（万行）",
+      "url": "https://shunde.job910.com/jobs_view_884169.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（美术，非本次范围）",
+      "note": "页面可访问"
+    },
+    {
+      "id": "src-hz-yuxin-job910",
+      "title": "高中通用技术教师（青年教师）-杭州育新高级中学（万行）",
+      "url": "https://m.job910.com/jobs_view_781947.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（通用技术，非本次范围）",
+      "note": "页面可访问"
+    },
+    {
+      "id": "src-hz-zhijiang-zjnu",
+      "title": "杭州之江高级中学招聘信息（浙江师范大学就业网）",
+      "url": "https://career.zjnu.edu.cn/news/view/aid/431822/tag/jszp?PageSpeed=noscript",
+      "publisher": "浙江师范大学就业信息网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "届次未知",
+      "note": "页面提示网站暂不开放"
+    },
+    {
+      "id": "src-hz-jiande-zjnu",
+      "title": "建德市育才高级中学招聘信息（浙江师范大学就业网）",
+      "url": "https://career.zjnu.edu.cn/news/view/aid/432108/tag/jszp?PageSpeed=noscript",
+      "publisher": "浙江师范大学就业信息网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "届次未知",
+      "note": "页面提示网站暂不开放"
+    },
+    {
+      "id": "src-hz-tonglu-jiaoshi",
+      "title": "桐庐杭州传媒高级中学（教师人才网学校页）",
+      "url": "https://jiaoshi.com.cn/school/cmmz5mora009jok8s9mtbmy4s",
+      "publisher": "教师人才网（jiaoshi.com.cn）",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "学校招聘页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台学校页",
+      "note": "页面可访问；在招岗位未在静态文本中确认"
+    },
+    {
+      "id": "src-hz-xiaoshan-qgsydw",
+      "title": "杭州市萧山区面向2026届高校毕业生提前批招聘教师公告",
+      "url": "https://qgsydw.com/qgsydw/recruit/insrecruit/20260113/187986.html",
+      "publisher": "全国事业单位招聘网（转载萧山区公告）",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-01-13",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（萧山区面向2026届高校毕业生提前批）",
+      "note": "页面可访问；萧山区实验中学为区属民办高中"
+    },
+    {
+      "id": "src-hz-yushan-zjnu",
+      "title": "杭州市萧山区玉山中学招聘信息（浙江师范大学就业网）",
+      "url": "https://career.zjnu.edu.cn/news/view/aid/432333/tag/jszp",
+      "publisher": "浙江师范大学就业信息网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "届次未知",
+      "note": "页面提示网站暂不开放"
+    },
+    {
+      "id": "src-hz-donglan-jhpjrc",
+      "title": "余杭初中英语教师（学科带头人）-杭州市东澜外国语学校（浦江人才网）",
+      "url": "http://www.jhpjrc.com/job2185179734.shtml",
+      "publisher": "浦江人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（英语，非本次范围）",
+      "note": "页面可访问"
+    },
+    {
+      "id": "src-hz-h2-site",
+      "title": "浙江省杭州第二中学（东河校区）校园门户首页",
+      "url": "http://dh.hz2hs.cn/",
+      "publisher": "浙江省杭州第二中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "校园门户首页含校名全称"
+    },
+    {
+      "id": "src-hz-xjhs-site",
+      "title": "杭州学军中学官网首页",
+      "url": "http://www.hzxjhs.com/",
+      "publisher": "杭州学军中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称"
+    },
+    {
+      "id": "src-hz-hanggao-site",
+      "title": "浙江省杭州高级中学官网首页",
+      "url": "http://www.hanggao.net/",
+      "publisher": "浙江省杭州高级中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称"
+    },
+    {
+      "id": "src-hz-h14z-site",
+      "title": "杭州第十四中学官网首页",
+      "url": "http://www.h14z.cn/",
+      "publisher": "杭州第十四中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称"
+    },
+    {
+      "id": "src-hz-hz4z-site",
+      "title": "杭州第四中学官网首页",
+      "url": "http://www.hz4z.cn/",
+      "publisher": "杭州第四中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称"
+    }
+  ],
+  "schoolScans": [
+    {
+      "schoolId": "school-hz-fuyang-huanggongwang",
+      "officialName": "富阳黄公望高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-hgw-politics"
+      ],
+      "contacts": [],
+      "jobLeads": [
+        {
+          "id": "lead-hz-hgw-politics",
+          "title": "高中政治教师——杭州市富阳黄公望高级中学",
+          "subjectTags": [
+            "政治/道法"
+          ],
+          "recruitmentCycle": "平台岗位（更新2026-08-21）",
+          "status": "状态待确认",
+          "publishedAt": null,
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "面议（未公开）",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "平台标注应届毕业生、本科",
+            "平台页面提示职位信息待核验"
+          ],
+          "selectionProcessRaw": [],
+          "applicationMethod": "platform",
+          "applicationUrl": "http://dengtashi.jrzp.com/job2565107.shtml",
+          "sourceEvidenceIds": [
+            "src-hz-hgw-politics"
+          ],
+          "note": "平台在招岗位，薪资与完整条件未公开，需向学校核实"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-hz-hgw-politics"
+      ],
+      "searchQueries": [
+        "富阳黄公望高级中学 招聘 教师"
+      ],
+      "unresolved": []
+    },
+    {
+      "schoolId": "school-hz-fuyang-laoying",
+      "officialName": "富阳老鹰高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-laoying-job910"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-laoying-job910"
+      ],
+      "searchQueries": [
+        "富阳老鹰高级中学 招聘 教师"
+      ],
+      "unresolved": [
+        "平台在招岗位为地理、英语等，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "school-hz-fuyang-jiangnan",
+      "officialName": "富阳区江南中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-yongxing-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [
+        {
+          "id": "lead-hz-yongxing-politics-society",
+          "title": "政治教师1名、历史与社会（历史方向）教师2名——富阳永兴教育集团所属民办学校（2026届提前批）",
+          "subjectTags": [
+            "政治/道法",
+            "历史/人文"
+          ],
+          "recruitmentCycle": "2026届（2026-01-24现场招聘会，已结束）",
+          "status": "往届参考",
+          "publishedAt": null,
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "2026届硕士研究生及以上可按所学专业报考，暂不要求教资与普通话证书（聘用后1年内即2027-08-31前取得）",
+            "2024届、2025届毕业生报考时须提供适用的教师资格证或合格证明"
+          ],
+          "selectionProcessRaw": [
+            "现场招聘会：现场报名、资格审查、面谈考核、面试考核、当天签约"
+          ],
+          "applicationMethod": "onsite",
+          "applicationUrl": null,
+          "sourceEvidenceIds": [
+            "src-hz-yongxing-2026"
+          ],
+          "note": "集团招聘25名（普高6名、初中19名）：政治1人、历史与社会（历史方向）2人、科学3人、数学2人等；岗位具体学段（初中/普高）需复核；富阳区江南中学为集团学校之一"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-hz-yongxing-2026"
+      ],
+      "searchQueries": [
+        "富阳区江南中学 招聘 教师"
+      ],
+      "unresolved": [
+        "集团公告中政治与历史与社会岗位的具体分配学校需复核"
+      ]
+    },
+    {
+      "schoolId": "school-hz-dingwen-xuexiao",
+      "officialName": "杭州鼎文学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-dingwen-zjnu"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-dingwen-zjnu"
+      ],
+      "searchQueries": [
+        "杭州鼎文学校 招聘 教师"
+      ],
+      "unresolved": [
+        "招聘信息页面暂不开放，内容未恢复"
+      ]
+    },
+    {
+      "schoolId": "school-hz-dongfang-zhongxue",
+      "officialName": "杭州东方中学",
+      "website": {
+        "outcome": "blocked",
+        "url": null,
+        "evidenceId": null,
+        "note": "官网候选域名 www.dfzx.net 无法打开，未能验证归属"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-dongfang"
+      ],
+      "contacts": [
+        {
+          "id": "contact-hz-dongfang-mail",
+          "channel": "email",
+          "value": "dongfang@dfzx.net",
+          "purpose": "简历投递",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026年（东方中学诚聘公告）",
+          "validity": "时效待确认",
+          "evidenceId": "src-hz-dongfang",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-hz-dongfang-tel",
+          "channel": "phone",
+          "value": "0571-85228309",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026年（东方中学诚聘公告）",
+          "validity": "时效待确认",
+          "evidenceId": "src-hz-dongfang",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-dongfang"
+      ],
+      "searchQueries": [
+        "杭州东方中学 招聘 教师"
+      ],
+      "unresolved": [
+        "2026年诚聘物理、英语、语文各1名，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "school-hz-erzhong-tianyuan-huilan",
+      "officialName": "杭州二中教育集团天元蕙兰学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-tyhl-zjnu"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-tyhl-zjnu"
+      ],
+      "searchQueries": [
+        "杭州二中教育集团天元蕙兰学校 招聘"
+      ],
+      "unresolved": [
+        "天元公学教师招聘公告页面暂不开放"
+      ]
+    },
+    {
+      "schoolId": "school-hz-guotai-waiyu-yishu",
+      "officialName": "杭州国泰外语艺术学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-gtjy-qrdws"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-gtjy-qrdws"
+      ],
+      "searchQueries": [
+        "杭州国泰外语艺术学校 招聘"
+      ],
+      "unresolved": [
+        "平台招聘页在招岗位未确认"
+      ]
+    },
+    {
+      "schoolId": "school-hz-lvcheng-yuhua",
+      "officialName": "杭州绿城育华学校",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.hzlcyh.cn/",
+        "evidenceId": "src-hz-lcyh-site",
+        "note": "官网首页含校名全称与教师招聘栏目"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-lcyh-may",
+        "src-hz-lcyh-july"
+      ],
+      "contacts": [
+        {
+          "id": "contact-hz-lcyh-tel1",
+          "channel": "phone",
+          "value": "0571-88477443",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026年（高中部5月/7月招聘公告）",
+          "validity": "时效待确认",
+          "evidenceId": "src-hz-lcyh-july",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-hz-lcyh-tel2",
+          "channel": "phone",
+          "value": "0571-88477437",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026年（高中部5月/7月招聘公告）",
+          "validity": "时效待确认",
+          "evidenceId": "src-hz-lcyh-july",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-hz-lcyh-tel3",
+          "channel": "phone",
+          "value": "0571-81902833",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026年（高中部5月/7月招聘公告）",
+          "validity": "时效待确认",
+          "evidenceId": "src-hz-lcyh-july",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-lcyh-site",
+        "src-hz-lcyh-may",
+        "src-hz-lcyh-july"
+      ],
+      "searchQueries": [
+        "杭州绿城育华学校 招聘 教师"
+      ],
+      "unresolved": [
+        "5月/7月公告岗位无本次范围学科（语文数学德语日语物理化学生物地理信息通用技术等）；年薪25-40万左右为7月公告原文"
+      ]
+    },
+    {
+      "schoolId": "school-hz-qizheng-zhongxue",
+      "officialName": "杭州启正中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-jrzhufu-qz"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-jrzhufu-qz"
+      ],
+      "searchQueries": [
+        "杭州启正中学 招聘 教师"
+      ],
+      "unresolved": [
+        "2026年公告聚合页岗位细节未提取"
+      ]
+    },
+    {
+      "schoolId": "school-hz-qiushi-gaozhong",
+      "officialName": "杭州求是高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-qiushi-job910"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-qiushi-job910"
+      ],
+      "searchQueries": [
+        "杭州求是高级中学 招聘 教师"
+      ],
+      "unresolved": [
+        "平台在招岗位为生物、数学等，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "school-hz-renhe-shiyan",
+      "officialName": "杭州仁和实验学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-renhe-job910"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-renhe-job910"
+      ],
+      "searchQueries": [
+        "杭州仁和实验学校 招聘 教师"
+      ],
+      "unresolved": [
+        "平台在招岗位为物理、化学等，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "school-hz-shanghai-shiwai-zhongxue",
+      "officialName": "杭州上海世外中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-shiyanwgy-zjnu"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-shiyanwgy-zjnu"
+      ],
+      "searchQueries": [
+        "杭州上海世外中学 招聘 教师"
+      ],
+      "unresolved": [
+        "国际部教师招聘公告页面暂不开放（内容未恢复）"
+      ]
+    },
+    {
+      "schoolId": "school-hz-fuyang-shangwai-fushu",
+      "officialName": "杭州上外附属外国语高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-shangwai-job910"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-shangwai-job910"
+      ],
+      "searchQueries": [
+        "杭州上外附属外国语高级中学 招聘"
+      ],
+      "unresolved": [
+        "平台在招岗位为日语等，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "school-hz-binlan-shiyan",
+      "officialName": "杭州市滨江区滨兰实验学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-jrzhufu-bl"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-jrzhufu-bl"
+      ],
+      "searchQueries": [
+        "杭州市滨江区滨兰实验学校 招聘"
+      ],
+      "unresolved": [
+        "2026年公告聚合页岗位细节未提取；平台曾见初中科学教师年薪25-55万岗位（非本次范围）"
+      ]
+    },
+    {
+      "schoolId": "school-hz-jinxiu-zhongxue",
+      "officialName": "杭州市锦绣中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-jinxiu-job910"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-jinxiu-job910"
+      ],
+      "searchQueries": [
+        "杭州市锦绣中学 招聘 教师"
+      ],
+      "unresolved": [
+        "育才教育集团招聘主页可访问，锦绣中学具体在招岗位未确认"
+      ]
+    },
+    {
+      "schoolId": "school-hz-shiyan-waiguoyu",
+      "officialName": "杭州市实验外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-shiyanwgy-zjnu"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-shiyanwgy-zjnu"
+      ],
+      "searchQueries": [
+        "杭州市实验外国语学校 招聘 教师"
+      ],
+      "unresolved": [
+        "招聘信息页面暂不开放"
+      ]
+    },
+    {
+      "schoolId": "school-hz-yuhang-xinlixiang",
+      "officialName": "杭州市余杭区新理想高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-xinlixiang-job910"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-xinlixiang-job910"
+      ],
+      "searchQueries": [
+        "杭州市余杭区新理想高级中学 招聘"
+      ],
+      "unresolved": [
+        "平台在招岗位为数学等，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "school-hz-shulan-zhongxue",
+      "officialName": "杭州树兰中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-shulan-smbu"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-shulan-smbu"
+      ],
+      "searchQueries": [
+        "杭州树兰中学 招聘 教师"
+      ],
+      "unresolved": [
+        "树兰实验学校2026年招聘简章可访问，树兰中学与树兰实验学校关系及岗位需复核"
+      ]
+    },
+    {
+      "schoolId": "school-hz-tianmu-waiguoyu",
+      "officialName": "杭州天目外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-tianmu-offcn"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-tianmu-offcn"
+      ],
+      "searchQueries": [
+        "杭州天目外国语学校 招聘 教师"
+      ],
+      "unresolved": [
+        "天目双语实验学校9人公告为小学初中岗位，无本次范围学科；两校关系待复核"
+      ]
+    },
+    {
+      "schoolId": "school-hz-wahaha-shuangyu",
+      "officialName": "杭州娃哈哈双语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-shiyanwgy-zjnu"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-shiyanwgy-zjnu"
+      ],
+      "searchQueries": [
+        "杭州娃哈哈双语学校 招聘"
+      ],
+      "unresolved": [
+        "平台曾见高中双语物理岗位（猎聘，非本次范围）；学校无公开官网"
+      ]
+    },
+    {
+      "schoolId": "school-hz-xizi-shiyan",
+      "officialName": "杭州西子实验学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-xizi-hainnu"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-xizi-hainnu"
+      ],
+      "searchQueries": [
+        "杭州西子实验学校 招聘 教师"
+      ],
+      "unresolved": [
+        "就业网岗位页连接失败"
+      ]
+    },
+    {
+      "schoolId": "school-hz-yingcai-gaozhong",
+      "officialName": "杭州英才高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-yingcai-job910"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-yingcai-job910"
+      ],
+      "searchQueries": [
+        "杭州英才高级中学 招聘"
+      ],
+      "unresolved": [
+        "平台在招岗位为美术、计算机、对外汉语等，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "school-hz-yingte-waiguoyu",
+      "officialName": "杭州英特外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-yingte-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [
+        {
+          "id": "lead-hz-yingte-eju",
+          "title": "EJU文综教师（政治/经济/历史）——杭州英特外国语学校双语部",
+          "subjectTags": [
+            "政治/道法",
+            "经济/商科",
+            "历史/人文"
+          ],
+          "recruitmentCycle": "2026年（2026-08-17发布，2026-09到岗）",
+          "status": "状态待确认",
+          "publishedAt": "2026-08-17",
+          "deadline": null,
+          "expectedStart": "2026年9月",
+          "salaryRaw": "",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "到岗时间2026年9月",
+            "愿意接受宁波校区工作",
+            "可协助开展与文综知识相关的拓展活动或讲座（如日本经济研讨会、历史专题工作坊等）"
+          ],
+          "selectionProcessRaw": [],
+          "applicationMethod": "unknown",
+          "applicationUrl": null,
+          "sourceEvidenceIds": [
+            "src-hz-yingte-2026"
+          ],
+          "note": "招聘启事共11个岗位（初中部、普高部、双语部、外教岗位）；双语部另招IGCSE/A-level升学指导助理；五险一金、节日福利、定期免费体检；报名方式未在页面文本中恢复"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-hz-yingte-2026"
+      ],
+      "searchQueries": [
+        "杭州英特外国语学校 招聘 教师"
+      ],
+      "unresolved": [
+        "2026年招聘启事含EJU文综教师（政治/经济/历史），报名方式未在页面文本中恢复"
+      ]
+    },
+    {
+      "schoolId": "school-hz-yucai-zhongxue",
+      "officialName": "杭州育才中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-yucai-history"
+      ],
+      "contacts": [
+        {
+          "id": "contact-hz-yucai-mail",
+          "channel": "email",
+          "value": "jxyc_hr@163.com",
+          "purpose": "简历投递",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026年（育才中学高中部招聘，截止2026-07-01）",
+          "validity": "往届",
+          "evidenceId": "src-hz-yucai-history",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [
+        {
+          "id": "lead-hz-yucai-history",
+          "title": "高中历史教师——杭州育才中学（高中部）",
+          "subjectTags": [
+            "历史/人文"
+          ],
+          "recruitmentCycle": "2026年（高中部创校招聘，截止2026-07-01，已截止）",
+          "status": "往届参考",
+          "publishedAt": null,
+          "deadline": "2026-07-01",
+          "expectedStart": "",
+          "salaryRaw": "年收入30~50W",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "本科及以上学历（职位页标注本科、硕士、博士均可）"
+          ],
+          "selectionProcessRaw": [
+            "发送简历至指定邮箱"
+          ],
+          "applicationMethod": "email",
+          "applicationUrl": null,
+          "sourceEvidenceIds": [
+            "src-hz-yucai-history"
+          ],
+          "note": "育才中学为锦绣育才教育集团第一所学校，高中部2026年新设（首届100人）；同批另招高中语文教师1名；子女可安排就读育才系列学校；已截止，供往届参考与下届预测"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-hz-yucai-history"
+      ],
+      "searchQueries": [
+        "杭州育才中学 招聘 教师"
+      ],
+      "unresolved": [
+        "高中部历史岗位已截止（2026-07-01），年收入30~50W为公告原文"
+      ]
+    },
+    {
+      "schoolId": "school-hz-yuxin-gaozhong",
+      "officialName": "杭州育新高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-yuxin-job910"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-yuxin-job910"
+      ],
+      "searchQueries": [
+        "杭州育新高级中学 招聘 教师"
+      ],
+      "unresolved": [
+        "平台在招岗位为通用技术、心理、校医等，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "school-hz-yungu-xuexiao",
+      "officialName": "杭州云谷学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-shiyanwgy-zjnu"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-shiyanwgy-zjnu"
+      ],
+      "searchQueries": [
+        "杭州云谷学校 招聘 教师"
+      ],
+      "unresolved": [
+        "平台曾见语文等岗位（猎聘/教师人才网），无本次范围学科确认"
+      ]
+    },
+    {
+      "schoolId": "school-hz-zhijiang-gaozhong",
+      "officialName": "杭州之江高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-zhijiang-zjnu"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-zhijiang-zjnu"
+      ],
+      "searchQueries": [
+        "杭州之江高级中学 招聘 教师"
+      ],
+      "unresolved": [
+        "招聘信息页面暂不开放"
+      ]
+    },
+    {
+      "schoolId": "school-hz-jiande-yucai",
+      "officialName": "建德市育才高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-jiande-zjnu"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-jiande-zjnu"
+      ],
+      "searchQueries": [
+        "建德市育才高级中学 招聘"
+      ],
+      "unresolved": [
+        "招聘信息页面暂不开放；平台曾见日语岗位（非本次范围）"
+      ]
+    },
+    {
+      "schoolId": "school-hz-erzhong-shulan-gaozhong",
+      "officialName": "临平区杭州二中树兰高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-shulan-smbu"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-shulan-smbu"
+      ],
+      "searchQueries": [
+        "临平区杭州二中树兰高级中学 招聘"
+      ],
+      "unresolved": [
+        "树兰实验学校招聘简章可访问，树兰高级中学具体岗位需复核"
+      ]
+    },
+    {
+      "schoolId": "school-hz-xinda-waiguoyu",
+      "officialName": "临平区信达外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-xinda-2"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-xinda-2"
+      ],
+      "searchQueries": [
+        "临平区信达外国语学校 招聘"
+      ],
+      "unresolved": [
+        "高中部2026年招聘2名教师，学科未在页面文本中恢复"
+      ]
+    },
+    {
+      "schoolId": "school-hz-tonglu-hangchuan",
+      "officialName": "桐庐杭传高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-tonglu-jiaoshi"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-tonglu-jiaoshi"
+      ],
+      "searchQueries": [
+        "桐庐杭传高级中学 招聘"
+      ],
+      "unresolved": [
+        "平台学校页在招岗位未确认"
+      ]
+    },
+    {
+      "schoolId": "school-hz-xiaoshan-shiyan",
+      "officialName": "萧山区实验中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-xiaoshan-qgsydw"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-xiaoshan-qgsydw"
+      ],
+      "searchQueries": [
+        "萧山区实验中学 招聘 教师"
+      ],
+      "unresolved": [
+        "萧山区面向2026届提前批公告可访问，实验中学具体岗位未确认"
+      ]
+    },
+    {
+      "schoolId": "school-hz-xiaoshan-yushan",
+      "officialName": "萧山区玉山中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-yushan-zjnu"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-yushan-zjnu"
+      ],
+      "searchQueries": [
+        "萧山区玉山中学 招聘 教师"
+      ],
+      "unresolved": [
+        "招聘信息页面暂不开放"
+      ]
+    },
+    {
+      "schoolId": "school-hz-xuejun-wenyuan",
+      "officialName": "学军中学教育集团文渊中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-jrzhufu-xjwy"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-jrzhufu-xjwy"
+      ],
+      "searchQueries": [
+        "学军中学教育集团文渊中学 招聘"
+      ],
+      "unresolved": [
+        "2026年公告聚合页岗位细节未提取"
+      ]
+    },
+    {
+      "schoolId": "school-hz-yuhang-donglan",
+      "officialName": "余杭区东澜外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-donglan-jhpjrc"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-donglan-jhpjrc"
+      ],
+      "searchQueries": [
+        "余杭区东澜外国语学校 招聘"
+      ],
+      "unresolved": [
+        "平台在招岗位为英语、语文等，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "public-hz-2nd-high-school",
+      "officialName": "杭州第二中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://dh.hz2hs.cn/",
+        "evidenceId": "src-hz-h2-site",
+        "note": "校园门户首页含校名全称（东河校区入口）"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-jan-batch",
+        "src-hz-apr-batch"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-h2-site",
+        "src-hz-jan-batch",
+        "src-hz-apr-batch"
+      ],
+      "searchQueries": [
+        "杭州第二中学 官网 网站",
+        "杭州市教育局 直属学校 2026 教师招聘 公告"
+      ],
+      "unresolved": [
+        "市直属1月/4月批次岗位表为附件未恢复，无法确认本校岗位学科"
+      ]
+    },
+    {
+      "schoolId": "public-hz-xuejun-high-school",
+      "officialName": "杭州学军中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.hzxjhs.com/",
+        "evidenceId": "src-hz-xjhs-site",
+        "note": "官网首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-jan-batch",
+        "src-hz-apr-batch"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-xjhs-site",
+        "src-hz-jan-batch",
+        "src-hz-apr-batch"
+      ],
+      "searchQueries": [
+        "杭州学军中学 官网 网站"
+      ],
+      "unresolved": [
+        "市直属批次岗位表未恢复"
+      ]
+    },
+    {
+      "schoolId": "public-hz-senior-high-school",
+      "officialName": "浙江省杭州高级中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.hanggao.net/",
+        "evidenceId": "src-hz-hanggao-site",
+        "note": "官网首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-jan-batch",
+        "src-hz-apr-batch"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-hanggao-site",
+        "src-hz-jan-batch",
+        "src-hz-apr-batch"
+      ],
+      "searchQueries": [
+        "浙江省杭州高级中学 官网 网站"
+      ],
+      "unresolved": [
+        "市直属批次岗位表未恢复"
+      ]
+    },
+    {
+      "schoolId": "public-hz-14th-high-school",
+      "officialName": "杭州第十四中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.h14z.cn/",
+        "evidenceId": "src-hz-h14z-site",
+        "note": "官网首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-jan-batch",
+        "src-hz-apr-batch"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-h14z-site",
+        "src-hz-jan-batch",
+        "src-hz-apr-batch"
+      ],
+      "searchQueries": [
+        "杭州第十四中学 官网 网站"
+      ],
+      "unresolved": [
+        "市直属批次岗位表未恢复"
+      ]
+    },
+    {
+      "schoolId": "public-hz-4th-high-school",
+      "officialName": "杭州第四中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.hz4z.cn/",
+        "evidenceId": "src-hz-hz4z-site",
+        "note": "官网首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-jan-batch",
+        "src-hz-apr-batch"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-hz4z-site",
+        "src-hz-jan-batch",
+        "src-hz-apr-batch"
+      ],
+      "searchQueries": [
+        "杭州第四中学 官网 网站"
+      ],
+      "unresolved": [
+        "市直属批次岗位表未恢复"
+      ]
+    },
+    {
+      "schoolId": "public-hz-xiaoshan-high-school",
+      "officialName": "浙江省萧山中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-hz-xiaoshan-171",
+        "src-hz-xiaoshan-qgsydw"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-hz-xiaoshan-171",
+        "src-hz-xiaoshan-qgsydw"
+      ],
+      "searchQueries": [
+        "浙江省萧山中学 官网 网站",
+        "萧山区 2026 教师招聘 事业编制 公告"
+      ],
+      "unresolved": [
+        "萧山区2026年招聘171名岗位表未恢复；学校官网未找到（以微信公众号为主）"
+      ]
+    }
+  ],
+  "coverageGaps": [
+    {
+      "schoolId": null,
+      "description": "杭州市直属1月/4月批次、萧山区、余杭区2026届公告的岗位表均为附件未恢复，无法逐校确认政治/历史岗位",
+      "evidenceIds": [
+        "src-hz-jan-batch",
+        "src-hz-apr-batch",
+        "src-hz-xiaoshan-171",
+        "src-hz-yuhang-2"
+      ],
+      "nextAction": "下载各公告岗位计划表逐校确认"
+    },
+    {
+      "schoolId": null,
+      "description": "杭州大部分民办目标校未发现可访问官网（以微信公众号与平台招聘页为主）",
+      "evidenceIds": [
+        "src-hz-yingte-2026",
+        "src-hz-jrzhufu-qz",
+        "src-hz-jrzhufu-bl",
+        "src-hz-jrzhufu-xjwy"
+      ],
+      "nextAction": "通过各校微信公众号核实官网与常设招聘渠道"
+    }
+  ],
+  "notes": [
+    "本批次为待 Codex 审核的暂存资料，不导入正式数据。",
+    "杭州公办批次对2026届毕业研究生教资证书均可后补（2027-08-31前取得），对用户（社科硕士）为有利条件。",
+    "在本次范围学科内的线索：黄公望高级中学高中政治（平台在招）、育才中学高中部历史（30~50万，已截止）、永兴教育集团政治/历史与社会（2026届提前批，已结束）、英特外国语EJU文综（政治/经济/历史，2026-08-17发布在招）。"
+  ]
+}

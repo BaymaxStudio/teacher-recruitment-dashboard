@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-21",
+  "province": "江苏",
+  "city": "苏州",
+  "targetCount": 11,
+  "privateSchoolCount": 1,
+  "publicTargetCount": 10,
+  "source": "正式 V2 数据自动生成；只作 DSH 招聘试采目标，不表示学校排名或当前存在招聘。",
+  "schools": [
+    {
+      "schoolId": "private-sz-deyuan-xinrong",
+      "officialName": "苏州工业园区德元新融学校",
+      "ownership": "民办",
+      "district": "工业园区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-suzhou-2026-admission-fair-private-school",
+          "title": "苏州中考招生咨询会“热力全开” 高中学段“新面孔”集中亮相",
+          "url": "https://www.suzhou.gov.cn/szsrmzf/szyw/202606/b9ca2dcd30de4c20b8079fd29139be35.shtml",
+          "publisher": "苏州市人民政府",
+          "sourceLevel": "A1_government",
+          "sourceType": "教育部门说明",
+          "publishedAt": "2026-06-22",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-sz-huangdai",
+      "officialName": "江苏省黄埭中学",
+      "ownership": "公办",
+      "district": "相城区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-suzhou-xiangcheng-2026-teacher-recruitment",
+          "title": "2026年苏州市相城区教育系统公开招聘教师公告",
+          "url": "https://hrss.suzhou.gov.cn/jsszhrss/gsgg/202607/50860c1421554200be1b955bbee37deb.shtml",
+          "publisher": "苏州市人力资源和社会保障局",
+          "sourceLevel": "A1_government",
+          "sourceType": "招聘公告",
+          "publishedAt": "2026-07-03",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-suzhou-xiangcheng-2026-job-table",
+          "title": "2026年苏州市相城区教育系统公开招聘教师岗位简介表",
+          "url": "https://hrss.suzhou.gov.cn/jsszhrss/gsgg/202607/50860c1421554200be1b955bbee37deb/files/18d4219932974f13b35869c015d82e11.xlsx",
+          "publisher": "苏州市相城区教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "岗位表",
+          "publishedAt": "2026-07-03",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现往届参考",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 2,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-sz-mudu-gaoji",
+      "officialName": "江苏省木渎高级中学",
+      "ownership": "公办",
+      "district": "吴中区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-sz-gov-2026-shiqu-zhao",
+          "title": "关于做好2026年苏州市区各类高级中等学校招生工作的通知",
+          "url": "https://www.suzhou.gov.cn/szsrmzf/bmwj/202605/4a9271ac8d7049f8ac0e6f310e79bc57.shtml",
+          "publisher": "苏州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2026-05-15",
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-sz-muduhs-website",
+          "title": "江苏省木渎高级中学学校介绍",
+          "url": "http://www.muduhs.com/xxgk/xxjs",
+          "publisher": "江苏省木渎高级中学",
+          "sourceLevel": "A2_school_official",
+          "sourceType": "学校主页",
+          "publishedAt": "2021-03-16",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-sz-shiyan-zhongxue",
+      "officialName": "江苏省苏州实验中学",
+      "ownership": "公办",
+      "district": "高新区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-sz-shiyan-official",
+          "title": "江苏省苏州实验中学学校简介",
+          "url": "https://szsyzx.jssnd.edu.cn/xxgk",
+          "publisher": "江苏省苏州实验中学",
+          "sourceLevel": "A2_school_official",
+          "sourceType": "学校主页",
+          "publishedAt": null,
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-sz-suzhou-zhongxue",
+      "officialName": "江苏省苏州中学",
+      "ownership": "公办",
+      "district": "姑苏区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-sz-gov-2026-shiqu-zhao",
+          "title": "关于做好2026年苏州市区各类高级中等学校招生工作的通知",
+          "url": "https://www.suzhou.gov.cn/szsrmzf/bmwj/202605/4a9271ac8d7049f8ac0e6f310e79bc57.shtml",
+          "publisher": "苏州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2026-05-15",
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-sz-zhongxue-website",
+          "title": "江苏省苏州中学官网",
+          "url": "http://szzx1000.cn/",
+          "publisher": "江苏省苏州中学",
+          "sourceLevel": "A2_school_official",
+          "sourceType": "学校主页",
+          "publishedAt": null,
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-sz-liangfeng",
+      "officialName": "梁丰高级中学",
+      "ownership": "公办",
+      "district": "张家港市",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-zjg-gov-2026-zhao",
+          "title": "市教育局关于印发《2026年张家港市各类高级中等学校招生工作意见》的通知",
+          "url": "https://www.zjg.gov.cn/zjgszwz/fgw01kpcpuegmqtmtd/202606/6b7330f715d143e4ae381ad51dc24a02.shtml",
+          "publisher": "张家港市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2026-06-01",
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-zjg-edu-liangfeng",
+          "title": "江苏省梁丰高级中学2024年特长生招生简章（张家港教育网）",
+          "url": "https://www.zjgedu.cn/xxgk/gsgg/content_204355",
+          "publisher": "张家港教育网（张家港市教育局主办）",
+          "sourceLevel": "A1_government",
+          "sourceType": "教育部门说明",
+          "publishedAt": "2024-06-12",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-sz-suda-fushu",
+      "officialName": "苏州大学附属中学",
+      "ownership": "公办",
+      "district": "工业园区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-sz-gov-2026-shiqu-zhao",
+          "title": "关于做好2026年苏州市区各类高级中等学校招生工作的通知",
+          "url": "https://www.suzhou.gov.cn/szsrmzf/bmwj/202605/4a9271ac8d7049f8ac0e6f310e79bc57.shtml",
+          "publisher": "苏州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2026-05-15",
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-sz-suda-fushu-caigou",
+          "title": "苏州大学附属中学物业管理服务采购公告（江苏政府采购网）",
+          "url": "http://www.ccgp-jiangsu.gov.cn/jiangsu/js_cggg/details.html?gglb=htgg&ggid=0b61bf8df24f4995ba89b36f8f47f6f1",
+          "publisher": "江苏省政府采购中心",
+          "sourceLevel": "A1_government",
+          "sourceType": "教育部门说明",
+          "publishedAt": "2024-01-07",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-sz-suda-experimental",
+      "officialName": "苏州大学实验学校（高中）",
+      "ownership": "公办",
+      "district": "相城区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-suzhou-xiangcheng-2026-teacher-recruitment",
+          "title": "2026年苏州市相城区教育系统公开招聘教师公告",
+          "url": "https://hrss.suzhou.gov.cn/jsszhrss/gsgg/202607/50860c1421554200be1b955bbee37deb.shtml",
+          "publisher": "苏州市人力资源和社会保障局",
+          "sourceLevel": "A1_government",
+          "sourceType": "招聘公告",
+          "publishedAt": "2026-07-03",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-suzhou-xiangcheng-2026-job-table",
+          "title": "2026年苏州市相城区教育系统公开招聘教师岗位简介表",
+          "url": "https://hrss.suzhou.gov.cn/jsszhrss/gsgg/202607/50860c1421554200be1b955bbee37deb/files/18d4219932974f13b35869c015d82e11.xlsx",
+          "publisher": "苏州市相城区教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "岗位表",
+          "publishedAt": "2026-07-03",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现往届参考",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 2,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-sz-xinghai-shiyan",
+      "officialName": "苏州工业园区星海实验高级中学",
+      "ownership": "公办",
+      "district": "工业园区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-sz-gov-2026-shiqu-zhao",
+          "title": "关于做好2026年苏州市区各类高级中等学校招生工作的通知",
+          "url": "https://www.suzhou.gov.cn/szsrmzf/bmwj/202605/4a9271ac8d7049f8ac0e6f310e79bc57.shtml",
+          "publisher": "苏州市教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "公办目标依据",
+          "publishedAt": "2026-05-15",
+          "accessedAt": "2026-08-20",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-sz-sipac-news",
+          "title": "星海高中牵手三所知名高校（苏州工业园区管委会转载）",
+          "url": "http://www.sipac.gov.cn/szgyyq/mtjj/202601/47bf820a8c9a4f8fae874856d337b9ee.shtml",
+          "publisher": "苏州工业园区管理委员会",
+          "sourceLevel": "A1_government",
+          "sourceType": "教育部门说明",
+          "publishedAt": "2026-01-06",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "待检索",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 0,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-sz-lumu",
+      "officialName": "苏州市相城区陆慕高级中学",
+      "ownership": "公办",
+      "district": "相城区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-suzhou-xiangcheng-2026-teacher-recruitment",
+          "title": "2026年苏州市相城区教育系统公开招聘教师公告",
+          "url": "https://hrss.suzhou.gov.cn/jsszhrss/gsgg/202607/50860c1421554200be1b955bbee37deb.shtml",
+          "publisher": "苏州市人力资源和社会保障局",
+          "sourceLevel": "A1_government",
+          "sourceType": "招聘公告",
+          "publishedAt": "2026-07-03",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-suzhou-xiangcheng-2026-job-table",
+          "title": "2026年苏州市相城区教育系统公开招聘教师岗位简介表",
+          "url": "https://hrss.suzhou.gov.cn/jsszhrss/gsgg/202607/50860c1421554200be1b955bbee37deb/files/18d4219932974f13b35869c015d82e11.xlsx",
+          "publisher": "苏州市相城区教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "岗位表",
+          "publishedAt": "2026-07-03",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现往届参考",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 2,
+      "currentContactCount": 0
+    },
+    {
+      "schoolId": "public-sz-xiangcheng",
+      "officialName": "相城中学（高中）",
+      "ownership": "公办",
+      "district": "相城区",
+      "schoolStages": [
+        "高中"
+      ],
+      "poolEvidence": [
+        {
+          "id": "src-suzhou-xiangcheng-2026-teacher-recruitment",
+          "title": "2026年苏州市相城区教育系统公开招聘教师公告",
+          "url": "https://hrss.suzhou.gov.cn/jsszhrss/gsgg/202607/50860c1421554200be1b955bbee37deb.shtml",
+          "publisher": "苏州市人力资源和社会保障局",
+          "sourceLevel": "A1_government",
+          "sourceType": "招聘公告",
+          "publishedAt": "2026-07-03",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        },
+        {
+          "id": "src-suzhou-xiangcheng-2026-job-table",
+          "title": "2026年苏州市相城区教育系统公开招聘教师岗位简介表",
+          "url": "https://hrss.suzhou.gov.cn/jsszhrss/gsgg/202607/50860c1421554200be1b955bbee37deb/files/18d4219932974f13b35869c015d82e11.xlsx",
+          "publisher": "苏州市相城区教育局",
+          "sourceLevel": "A1_government",
+          "sourceType": "岗位表",
+          "publishedAt": "2026-07-03",
+          "accessedAt": "2026-08-21",
+          "accessState": "ok"
+        }
+      ],
+      "currentCoverageOutcome": "发现往届参考",
+      "currentOfficialWebsite": null,
+      "currentRecruitmentChannelCount": 2,
+      "currentContactCount": 0
+    }
+  ]
+}

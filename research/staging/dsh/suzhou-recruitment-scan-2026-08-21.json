@@ -1,0 +1,602 @@
+{
+  "schemaVersion": 1,
+  "isTemplate": false,
+  "batchId": "suzhou-dsh-b1",
+  "province": "江苏",
+  "city": "苏州",
+  "researchedAt": "2026-08-21",
+  "researcher": "DeepSeek Harness + DeepSeek-V4-Flash",
+  "sources": [
+    {
+      "id": "src-sz-direct-44",
+      "title": "苏州市教育局直属学校2026年公开招聘教师公告（44名，江苏省高校招生就业指导服务中心转载）",
+      "url": "https://zjzx.91job.org.cn/index.php?m=home&c=article&a=show&site=1&id=10225",
+      "publisher": "江苏省高校招生就业指导服务中心",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-01-14",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（市直属学校公开招聘事业编制44名，报名2026-01-14至18，已截止）",
+      "note": "38周岁以下（硕士可放宽至43）；报考高中教师岗位的硕士及以上可后补教资（试用期1年内）；岗位表为附件未恢复；报名网址szjyj.szrc.cn"
+    },
+    {
+      "id": "src-sz-direct-high",
+      "title": "苏州市教育局直属学校2026年公开招聘高层次优秀毕业生公告（20名）",
+      "url": "https://jyj.suzhou.gov.cn/szjyj/gsgg/202605/440e2d43bd4d46bcb378f7e035528725.shtml",
+      "publisher": "苏州市教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-05-28",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（市直属学校高层次优秀毕业生20名，报名2026-06-01至04，已截止）",
+      "note": "报考人员须为2026年研究生毕业（或获奖本科条件）；高中教师岗硕士可后补教资；岗位表为附件未恢复"
+    },
+    {
+      "id": "src-sz-wuzhong-145",
+      "title": "2026年苏州市吴中区教育系统公开招聘事业编制教师公告（145名）",
+      "url": "https://hrss.suzhou.gov.cn/jsszhrss/gsgg/202605/8851af3d13ca4b77bd609e90af519b14.shtml",
+      "publisher": "苏州市人力资源和社会保障局",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-05-28",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（吴中区公开招聘事业编制145名，报名2026-06-03至08，已截止）",
+      "note": "高中教师岗位硕士及以上可后补教资（2027-08-31前）；英语岗位需CET6或雅思6.5或托福90等；岗位表为附件未恢复；报名平台www.wxedu.net/zpbm"
+    },
+    {
+      "id": "src-sz-snd-235",
+      "title": "2026年苏州高新区教育系统公开招聘事业编制教师公告（235名）",
+      "url": "https://hrss.suzhou.gov.cn/jsszhrss/gsgg/202606/096a3c2967a74eed88e372415c9f46c0.shtml",
+      "publisher": "苏州市人力资源和社会保障局",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-06-15",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（高新区公开招聘事业编制235名，报名已截止）",
+      "note": "38周岁以下（硕士可放宽至43）；面向2026年毕业生岗位要求本硕各阶段专业匹配；岗位表为附件未恢复"
+    },
+    {
+      "id": "src-sz-sipac-400",
+      "title": "苏州工业园区教育系统2026年秋季优秀教育人才招聘公告（400名）",
+      "url": "https://hrss.suzhou.gov.cn/jsszhrss/gsgg/202606/50d3e52f94aa4e92a2f9a42ceffecede.shtml",
+      "publisher": "苏州市人力资源和社会保障局",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-06-25",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（园区教育系统秋季优秀教育人才400名，报名2026-06-29至07-03，已截止）",
+      "note": "事业编制；报名平台espace.sipedu.cn；咨询电话见公告；岗位表为附件未恢复"
+    },
+    {
+      "id": "src-sz-zjg-69",
+      "title": "2026年张家港市教育系统公开招聘教师公告（69名）",
+      "url": "https://hrss.suzhou.gov.cn/jsszhrss/gsgg/202603/c8925b748a1e4dd3acdc196c788ddf88.shtml",
+      "publisher": "苏州市人力资源和社会保障局",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-03-17",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（张家港市公开招聘教师69名，报名2026-03-18至24，已截止）",
+      "note": "38周岁以下（硕士可放宽至43）；B01-B17为初高中贯通培养岗位须高中学段教资；岗位表为附件未恢复；报名系统zp.zjgedu.cn:3443"
+    },
+    {
+      "id": "src-sz-xiangcheng-2026",
+      "title": "2026年苏州市相城区教育系统公开招聘教师公告",
+      "url": "https://hrss.suzhou.gov.cn/jsszhrss/gsgg/202607/50860c1421554200be1b955bbee37deb.shtml",
+      "publisher": "苏州市人力资源和社会保障局",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-07-01",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（相城区公开招聘教师，岗位表含高中政治岗位；正式V2已核验）",
+      "note": "该公告已在正式V2数据中核验，岗位表含黄埭中学高中政治1名、陆慕高级中学高中政治2名（往届批次证据）"
+    },
+    {
+      "id": "src-sz-dyxr-2026",
+      "title": "苏州工业园区德元新融学校（高中）2026年师资招聘启事（园区教育局网站发布）",
+      "url": "https://www.sipac.gov.cn/yqjyj/tzgg/202605/4f01b71d19c04e29b17c61cb824b3d44.shtml",
+      "publisher": "苏州工业园区教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-05-12",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年（民办学校师资招聘，简历2026-05-25前投递）",
+      "note": "高中学科教师含政治、历史等；应届生本科及以上、专业一致或相近；2026年毕业研究生可先上岗后考证；提供免费教师公寓、工作餐；面试为试讲+说课+现场答辩"
+    },
+    {
+      "id": "src-sz-szzx-site",
+      "title": "江苏省苏州中学官网首页",
+      "url": "https://www.szzx1000.cn/",
+      "publisher": "江苏省苏州中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称"
+    },
+    {
+      "id": "src-sz-syzx-site",
+      "title": "江苏省苏州实验中学官网首页",
+      "url": "https://szsyzx.jssnd.edu.cn/",
+      "publisher": "江苏省苏州实验中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页返回200（含会话校验跳转），域名归属高新区教育系统"
+    },
+    {
+      "id": "src-sz-muduhs-site",
+      "title": "江苏省木渎高级中学官网首页",
+      "url": "http://www.muduhs.com/",
+      "publisher": "江苏省木渎高级中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称"
+    },
+    {
+      "id": "src-sz-hdzx-site",
+      "title": "江苏省黄埭中学校园门户首页",
+      "url": "http://hdzx.xcjyxx.com/",
+      "publisher": "江苏省黄埭中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "校园门户首页含校名全称"
+    },
+    {
+      "id": "src-sz-xczx-site",
+      "title": "相城中学（苏州中学相城实验项目）校园门户首页",
+      "url": "http://xczx.xcjyxx.com/",
+      "publisher": "相城中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "校园门户首页含校名全称与苏州中学相城实验项目字样"
+    }
+  ],
+  "schoolScans": [
+    {
+      "schoolId": "private-sz-deyuan-xinrong",
+      "officialName": "苏州工业园区德元新融学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选（学校为2024年前后新设民办高中）"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sz-dyxr-2026"
+      ],
+      "contacts": [
+        {
+          "id": "contact-sz-dyxr-mail",
+          "channel": "email",
+          "value": "sdfzzph@sina.com",
+          "purpose": "简历投递",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026年师资招聘（德元新融学校启事）",
+          "validity": "往届",
+          "evidenceId": "src-sz-dyxr-2026",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-sz-dyxr-tel1",
+          "channel": "phone",
+          "value": "0512-65075211",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026年师资招聘（德元新融学校启事）",
+          "validity": "往届",
+          "evidenceId": "src-sz-dyxr-2026",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-sz-dyxr-tel2",
+          "channel": "phone",
+          "value": "18012763515",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026年师资招聘（德元新融学校启事）",
+          "validity": "往届",
+          "evidenceId": "src-sz-dyxr-2026",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-sz-dyxr-tel3",
+          "channel": "phone",
+          "value": "17351110733",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026年师资招聘（德元新融学校启事）",
+          "validity": "往届",
+          "evidenceId": "src-sz-dyxr-2026",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [
+        {
+          "id": "lead-sz-dyxr-politics-history",
+          "title": "高中政治、历史学科教师（苏州工业园区德元新融学校2026年师资招聘）",
+          "subjectTags": [
+            "政治/道法",
+            "历史/人文"
+          ],
+          "recruitmentCycle": "2026年招聘（简历投递截止2026-05-25）",
+          "status": "往届参考",
+          "publishedAt": "2026-05-12",
+          "deadline": "2026-05-25",
+          "expectedStart": "",
+          "salaryRaw": "基础工资+课时费+绩效奖金+年终奖金+班主任津贴等，多劳多得、优绩优酬；特别优秀的骨干教师薪资面议",
+          "housingRaw": "学校提供免费教师公寓",
+          "mealsRaw": "工作餐（免费教师公寓、工作餐，解决异地教师食宿难题）",
+          "workloadRaw": [
+            "班主任津贴（薪资结构含）"
+          ],
+          "requirementsRaw": [
+            "本科及以上学历学位，所学专业与报考学科一致或相近",
+            "教师资格证书或中小学教师资格考试合格证明；2026年毕业研究生可先上岗后考证（试用期1年内取得）",
+            "英语学科教师须具有六级（CET-6）或专业英语八级（TEM-8）证书"
+          ],
+          "selectionProcessRaw": [
+            "2026-05-25前将应聘登记表及材料发送至学校招聘邮箱（邮件主题注明应聘学科+姓名+毕业院校）",
+            "资格初审（2026-05-28前以电话、短信通知面试考核）",
+            "面试考核采用试讲+说课+现场答辩形式",
+            "体检合格后办理入职、签订劳动合同"
+          ],
+          "applicationMethod": "email",
+          "applicationUrl": null,
+          "sourceEvidenceIds": [
+            "src-sz-dyxr-2026"
+          ],
+          "note": "招聘启事由园区教育局网站发布；招聘岗位含高中学科教师（政治、历史等）若干名；应届生优先条件为校级一等奖学金或优秀学生干部等"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-sz-dyxr-2026"
+      ],
+      "searchQueries": [
+        "苏州工业园区德元新融学校 招聘"
+      ],
+      "unresolved": []
+    },
+    {
+      "schoolId": "public-sz-suzhou-zhongxue",
+      "officialName": "江苏省苏州中学",
+      "website": {
+        "outcome": "found",
+        "url": "https://www.szzx1000.cn/",
+        "evidenceId": "src-sz-szzx-site",
+        "note": "官网首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sz-direct-44",
+        "src-sz-direct-high"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-sz-szzx-site",
+        "src-sz-direct-44",
+        "src-sz-direct-high"
+      ],
+      "searchQueries": [
+        "江苏省苏州中学 官网 网站",
+        "苏州市教育局 直属学校 2026 教师招聘 公告"
+      ],
+      "unresolved": [
+        "市直属两轮公告岗位表为附件未恢复，无法确认苏州中学岗位学科"
+      ]
+    },
+    {
+      "schoolId": "public-sz-shiyan-zhongxue",
+      "officialName": "江苏省苏州实验中学",
+      "website": {
+        "outcome": "found",
+        "url": "https://szsyzx.jssnd.edu.cn/",
+        "evidenceId": "src-sz-syzx-site",
+        "note": "官网首页返回200（含会话校验跳转）"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sz-snd-235"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-sz-syzx-site",
+        "src-sz-snd-235"
+      ],
+      "searchQueries": [
+        "江苏省苏州实验中学 官网 网站",
+        "苏州高新区 2026 教师招聘 事业编制 公告"
+      ],
+      "unresolved": [
+        "高新区235人公告岗位表为附件未恢复"
+      ]
+    },
+    {
+      "schoolId": "public-sz-xinghai-shiyan",
+      "officialName": "苏州工业园区星海实验高级中学",
+      "website": {
+        "outcome": "blocked",
+        "url": null,
+        "evidenceId": null,
+        "note": "官网候选域名 xhsy.sipedu.cn 连接失败，未能验证归属"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sz-sipac-400"
+      ],
+      "contacts": [
+        {
+          "id": "contact-sz-sipac-tel",
+          "channel": "phone",
+          "value": "0512-66681140",
+          "purpose": "招聘咨询",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026届（园区教育系统秋季招聘公告刊载）",
+          "validity": "往届",
+          "evidenceId": "src-sz-sipac-400",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-sz-sipac-400"
+      ],
+      "searchQueries": [
+        "苏州工业园区星海实验高级中学 官网"
+      ],
+      "unresolved": [
+        "园区400人公告岗位表为附件未恢复；官网无法访问"
+      ]
+    },
+    {
+      "schoolId": "public-sz-suda-fushu",
+      "officialName": "苏州大学附属中学",
+      "website": {
+        "outcome": "blocked",
+        "url": null,
+        "evidenceId": null,
+        "note": "官网候选域名 szsdfz.sipedu.cn 连接失败，未能验证归属"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sz-sipac-400"
+      ],
+      "contacts": [
+        {
+          "id": "contact-sz-sipac-tel",
+          "channel": "phone",
+          "value": "0512-66681140",
+          "purpose": "招聘咨询",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026届（园区教育系统秋季招聘公告刊载）",
+          "validity": "往届",
+          "evidenceId": "src-sz-sipac-400",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-sz-sipac-400"
+      ],
+      "searchQueries": [
+        "苏州大学附属中学 官网 网站"
+      ],
+      "unresolved": [
+        "园区400人公告岗位表为附件未恢复；官网无法访问"
+      ]
+    },
+    {
+      "schoolId": "public-sz-mudu-gaoji",
+      "officialName": "江苏省木渎高级中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.muduhs.com/",
+        "evidenceId": "src-sz-muduhs-site",
+        "note": "官网首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sz-wuzhong-145"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-sz-muduhs-site",
+        "src-sz-wuzhong-145"
+      ],
+      "searchQueries": [
+        "江苏省木渎高级中学 官网 网站",
+        "苏州市吴中区 2026 教师招聘 公告"
+      ],
+      "unresolved": [
+        "吴中区145人公告岗位表为附件未恢复"
+      ]
+    },
+    {
+      "schoolId": "public-sz-huangdai",
+      "officialName": "江苏省黄埭中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://hdzx.xcjyxx.com/",
+        "evidenceId": "src-sz-hdzx-site",
+        "note": "校园门户首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sz-xiangcheng-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-sz-hdzx-site",
+        "src-sz-xiangcheng-2026"
+      ],
+      "searchQueries": [
+        "江苏省黄埭中学 官网"
+      ],
+      "unresolved": [
+        "正式V2已含黄埭中学高中政治教师1名（2026届相城区批次）证据，本次扫描不重复录入"
+      ]
+    },
+    {
+      "schoolId": "public-sz-lumu",
+      "officialName": "苏州市相城区陆慕高级中学",
+      "website": {
+        "outcome": "blocked",
+        "url": null,
+        "evidenceId": null,
+        "note": "官网候选域名 lmzx.xcjyxx.com 连接失败，未能验证归属"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sz-xiangcheng-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-sz-xiangcheng-2026"
+      ],
+      "searchQueries": [
+        "苏州市相城区陆慕高级中学 官网"
+      ],
+      "unresolved": [
+        "正式V2已含陆慕高级中学高中政治教师2名（2026届相城区批次）证据，本次扫描不重复录入"
+      ]
+    },
+    {
+      "schoolId": "public-sz-suda-experimental",
+      "officialName": "苏州大学实验学校（高中）",
+      "website": {
+        "outcome": "blocked",
+        "url": null,
+        "evidenceId": null,
+        "note": "官网候选域名 sdssy.xcjyxx.com 连接失败，未能验证归属"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sz-xiangcheng-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-sz-xiangcheng-2026"
+      ],
+      "searchQueries": [
+        "苏州大学实验学校 官网"
+      ],
+      "unresolved": [
+        "相城区批次岗位表未恢复该校具体岗位"
+      ]
+    },
+    {
+      "schoolId": "public-sz-xiangcheng",
+      "officialName": "相城中学（高中）",
+      "website": {
+        "outcome": "found",
+        "url": "http://xczx.xcjyxx.com/",
+        "evidenceId": "src-sz-xczx-site",
+        "note": "校园门户首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sz-xiangcheng-2026"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-sz-xczx-site",
+        "src-sz-xiangcheng-2026"
+      ],
+      "searchQueries": [
+        "相城中学 官网"
+      ],
+      "unresolved": [
+        "相城区批次岗位表未恢复该校具体岗位"
+      ]
+    },
+    {
+      "schoolId": "public-sz-liangfeng",
+      "officialName": "梁丰高级中学",
+      "website": {
+        "outcome": "blocked",
+        "url": null,
+        "evidenceId": null,
+        "note": "官网候选域名 www.lfgjzx.com 被机房安全管理系统拦截，未能验证归属"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sz-zjg-69"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-sz-zjg-69"
+      ],
+      "searchQueries": [
+        "梁丰高级中学 官网 网站",
+        "张家港市 2026 教师招聘 事业编制 公告"
+      ],
+      "unresolved": [
+        "张家港69人公告岗位表为附件未恢复"
+      ]
+    }
+  ],
+  "coverageGaps": [
+    {
+      "schoolId": null,
+      "description": "苏州市直属、吴中、高新区、园区、张家港2026届公告的岗位表均为附件未恢复，无法逐校确认政治/历史岗位",
+      "evidenceIds": [
+        "src-sz-direct-44",
+        "src-sz-direct-high",
+        "src-sz-wuzhong-145",
+        "src-sz-snd-235",
+        "src-sz-sipac-400",
+        "src-sz-zjg-69"
+      ],
+      "nextAction": "下载各公告岗位简介表逐校确认"
+    },
+    {
+      "schoolId": null,
+      "description": "星海实验高级中学、苏大附中、陆慕高级中学、苏大实验学校、梁丰高级中学官网候选域名连接失败或遭拦截，未能验证归属",
+      "evidenceIds": [
+        "src-sz-sipac-400",
+        "src-sz-zjg-69"
+      ],
+      "nextAction": "通过学校公众号或教育部门核实官网"
+    }
+  ],
+  "notes": [
+    "本批次为待 Codex 审核的暂存资料，不导入正式数据。",
+    "德元新融学校为苏州唯一在池民办高中，2026年师资招聘启事含政治、历史岗位，免费教师公寓与工作餐，2026届研究生可先上岗后考证。",
+    "相城区2026年7月批次（含黄埭、陆慕高中政治岗位）已在正式V2核验，本次扫描不再重复录入岗位。",
+    "苏州多区公告均明确：高中教师岗位硕士及以上人员教师资格证可后补（试用期1年内或2027-08-31前），对用户有利。"
+  ]
+}

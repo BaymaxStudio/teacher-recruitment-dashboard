@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "isTemplate": false,
+  "batchId": "jiaxing-dsh-b1",
+  "province": "浙江",
+  "city": "嘉兴",
+  "researchedAt": "2026-08-21",
+  "researcher": "DeepSeek Harness + DeepSeek-V4-Flash",
+  "sources": [
+    {
+      "id": "src-jx-no1-round4",
+      "title": "2026年嘉兴市第一中学公开招聘优秀教师公告（第四轮）",
+      "url": "https://jyj.jiaxing.gov.cn/col/col1569769/art/2026/art_b163027907fd4c5c98f57e8288ff01d9.html",
+      "publisher": "嘉兴市教育局",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-07-28",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（第四轮公开招聘事业编制2名，报名2026-07-28至08-05，已截止）",
+      "note": "岗位表为附件未恢复；2026年应届毕业生教师资格证书最迟2027-08-31取得；年龄38周岁及以下；网报平台为嘉兴市教师招聘报名系统"
+    },
+    {
+      "id": "src-jx-no1-zjnu",
+      "title": "教师招聘｜2026年嘉兴市第一中学公开招聘优秀教师公告（浙江师范大学就业网转载）",
+      "url": "https://career.zjnu.edu.cn/news/view/aid/432029/tag/jszp?PageSpeed=noscript",
+      "publisher": "浙江师范大学就业信息网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "2026届（嘉兴一中公开招聘优秀教师公告转载）",
+      "note": "页面提示网站暂不开放，正文未取得"
+    },
+    {
+      "id": "src-jx-jiashan-gov",
+      "title": "嘉善县教育局2026年嘉善县公开招聘教师公告",
+      "url": "http://www.jiashan.gov.cn/col/col1229373860/art/2026/art_54e62addb911420d9d9e01a8f874d16d.html",
+      "publisher": "嘉善县人民政府（嘉善县教育局）",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-07-03",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（事业编制37名含高中教师7名，报名至2026-07-09，已截止）",
+      "note": "报名微信扫码加现场验证；高中教师户籍不限；年龄38周岁以下；岗位表为附件未恢复"
+    },
+    {
+      "id": "src-jx-jsgj-round3",
+      "title": "2026年嘉兴市嘉善高级中学赴高校招聘优秀教师公告（第三批）",
+      "url": "http://jiyuan.jrzp.com/shiyezhaopin/4D7C692546C6CB05.shtml",
+      "publisher": "今日招聘网（jrzp）",
+      "sourceLevel": "D_aggregator",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-03-20",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（赴高校招聘第三批，事业编制，岗位含高中数学1名）",
+      "note": "招聘条件为2026届硕士（本科须师范专业或教育学门类）、一流大学硕士、国优计划、指定师范院校师范本科等；报名扫码加现场确认（杭师大）；岗位信息经聚合站转载，需复核"
+    },
+    {
+      "id": "src-jx-pinghu-gov",
+      "title": "平湖市教育局2026学年公开招聘事业编制教师公告",
+      "url": "http://www.pinghu.gov.cn/col/col1229406239/art/2026/art_1026ad09390863e895e3fc4689a535f8.html",
+      "publisher": "平湖市人民政府（平湖市教育局）",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（2026学年公开招聘事业编制教师，含面向平湖城区普通高中统配岗位）",
+      "note": "报考城区普通高中统配岗位须高中段及以上教师资格证；初中教资可报中学段统配并在2028-12-31前取得高中教资；岗位表为附件未恢复"
+    },
+    {
+      "id": "src-jx-pinghu-politics",
+      "title": "政治教师1（高校人才网-平湖市教育局2026年岗位）",
+      "url": "https://www.gaoxiaojob.com/job/detail/1864255.html",
+      "publisher": "高校人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（平湖市教育局政治教师1岗位）",
+      "note": "页面标题确认平湖市教育局2026年政治教师1岗位；详情经脚本渲染，对应公告与学校需复核"
+    },
+    {
+      "id": "src-jx-txgj-round3",
+      "title": "桐乡市教育系统公开招聘2026学年教师（第三批）公告",
+      "url": "http://www.tx.gov.cn/col/col1229403290/art/2026/art_6c474721bcc54844a9ff69ada7bcacfe.html",
+      "publisher": "桐乡市人民政府（市教育局）",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-06-09",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（第三批公开招聘34名，报名2026-06-10至17，已截止）",
+      "note": "研究生毕业并具有硕士及以上学位人员户籍不限；年龄18至38周岁；网报平台zp.zjtxedu.cn；岗位表为附件未恢复"
+    },
+    {
+      "id": "src-jx-txgj-12",
+      "title": "浙江省桐乡市高级中学公开招聘2026学年事业编制教师公告（12名）",
+      "url": "http://www.tx.gov.cn/col/col1229403290/art/2025/art_bbe2a445133442239d05be4c0c0134d3.html",
+      "publisher": "桐乡市人民政府（市教育局）",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026学年（桐乡高级中学公开招聘事业编制教师12名，2025-10发布）",
+      "note": "岗位表为附件未恢复；学科教师岗位对学历与奖学金有要求，部分条件可放宽；地市级学科带头人往届人员年龄可放宽至40周岁"
+    },
+    {
+      "id": "src-jx-no1-site",
+      "title": "嘉兴市第一中学官网首页",
+      "url": "http://www.jxedu.net/",
+      "publisher": "嘉兴市第一中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称"
+    }
+  ],
+  "schoolScans": [
+    {
+      "schoolId": "public-jx-no1",
+      "officialName": "嘉兴市第一中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.jxedu.net/",
+        "evidenceId": "src-jx-no1-site",
+        "note": "官网首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-jx-no1-round4",
+        "src-jx-no1-zjnu"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-jx-no1-site",
+        "src-jx-no1-round4",
+        "src-jx-no1-zjnu"
+      ],
+      "searchQueries": [
+        "嘉兴市第一中学 官网 招聘 教师",
+        "嘉兴市第一中学 2026 招聘 政治 历史 教师"
+      ],
+      "unresolved": [
+        "第四轮岗位表为附件未恢复（1岗位2名，学科未知）",
+        "第一轮（2025-11，12名）公告正文未取得（浙师大页面暂不开放）"
+      ]
+    },
+    {
+      "schoolId": "public-jx-jiashan",
+      "officialName": "嘉善高级中学",
+      "website": {
+        "outcome": "blocked",
+        "url": null,
+        "evidenceId": null,
+        "note": "候选域名 www.jsgjzx.cn 返回403，未能验证归属；未见其他官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-jx-jiashan-gov",
+        "src-jx-jsgj-round3"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-jx-jiashan-gov",
+        "src-jx-jsgj-round3"
+      ],
+      "searchQueries": [
+        "嘉善高级中学 官网 招聘",
+        "嘉善高级中学 学校网站 官网"
+      ],
+      "unresolved": [
+        "嘉善县2026年公开招聘岗位表未恢复（高中教师7名学科未知）",
+        "赴高校第三批岗位为高中数学1名，无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "public-jx-pinghu",
+      "officialName": "浙江省平湖中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "候选域名 www.phzx.net 与 ph.smschool.org.cn 均无法访问，未发现可访问官网"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-jx-pinghu-gov",
+        "src-jx-pinghu-politics"
+      ],
+      "contacts": [],
+      "jobLeads": [
+        {
+          "id": "lead-jx-pinghu-politics",
+          "title": "政治教师1（2026届，平湖市教育局统配）——平湖市城区普通高中",
+          "subjectTags": [
+            "政治/道法"
+          ],
+          "recruitmentCycle": "2026届（平湖市教育局2026学年公开招聘）",
+          "status": "往届参考",
+          "publishedAt": null,
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "报考面向平湖城区普通高中统配岗位须具有高中段及以上教师资格证",
+            "全日制普通高校2026年应届毕业生可按所学专业报考相应岗位，也可按已取得的教师资格证书所列任教学段、学科报考",
+            "具有初中及以上学段教师资格证的人员允许报考中学段统配岗位，须在2028年12月31日前取得高中及以上学段的相应教师资格证"
+          ],
+          "selectionProcessRaw": [],
+          "applicationMethod": "unknown",
+          "applicationUrl": null,
+          "sourceEvidenceIds": [
+            "src-jx-pinghu-politics",
+            "src-jx-pinghu-gov"
+          ],
+          "note": "政治教师1岗位信息来自平台职位页（高校人才网）；平湖市教育局2026学年公告岗位表为附件未恢复，岗位对应学校与报名方式需复核；正式V2已含平湖中学2025年政治岗位往届证据"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-jx-pinghu-gov",
+        "src-jx-pinghu-politics"
+      ],
+      "searchQueries": [
+        "浙江省平湖中学 官网 招聘",
+        "平湖市 2026 教师招聘 事业编制 公告",
+        "浙江省平湖中学 学校网站 官网"
+      ],
+      "unresolved": [
+        "平湖市教育局2026学年公告岗位表未恢复，政治教师1岗位对应学校（统配）待确认"
+      ]
+    },
+    {
+      "schoolId": "public-jx-tongxiang",
+      "officialName": "浙江省桐乡市高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "候选域名 www.txgjzx.net.cn 无法访问，未发现可访问官网"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-jx-txgj-round3",
+        "src-jx-txgj-12"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-jx-txgj-round3",
+        "src-jx-txgj-12"
+      ],
+      "searchQueries": [
+        "浙江省桐乡市高级中学 官网 招聘",
+        "桐乡市 2026 教师招聘 事业编制 公告",
+        "浙江省桐乡市高级中学 学校网站 官网"
+      ],
+      "unresolved": [
+        "桐乡高级中学12名与桐乡市第三批34名岗位表均未恢复，无法确认是否含政治/历史岗位"
+      ]
+    }
+  ],
+  "coverageGaps": [
+    {
+      "schoolId": null,
+      "description": "嘉兴市本级、嘉善县、平湖市、桐乡市2026届教师招聘公告的岗位表均为附件未恢复，无法逐校确认政治/历史岗位",
+      "evidenceIds": [
+        "src-jx-no1-round4",
+        "src-jx-jiashan-gov",
+        "src-jx-pinghu-gov",
+        "src-jx-txgj-round3",
+        "src-jx-txgj-12"
+      ],
+      "nextAction": "下载各公告附件岗位表逐校确认"
+    },
+    {
+      "schoolId": "public-jx-jiashan",
+      "description": "嘉善高级中学官网候选域名返回403，未能验证归属",
+      "evidenceIds": [
+        "src-jx-jsgj-round3"
+      ],
+      "nextAction": "通过学校公众号或嘉善县教育局核实官网"
+    },
+    {
+      "schoolId": "public-jx-tongxiang",
+      "description": "桐乡高级中学未发现可访问官网",
+      "evidenceIds": [
+        "src-jx-txgj-12"
+      ],
+      "nextAction": "通过学校公众号或桐乡市教育局核实官网"
+    },
+    {
+      "schoolId": "public-jx-pinghu",
+      "description": "平湖中学未发现可访问官网",
+      "evidenceIds": [
+        "src-jx-pinghu-gov"
+      ],
+      "nextAction": "通过学校公众号或平湖市教育局核实官网"
+    }
+  ],
+  "notes": [
+    "本批次为待 Codex 审核的暂存资料，不导入正式数据。",
+    "嘉兴公办教师招聘以市、县两级教育局统一招聘为主，学校一般不单独发布招聘公告；政治教师1岗位为平湖市统配岗位，与正式V2已有的平湖中学2025年政治岗位可衔接。",
+    "嘉兴市直属轮次公告中：应届毕业生教师资格证书最迟2027-08-31取得（第四轮）；桐乡市第三批硕士及以上户籍不限。"
+  ]
+}

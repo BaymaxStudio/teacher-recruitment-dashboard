@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "isTemplate": true,
+  "batchId": "replace-with-batch-id",
+  "province": "浙江",
+  "city": "宁波",
+  "researchedAt": "2026-08-21",
+  "researcher": "DeepSeek Harness + DeepSeek-V4-Flash",
+  "sources": [],
+  "schoolScans": [],
+  "coverageGaps": [],
+  "notes": [
+    "正式试采文件写入 research/staging/dsh/，并把 isTemplate 改为 false。",
+    "只记录公开页面；不得登录、扫码、联系学校或把搜索摘要当成已访问正文。",
+    "联系方式可来自所有公开来源，但必须记录来源等级、届次和时效；不得保存联系人姓名。"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.invalid/schemas/recruitment-scan.schema.json",
+  "title": "十四城学校招聘扫描暂存资料包",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "isTemplate", "batchId", "province", "city", "researchedAt", "researcher", "sources", "schoolScans", "coverageGaps", "notes"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "isTemplate": { "type": "boolean" },
+    "batchId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "province": { "enum": ["广东", "浙江", "江苏"] },
+    "city": { "enum": ["广州", "深圳", "佛山", "珠海", "惠州", "东莞", "杭州", "宁波", "温州", "嘉兴", "绍兴", "南京", "苏州", "无锡"] },
+    "researchedAt": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "researcher": { "type": "string", "minLength": 1 },
+    "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } },
+    "schoolScans": { "type": "array", "items": { "$ref": "#/$defs/schoolScan" } },
+    "coverageGaps": { "type": "array", "items": { "$ref": "#/$defs/gap" } },
+    "notes": { "type": "array", "items": { "type": "string" } }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "url", "publisher", "sourceLevel", "sourceType", "publishedAt", "accessedAt", "accessState", "recruitmentCycle", "note"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^src-[a-z0-9-]+$" },
+        "title": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "pattern": "^https?://" },
+        "publisher": { "type": "string", "minLength": 1 },
+        "sourceLevel": { "enum": ["A1_government", "A2_school_official", "B_university_career", "C_recruitment_platform", "D_aggregator"] },
+        "sourceType": { "enum": ["学校主页", "学校招聘页", "招聘系统", "联系方式页", "官方公众号", "招聘公告", "岗位表", "第三方岗位"] },
+        "publishedAt": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "accessedAt": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "accessState": { "enum": ["ok", "qr_only", "login_required", "blocked", "dead"] },
+        "recruitmentCycle": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "channel", "value", "purpose", "contactIdentity", "recruitmentCycle", "validity", "evidenceId", "lastVerified"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^contact-[a-z0-9-]+$" },
+        "channel": { "enum": ["email", "phone", "wechat", "other"] },
+        "value": { "type": "string", "minLength": 1 },
+        "purpose": { "enum": ["招聘咨询", "简历投递", "学校总机", "招生咨询", "未明确"] },
+        "contactIdentity": { "enum": ["机构", "公告中的招聘联系人", "未明确"] },
+        "recruitmentCycle": { "type": "string", "minLength": 1 },
+        "validity": { "enum": ["当前届次", "常年", "往届", "时效待确认"] },
+        "evidenceId": { "type": "string" },
+        "lastVerified": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+      }
+    },
+    "jobLead": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "subjectTags", "recruitmentCycle", "status", "publishedAt", "deadline", "expectedStart", "salaryRaw", "housingRaw", "mealsRaw", "workloadRaw", "requirementsRaw", "selectionProcessRaw", "applicationMethod", "applicationUrl", "sourceEvidenceIds", "note"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^lead-[a-z0-9-]+$" },
+        "title": { "type": "string", "minLength": 1 },
+        "subjectTags": { "type": "array", "uniqueItems": true, "items": { "enum": ["政治/道法", "经济/商科", "全球视野/社科", "历史/人文", "其他"] } },
+        "recruitmentCycle": { "type": "string", "minLength": 1 },
+        "status": { "enum": ["2027当前", "常年入口", "往届参考", "状态待确认"] },
+        "publishedAt": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "deadline": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "expectedStart": { "type": "string" },
+        "salaryRaw": { "type": "string" },
+        "housingRaw": { "type": "string" },
+        "mealsRaw": { "type": "string" },
+        "workloadRaw": { "type": "array", "items": { "type": "string" } },
+        "requirementsRaw": { "type": "array", "items": { "type": "string" } },
+        "selectionProcessRaw": { "type": "array", "items": { "type": "string" } },
+        "applicationMethod": { "enum": ["web", "email", "platform", "qr", "onsite", "unknown"] },
+        "applicationUrl": { "type": ["string", "null"], "pattern": "^https?://" },
+        "sourceEvidenceIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string" } },
+        "note": { "type": "string" }
+      }
+    },
+    "schoolScan": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schoolId", "officialName", "website", "recruitmentOutcome", "recruitmentChannelEvidenceIds", "contacts", "jobLeads", "checkedEvidenceIds", "searchQueries", "unresolved"],
+      "properties": {
+        "schoolId": { "type": "string", "minLength": 1 },
+        "officialName": { "type": "string", "minLength": 1 },
+        "website": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["outcome", "url", "evidenceId", "note"],
+          "properties": {
+            "outcome": { "enum": ["found", "not_found", "blocked", "pending"] },
+            "url": { "type": ["string", "null"], "pattern": "^https?://" },
+            "evidenceId": { "type": ["string", "null"] },
+            "note": { "type": "string" }
+          }
+        },
+        "recruitmentOutcome": { "enum": ["current_2027_found", "evergreen_found", "historical_found", "not_found", "blocked", "qr_only", "pending"] },
+        "recruitmentChannelEvidenceIds": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+        "contacts": { "type": "array", "items": { "$ref": "#/$defs/contact" } },
+        "jobLeads": { "type": "array", "items": { "$ref": "#/$defs/jobLead" } },
+        "checkedEvidenceIds": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+        "searchQueries": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "unresolved": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "gap": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schoolId", "description", "evidenceIds", "nextAction"],
+      "properties": {
+        "schoolId": { "type": ["string", "null"] },
+        "description": { "type": "string", "minLength": 1 },
+        "evidenceIds": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+        "nextAction": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

@@ -1,0 +1,898 @@
+{
+  "schemaVersion": 1,
+  "isTemplate": false,
+  "batchId": "shaoxing-dsh-b1",
+  "province": "浙江",
+  "city": "绍兴",
+  "researchedAt": "2026-08-21",
+  "researcher": "DeepSeek Harness + DeepSeek-V4-Flash",
+  "sources": [
+    {
+      "id": "src-sx-direct-round2",
+      "title": "绍兴市教育局关于市直学校2026年教师招引（第二轮）公告（华图转载）",
+      "url": "https://m.huatu.com/jiaoshi/2026/0206/2850044.html",
+      "publisher": "华图教育（转载绍兴市教育局公告）",
+      "sourceLevel": "D_aggregator",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-02-06",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（市直学校2026年教师招引第二轮23名，报名已截止）",
+      "note": "含岗位表xlsx附件；条件：教师资格证2026-08-10前取得，38周岁以下，2026届硕士或获奖本科等；A1原文（jyj.sx.gov.cn）待复核"
+    },
+    {
+      "id": "src-sx-direct-round2-table",
+      "title": "绍兴市教育局市直学校2026年教师招引（第二轮）计划表（xlsx岗位表）",
+      "url": "https://u3.huatu.com/uploads/soft/260206/1_2.xlsx",
+      "publisher": "华图教育（转载岗位表）",
+      "sourceLevel": "D_aggregator",
+      "sourceType": "岗位表",
+      "publishedAt": "2026-02-06",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（市直二轮岗位表，11个岗位23人）",
+      "note": "岗位表含政治（学校为绍兴一中教育集团龙山校区，专业含哲学01、经济学02、法学03、学科教学思政045102）与历史（越州中学）岗位"
+    },
+    {
+      "id": "src-sx-yuecheng-2",
+      "title": "越城区教育体育局2026年新教师招聘公告（二）",
+      "url": "https://www.sxyc.gov.cn/col/col1229445083/art/2026/art_188f3447ea5a42bdb1ebbd7dac118a57.html",
+      "publisher": "绍兴市越城区人民政府（区教体局）",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-04-17",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（越城区新教师招聘20名，报名2026-04-20至28，已截止）",
+      "note": "本科及以上学历学位、户籍不限；笔试（教育基础30%+学科专业70%）加模拟上课面试各50%；初中部分学科设硕士A岗；岗位表为附件未恢复"
+    },
+    {
+      "id": "src-sx-shangyu-18",
+      "title": "2026年绍兴市上虞区教师公开招聘公告",
+      "url": "http://www.shangyu.gov.cn/col/col1229703816/art/2026/art_d8a51d456399456280594a4769396145.html",
+      "publisher": "绍兴市上虞区人民政府（区教体局）",
+      "sourceLevel": "A1_government",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-04-17",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026届（上虞区公开招聘事业编制18名，报名2026-04-20至28，已截止）",
+      "note": "普高教师4名（语文1、历史1、地理2）；初中教师含社会2名；普高岗位要求相应专业硕士（2025-2026届持教资考试合格证明或已持相符教资证书）；1987-04-17后出生、户籍不限"
+    },
+    {
+      "id": "src-sx-keqiao-zjnu",
+      "title": "教师招聘｜绍兴市柯桥区教育体育系统2026年新教师公开招聘公告（三）（浙江师范大学就业网转载）",
+      "url": "https://career.zjnu.edu.cn/news/view/aid/431188/tag/?PageSpeed=noscript",
+      "publisher": "浙江师范大学就业信息网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-04-17",
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "2026届（柯桥区新教师公开招聘第三批70名）",
+      "note": "页面提示网站暂不开放，正文未取得"
+    },
+    {
+      "id": "src-sx-keqiao-offcn",
+      "title": "2026年绍兴市柯桥区教体系统新教师公开招聘70人公告（三）（中公转载）",
+      "url": "http://www.offcn.com/jiaoshi/2026/0420/787215.html",
+      "publisher": "中公教师网（offcn）",
+      "sourceLevel": "D_aggregator",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-04-20",
+      "accessedAt": "2026-08-21",
+      "accessState": "blocked",
+      "recruitmentCycle": "2026届（柯桥区新教师公开招聘第三批70名转载）",
+      "note": "页面返回403，正文未取得"
+    },
+    {
+      "id": "src-sx-longshan-2026",
+      "title": "【教师招考】2026年绍兴一中教育集团龙山书院教师招聘公告（安徽师范大学就业网转载）",
+      "url": "https://career.ahnu.edu.cn/info/1008/33502.htm",
+      "publisher": "安徽师范大学就业服务网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": "2026-06-01",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2026年招聘（第4次报名至2026-06-12止，学校按储备持续招聘）",
+      "note": "岗位含高中数学、英语、物理、化学、地理、历史学科教师；合同制、五险二金（含年金）、提供精装修教师公寓；高校优秀毕业生为2024-2026年硕士（师范类可放宽至本科）等"
+    },
+    {
+      "id": "src-sx-boya-ls",
+      "title": "绍兴初中历史与社会教师招聘-绍兴市博雅学校（今日招聘网）",
+      "url": "https://hezhou.jrzp.com/job2703228.shtml",
+      "publisher": "今日招聘网（jrzp）",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": "2026-07-10",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（更新2026-07-10）",
+      "note": "应届毕业生、本科及以上、面议；要求一本及以上学历或同等海外学历，国际部和海外部要求全英文教学，年龄原则上不超过45岁"
+    },
+    {
+      "id": "src-sx-guojie-ls",
+      "title": "绍兴高中历史教师（中青年）招聘-绍兴市柯桥区国杰实验学校（今日招聘网）",
+      "url": "http://sh.jrzp.com/main/job/jobDetails.aspx?pid=2811483",
+      "publisher": "今日招聘网（jrzp）",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "第三方岗位",
+      "publishedAt": "2026-07-23",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台岗位（更新2026-07-23）",
+      "note": "本科以上学历，男50周岁、女45周岁以下，相应教师资格证书、普通话二级乙等以上；材料可发学校邮箱"
+    },
+    {
+      "id": "src-sx-jrhz-15w",
+      "title": "15万+绍兴市金融街杭州湾学校教师招聘（教师人才网学校页）",
+      "url": "https://jiaoshi.com.cn/school/cmmz5seh907g9ok8srxe8xnlm",
+      "publisher": "教师人才网（jiaoshi.com.cn）",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "招聘公告",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "常年招聘（应往届15万起步，骨干20-40万起步）",
+      "note": "应往届毕业生15万起步、公办教师身份20万起步、县区学科带头人25万起步、地市级30万起步、副高35万起步、正高特级40万起步；五险一金另计；50%教师可按报备员额制聘用；考核为面谈10%+笔试20%+模拟上课70%"
+    },
+    {
+      "id": "src-sx-yonghe-2025",
+      "title": "教师招聘｜绍兴市永和高级中学招聘教师（辽宁师范大学就业网转载）",
+      "url": "https://lsdjyw.lnnu.edu.cn/news/view/aid/298636/tag/",
+      "publisher": "辽宁师范大学就业信息网",
+      "sourceLevel": "B_university_career",
+      "sourceType": "招聘公告",
+      "publishedAt": "2025-06-25",
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "2025年公告（报名通道持续开放中）",
+      "note": "招聘高中数学教师两名；要求高级中学教师资格证、普通话等级证（语文二甲、其他二乙）；研究生、双一流大学毕业生可按相近专业报考"
+    },
+    {
+      "id": "src-sx-jsq-job910",
+      "title": "绍兴蕺山外国语学校招聘主页（万行教师人才网）",
+      "url": "https://www.job910.com/school_view_55477.html",
+      "publisher": "万行教师人才网",
+      "sourceLevel": "C_recruitment_platform",
+      "sourceType": "学校招聘页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "平台招聘主页",
+      "note": "招聘主页可访问，页面导航为主，在招岗位未在静态文本中恢复"
+    },
+    {
+      "id": "src-sx-no1-site",
+      "title": "绍兴市第一中学官网首页",
+      "url": "http://www.sxyz.net/",
+      "publisher": "绍兴市第一中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称"
+    },
+    {
+      "id": "src-sx-yangming-site",
+      "title": "绍兴市阳明中学官网首页",
+      "url": "http://www.sxymzx.cn/",
+      "publisher": "绍兴市阳明中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称"
+    },
+    {
+      "id": "src-sx-senior-site",
+      "title": "绍兴市高级中学官网首页",
+      "url": "http://www.shaogao.com/",
+      "publisher": "绍兴市高级中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称"
+    },
+    {
+      "id": "src-sx-yuezhou-site",
+      "title": "越州中学官网首页",
+      "url": "http://www.zjsyzzx.cn/",
+      "publisher": "越州中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称"
+    },
+    {
+      "id": "src-sx-chunhui-site",
+      "title": "浙江省春晖中学官网首页",
+      "url": "https://www.zjchzx.com.cn/",
+      "publisher": "浙江省春晖中学",
+      "sourceLevel": "A2_school_official",
+      "sourceType": "学校主页",
+      "publishedAt": null,
+      "accessedAt": "2026-08-21",
+      "accessState": "ok",
+      "recruitmentCycle": "",
+      "note": "官网首页含校名全称"
+    }
+  ],
+  "schoolScans": [
+    {
+      "schoolId": "private-sx-jishan",
+      "officialName": "绍兴蕺山外国语学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sx-jsq-job910"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-sx-jsq-job910"
+      ],
+      "searchQueries": [
+        "绍兴蕺山外国语学校 招聘 教师"
+      ],
+      "unresolved": [
+        "招聘主页在招岗位未在静态文本中恢复"
+      ]
+    },
+    {
+      "schoolId": "private-sx-longshan",
+      "officialName": "绍兴龙山书院",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网（学校2025年新建投用，官方信息主要通过绍兴一中集团渠道发布）"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sx-longshan-2026",
+        "src-sx-direct-round2"
+      ],
+      "contacts": [
+        {
+          "id": "contact-sx-longshan-mail",
+          "channel": "email",
+          "value": "sxlssy189@163.com",
+          "purpose": "简历投递",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026年招聘（龙山书院公告）",
+          "validity": "时效待确认",
+          "evidenceId": "src-sx-longshan-2026",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-sx-longshan-tel",
+          "channel": "phone",
+          "value": "0575-88169898",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2026年招聘（龙山书院公告）",
+          "validity": "时效待确认",
+          "evidenceId": "src-sx-longshan-2026",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-sx-longshan-round2-mail",
+          "channel": "email",
+          "value": "sxyzxzxx2020@163.com",
+          "purpose": "简历投递",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026届（市直二轮政治岗位报名邮箱）",
+          "validity": "往届",
+          "evidenceId": "src-sx-direct-round2-table",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [
+        {
+          "id": "lead-sx-longshan-politics",
+          "title": "高中政治教师（市直二轮）——绍兴一中教育集团龙山校区（龙山高级中学）",
+          "subjectTags": [
+            "政治/道法"
+          ],
+          "recruitmentCycle": "2026届（市直学校2026年教师招引第二轮，报名已截止）",
+          "status": "往届参考",
+          "publishedAt": "2026-02-06",
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "研究生专业：哲学01、经济学02、法学03、学科教学（思政）045102；本科生专业：哲学01、经济学02、法学03",
+            "持有与招引岗位一致的教师资格证（2026年8月10日前取得）",
+            "年龄38周岁以下（1987年2月7日之后出生）",
+            "普通高中文化课岗位条件：2026届硕士研究生及以上，或获国家/省政府奖学金、省级师范生教学技能大赛奖项等的2026届本科毕业生，或相关荣誉在职教师"
+          ],
+          "selectionProcessRaw": [
+            "公开报名、专业能力测试和教学能力测试，按岗位择优聘用"
+          ],
+          "applicationMethod": "email",
+          "applicationUrl": null,
+          "sourceEvidenceIds": [
+            "src-sx-direct-round2",
+            "src-sx-direct-round2-table"
+          ],
+          "note": "政治岗位专业要求明确含经济学02（经济学门类），与用户国际经济与贸易本科背景相关；学校为绍兴一中教育集团龙山校区（民办），报名邮箱为集团统一邮箱"
+        },
+        {
+          "id": "lead-sx-longshan-teacher",
+          "title": "高中历史学科教师（龙山书院2026年招聘公告）",
+          "subjectTags": [
+            "历史/人文"
+          ],
+          "recruitmentCycle": "2026年招聘（第4次报名至2026-06-12止）",
+          "status": "往届参考",
+          "publishedAt": null,
+          "deadline": "2026-06-12",
+          "expectedStart": "",
+          "salaryRaw": "",
+          "housingRaw": "学校提供精装修的教师公寓",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "高校优秀毕业生：年龄35周岁及以下，2024-2026年其他高校硕士毕业生（师范类学历可放宽至本科）或顶尖高校本科毕业生等",
+            "在职优秀教师：40周岁及以下、五年及以上普高任教经历且具有地市级及以上荣誉等",
+            "教师为合同制身份，参加五险二金（含年金）"
+          ],
+          "selectionProcessRaw": [
+            "线上线下相结合报名，材料发送至学校邮箱",
+            "资格审核后择优确定面试人员名单",
+            "面试（学科专业综合素养与课堂教学能力）",
+            "体检后签订劳动合同"
+          ],
+          "applicationMethod": "email",
+          "applicationUrl": null,
+          "sourceEvidenceIds": [
+            "src-sx-longshan-2026"
+          ],
+          "note": "招聘岗位含高中数学、英语、物理、化学、地理、历史学科教师；第4次报名截止2026-06-12，未找到当前持续招聘入口证据"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-sx-longshan-2026",
+        "src-sx-direct-round2",
+        "src-sx-direct-round2-table"
+      ],
+      "searchQueries": [
+        "绍兴龙山书院 招聘 教师",
+        "2026学年绍兴一中教育集团龙山书院教师招聘"
+      ],
+      "unresolved": [
+        "市直二轮公告A1原文（jyj.sx.gov.cn）待复核（现以华图转载与岗位表为准）"
+      ]
+    },
+    {
+      "schoolId": "private-sx-boya",
+      "officialName": "绍兴市博雅学校",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sx-boya-ls"
+      ],
+      "contacts": [],
+      "jobLeads": [
+        {
+          "id": "lead-sx-boya-ls",
+          "title": "初中历史与社会教师——绍兴市博雅学校",
+          "subjectTags": [
+            "历史/人文",
+            "政治/道法"
+          ],
+          "recruitmentCycle": "平台岗位（更新2026-07-10）",
+          "status": "状态待确认",
+          "publishedAt": null,
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "面议（未公开）",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "一本及以上学历，或同等海外学历",
+            "国际部和海外部要求全英文教学",
+            "教师年龄原则上不超过45岁，特级教师、市级学科带头人、优质课一等奖获得者可适当放宽"
+          ],
+          "selectionProcessRaw": [],
+          "applicationMethod": "platform",
+          "applicationUrl": "https://hezhou.jrzp.com/job2703228.shtml",
+          "sourceEvidenceIds": [
+            "src-sx-boya-ls"
+          ],
+          "note": "初中历史与社会为道法、历史、地理综合学科；平台页面提示职位信息待核验"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-sx-boya-ls"
+      ],
+      "searchQueries": [
+        "绍兴市博雅学校 招聘"
+      ],
+      "unresolved": []
+    },
+    {
+      "schoolId": "private-sx-guojie",
+      "officialName": "绍兴市柯桥区国杰高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sx-guojie-ls"
+      ],
+      "contacts": [
+        {
+          "id": "contact-sx-guojie-mail",
+          "channel": "email",
+          "value": "qfczxzp@163.com",
+          "purpose": "简历投递",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "平台岗位（国杰实验学校）",
+          "validity": "时效待确认",
+          "evidenceId": "src-sx-guojie-ls",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [
+        {
+          "id": "lead-sx-guojie-ls",
+          "title": "高中历史教师（中青年）——绍兴市柯桥区国杰实验学校",
+          "subjectTags": [
+            "历史/人文"
+          ],
+          "recruitmentCycle": "平台岗位（更新2026-07-23）",
+          "status": "状态待确认",
+          "publishedAt": null,
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "面议（未公开）",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "大学本科以上学历，年龄男50周岁、女45周岁以下",
+            "取得相应教师资格证书，普通话在二级乙等以上",
+            "具有较高教育管理能力、能胜任班主任工作更好"
+          ],
+          "selectionProcessRaw": [
+            "将证明材料复印件与简历寄至学校人力资源部，或发送至学校邮箱（邮件主题按指定格式）"
+          ],
+          "applicationMethod": "email",
+          "applicationUrl": null,
+          "sourceEvidenceIds": [
+            "src-sx-guojie-ls"
+          ],
+          "note": "平台发布单位写为绍兴市柯桥区国杰实验学校，与目标校名（国杰高级中学）关系待复核"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-sx-guojie-ls"
+      ],
+      "searchQueries": [
+        "绍兴市柯桥区国杰高级中学 招聘 教师"
+      ],
+      "unresolved": [
+        "平台发布单位写为国杰实验学校，与目标校名关系待复核"
+      ]
+    },
+    {
+      "schoolId": "private-sx-financial-street",
+      "officialName": "绍兴市上虞区金融街杭州湾高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sx-jrhz-15w"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-sx-jrhz-15w"
+      ],
+      "searchQueries": [
+        "绍兴市上虞区金融街杭州湾高级中学 招聘 教师"
+      ],
+      "unresolved": [
+        "15万+招聘公告的具体学科列表未恢复；薪资原文已记录（应往届15万起步，骨干20-40万起步，五险一金另计）"
+      ]
+    },
+    {
+      "schoolId": "private-sx-yonghe",
+      "officialName": "绍兴市永和高级中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sx-yonghe-2025"
+      ],
+      "contacts": [
+        {
+          "id": "contact-sx-yonghe-mail",
+          "channel": "email",
+          "value": "2440617417@qq.com",
+          "purpose": "简历投递",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2025年公告（报名通道持续开放）",
+          "validity": "常年",
+          "evidenceId": "src-sx-yonghe-2025",
+          "lastVerified": "2026-08-21"
+        },
+        {
+          "id": "contact-sx-yonghe-tel",
+          "channel": "phone",
+          "value": "15715820803",
+          "purpose": "招聘咨询",
+          "contactIdentity": "公告中的招聘联系人",
+          "recruitmentCycle": "2025年公告（报名通道持续开放）",
+          "validity": "常年",
+          "evidenceId": "src-sx-yonghe-2025",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-sx-yonghe-2025"
+      ],
+      "searchQueries": [
+        "绍兴市永和高级中学 招聘 教师"
+      ],
+      "unresolved": [
+        "在招岗位为高中数学（2名），无本次范围学科；报名通道持续开放"
+      ]
+    },
+    {
+      "schoolId": "public-sx-chunhui",
+      "officialName": "春晖中学",
+      "website": {
+        "outcome": "found",
+        "url": "https://www.zjchzx.com.cn/",
+        "evidenceId": "src-sx-chunhui-site",
+        "note": "官网首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sx-shangyu-18"
+      ],
+      "contacts": [],
+      "jobLeads": [
+        {
+          "id": "lead-sx-shangyu-history",
+          "title": "普高历史教师1名（2026年上虞区统招）——上虞区普高",
+          "subjectTags": [
+            "历史/人文"
+          ],
+          "recruitmentCycle": "2026届（上虞区2026年公开招聘事业编制18名，报名已截止）",
+          "status": "往届参考",
+          "publishedAt": "2026-04-17",
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "普高教师岗位：2025、2026届已取得中小学教师资格考试合格证明的相应专业硕士研究生及以上学历学位毕业生，或普通高校硕士研究生及以上且具有相符教师资格证书者",
+            "1987年4月17日以后出生，户籍不限"
+          ],
+          "selectionProcessRaw": [
+            "网上注册报名（zp.ycqedu.cn，2026-04-20至28）",
+            "笔试（教育基础知识15%+学科专业知识35%，200分制合格线100分）",
+            "面试（课堂教学能力和结构化面试，合格分60分）",
+            "总成绩为笔试加面试成绩"
+          ],
+          "applicationMethod": "web",
+          "applicationUrl": "https://zp.ycqedu.cn",
+          "sourceEvidenceIds": [
+            "src-sx-shangyu-18"
+          ],
+          "note": "上虞区普高教师共4名（语文1、历史1、地理2）；历史岗位具体学校按择岗确定，春晖中学为上虞区普高之一，需复核"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-sx-chunhui-site",
+        "src-sx-shangyu-18"
+      ],
+      "searchQueries": [
+        "浙江省春晖中学 官网 网站",
+        "绍兴市上虞区 2026 教师招聘 公告"
+      ],
+      "unresolved": [
+        "上虞区普高历史岗位具体学校按择岗确定，春晖中学为上虞区普高之一，需复核"
+      ]
+    },
+    {
+      "schoolId": "public-sx-keqiao",
+      "officialName": "柯桥中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sx-keqiao-zjnu",
+        "src-sx-keqiao-offcn"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-sx-keqiao-zjnu",
+        "src-sx-keqiao-offcn"
+      ],
+      "searchQueries": [
+        "柯桥中学 官网 网站",
+        "绍兴市柯桥区 2026 教师招聘 公告"
+      ],
+      "unresolved": [
+        "柯桥区2026年新教师公开招聘（三）70人公告正文受阻，岗位表未恢复"
+      ]
+    },
+    {
+      "schoolId": "public-sx-luxun",
+      "officialName": "鲁迅中学",
+      "website": {
+        "outcome": "not_found",
+        "url": null,
+        "evidenceId": null,
+        "note": "未发现可访问官网候选"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sx-keqiao-zjnu",
+        "src-sx-keqiao-offcn"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-sx-keqiao-zjnu",
+        "src-sx-keqiao-offcn"
+      ],
+      "searchQueries": [
+        "绍兴鲁迅中学 官网 网站",
+        "绍兴市柯桥区 2026 教师招聘 公告"
+      ],
+      "unresolved": [
+        "柯桥区2026年新教师公开招聘（三）70人公告正文受阻，岗位表未恢复"
+      ]
+    },
+    {
+      "schoolId": "public-sx-senior",
+      "officialName": "绍兴市高级中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.shaogao.com/",
+        "evidenceId": "src-sx-senior-site",
+        "note": "官网首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sx-direct-round2"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-sx-senior-site",
+        "src-sx-direct-round2",
+        "src-sx-direct-round2-table"
+      ],
+      "searchQueries": [
+        "绍兴市高级中学 官网",
+        "绍兴市教育局 直属学校 2026 教师招聘 公告"
+      ],
+      "unresolved": [
+        "市直二轮数学岗位学校为绍兴市高级中学（编制暂落绍兴市中等专业学校），无本次范围学科"
+      ]
+    },
+    {
+      "schoolId": "public-sx-no1",
+      "officialName": "绍兴一中",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.sxyz.net/",
+        "evidenceId": "src-sx-no1-site",
+        "note": "官网首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sx-direct-round2"
+      ],
+      "contacts": [],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-sx-no1-site",
+        "src-sx-direct-round2"
+      ],
+      "searchQueries": [
+        "绍兴市第一中学 官网 网站",
+        "绍兴市教育局 直属学校 2026 教师招聘 公告"
+      ],
+      "unresolved": [
+        "市直二轮物理岗位涉及一中教育集团镜湖校区（编制暂落绍兴市职业教育中心）"
+      ]
+    },
+    {
+      "schoolId": "public-sx-yangming",
+      "officialName": "阳明中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.sxymzx.cn/",
+        "evidenceId": "src-sx-yangming-site",
+        "note": "官网首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sx-direct-round2"
+      ],
+      "contacts": [
+        {
+          "id": "contact-sx-yangming-mail",
+          "channel": "email",
+          "value": "sxymzx@126.com",
+          "purpose": "简历投递",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026届（市直二轮化学岗位报名邮箱，阳明中学）",
+          "validity": "往届",
+          "evidenceId": "src-sx-direct-round2-table",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [],
+      "checkedEvidenceIds": [
+        "src-sx-yangming-site",
+        "src-sx-direct-round2",
+        "src-sx-direct-round2-table"
+      ],
+      "searchQueries": [
+        "绍兴市阳明中学 官网 网站",
+        "绍兴市教育局 直属学校 2026 教师招聘 公告"
+      ],
+      "unresolved": [
+        "市直二轮物理、化学岗位涉及阳明中学（化学报名邮箱为该岗位专用）"
+      ]
+    },
+    {
+      "schoolId": "public-sx-yuezhou",
+      "officialName": "越州中学",
+      "website": {
+        "outcome": "found",
+        "url": "http://www.zjsyzzx.cn/",
+        "evidenceId": "src-sx-yuezhou-site",
+        "note": "官网首页含校名全称"
+      },
+      "recruitmentOutcome": "historical_found",
+      "recruitmentChannelEvidenceIds": [
+        "src-sx-direct-round2",
+        "src-sx-direct-round2-table"
+      ],
+      "contacts": [
+        {
+          "id": "contact-sx-yuezhou-mail",
+          "channel": "email",
+          "value": "yzzx@zjsyzzx.cn",
+          "purpose": "简历投递",
+          "contactIdentity": "机构",
+          "recruitmentCycle": "2026届（市直二轮历史岗位报名邮箱）",
+          "validity": "往届",
+          "evidenceId": "src-sx-direct-round2-table",
+          "lastVerified": "2026-08-21"
+        }
+      ],
+      "jobLeads": [
+        {
+          "id": "lead-sx-yuezhou-history",
+          "title": "高中历史教师（市直二轮）——越州中学",
+          "subjectTags": [
+            "历史/人文"
+          ],
+          "recruitmentCycle": "2026届（市直学校2026年教师招引第二轮，报名已截止）",
+          "status": "往届参考",
+          "publishedAt": "2026-02-06",
+          "deadline": null,
+          "expectedStart": "",
+          "salaryRaw": "",
+          "housingRaw": "",
+          "mealsRaw": "",
+          "workloadRaw": [],
+          "requirementsRaw": [
+            "研究生专业：历史学0601、中国史0602、世界史0603、学科教学（历史）045109；本科生专业：历史学类0601",
+            "持有与招引岗位一致的教师资格证（2026年8月10日前取得）",
+            "年龄38周岁以下（1987年2月7日之后出生）"
+          ],
+          "selectionProcessRaw": [
+            "公开报名、专业能力测试和教学能力测试，按岗位择优聘用"
+          ],
+          "applicationMethod": "email",
+          "applicationUrl": null,
+          "sourceEvidenceIds": [
+            "src-sx-direct-round2",
+            "src-sx-direct-round2-table"
+          ],
+          "note": "报名邮箱为该岗位专用邮箱"
+        }
+      ],
+      "checkedEvidenceIds": [
+        "src-sx-yuezhou-site",
+        "src-sx-direct-round2",
+        "src-sx-direct-round2-table",
+        "src-sx-yuecheng-2"
+      ],
+      "searchQueries": [
+        "绍兴市越州中学 官网 招聘",
+        "越州中学2026年新教师招聘公告"
+      ],
+      "unresolved": [
+        "越城区2026年新教师招聘公告（20名）与越州中学的隶属关系（市直/区属）待复核"
+      ]
+    }
+  ],
+  "coverageGaps": [
+    {
+      "schoolId": null,
+      "description": "市直二轮公告A1原文未直接访问（以华图转载与岗位表xlsx为准）；柯桥区2026年新教师公开招聘（三）70人公告正文受阻，岗位表未恢复",
+      "evidenceIds": [
+        "src-sx-direct-round2",
+        "src-sx-keqiao-zjnu",
+        "src-sx-keqiao-offcn"
+      ],
+      "nextAction": "从 jyj.sx.gov.cn 与柯桥区政府网恢复A1原文与岗位表"
+    },
+    {
+      "schoolId": null,
+      "description": "绍兴6所民办目标校均未发现可访问官网，招聘渠道以平台与集团公告为主",
+      "evidenceIds": [
+        "src-sx-jsq-job910",
+        "src-sx-longshan-2026",
+        "src-sx-boya-ls",
+        "src-sx-guojie-ls",
+        "src-sx-jrhz-15w",
+        "src-sx-yonghe-2025"
+      ],
+      "nextAction": "通过各校微信公众号核实官网与常设招聘渠道"
+    }
+  ],
+  "notes": [
+    "本批次为待 Codex 审核的暂存资料，不导入正式数据。",
+    "市直二轮岗位表（xlsx）解析确认：政治岗位学校为绍兴一中教育集团龙山校区（龙山高级中学，民办），专业要求含经济学02（经济学门类），与用户国际经济与贸易背景相关；历史岗位学校为越州中学。",
+    "上虞区2026年公开招聘含普高历史1名（统招择岗）；博雅学校初中历史与社会、国杰学校高中历史为平台在招岗位（2026-07更新）。",
+    "绍兴6所民办目标校官网均未找到，未冒充官网结论。"
+  ]
+}
