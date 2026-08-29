@@ -34,12 +34,12 @@ npm run dev
 ```bash
 npm run lint
 npm run typecheck   # TypeScript 严格类型检查（tsc --noEmit）
-npm test
+npm test                 # 自动生成导出数据、构建并运行测试
 npm run validate:intake  # 无网络校验 CodeBuddy 城市资料包
 npm run handoff:targets   # 从正式数据生成指定城市试采目标（默认宁波；可传城市名，如：npm run handoff:targets -- 杭州）
 npm run validate:scan    # 无网络校验 DSH 招聘扫描暂存资料；按城市自动加载 research/handoff/<city>-targets.json
 npm run check:links   # 批量检测外链并报告异常（需联网；加 -- --strict 可令异常返回非零退出）
-npm run export:data   # 先于 npm test 运行可保证导出一致性测试基于最新数据
+npm run export:data   # 单独生成最新 JSON 导出
 npm run reports:v2   # 从正式数据生成 Markdown 清单与覆盖报告
 ```
 
