@@ -22,6 +22,15 @@
 >
 > 2026-08-27 发布基线：浙苏 8 城（杭州、宁波、温州、嘉兴、绍兴、南京、苏州、无锡）的八个已审核 DSH 批次通过显式允许清单集成；未来写入 `research/staging/dsh/` 的资料不会自动进入正式页面。岗位总数 80 条（48 条 V1 无损迁移 + 32 条原生 V2/扫描），正式学校池 384 所。状态按公告语义与 UTC+8 当前日期统一计算。
 
+## 架构与验证 / Architecture and verification
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/diagrams/teacher-recruitment-dashboard.dark.png">
+  <img src="docs/diagrams/teacher-recruitment-dashboard.light.png" alt="十四城教师招聘决策台证据进入正式数据的数据流">
+</picture>
+
+<sub>组件职责、数据边界与可检查的验证路径。 / Component responsibilities, data boundaries, and inspectable verification paths.</sub>
+
 ## 本地运行
 
 ```bash
