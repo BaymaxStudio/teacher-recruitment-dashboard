@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./styles/layout.css";
+import "./styles/list.css";
+import "./styles/detail.css";
+import "./styles/views.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://guangdong-teacher-jobs-2027.baymax1001.chatgpt.site"),

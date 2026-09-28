@@ -35,13 +35,14 @@ test("renders the recruitment decision site", async () => {
   for (const label of ["餐食", "授课语言", "教师资格", "经验", "选拔流程", "资格/匹配"]) assert.match(html, new RegExp(label));
   assert.match(html, /流程复杂度/);
   assert.match(html, /跟进状态/);
-  assert.match(html, /准备笔试\/试讲/);
+  assert.match(html, /我的清单/);
+  // 状态条兼作筛选器：默认视图只列出可行动的岗位，往届与已截止归入参考
+  for (const label of ["可行动", "现在可投", "常年储备", "等待公告", "待确认", "参考", "往届参考", "已截止"]) {
+    assert.match(html, new RegExp(`${label}<span class="status-count">`), `状态条缺少 ${label}`);
+  }
   assert.match(html, /我的资料/);
   assert.match(html, /备份/);
   assert.match(html, /恢复/);
-  assert.match(html, /正式入池民办校/);
-  assert.match(html, /公办关注目标/);
-  assert.match(html, /匿名录用样本/);
   assert.match(html, /来源核验日期见岗位卡；截止状态按当前日期计算。/);
   assert.match(html, /https:\/\/guangdong-teacher-jobs-2027\.baymax1001\.chatgpt\.site\/social-preview\.png/);
   assert.doesNotMatch(html, /localhost:\d+\/social-preview\.png/);

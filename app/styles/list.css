@@ -1,0 +1,105 @@
+/* 状态条 */
+.status-strip { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; margin-bottom: 12px; }
+.status-group { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.status-group.is-reference { margin-left: 4px; }
+.status-chip {
+  display: inline-flex; align-items: center; gap: 7px; height: 32px; padding: 0 11px;
+  border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--ink-2); font-size: 13px;
+  transition: border-color .15s, background .15s, color .15s;
+}
+.status-chip:hover { border-color: var(--line-strong); }
+.status-chip::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--faint); }
+.status-chip.is-group { font-weight: 600; }
+.status-chip.is-group::before { display: none; }
+.status-chip.tone-open::before { background: var(--mark-ok); }
+.status-chip.tone-rolling::before { background: var(--blue); }
+.status-chip.tone-waiting::before, .status-chip.tone-unknown::before { background: var(--mark-warn); }
+.status-chip.tone-past::before, .status-chip.tone-closed::before { background: var(--mark-unknown); }
+.is-reference .status-chip { color: var(--muted); }
+.status-count { font: 600 12px/1 var(--mono); color: var(--muted); }
+.status-chip.active { border-color: var(--accent); background: var(--accent); color: white; }
+.status-chip.active::before { background: white; }
+.status-chip.active .status-count { color: rgba(255, 255, 255, .85); }
+
+/* 工具栏与已选条件 */
+.list-toolbar { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.result-count { font-size: 13.5px; color: var(--muted); }
+.result-count strong { color: var(--ink); font: 600 16px/1 var(--mono); }
+.sort { display: flex; align-items: center; gap: 8px; margin-left: auto; font-size: 13px; color: var(--muted); }
+.sort select { width: auto; min-height: 32px; }
+.chips { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 10px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 4px; height: 28px; padding: 0 8px 0 10px;
+  border: 0; border-radius: 999px; background: var(--accent-soft); color: var(--accent-dark); font-size: 12.5px;
+}
+.chip:hover { background: rgba(45, 127, 122, .18); }
+.verify-note {
+  display: flex; align-items: center; gap: 8px; margin-bottom: 10px; padding: 7px 12px;
+  border-radius: 8px; background: var(--amber-light); color: var(--amber); font-size: 12.5px;
+}
+
+/* 岗位行 */
+.rows { display: flex; flex-direction: column; gap: 8px; }
+.position-row {
+  position: relative; display: grid; align-items: center; gap: 6px 20px;
+  grid-template-columns: minmax(240px, 1.15fr) minmax(0, 1.6fr) auto;
+  padding: 12px 12px 12px 16px; background: var(--surface);
+  border: 1px solid var(--line); border-left: 4px solid var(--mark-unknown); border-radius: var(--radius);
+  transition: border-color .15s, box-shadow .15s, background .15s;
+}
+.position-row:hover { border-color: var(--line-strong); box-shadow: var(--shadow); }
+.position-row.mark-ok { border-left-color: var(--mark-ok); }
+.position-row.mark-warn { border-left-color: var(--mark-warn); }
+.position-row.mark-no { border-left-color: var(--mark-no); }
+.position-row.is-selected { border-color: var(--accent); background: #f3faf9; box-shadow: 0 0 0 1px var(--accent); }
+.row-main { min-width: 0; }
+.row-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; font-size: 12px; color: var(--muted); }
+.row-employment { color: var(--faint); }
+.row-verified { margin-left: auto; font: 11px/1.6 var(--mono); color: var(--faint); }
+.row-title { margin: 4px 0 1px; font: 600 16px/1.35 var(--serif); letter-spacing: .01em; }
+.row-title button { padding: 0; border: 0; background: none; text-align: left; color: var(--ink); }
+.row-title button::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
+.row-title button:focus-visible { outline: none; }
+.position-row:has(.row-title button:focus-visible) { outline: 3px solid var(--focus); outline-offset: 2px; }
+.row-title button:hover { color: var(--accent-dark); }
+.row-role { overflow: hidden; font-size: 13px; color: var(--ink-2); text-overflow: ellipsis; white-space: nowrap; }
+.row-role span { color: var(--muted); }
+
+.row-facts { display: grid; grid-template-columns: 1.1fr .9fr 1fr .8fr; gap: 12px; min-width: 0; }
+.row-facts > div { min-width: 0; }
+.row-facts dt { font-size: 11px; color: var(--faint); }
+.row-facts dd { display: -webkit-box; overflow: hidden; font-size: 13px; line-height: 1.45; color: var(--ink); -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+
+.match { display: inline-flex; align-items: baseline; gap: 5px; }
+.match-label { font-size: 11.5px; font-weight: 700; }
+.match.mark-ok .match-label { color: var(--mark-ok); }
+.match.mark-warn .match-label { color: var(--mark-warn); }
+.match.mark-no .match-label { color: var(--mark-no); }
+.match.mark-unknown .match-label { color: var(--muted); }
+
+.row-actions { position: relative; z-index: 1; display: flex; align-items: center; gap: 2px; }
+.followup { width: auto; min-width: 92px; min-height: 32px; padding: 0 6px; font-size: 12.5px; color: var(--muted); }
+.followup.is-set { border-color: var(--accent); background: var(--accent-soft); color: var(--accent-dark); font-weight: 600; }
+
+/* 列表变窄（详情打开、平板）时折成两行 */
+@container (max-width: 900px) {
+  .position-row { grid-template-columns: minmax(0, 1fr) auto; }
+  .row-facts { grid-column: 1 / -1; grid-row: 2; display: flex; flex-wrap: wrap; gap: 4px 16px; }
+  .row-facts dd { white-space: normal; }
+  .row-actions { grid-column: 2; grid-row: 1; align-self: start; }
+}
+@container (max-width: 520px) {
+  .row-facts > div { display: flex; gap: 5px; align-items: baseline; }
+  .row-facts dt { flex: none; }
+  .row-verified { display: none; }
+  .row-actions .followup { min-width: 0; width: 84px; }
+}
+
+/* 手机：状态条和城市条一样单行横向滚动 */
+@media (max-width: 720px) {
+  .status-strip { flex-wrap: nowrap; gap: 12px; margin-right: -16px; padding-right: 16px; overflow-x: auto; scrollbar-width: none; }
+  .status-strip::-webkit-scrollbar { display: none; }
+  .status-group { flex-wrap: nowrap; flex: none; }
+  .status-chip { flex: none; }
+  .list-toolbar { flex-wrap: wrap; }
+}

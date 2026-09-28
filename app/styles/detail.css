@@ -1,0 +1,87 @@
+/* 岗位详情：宽屏右侧面板与窄屏全屏层共用 */
+.detail { display: flex; flex-direction: column; gap: 18px; }
+.detail-head { padding-right: 36px; }
+.detail-head h2 { margin: 6px 0 2px; font: 700 21px/1.3 var(--serif); letter-spacing: .01em; }
+.detail-role { font-size: 13.5px; color: var(--ink-2); }
+.detail-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 12px; }
+.detail-actions .followup { min-width: 104px; }
+
+.detail-facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.detail-facts > div { padding: 9px 12px; border-bottom: 1px solid var(--line); }
+.detail-facts > div:nth-child(odd) { border-right: 1px solid var(--line); }
+.detail-facts > div:nth-last-child(-n + 2) { border-bottom: 0; }
+.detail-facts dt { font-size: 11.5px; color: var(--faint); }
+.detail-facts dd { font-size: 13.5px; }
+.detail-facts small { display: block; font-size: 11.5px; color: var(--muted); }
+
+.detail-section h3 { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: 12.5px; font-weight: 700; letter-spacing: .06em; color: var(--muted); }
+.detail-section p { font-size: 13.5px; line-height: 1.7; }
+.detail-section p + p { margin-top: 4px; }
+.assessment { padding: 12px 14px; border-radius: var(--radius); background: var(--grey-light); border-left: 4px solid var(--mark-unknown); }
+.assessment.mark-ok { background: var(--green-light); border-left-color: var(--mark-ok); }
+.assessment.mark-warn { background: var(--amber-light); border-left-color: var(--mark-warn); }
+.assessment.mark-no { background: var(--red-light); border-left-color: var(--mark-no); }
+.assessment h3 { color: var(--ink-2); }
+.assessment .match-label { padding: 1px 6px; border-radius: 4px; background: rgba(255, 255, 255, .7); letter-spacing: 0; }
+.assessment-main { font: 600 16px/1.4 var(--serif); }
+.reason { font-size: 13px; }
+.reason.is-no { color: var(--red); }
+.assessment-hint { margin-top: 6px; font-size: 12.5px !important; color: var(--muted); }
+
+.requirements { list-style: none; display: flex; flex-direction: column; }
+.requirements li { display: grid; grid-template-columns: 88px minmax(0, 1fr) auto; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.requirements li:last-child { border-bottom: 0; }
+.req-field { font-size: 12.5px; color: var(--muted); }
+.requirements p { font-size: 13.5px; }
+.req-hard { align-self: start; padding: 1px 6px; border-radius: 4px; font-size: 11px; white-space: nowrap; }
+.req-hard.hard-hard { background: var(--red-light); color: var(--red); }
+.req-hard.hard-preferred { background: var(--blue-light); color: var(--blue); }
+.req-hard.hard-unknown { background: var(--grey-light); color: var(--muted); }
+
+.timeline { list-style: none; counter-reset: step; }
+.timeline li { position: relative; padding: 0 0 12px 30px; counter-increment: step; }
+.timeline li::before {
+  content: counter(step); position: absolute; left: 0; top: 0; display: grid; place-items: center; width: 20px; height: 20px;
+  border-radius: 50%; background: var(--accent); color: white; font: 700 11px/1 var(--mono);
+}
+.timeline li:not(:last-child)::after { content: ""; position: absolute; left: 9.5px; top: 22px; bottom: 2px; width: 1px; background: var(--line-strong); }
+.timeline li.is-unknown::before { background: var(--faint); }
+.timeline strong { font-size: 13.5px; }
+.timeline p { font-size: 13px; color: var(--ink-2); }
+.timeline small { font-size: 11.5px; color: var(--faint); }
+
+.sources { list-style: none; display: flex; flex-direction: column; gap: 8px; margin-bottom: 8px; }
+.sources li { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 2px 8px; align-items: baseline; }
+.sources a { display: inline-flex; align-items: baseline; gap: 4px; color: var(--accent-dark); font-size: 13.5px; text-underline-offset: 3px; }
+.sources small { grid-column: 2; font-size: 11.5px; color: var(--muted); }
+.source-level { padding: 1px 6px; border-radius: 4px; background: var(--surface-2); font: 600 11px/1.6 var(--mono); color: var(--ink-2); white-space: nowrap; }
+.note-area { width: 100%; min-height: 96px; padding: 10px 12px; border: 1px solid var(--line-strong); border-radius: 8px; background: white; font-size: 13.5px; resize: vertical; }
+.note-area:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+
+/* 比较 */
+.compare h2, .profile h2 { margin-bottom: 14px; padding-right: 40px; font: 700 20px/1.3 var(--serif); }
+.compare-scroll { overflow-x: auto; }
+.compare-table { width: 100%; min-width: 560px; border-collapse: collapse; font-size: 13.5px; }
+.compare-table th, .compare-table td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.compare-table thead th { min-width: 180px; border-bottom: 2px solid var(--ink); }
+.compare-table thead th:first-child { min-width: 88px; }
+.compare-table thead strong { display: block; font: 700 15px/1.35 var(--serif); }
+.compare-table thead span { display: block; margin: 2px 0 6px; font-size: 12.5px; font-weight: 400; color: var(--muted); }
+.compare-table tbody th { font-size: 12.5px; font-weight: 600; color: var(--muted); white-space: nowrap; }
+
+/* 我的资料 */
+.profile-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 14px; margin-top: 16px; }
+.profile-checks { display: flex; flex-wrap: wrap; gap: 10px 20px; margin-top: 16px; }
+.checklists { display: grid; gap: 10px; margin-top: 20px; }
+.checklists section { padding: 12px 14px; border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; background: var(--surface-2); }
+.checklists h3 { margin-bottom: 4px; font-size: 13px; }
+.checklists p { font-size: 13px; line-height: 1.7; color: var(--ink-2); }
+.profile-foot { display: flex; justify-content: flex-end; margin-top: 20px; }
+
+@media (max-width: 560px) {
+  .detail-facts, .profile-grid { grid-template-columns: 1fr; }
+  .detail-facts > div:nth-child(odd) { border-right: 0; }
+  .detail-facts > div:nth-last-child(2) { border-bottom: 1px solid var(--line); }
+  .requirements li { grid-template-columns: 1fr auto; }
+  .req-field { grid-column: 1 / -1; }
+}
